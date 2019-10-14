@@ -1,5 +1,5 @@
 # Site settings
-title: Qing Shan Aspie
+title: 青衫 Aspie
 description: >-
   因为你我，这个世界终将丰富精彩！
 
@@ -14,7 +14,7 @@ repository: QingShanAspie/QingShanAspie.Github.io
 markdown: kramdown
 
 author:
-  name     : Qing Shan Aspie
+  name     : 青衫 Aspie
   email    : qingshan_aspie@126.com
   github   : QingShanAspie
   wxmp     :
