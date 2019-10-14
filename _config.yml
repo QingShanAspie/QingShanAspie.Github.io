@@ -1,0 +1,37 @@
+# Site settings
+title: Qing Shan Aspie
+description: >-
+  因为你我，这个世界终将丰富精彩！
+
+
+typing: >-
+
+
+baseurl: ""
+url: ""
+repository: QingShanAspie/QingShanAspie.Github.io
+
+markdown: kramdown
+
+author:
+  name     : Qing Shan Aspie Organization
+  email    : qingshan_aspie@126.com
+  github   : QingShanAspie
+  wxmp     :
+  zhihu    : qing-shan-83-9-38
+
+defaults:
+  - scope:
+      path: ""
+      type: "Scale"
+    values:
+      layout: "page"
+
+permalink: articles/:title
+
+exclude:
+- README.md
+- CONTRIBUTING.md
+- LICENSE
+- Gemfile
+- Gemfile.lock

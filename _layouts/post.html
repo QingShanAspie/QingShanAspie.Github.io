@@ -1,0 +1,62 @@
+---
+layout: page
+---
+
+<h1><b>{{ page.title }}</b></h1>
+
+<p class="article-metadata text-muted">
+    {{ page.date | date: '%Y, %b %d' }} -
+    <b>
+        {% assign words = content | number_of_words %}
+        {% if words < 360 %}
+        该文章需要 1 分钟来阅读
+        {% else %}
+        该文章需要
+        {{ words | divided_by:180 }} 分钟来阅读
+        {% endif %}
+    </b>
+
+    <br>
+
+    {% if page.tags != empty %}
+    标签:
+    {% for tag in page.tags %}
+    <span class="badge badge-pill text-primary border border-primary">{{ tag }}</span>
+    {% endfor %}
+    {% endif %}
+
+    <br>
+
+    {% if page.author != empty %}
+    作者:
+    {% for author in page.author %}
+    <span class="badge badge-pill text-warning border border-warning">{{ author }}</span>
+    {% endfor %}
+    {% endif %}
+
+    <br>
+
+</p>
+
+<div id="IfOld" style="display: none">
+    <p class="badge badge-pill text-danger border border-danger IfOld">
+        你现在看到的文章是在{{ page.date | date: '%Y' }}年完成的，距离现在<script>
+        let date = new Date;
+        let year = date.getFullYear();
+        document.write(year);
+    </script>已经有一段时间了，请注意内容在现在的环境中是否还适用！内容仅供参考！
+    </p>
+</div>
+<script>
+    if (parseInt("{{ page.date | date: '%Y' }}") + 1 < year) {
+        document.getElementById("IfOld").style.display="block";
+    }
+</script>
+
+{{ content }}
+
+<footer>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0"
+                                                                                   src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a><br/>本作品采用<a
+        rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+</footer>

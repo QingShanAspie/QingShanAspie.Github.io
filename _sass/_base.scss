@@ -1,0 +1,52 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.badge {
+  font-weight: 500;
+}
+
+#container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+#dummy {
+  font-size: 37px;
+  text-align: center;
+}
+
+#element {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.circle-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+// Footer
+.social {
+  text-decoration: none !important;
+  color: #6c757d;
+
+  &.qq:hover {
+    color: #17a2b8
+  }
+
+  &.email:hover {
+    color: #db4437
+  }
+
+  &.github:hover {
+    color: #333333
+  }
+}

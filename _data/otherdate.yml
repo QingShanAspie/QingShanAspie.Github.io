@@ -1,0 +1,8 @@
+- name: 主站建设
+  percentage: 30
+  color: danger
+
+- name: 附属站建设
+  percentage: 40
+  color: Hex
+

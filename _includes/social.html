@@ -1,0 +1,33 @@
+<div class="container-fluid justify-content-center">
+
+    {% if site.author.qq %}
+    <a class="social qq mx-1" href="https://jq.qq.com/?_wv={{ site.author.qq }}">
+        <i class="fab fa-1x fa-qq"></i>
+    </a>
+    {% endif %}
+
+    {% if site.author.email %}
+    <a class="social email mx-1" href="mailto:{{ site.author.email }}">
+        <i class="fas fa-1x fa-envelope"></i>
+    </a>
+    {% endif %}
+
+    {% if site.author.zhihu %}
+    <a class="social zhihu mx-1" href="https://www.zhihu.com/people/{{ site.author.zhihu }}">
+        <i class="fab fa-1x fa-zhihu"></i>
+    </a>
+    {% endif %}
+
+    {% if site.author.wxmp %}
+    <a class="social weixin mx-1" href="https://www.github.com/{{ site.author.wxmp }}">
+        <i class="fab fa-1x fa-weixin"></i>
+    </a>
+    {% endif %}
+
+    {% if site.author.github %}
+    <a class="social github mx-1" href="https://www.github.com/{{ site.author.github }}">
+        <i class="fab fa-1x fa-github"></i>
+    </a>
+    {% endif %}
+
+</div>

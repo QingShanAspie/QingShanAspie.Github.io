@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en" class="h-100">
+
+{% include head.html %}
+
+<body class="d-flex flex-column h-100" onload="load()">
+
+{% include load.html %}
+<div id="body">
+    <main class="flex-shrink-0 container mt-5">
+        {% include navbar.html %}
+
+        {{ content }}
+    </main>
+</div>
+
+{% include footer.html %}
+{% include scripts.html %}
+
+</body>
+
+</html>
