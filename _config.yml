@@ -1,10 +1,9 @@
 # Site settings
 title: 青衫 Aspie
 description: >-
-  因为你我，这个世界终将丰富精彩！
+  青衫 Aspie ｜ 致力于孤独症谱系权威资讯资源
 typing: >-
-
-
+  因为你我，这个世界终将丰富精彩！
 baseurl: ""
 url: ""
 repository: QingShanAspie/QingShanAspie.Github.io
@@ -18,14 +17,20 @@ author:
   wxmp     : s?__biz=MzIyMzgyMjY5NQ==&mid=2247483668&idx=2&sn=dce6ec69066d00eec50cdfc2adf87bcb&chksm=e819171cdf6e9e0a53bc87fbcbbddd1868fc44f0d60965ab51a69ba8d98e71dd2494b0f03627&scene=21#wechat_redirect
   zhihu    : qing-shan-83-9-38
 
+collections:
+  quotients:
+    output: true
+    permalink: /Quotients/:name
+
 defaults:
   - scope:
       path: ""
-      type: "Scale"
+      type: "quotients"
     values:
       layout: "page"
 
-permalink: articles/:title
+
+permalink: Articles/:title
 
 exclude:
 - README.md

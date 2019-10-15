@@ -16,7 +16,6 @@
 }
 
 .article {
-
   .article-metadata {
     font-size: 14px;
     margin-top: -6px;
@@ -141,4 +140,12 @@
 
 .IfOld {
   font-size: 100%;
+}
+
+.article-content p {
+  text-indent: 2em;
+}
+
+.article-content blockquote {
+  text-indent: 0;
 }
