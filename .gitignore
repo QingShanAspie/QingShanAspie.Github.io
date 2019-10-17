@@ -529,3 +529,4 @@ _book
 *.pdf
 
 _site/
+Gemfile.lock
