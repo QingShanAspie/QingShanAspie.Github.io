@@ -1,0 +1,84 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 test-label">
+            <div class="test-body">
+                <form method="POST" action="test-results.php" accept-charset="UTF-8" id="test-form">
+                    <input name="_token" type="hidden" value="kFTXc0nPnrYrpCeixokS58pcxadRN91G0ScaIovM">
+                    <div class="question-wrapper set1">
+                        <div class="statement">
+                            你XCXXXXX吗？
+                        </div>
+                        <div class="row decision">
+                            <div class="hidden-xs col-sm-3 caption left" onclick="setAnswer(1, -3);">同意</div>
+                            <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
+                                 aria-label="Options">
+                                <label class="btn-default option agree max" onclick="setAnswer(1, -3);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option agree med" onclick="setAnswer(1, -2);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option agree min" onclick="setAnswer(1, -1);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option neutral" onclick="setAnswer(1, 0);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option disagree min" onclick="setAnswer(1, 1);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option disagree med" onclick="setAnswer(1, 2);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option disagree max" onclick="setAnswer(1, 3);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                            </div>
+                            <div class="hidden-xs col-sm-3 caption right" onclick="setAnswer(1, 3);">反对</div>
+                        </div>
+                    </div>
+
+                    <div class="row test-submit-wrapper">
+                        <div class="col-md-12">
+                            <div class="submit_wrapper setres">
+                                <button class="btn btn-action btn-lg" id="submbut" type="submit">
+                                    <span>提交&nbsp;</span><span class="fa fa-caret-right"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <input id="a1" name="a1" type="hidden" value="">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+    var $j = jQuery.noConflict();
+    $j.ajaxSetup({ cache: false });
+    var $data = {};
+    $data['options'] = 'on';
+    $data['code'] = '';
+    $data['_token'] = 'kFTXc0nPnrYrpCeixokS58pcxadRN91G0ScaIovM';
+
+    function setAnswer(index, newval) {
+        $j('#a' + index).val(newval);
+        $data[index] = newval;
+    }
+
+    $j(document).on('click', '.decision .caption.left', function () {
+        $j(this).next().children('.option').removeClass('active');
+        $j(this).next().children('.option.agree.max').addClass('active');
+    });
+
+    $j(document).on('click', '.decision .caption.right', function () {
+        $j(this).prev().children('.option').removeClass('active');
+        $j(this).prev().children('.option.disagree.max').addClass('active');
+    });
+
+
+    $j(document).on('click', '.btn.btn-default.option', function () {
+        $j(this).parent().children('.option').removeClass('active');
+        $j(this).addClass('active');
+    });
+</script>

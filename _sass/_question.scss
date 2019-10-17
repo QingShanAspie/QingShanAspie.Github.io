@@ -1,0 +1,213 @@
+.test-label {
+  padding: 0;
+}
+
+.visible-lg-block {
+  display: block !important;
+}
+
+.test-label .test-title {
+  padding-top: 25px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.3;
+  font-size: 2.0em;
+  color: #484E50;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.test-label .trademark {
+  font-weight: 600;
+  margin: -10px 0 15px;
+  text-align: center;
+  color: #BBB;
+  font-size: 1.3em;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub, sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+.test-header {
+  height: 250px;
+  padding: 0 200px;
+  margin: 40px 0 0;
+}
+
+.test-label .test-header .item {
+  height: 240px;
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  position: relative;
+  padding: 0;
+  text-align: center;
+}
+
+.test-label .progress-wrapper {
+  padding: 10px 200px;
+  margin-top: -25px;
+}
+
+#test-form {
+  padding: 0;
+}
+
+.test-label .test-header .item:nth-of-type(1) .note {
+  bottom: 22px;
+}
+
+.test-label .test-header .item .note {
+  position: absolute;
+  font-size: 1.2em;
+  color: #93948C;
+  width: 100%;
+  bottom: 10px;
+}
+
+.test-label #test-form .question-wrapper.set1 {
+  display: block;
+}
+
+.test-label #test-form .question-wrapper {
+  padding: 30px 0;
+  border: 1px solid #F5F5F5;
+  margin-top: -1px;
+}
+
+.test-label #test-form .question-wrapper .statement {
+  text-align: center;
+  font-weight: 600;
+  padding: 0 15px;
+}
+
+.test-label #test-form .question-wrapper .decision {
+  margin-top: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.test-label #test-form .question-wrapper .decision {
+  margin-top: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.test-label #test-form .question-wrapper .decision .caption.left {
+  text-align: right;
+  padding-right: 0;
+  color: #4C9070;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.test-label #test-form .question-wrapper .decision .caption.right {
+  text-align: left;
+  padding-left: 0;
+  color: #94657E;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.test-label #test-form .question-wrapper .decision .options {
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.max {
+  width: 40px;
+  height: 40px;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.med {
+  width: 34px;
+  height: 34px;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.agree {
+  background-color: #FFF;
+  border: 4px solid #4C9070;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option {
+  border-radius: 150px;
+  padding: 0;
+  cursor: pointer;
+  transition: none;
+}
+
+.test-label #test-form .question-wrapper .decision .caption {
+  text-transform: uppercase;
+  font-size: .85em;
+  font-weight: 700;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.min {
+  width: 28px;
+  height: 28px;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.neutral {
+  background-color: #FFF;
+  width: 28px;
+  height: 28px;
+  border: 4px solid #ececeb;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.disagree {
+  background-color: #FFF;
+  border: 4px solid #94657E;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.agree.active, .test-label #test-form .question-wrapper .decision .options .option.agree:hover {
+  background-color: #4C9070;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.disagree.active, .test-label #test-form .question-wrapper .decision .options .option.disagree:hover {
+  background-color: #94657E;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.neutral.active, .test-label #test-form .question-wrapper .decision .options .option.neutral:hover {
+  background-color: #ececeb;
+}
+
+.submit_wrapper {
+  text-align: center;
+}
+
+.btn-action {
+  background-color: #DC6950;
+  color: #FFF;
+  min-width: 25%;
+  padding: 16px 15px 17px;
+  margin: 10px 0 25px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.btn-action:hover {
+  background: #C25D47;
+}
+
+.row.text {
+  margin: 0 !important;
+}
