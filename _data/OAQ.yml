@@ -1,4 +1,5 @@
 name: OAQ
 question:
-  Q1: AAA
-    - re: 0
+  Q1:
+    name: XXX
+    re: 0
