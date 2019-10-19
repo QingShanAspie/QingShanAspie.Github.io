@@ -53,11 +53,12 @@
         </div>
     </div>
 </div>
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript">
-    var $j = jQuery.noConflict();
-    $j.ajaxSetup({ cache: false });
-    var $data = {};
+    let $j = jQuery.noConflict();
+    $j.ajaxSetup({cache: false});
+    let $data = {};
     $data['options'] = 'on';
     $data['code'] = '';
     $data['_token'] = 'kFTXc0nPnrYrpCeixokS58pcxadRN91G0ScaIovM';
@@ -77,8 +78,7 @@
         $j(this).prev().children('.option.disagree.max').addClass('active');
     });
 
-
-    $j(document).on('click', '.btn.btn-default.option', function () {
+    $j(document).on('click', '.btn-default.option', function () {
         $j(this).parent().children('.option').removeClass('active');
         $j(this).addClass('active');
     });
