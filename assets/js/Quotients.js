@@ -10,3 +10,4 @@ function Resoult($data) {
     }
     return count;
 }
+
