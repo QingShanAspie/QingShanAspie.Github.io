@@ -1,5 +1,7 @@
-name: OAQ
 question:
-  Q1:
-    name: XXX
-    re: 0
+  - id: 1
+    str: 当别人问我我的情绪时，我总是回答不出来
+    rev: 0
+  - id: 2
+    str: 我不知道该如何描述我的感觉
+    rev: 0

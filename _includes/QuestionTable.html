@@ -5,39 +5,43 @@
             <div class="test-body">
                 <form method="POST" action="#" accept-charset="UTF-8" id="test-form">
                     <input name="_token" type="hidden" value="kFTXc0nPnrYrpCeixokS58pcxadRN91G0ScaIovM">
+                    {% for q in site.data.OAQ.question %}
                     <div class="question-wrapper set1">
                         <div class="statement">
-                            你XCXXXXX吗？
+                            {{ q.id }} . {{ q.str }}:
                         </div>
                         <div class="row decision">
-                            <div class="hidden-xs col-sm-3 caption left" onclick="setAnswer(1, 4.5);">同意</div>
+                            <div class="hidden-xs col-sm-3 caption left" onclick="setAnswer('{{ q.id }}', 5);">同意</div>
                             <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
                                  aria-label="Options">
-                                <label class="btn-default option agree max" onclick="setAnswer(1, 4);">
+                                <label class="btn-default option agree max" onclick="setAnswer('{{ q.id }}', 5);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
-                                <label class="btn-default option agree med" onclick="setAnswer(1, 3.5);">
+                                <label class="btn-default option agree med" onclick="setAnswer('{{ q.id }}', 4);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
-                                <label class="btn-default option agree min" onclick="setAnswer(1, 3);">
+                                <label class="btn-default option agree min" onclick="setAnswer('{{ q.id }}', 3.5);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
-                                <label class="btn-default option neutral" onclick="setAnswer(1, 2.5);">
+                                <label class="btn-default option neutral" onclick="setAnswer('{{ q.id }}', 3);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
-                                <label class="btn-default option disagree min" onclick="setAnswer(1, 2);">
+                                <label class="btn-default option disagree min" onclick="setAnswer('{{ q.id }}', 2.5);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
-                                <label class="btn-default option disagree med" onclick="setAnswer(1, 1.5);">
+                                <label class="btn-default option disagree med" onclick="setAnswer('{{ q.id }}', 2);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
-                                <label class="btn-default option disagree max" onclick="setAnswer(1, 1);">
+                                <label class="btn-default option disagree max" onclick="setAnswer('{{ q.id }}', 1);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
                             </div>
-                            <div class="hidden-xs col-sm-3 caption right" onclick="setAnswer(1, 3);">反对</div>
+                            <div class="hidden-xs col-sm-3 caption right" onclick="setAnswer('{{ q.id }}', 1);">反对</div>
                         </div>
                     </div>
+                    {% endfor %}
+
+                    <input id="a1" name="a1" type="hidden" value="">
 
                     <div class="row test-submit-wrapper">
                         <div class="col-md-12">
@@ -47,7 +51,6 @@
                             </div>
                         </div>
                     </div>
-                    <input id="a1" name="a1" type="hidden" value="">
                 </form>
             </div>
         </div>
@@ -65,6 +68,7 @@
     function setAnswer(index, newval) {
         $j('#a' + index).val(newval);
         $data[index] = newval;
+        console.log($data);
     }
 
     $j(document).on('click', '.decision .caption.left', function () {

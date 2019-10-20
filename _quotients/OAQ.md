@@ -1,4 +1,5 @@
 ---
+title: G2述情障碍测试量表
 name: G2述情障碍测试量表
 tag: [述情障碍, 量表, 在线测试, OAQ]
 image: /assets/img/OAQ.jpg
