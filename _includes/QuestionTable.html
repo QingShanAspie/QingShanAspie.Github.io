@@ -84,17 +84,17 @@
     </div>
 </div>
 
+<div class="result"></div>
+
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript">
     let $j = jQuery.noConflict();
     $j.ajaxSetup({cache: false});
     let $data = {};
     $data['options'] = 'on';
-    $data['code'] = '';
 
-    function setAnswer(index, newval) {
-        $j('#a' + index).val(newval);
-        $data[index] = newval;
+    function setAnswer(id, newval) {
+        $data[id] = newval;
         console.log($data);
     }
 
@@ -115,5 +115,7 @@
 
     function finish() {
         console.log($data);
+        $('.test-body').css("display",'none');
+        $('.result').text($data.toString());
     }
 </script>
