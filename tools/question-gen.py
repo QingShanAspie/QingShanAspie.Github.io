@@ -1,11 +1,11 @@
 len = input("有多少个问题？：")
 filename = input("生成的文件名？：")
 
-len = int(len) + 1
+len = int(len)
 
 que = "question:"
 
-for i in range(0,len):
+for i in range(0, len):
     que += "\n  - id: " + str(i) + "\n    str: \n    rev: \n"
 
 filename += ".yml"
