@@ -3,13 +3,13 @@
     <div class="row">
         <div class="col-md-12 test-label">
             <div class="test-body">
-                <form method="POST" action="#" accept-charset="UTF-8" id="test-form">
-                    <input name="_token" type="hidden" value="kFTXc0nPnrYrpCeixokS58pcxadRN91G0ScaIovM">
+                <div id="test-form">
                     {% for q in site.data.OAQ.question %}
                     <div class="question-wrapper set1">
                         <div class="statement">
                             {{ q.id }} . {{ q.str }}:
                         </div>
+                        {% if q.rev == 0 %}
                         <div class="row decision">
                             <div class="hidden-xs col-sm-3 caption left" onclick="setAnswer('{{ q.id }}', 5);">同意</div>
                             <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
@@ -38,20 +38,47 @@
                             </div>
                             <div class="hidden-xs col-sm-3 caption right" onclick="setAnswer('{{ q.id }}', 1);">反对</div>
                         </div>
+                        {% else %}
+                        <div class="row decision">
+                            <div class="hidden-xs col-sm-3 caption left" onclick="setAnswer('{{ q.id }}', 1);">同意</div>
+                            <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
+                                 aria-label="Options">
+                                <label class="btn-default option agree max" onclick="setAnswer('{{ q.id }}', 1);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option agree med" onclick="setAnswer('{{ q.id }}', 2);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option agree min" onclick="setAnswer('{{ q.id }}', 2.5);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option neutral" onclick="setAnswer('{{ q.id }}', 3);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option disagree min" onclick="setAnswer('{{ q.id }}', 3.5);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option disagree med" onclick="setAnswer('{{ q.id }}', 4);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option disagree max" onclick="setAnswer('{{ q.id }}', 5);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                            </div>
+                            <div class="hidden-xs col-sm-3 caption right" onclick="setAnswer('{{ q.id }}', 5);">反对</div>
+                        </div>
+                        {% endif %}
                     </div>
                     {% endfor %}
-
-                    <input id="a1" name="a1" type="hidden" value="">
-
                     <div class="row test-submit-wrapper">
                         <div class="col-md-12">
                             <div class="submit_wrapper setres">
-                                <button class="btn btn-action btn-lg" id="submbut" type="submit">
+                                <button class="btn btn-action btn-lg" onclick="finish();">
                                     <span>提交&nbsp;</span><span class="fa fa-caret-right"></span></button>
                             </div>
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     </div>
@@ -85,4 +112,8 @@
         $j(this).parent().children('.option').removeClass('active');
         $j(this).addClass('active');
     });
+
+    function finish() {
+        console.log($data);
+    }
 </script>
