@@ -1,5 +1,5 @@
-len = input("Length OF ID?(With Zero):")
-filename = input("File Name?:")
+len = input("有多少个问题？：")
+filename = input("生成的文件名？：")
 
 que = "question:"
 
@@ -11,4 +11,4 @@ filename += ".yml"
 with open(filename,'w') as f:
     f.write(que)
 
-print("Done")
+print("完成了！")
