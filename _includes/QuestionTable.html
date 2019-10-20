@@ -3,6 +3,8 @@
         <div class="col-md-12 test-label">
             <div class="test-body">
                 <div id="test-form">
+                    <p class="phone-layout agree-text">同意</p>
+                    <p class="phone-layout disagree-text">反对</p>
                     {% for q in site.data.OAQ.question %}
                     <div class="question-wrapper set1">
                         <div class="statement">
@@ -10,7 +12,9 @@
                         </div>
                         {% if q.rev == 0 %}
                         <div class="row decision">
-                            <div class="hidden-xs col-sm-3 caption left" onclick="setAnswer('{{ q.id }}', 5);">同意</div>
+                            <div class="hidden-xs col-sm-3 caption left agree-str"
+                                 onclick="setAnswer('{{ q.id }}', 5);">同意
+                            </div>
                             <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
                                  aria-label="Options">
                                 <label class="btn-default option agree max" onclick="setAnswer('{{ q.id }}', 5);">
@@ -35,11 +39,15 @@
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
                             </div>
-                            <div class="hidden-xs col-sm-3 caption right" onclick="setAnswer('{{ q.id }}', 1);">反对</div>
+                            <div class="hidden-xs col-sm-3 caption right disagree-str"
+                                 onclick="setAnswer('{{ q.id }}', 1);">反对
+                            </div>
                         </div>
                         {% else %}
                         <div class="row decision">
-                            <div class="hidden-xs col-sm-3 caption left" onclick="setAnswer('{{ q.id }}', 1);">同意</div>
+                            <div class="hidden-xs col-sm-3 caption left agree-str"
+                                 onclick="setAnswer('{{ q.id }}', 1);">同意
+                            </div>
                             <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
                                  aria-label="Options">
                                 <label class="btn-default option agree max" onclick="setAnswer('{{ q.id }}', 1);">
@@ -64,7 +72,9 @@
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
                             </div>
-                            <div class="hidden-xs col-sm-3 caption right" onclick="setAnswer('{{ q.id }}', 5);">反对</div>
+                            <div class="hidden-xs col-sm-3 caption right disagree-str"
+                                 onclick="setAnswer('{{ q.id }}', 5);">反对
+                            </div>
                         </div>
                         {% endif %}
                     </div>
@@ -115,7 +125,7 @@
     function finish() {
         console.log($data);
         // 清除表单
-        $('.test-body').css("display",'none');
+        $('.test-body').css("display", 'none');
         let res = Resoult($data);
         $('.result').text('Resoult:' + res);
     }
