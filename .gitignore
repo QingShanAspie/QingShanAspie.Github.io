@@ -530,3 +530,4 @@ _book
 
 _site/
 Gemfile.lock
+tools/*.yml
