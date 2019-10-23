@@ -201,9 +201,10 @@ sub, sup {
 }
 
 .btn-action {
-  background-color: #c56149;
+  background-color: #de6951;
   color: #FFF;
   margin: 10px 0 25px;
+  border: #de6951 1px;
 }
 
 input[type="radio"] {
@@ -211,8 +212,10 @@ input[type="radio"] {
 }
 
 .btn-action:hover {
-  color: #FFFFFF;
-  background: #ff8266;
+  background-color: #ffffff;
+  color: #de6951;
+  margin: 10px 0 25px;
+  border: #de6951 1px;
 }
 
 .row.text {
