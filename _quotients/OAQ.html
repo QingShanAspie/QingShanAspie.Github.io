@@ -1,0 +1,104 @@
+---
+title: G2述情障碍测试量表
+name: G2述情障碍测试量表
+tag: [述情障碍, 量表, 在线测试, OAQ]
+image: /assets/img/OAQ.jpg
+description: 述情障碍(alexitymia)又译作“情感表达不能”或“情感难言症”。述情障碍患者不能适当地表达情绪、缺少幻想。
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 test-label">
+            <div class="test-body">
+                <div id="test-form">
+                    <p class="phone-layout agree-text">同意</p>
+                    <p class="phone-layout disagree-text">反对</p>
+                    {% for q in site.data.OAQ.question %}
+                    <div class="question-wrapper set1">
+                        <div class="statement">
+                            {{ q.str }}:
+                        </div>
+                        {% if q.rev == 0 %}
+                        <div class="row decision">
+                            <div class="hidden-xs col-sm-3 caption left agree-str"
+                                 onclick="setAnswer('{{ q.id }}', 5);">同意
+                            </div>
+                            <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
+                                 aria-label="Options">
+                                <label class="btn-default option agree max" onclick="setAnswer('{{ q.id }}', 5);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option agree med" onclick="setAnswer('{{ q.id }}', 4);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option agree min" onclick="setAnswer('{{ q.id }}', 3.5);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option neutral" onclick="setAnswer('{{ q.id }}', 3);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option disagree min" onclick="setAnswer('{{ q.id }}', 2.5);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option disagree med" onclick="setAnswer('{{ q.id }}', 2);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option disagree max" onclick="setAnswer('{{ q.id }}', 1);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                            </div>
+                            <div class="hidden-xs col-sm-3 caption right disagree-str"
+                                 onclick="setAnswer('{{ q.id }}', 1);">反对
+                            </div>
+                        </div>
+                        {% else %}
+                        <div class="row decision">
+                            <div class="hidden-xs col-sm-3 caption left agree-str"
+                                 onclick="setAnswer('{{ q.id }}', 1);">同意
+                            </div>
+                            <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
+                                 aria-label="Options">
+                                <label class="btn-default option agree max" onclick="setAnswer('{{ q.id }}', 1);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option agree med" onclick="setAnswer('{{ q.id }}', 2);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option agree min" onclick="setAnswer('{{ q.id }}', 2.5);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option neutral" onclick="setAnswer('{{ q.id }}', 3);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option disagree min" onclick="setAnswer('{{ q.id }}', 3.5);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option disagree med" onclick="setAnswer('{{ q.id }}', 4);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                                <label class="btn-default option disagree max" onclick="setAnswer('{{ q.id }}', 5);">
+                                    <input type="radio" name="options" autocomplete="off">
+                                </label>
+                            </div>
+                            <div class="hidden-xs col-sm-3 caption right disagree-str"
+                                 onclick="setAnswer('{{ q.id }}', 5);">反对
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                    <div class="row test-submit-wrapper">
+                        <div class="col-md-12">
+                            <div class="submit_wrapper setres">
+                                <button class="btn btn-action btn-lg" onclick="finish();">
+                                    <span>提交&nbsp;</span><span class="fa fa-caret-right"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include QuestionTable.html %}
