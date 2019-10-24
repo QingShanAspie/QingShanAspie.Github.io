@@ -6,7 +6,7 @@ len = int(len)
 que = "question:"
 
 for i in range(0, len):
-    que += "\n  - id: " + str(i) + "\n    str: \n    rev: \n"
+    que += "\n  - id: " + str(i) + "\n    str: " + str(i + 1) + "：\n    rev: 0\n"
 
 filename += ".yml"
 
