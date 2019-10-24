@@ -252,3 +252,25 @@ input[type="radio"] {
   }
 
 }
+
+.bar-line {
+  margin: auto auto;
+  width: 200px;
+  background: #FFF;
+  border-radius: 8px;
+  display: none;
+  position: center;
+}
+
+
+.bar-line #line {
+  float: left;
+  height: 10px;
+  overflow: hidden;
+  background: #4DBF7D;
+  border-radius: 8px;
+}
+
+.result {
+  text-align: center;
+}

@@ -9,3 +9,23 @@ description: 述情障碍又译作“情感表达不能”或“情感难言症�
 {% include Quotients/OAQ.html %}
 
 {% include QuestionTable.html %}
+
+<div class="result"></div>
+
+<script>
+    const A = '非述情障碍';
+    const B = '可能有述情障碍';
+    const C = '述情障碍';
+
+    function GetResult(count) {
+        if (count <= 94) {
+            $('.result').html('<h1>Result:' + count + '</h1><br/>' + A);
+        }
+        else if (count > 94 && count <= 112){
+            $('.result').html('<h1>Result:' + count + '</h1><br/>' + B);
+        }
+        else {
+            $('.result').html('<h1>Result:' + count + '</h1><br/>' + C);
+        }
+    }
+</script>
