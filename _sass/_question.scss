@@ -1,3 +1,25 @@
+.hide {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.Out-hide {
+  -webkit-animation-name: fadeOut;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 0s;
+}
+
+.In-display {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 0s;
+}
+
 .test-label {
   padding: 0;
 }
@@ -260,6 +282,17 @@ input[type="radio"] {
   border-radius: 8px;
   display: none;
   position: center;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 0s;
+}
+
+.bar-line-hide:after {
+  -webkit-animation-name: fadeOut;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 0s;
 }
 
 
@@ -275,14 +308,25 @@ input[type="radio"] {
   text-align: center;
 }
 
-.quotient-span {
-  margin: 0 auto;
+#percent {
+  color: #4DBF7D;
   text-align: center;
-  font-size: 2em;
-  color: $primary;
 }
 
-.quotient-span #hr1 {
-  margin-top: 23px;
-  border: 1px dashed $primary;
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
