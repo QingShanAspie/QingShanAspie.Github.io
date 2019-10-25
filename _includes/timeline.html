@@ -4,7 +4,11 @@
       <div class="timeline-item">
         <div class="content">
           <h2>{{ item.title }}</h2>
+          {% if item.to %}
           <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
+          {% else %}
+          <h6 class="date">{{ item.from }}</h6>
+          {% endif %}
           <p>{{ item.description }}</p>
         </div>
       </div>
