@@ -274,3 +274,15 @@ input[type="radio"] {
 .result {
   text-align: center;
 }
+
+.quotient-span {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+  color: $primary;
+}
+
+.quotient-span #hr1 {
+  margin-top: 23px;
+  border: 1px dashed $primary;
+}
