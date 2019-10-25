@@ -1,8 +1,8 @@
 ---
 layout: page
 title: 加入
-permalink: /join/
-weight: 4
+permalink: /Join/
+weight: 3
 ---
 
 <img align="center" width="100px" src="/assets/favicon.ico" />

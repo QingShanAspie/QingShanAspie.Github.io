@@ -1,8 +1,8 @@
 ---
 layout: page
 title: 关于
-permalink: /about/
-weight: 3
+permalink: /About/
+weight: 4
 ---
 
 <img align="center" width="100px" src="/assets/favicon.ico"  alt="LOGO"/>
@@ -18,12 +18,6 @@ weight: 3
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;致力于普及孤独症谱系的优质、权威资讯和资源，希望能够帮助谱系里的你和家人了解孤独症、了解自己。
 
 <br/>
-
-# 我们的历史
-
----
-
-{% include timeline.html %}
 
 # 贡献者
 
