@@ -24,6 +24,7 @@ description: 孤独症谱系成人测试量表，用于测试成年人的孤独�
 <br>
 <div class="result chart-radar" id="chart"></div>
 
+{% if site.debug == 1 %}
 <script>
     const A = '非孤独症谱系';
     const B = '您有一些孤独症谱系的特质';
@@ -48,7 +49,12 @@ description: 孤独症谱系成人测试量表，用于测试成年人的孤独�
             $('.result').html('<h1>请完成量表！！！</h1>');
         }
     }
+</script>
+{% else %}
+{% include Server/JavaScript/AQ-A.html %}
+{% endif %}
 
+<script>
     function chart_rader($data) {
         let chartSize;
 
@@ -64,6 +70,7 @@ description: 孤独症谱系成人测试量表，用于测试成年人的孤独�
             'width': chartSize,
             'height': chartSize + 30
         });
+        // 初始化雷达图
         let radar_chart = echarts.init(document.getElementById("chart"));
         let option = {
             tooltip: {},

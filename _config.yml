@@ -8,6 +8,8 @@ baseurl: ""
 url: ""
 repository: QingShanAspie/QingShanAspie.Github.io
 
+debug: 0
+
 markdown: kramdown
 
 author:
