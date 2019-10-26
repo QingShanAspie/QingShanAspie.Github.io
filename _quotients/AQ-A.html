@@ -35,17 +35,13 @@ description: 孤独症谱系成人测试量表，用于测试成年人的孤独�
         if (count <= 21) {
             $('.result').html('<h1>Result:' + count + '</h1><br/>' + A);
             chart_rader($data);
-        }
-        else if (count > 21 && count <= 25){
+        } else if (count > 21 && count <= 25) {
             $('.result').html('<h1>Result:' + count + '</h1><br/>' + B);
-        }
-        else if (count > 25 && count <= 31) {
+        } else if (count > 25 && count <= 31) {
             $('.result').html('<h1>Result:' + count + '</h1><br/>' + C);
-        }
-        else if (count > 31) {
+        } else if (count > 31) {
             $('.result').html('<h1>Result:' + count + '</h1><br/>' + D);
-        }
-        else {
+        } else {
             $('.result').html('<h1>请完成量表！！！</h1>');
         }
     }
