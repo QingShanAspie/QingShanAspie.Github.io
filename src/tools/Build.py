@@ -39,7 +39,7 @@ if __name__ == "__main__":
     check_call([
         "cmake",
         os.path.expandvars(
-            "-DCMAKE_TOOLCHAIN_FILE=~/emsdk/emscripten/1.35.0/cmake/Modules/Platform/Emscripten.cmake"),
+            "-DCMAKE_TOOLCHAIN_FILE=~/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"),
         "-DCMAKE_BUILD_TYPE=Release",
         "-DCMAKE_MAKE_PROGRAM=make",
         "-G",
@@ -49,5 +49,6 @@ if __name__ == "__main__":
 
     try:
         check_call(["make"])
+        print("Build Finished!")
     except:
         print('Build Fail')
