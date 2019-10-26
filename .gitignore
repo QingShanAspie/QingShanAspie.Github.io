@@ -528,6 +528,8 @@ _book
 *.mobi
 *.pdf
 
+.vscode/
+
 _site/
 Gemfile.lock
 tools/*.yml
