@@ -6,13 +6,23 @@ image: /assets/img/AQ-A.jpg
 description: 孤独症谱系成人测试量表，用于测试成年人的孤独症商数
 ---
 
-<h4 style="text-align: center">本量表为成人ASD筛查量表，<b>最终确诊需要结合儿童时期的情况。</b><br>焦虑，抑郁，社恐等都会引起分数偏高！</h4>
+<p style="text-align: center; color: #33975b">
+    本量表为成人ASD筛查量表
+    <br>
+    <b>最终确诊需要结合儿童时期的情况</b>
+    <br>
+    焦虑，抑郁，社恐等都会引起分数偏高
+    <br>
+    <br>
+</p>
 
 {% include Quotients/AQ-A.html %}
 
 {% include QuestionTable.html %}
 
 <div class="result"></div>
+<br>
+<div class="result chart-radar" id="chart"></div>
 
 <script>
     const A = '非孤独症谱系';
@@ -23,6 +33,7 @@ description: 孤独症谱系成人测试量表，用于测试成年人的孤独�
     function GetResult(count) {
         if (count <= 21) {
             $('.result').html('<h1>Result:' + count + '</h1><br/>' + A);
+            chart_rader($data);
         }
         else if (count > 21 && count <= 25){
             $('.result').html('<h1>Result:' + count + '</h1><br/>' + B);
@@ -36,5 +47,59 @@ description: 孤独症谱系成人测试量表，用于测试成年人的孤独�
         else {
             $('.result').html('<h1>请完成量表！！！</h1>');
         }
+    }
+
+    function chart_rader($data) {
+        let chartSize;
+
+        if ($(window).width() > 1024) {
+            chartSize = $(window).width() / 2.5;
+        } else {
+            chartSize = $(window).width() / 2;
+        }
+
+        $('.chart-radar').css({
+            'display': 'block',
+            'margin': '0 auto',
+            'width': chartSize,
+            'height': chartSize + 30
+        });
+        let radar_chart = echarts.init(document.getElementById("chart"));
+        let option = {
+            tooltip: {},
+            radar: {
+                name: {
+                    textStyle: {
+                        color: '#fff',
+                        backgroundColor: '#999',
+                        borderRadius: 3,
+                        padding: [3, 5]
+                    }
+                },
+                indicator: [
+                    {name: 'A', max: 6500},
+                    {name: 'B', max: 16000},
+                    {name: 'C', max: 30000},
+                    {name: 'D', max: 38000},
+                    {name: 'E', max: 52000},
+                    {name: 'F', max: 25000}
+                ]
+            },
+            series: [{
+                type: 'radar',
+                itemStyle: {
+                    normal: {
+                        color: '#a8bcd4'
+                    }
+                },
+                data: [
+                    {
+                        value: [4300, 10000, 28000, 35000, 50000, 19000],
+                        name: 'XXXXX雷达'
+                    },
+                ]
+            }]
+        };
+        radar_chart.setOption(option);
     }
 </script>
