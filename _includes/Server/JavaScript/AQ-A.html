@@ -2,7 +2,11 @@
 
 <script>
     function GetResult(count) {
-        let res = Module.AQ_A(count);
-        $('.result').html('<h1>Result:' + count + '</h1><br/>' + res);
+        if (isNaN(count)) {
+            $('.result').html('<h1>请完成量表</h1>');
+        } else {
+            let res = Module.AQ_A(count);
+            $('.result').html('<h1>Result:' + count + '</h1><br/>' + res);
+        }
     }
 </script>
