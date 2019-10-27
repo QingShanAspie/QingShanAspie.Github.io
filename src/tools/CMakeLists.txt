@@ -10,5 +10,5 @@ include_directories(
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ../Debug)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ../Release)
 
-add_executable(AQ-A ../Src/AQ-A.cpp)
-set_target_properties(AQ-A PROPERTIES LINK_FLAGS "-s WASM=1 -s SAFE_HEAP=1 --js-opts 0 -s ASSERTIONS=2 -s DEMANGLE_SUPPORT=1")
+add_executable(MainData ../Src/Main.cpp)
+set_target_properties(MainData PROPERTIES LINK_FLAGS "--bind -s WASM=1 -s SAFE_HEAP=1 --js-opts 0 -s ASSERTIONS=2 -s DEMANGLE_SUPPORT=1")

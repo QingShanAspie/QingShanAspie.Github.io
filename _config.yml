@@ -40,4 +40,5 @@ exclude:
 - LICENSE
 - Gemfile
 - Gemfile.lock
+- Readme_DEV.md
 

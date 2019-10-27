@@ -1,6 +1,7 @@
 # Work With Python2
 import os
 import stat
+import shutil
 from shutil import rmtree
 from subprocess import check_call
 
@@ -52,3 +53,8 @@ if __name__ == "__main__":
         print("Build Finished!")
     except:
         print('Build Fail')
+
+    Pub = input("Copy file?")
+    if Pub == 1:
+        shutil.move(resolve_path("../Release/MainData.js"), "../../../assets/js/MainData.js")
+        shutil.move(resolve_path("../Release/MainData.wasm"), "../../../assets/js/MainData.wasm")

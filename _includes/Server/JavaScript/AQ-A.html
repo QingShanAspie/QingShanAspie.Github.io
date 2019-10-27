@@ -1,21 +1,8 @@
-<script>
-    const A = '非孤独症谱系';
-    const B = '您有一些孤独症谱系的特质';
-    const C = '您可能有高功能孤独症谱系障碍';
-    const D = '您非常可能有高功能孤独症谱系障碍';
+<script src="{{ '/assets/js/MainData.js' | relative_url }}"></script>
 
+<script>
     function GetResult(count) {
-        if (count <= 21) {
-            $('.result').html('<h1>Result:' + count + '</h1><br/>' + A);
-            chart_rader($data);
-        } else if (count > 21 && count <= 25) {
-            $('.result').html('<h1>Result:' + count + '</h1><br/>' + B);
-        } else if (count > 25 && count <= 31) {
-            $('.result').html('<h1>Result:' + count + '</h1><br/>' + C);
-        } else if (count > 31) {
-            $('.result').html('<h1>Result:' + count + '</h1><br/>' + D);
-        } else {
-            $('.result').html('<h1>请完成量表！！！</h1>');
-        }
+        let res = Module.AQ_A(count);
+        $('.result').html('<h1>Result:' + count + '</h1><br/>' + res);
     }
 </script>
