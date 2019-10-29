@@ -23,7 +23,7 @@ string OAQ(int result)
     }
     else
     {
-        return ("请完成量表！！！");
+        return ("请完成量表。");
     }
 }
 
@@ -47,7 +47,7 @@ string AQ_C(int result)
 	}
 	else
 	{
-		return ("请完成量表！！！");
+		return ("请完成量表。");
 	}
 }
 
@@ -71,7 +71,7 @@ string AQ_A(int result)
 	}
 	else
 	{
-		return ("请完成量表！！！");
+		return ("请完成量表。");
 	}
 }
 
@@ -82,5 +82,5 @@ EMSCRIPTEN_BINDINGS(QSA)
 {
     emscripten::function("OAQ", &OAQ);
     emscripten::function("AQ_C", &AQ_C);
-	emscripten::function("AQ_A", &AQ_A);
+	  emscripten::function("AQ_A", &AQ_A);
 }

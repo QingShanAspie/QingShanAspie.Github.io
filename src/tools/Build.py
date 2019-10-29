@@ -13,11 +13,11 @@ def resolve_path(rel_path):
 def rmtree_silent(root):
     def remove_readonly_handler(fn, root, excinfo):
         if fn is os.rmdir:
-            if os.path.isdir(root):            # if exists
+            if os.path.isdir(root):  # if exists
                 os.chmod(root, stat.S_IWRITE)  # make writable
                 os.rmdir(root)
         elif fn is os.remove:
-            if os.path.isfile(root):           # if exists
+            if os.path.isfile(root):  # if exists
                 os.chmod(root, stat.S_IWRITE)  # make writable
                 os.remove(root)
 
@@ -27,7 +27,7 @@ def rmtree_silent(root):
 def makedirs_silent(root):
     try:
         os.makedirs(root)
-    except OSError:                            # mute if exists
+    except OSError:  # mute if exists
         pass
 
 
@@ -51,10 +51,9 @@ if __name__ == "__main__":
     try:
         check_call(["make"])
         print("Build Finished!")
-    except:
+    except IOError:
         print('Build Fail')
+        pass
 
-    Pub = input("Copy file?")
-    if Pub == 1:
-        shutil.move(resolve_path("../Release/MainData.js"), "../../../assets/js/MainData.js")
-        shutil.move(resolve_path("../Release/MainData.wasm"), "../../../assets/js/MainData.wasm")
+    shutil.copy(resolve_path("Release/MainData.js"), "../../../assets/js/MainData.js")
+    shutil.copy(resolve_path("Release/MainData.wasm"), "../../../assets/js/MainData.wasm")
