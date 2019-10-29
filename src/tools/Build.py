@@ -40,7 +40,7 @@ if __name__ == "__main__":
     check_call([
         "cmake",
         os.path.expandvars(
-            "-DCMAKE_TOOLCHAIN_FILE=~/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"),
+            "-DCMAKE_TOOLCHAIN_FILE=~/Sdk/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"),
         "-DCMAKE_BUILD_TYPE=Release",
         "-DCMAKE_MAKE_PROGRAM=make",
         "-G",
