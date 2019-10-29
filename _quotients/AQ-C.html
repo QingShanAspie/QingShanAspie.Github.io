@@ -11,10 +11,11 @@ description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症�
     <br>
     <b>请父母代替儿童完成</b>
     <br>
+    孩子处于焦虑，抑郁，社恐等都会引起分数偏高
     <br>
 </p>
 
-{% include Quotients/AQ-A.html %}
+{% include Quotients/AQ-C.html %}
 
 {% include QuestionTable.html %}
 
@@ -31,21 +32,21 @@ description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症�
 
     function GetResult(count) {
         if (count <= 21) {
-            $('.result').html('<h1>Result:' + count + '</h1><br/>' + A);
+            $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + A);
             chart_rader($data);
         } else if (count > 21 && count <= 25) {
-            $('.result').html('<h1>Result:' + count + '</h1><br/>' + B);
+            $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + B);
         } else if (count > 25 && count <= 31) {
-            $('.result').html('<h1>Result:' + count + '</h1><br/>' + C);
+            $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + C);
         } else if (count > 31) {
-            $('.result').html('<h1>Result:' + count + '</h1><br/>' + D);
+            $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + D);
         } else {
             $('.result').html('<h1>请完成量表！！！</h1>');
         }
     }
 </script>
 {% else %}
-{% include Server/JavaScript/AQ-A.html %}
+{% include Server/JavaScript/AQ-C.html %}
 {% endif %}
 
 <script>

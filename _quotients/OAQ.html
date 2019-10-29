@@ -3,7 +3,7 @@ title: G2述情障碍测试量表
 name: G2述情障碍测试量表
 tag: [述情障碍, 量表, 在线测试, OAQ]
 image: /assets/img/OAQ.jpg
-description: 述情障碍又译作“情感表达不能”或“情感难言症”。述情障碍患者不能适当地表达情绪、缺少幻想。
+description: 述情障碍又译作“情感表达不能”或“情感难言症”。
 ---
 
 {% include Quotients/OAQ.html %}
@@ -12,6 +12,7 @@ description: 述情障碍又译作“情感表达不能”或“情感难言症�
 
 <div class="result"></div>
 
+{% if site.debug == 1 %}
 <script>
     const A = '非述情障碍';
     const B = '可能有述情障碍';
@@ -19,16 +20,19 @@ description: 述情障碍又译作“情感表达不能”或“情感难言症�
 
     function GetResult(count) {
         if (count <= 94) {
-            $('.result').html('<h1>Result:' + count + '</h1><br/>' + A);
+            $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + A);
         }
         else if (count > 94 && count <= 112){
-            $('.result').html('<h1>Result:' + count + '</h1><br/>' + B);
+            $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + B);
         }
-        else if (count > 113) {
-            $('.result').html('<h1>Result:' + count + '</h1><br/>' + C);
+        else if (count > 112) {
+            $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + C);
         }
         else {
             $('.result').html('<h1>请完成量表！！！</h1>');
         }
     }
 </script>
+{% else %}
+{% include Server/JavaScript/OAQ.html %}
+{% endif %}
