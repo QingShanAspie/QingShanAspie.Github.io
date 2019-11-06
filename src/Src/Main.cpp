@@ -82,5 +82,5 @@ EMSCRIPTEN_BINDINGS(QSA)
 {
     emscripten::function("OAQ", &OAQ);
     emscripten::function("AQ_C", &AQ_C);
-	  emscripten::function("AQ_A", &AQ_A);
+	emscripten::function("AQ_A", &AQ_A);
 }

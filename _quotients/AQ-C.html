@@ -49,22 +49,13 @@ description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症�
 {% include Server/JavaScript/AQ-C.html %}
 {% endif %}
 
+<script src="{{ '/assets/js/RaderResult.js' | relative_url }}"></script>
+
 <script>
-    function chart_rader($data) {
-        let chartSize;
+    let Out = ResCac($data);
 
-        if ($(window).width() > 1024) {
-            chartSize = $(window).width() / 2.5;
-        } else {
-            chartSize = $(window).width() / 2;
-        }
-
-        $('.chart-radar').css({
-            'display': 'block',
-            'margin': '0 auto',
-            'width': chartSize,
-            'height': chartSize + 30
-        });
+    function chart_rader() {
+        ReSizeOn();
         // 初始化雷达图
         let radar_chart = echarts.init(document.getElementById("chart"));
         let option = {
@@ -79,12 +70,11 @@ description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症�
                     }
                 },
                 indicator: [
-                    {name: 'A', max: 6500},
-                    {name: 'B', max: 16000},
-                    {name: 'C', max: 30000},
-                    {name: 'D', max: 38000},
-                    {name: 'E', max: 52000},
-                    {name: 'F', max: 25000}
+                    {name: '社交技巧', max: 100},
+                    {name: '注意力切换', max: 100},
+                    {name: '细节注意力', max: 100},
+                    {name: '交流', max: 100},
+                    {name: '想象力', max: 100},
                 ]
             },
             series: [{
@@ -96,8 +86,8 @@ description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症�
                 },
                 data: [
                     {
-                        value: [4300, 10000, 28000, 35000, 50000, 19000],
-                        name: 'XXXXX雷达'
+                        value: [Out[0], Out[1], Out[2], Out[3], Out[4], Out[5]],
+                        name: '分析雷达图'
                     },
                 ]
             }]

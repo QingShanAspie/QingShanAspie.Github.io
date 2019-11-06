@@ -55,5 +55,5 @@ if __name__ == "__main__":
         print('Build Fail')
         pass
 
-    shutil.copy(resolve_path("Release/MainData.js"), "../../../assets/js/MainData.js")
-    shutil.copy(resolve_path("Release/MainData.wasm"), "../../../assets/js/MainData.wasm")
+    shutil.copy(resolve_path("../Release/MainData.js"), "../../../assets/js/MainData.js")
+    shutil.copy(resolve_path("../Release/MainData.wasm"), "../../../assets/js/MainData.wasm")
