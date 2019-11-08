@@ -23,7 +23,6 @@ description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症�
 <br>
 <div class="chart-radar" id="chart"></div>
 
-{% if site.debug == 1 %}
 <script>
     const A = '孩子非孤独症谱系';
     const B = '孩子有一些孤独症谱系的特质';
@@ -33,7 +32,6 @@ description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症�
     function GetResult(count) {
         if (count <= 21) {
             $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + A);
-            chart_rader($data);
         } else if (count > 21 && count <= 25) {
             $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + B);
         } else if (count > 25 && count <= 31) {
@@ -43,10 +41,8 @@ description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症�
         } else {
             $('.result').html('<h1>请完成量表！！！</h1>');
         }
+        chart_rader($data);
     }
 </script>
-{% else %}
-{% include Server/JavaScript/AQ-C.html %}
-{% endif %}
 
 {% include Rader.html %}

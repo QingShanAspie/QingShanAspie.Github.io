@@ -23,7 +23,7 @@ function ReSizeOn() {
     if ($(window).width() > 1024) {
         chartSize = $(window).width() / 2.5;
     } else if ($(window).width() <= 375) {
-        chartSize = $(window).width() / 1.6 + 30;
+        chartSize = $(window).width() / 1.3 - 50;
     } else {
         chartSize = $(window).width() / 1.5;
     }
@@ -32,6 +32,6 @@ function ReSizeOn() {
         'display': 'block',
         'margin': '0 auto',
         'width': chartSize + 80,
-        'height': chartSize + 30
+        'height': chartSize + 70
     });
 }
