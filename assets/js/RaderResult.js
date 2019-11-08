@@ -1,6 +1,6 @@
 function ResCac($data) {
     // 社交技巧 1, 11, 13, 15, 22, 36, 44, 45, 47, 48
-    let dim1 = $data[0] + $data[10] + $data[12] + $data[14] + $data[21] + $data[35] + $data[43] + $data[44] + $data[46] + $data[48];
+    let dim1 = $data[0] + $data[10] + $data[12] + $data[14] + $data[21] + $data[35] + $data[43] + $data[44] + $data[46] + $data[47];
 
     // 注意力切换 2, 4, 10, 16, 25, 32, 34, 37, 43, 46
     let dim2 = $data[1] + $data[3] + $data[9] + $data[15] + $data[24] + $data[31] + $data[33] + $data[36] + $data[42] + $data[45];
