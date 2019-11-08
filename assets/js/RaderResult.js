@@ -22,11 +22,13 @@ function ReSizeOn() {
 
     if ($(window).width() > 1024) {
         chartSize = $(window).width() / 2.5;
+    } else if ($(window).width() <= 375) {
+        chartSize = $(window).width() / 1.6 + 30;
     } else {
-        chartSize = $(window).width() / 2;
+        chartSize = $(window).width() / 1.5;
     }
 
-    $('.chart-radar').css({
+    $(".chart-radar").css({
         'display': 'block',
         'margin': '0 auto',
         'width': chartSize + 80,
