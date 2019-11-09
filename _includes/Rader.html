@@ -4,10 +4,11 @@
     let Out;
     Out = ResCac($data);
 
-    function chart_rader() {
+    function chart_rader(data, muti) {
         Out = ResCac($data);
+        console.log(muti);
 
-        if (!isNaN(Out['dim1'])) {
+        if (!isNaN(Out['dim1']) || !isNaN(Out['dim2']) || !isNaN(Out['dim3'])) {
             ReSizeOn();
         }
 
@@ -16,7 +17,6 @@
         let option = {
             tooltip: {},
             radar: {
-                center: ['50%', '50%'],
                 radius: '60%',
                 name: {
                     textStyle: {
@@ -27,11 +27,11 @@
                     }
                 },
                 indicator: [
-                    {name: '社交技\n巧障碍', max: 100},
-                    {name: '注意力\n切换障碍', max: 100},
-                    {name: '细节注\n意力障碍', max: 100},
-                    {name: '交流障碍', max: 100},
-                    {name: '想象力\n障碍', max: 100},
+                    {name: '社交技\n巧障碍', max: muti},
+                    {name: '注意力\n切换障碍', max: muti},
+                    {name: '细节注\n意力障碍', max: muti},
+                    {name: '交流障碍', max: muti},
+                    {name: '想象力\n障碍', max: muti},
                 ]
             },
             series: [{
@@ -43,7 +43,7 @@
                 },
                 data: [
                     {
-                        value: [Out['dim1'] * 10, Out['dim2'] * 10, Out['dim3'] * 10, Out['dim4'] * 10, Out['dim5'] * 10],
+                        value: [Out['dim1'], Out['dim2'], Out['dim3'], Out['dim4'], Out['dim5']],
                         name: '分析雷达图'
                     },
                 ]

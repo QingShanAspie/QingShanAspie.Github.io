@@ -8,7 +8,7 @@
                     {% for q in site.data.AQ-A.question %}
                     <div class="question-wrapper set1">
                         <div class="statement">
-                            {{ q.str }} :
+                            {{ q.str }}:
                         </div>
                         {% if q.rev == 0 %}
                         <div class="row decision">
@@ -18,21 +18,6 @@
                             <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
                                  aria-label="Options">
                                 <label class="btn-default option agree max" onclick="setAnswer('{{ q.id }}', 1);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option agree med" onclick="setAnswer('{{ q.id }}', 0.75);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option agree min" onclick="setAnswer('{{ q.id }}', 0.75);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option neutral" onclick="setAnswer('{{ q.id }}', 0.5);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option disagree min" onclick="setAnswer('{{ q.id }}', 0.25);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option disagree med" onclick="setAnswer('{{ q.id }}', 0.25);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
                                 <label class="btn-default option disagree max" onclick="setAnswer('{{ q.id }}', 0);">
@@ -51,21 +36,6 @@
                             <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
                                  aria-label="Options">
                                 <label class="btn-default option agree max" onclick="setAnswer('{{ q.id }}', 0);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option agree med" onclick="setAnswer('{{ q.id }}', 0.25);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option agree min" onclick="setAnswer('{{ q.id }}', 0.25);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option neutral" onclick="setAnswer('{{ q.id }}', 0.5);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option disagree min" onclick="setAnswer('{{ q.id }}', 0.75);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option disagree med" onclick="setAnswer('{{ q.id }}', 0.75);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
                                 <label class="btn-default option disagree max" onclick="setAnswer('{{ q.id }}', 1);">

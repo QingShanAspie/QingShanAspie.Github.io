@@ -31,18 +31,22 @@ description: 孤独症谱系成人测试量表，用于测试成年人的孤独�
     const D = '您非常可能有高功能孤独症谱系障碍';
 
     function GetResult(count) {
-        if (count <= 21) {
-            $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + A);
-        } else if (count > 21 && count <= 25) {
-            $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + B);
-        } else if (count > 25 && count <= 31) {
-            $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + C);
-        } else if (count > 31) {
-            $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + D);
-        } else {
+        if (parseInt('{{ site.data.AQ-A.count }}') !== Object.keys($data).length) {
             $('.result').html('<h1>请完成量表！！！</h1>');
+        } else {
+            if (count <= 21) {
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + A);
+            } else if (count > 21 && count <= 25) {
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + B);
+            } else if (count > 25 && count <= 31) {
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + C);
+            } else if (count > 31) {
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + D);
+            } else {
+                $('.result').html('<h1>请完成量表！！！</h1>');
+            }
         }
-        chart_rader($data);
+        chart_rader($data, 10);
     }
 </script>
 

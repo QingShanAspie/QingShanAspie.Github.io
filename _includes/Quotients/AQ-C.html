@@ -8,31 +8,22 @@
                     {% for q in site.data.AQ-C.question %}
                     <div class="question-wrapper set1">
                         <div class="statement">
-                            {{ q.str }} :
+                            {{ q.str }}:
                         </div>
                         {% if q.rev == 0 %}
                         <div class="row decision">
                             <div class="hidden-xs col-sm-3 caption left agree-str"
-                                 onclick="setAnswer('{{ q.id }}', 1);">同意
+                                 onclick="setAnswer('{{ q.id }}', 3);">同意
                             </div>
                             <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
                                  aria-label="Options">
-                                <label class="btn-default option agree max" onclick="setAnswer('{{ q.id }}', 1);">
+                                <label class="btn-default option agree max" onclick="setAnswer('{{ q.id }}', 3);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
-                                <label class="btn-default option agree med" onclick="setAnswer('{{ q.id }}', 0.75);">
+                                <label class="btn-default option agree med" onclick="setAnswer('{{ q.id }}', 2);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
-                                <label class="btn-default option agree min" onclick="setAnswer('{{ q.id }}', 0.75);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option neutral" onclick="setAnswer('{{ q.id }}', 0.5);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option disagree min" onclick="setAnswer('{{ q.id }}', 0.25);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option disagree med" onclick="setAnswer('{{ q.id }}', 0.25);">
+                                <label class="btn-default option disagree med" onclick="setAnswer('{{ q.id }}', 1);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
                                 <label class="btn-default option disagree max" onclick="setAnswer('{{ q.id }}', 0);">
@@ -53,27 +44,18 @@
                                 <label class="btn-default option agree max" onclick="setAnswer('{{ q.id }}', 0);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
-                                <label class="btn-default option agree med" onclick="setAnswer('{{ q.id }}', 0.25);">
+                                <label class="btn-default option agree med" onclick="setAnswer('{{ q.id }}', 1);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
-                                <label class="btn-default option agree min" onclick="setAnswer('{{ q.id }}', 0.25);">
+                                <label class="btn-default option disagree med" onclick="setAnswer('{{ q.id }}', 2);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
-                                <label class="btn-default option neutral" onclick="setAnswer('{{ q.id }}', 0.5);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option disagree min" onclick="setAnswer('{{ q.id }}', 0.75);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option disagree med" onclick="setAnswer('{{ q.id }}', 0.75);">
-                                    <input type="radio" name="options" autocomplete="off">
-                                </label>
-                                <label class="btn-default option disagree max" onclick="setAnswer('{{ q.id }}', 1);">
+                                <label class="btn-default option disagree max" onclick="setAnswer('{{ q.id }}', 3);">
                                     <input type="radio" name="options" autocomplete="off">
                                 </label>
                             </div>
                             <div class="hidden-xs col-sm-3 caption right disagree-str"
-                                 onclick="setAnswer('{{ q.id }}', 1);">反对
+                                 onclick="setAnswer('{{ q.id }}', 3);">反对
                             </div>
                         </div>
                         {% endif %}
