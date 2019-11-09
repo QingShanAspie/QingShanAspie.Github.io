@@ -6,6 +6,21 @@ image: /assets/img/AQ-C.jpg
 description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症商数
 ---
 
+<script src="{{ '/assets/js/MiniDialog-es5.min.js' | relative_url }}"></script>
+<script>
+    Dialog.warn("请注意", "<b>本量表只作为参考，具体诊断还需要医院的分析。</b>" +
+        "<br>" +
+        "本量表参考文献：<br>" +
+        "<small>" +
+        "<a href='https://www.ncbi.nlm.nih.gov/pubmed/18064550?ordinalpos=2&itool=EntrezSystem2." +
+        "PEntrez.Pubmed.Pubmed_ResultsPanel.Pubmed_RVDocSum'> " +
+        "Auyeung B, Baron-Cohen S, Wheelwright S, Allison C. (2007)</a><br>" +
+        "The Autism Spectrum Quotient: Children's Version (AQ-Child).<br>" +
+        "Journal of Autism and Developmental Disorders Dec 7</small>" +
+        "<br><br>" +
+        "翻译：青衫");
+</script>
+
 <p style="text-align: center; color: #33975b">
     本量表为儿童ASD筛查量表
     <br>
@@ -24,19 +39,19 @@ description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症�
 <div class="chart-radar" id="chart"></div>
 
 <script>
-    const D = '孩子非常可能有高功能孤独症谱系障碍';
+    const D = '\u5b69\u5b50\u975e\u5e38\u53ef\u80fd\u6709\u9ad8\u529f\u80fd\u5b64\u72ec\u75c7\u8c31\u7cfb\u969c\u788d';
 
-    function GetResult(count) {
-        if (parseInt('{{ site.data.AQ-C.count }}') !== Object.keys($data).length) {
-            $('.result').html('<h1>请完成量表！！！</h1>');
+    function GetResult(iZ1) {
+        if (window["\x70\x61\x72\x73\x65\x49\x6e\x74"]('\x7b\x7b \x73\x69\x74\x65\x2e\x64\x61\x74\x61\x2e\x41\x51\x2d\x43\x2e\x63\x6f\x75\x6e\x74 \x7d\x7d') !== window["\x4f\x62\x6a\x65\x63\x74"]['\x6b\x65\x79\x73']($data)['\x6c\x65\x6e\x67\x74\x68']) {
+            $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u8bf7\u5b8c\u6210\u91cf\u8868\uff01\uff01\uff01\x3c\x2f\x68\x31\x3e')
         } else {
-            if (count > 76) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + D);
+            if (iZ1 > 76) {
+                $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u6d4b\u8bd5\u5f97\u5206\uff1a' + iZ1 + '\x3c\x2f\x68\x31\x3e\x3c\x62\x72\x2f\x3e' + D)
             } else {
-                $('.result').html('<h1>请完成量表！！！</h1>');
+                $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u8bf7\u5b8c\u6210\u91cf\u8868\uff01\uff01\uff01\x3c\x2f\x68\x31\x3e')
             }
         }
-        chart_rader($data, 30);
+        chart_rader($data, 30)
     }
 </script>
 

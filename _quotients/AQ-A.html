@@ -6,6 +6,19 @@ image: /assets/img/AQ-A.jpg
 description: 孤独症谱系成人测试量表，用于测试成年人的孤独症商数
 ---
 
+<script src="{{ '/assets/js/MiniDialog-es5.min.js' | relative_url }}"></script>
+<script>
+    Dialog.warn("请注意", "<b>本量表只作为参考，具体诊断还需要医院的分析。</b>" +
+        "<br>" +
+        "本量表参考文献：<br>" +
+        "<small>Simon Baron-Cohen, et al. The Autism-Spectrum Quotient (AQ):" +
+        " Evidence from Asperger Syndrome/High-Functioning Autism, " +
+        "Malesand Females, Scientists and Mathematicians. 31: J " +
+        "Autism Dev Disord 5-17. 2001.</small>" +
+        "<br><br>" +
+        "翻译：青衫");
+</script>
+
 <p style="text-align: center; color: #33975b">
     本量表为成人ASD筛查量表
     <br>
@@ -25,28 +38,28 @@ description: 孤独症谱系成人测试量表，用于测试成年人的孤独�
 <div class="chart-radar" id="chart"></div>
 
 <script>
-    const A = '非孤独症谱系';
-    const B = '您有一些孤独症谱系的特质';
-    const C = '您可能有高功能孤独症谱系障碍';
-    const D = '您非常可能有高功能孤独症谱系障碍';
+    const A = '\u975e\u5b64\u72ec\u75c7\u8c31\u7cfb';
+    const B = '\u60a8\u6709\u4e00\u4e9b\u5b64\u72ec\u75c7\u8c31\u7cfb\u7684\u7279\u8d28';
+    const C = '\u60a8\u53ef\u80fd\u6709\u9ad8\u529f\u80fd\u5b64\u72ec\u75c7\u8c31\u7cfb\u969c\u788d';
+    const D = '\u60a8\u975e\u5e38\u53ef\u80fd\u6709\u9ad8\u529f\u80fd\u5b64\u72ec\u75c7\u8c31\u7cfb\u969c\u788d';
 
-    function GetResult(count) {
-        if (parseInt('{{ site.data.AQ-A.count }}') !== Object.keys($data).length) {
-            $('.result').html('<h1>请完成量表！！！</h1>');
+    function GetResult(iswsG1) {
+        if (window["\x70\x61\x72\x73\x65\x49\x6e\x74"]('\x7b\x7b \x73\x69\x74\x65\x2e\x64\x61\x74\x61\x2e\x41\x51\x2d\x41\x2e\x63\x6f\x75\x6e\x74 \x7d\x7d') !== window["\x4f\x62\x6a\x65\x63\x74"]['\x6b\x65\x79\x73']($data)['\x6c\x65\x6e\x67\x74\x68']) {
+            $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u8bf7\u5b8c\u6210\u91cf\u8868\uff01\uff01\uff01\x3c\x2f\x68\x31\x3e')
         } else {
-            if (count <= 21) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + A);
-            } else if (count > 21 && count <= 25) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + B);
-            } else if (count > 25 && count <= 31) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + C);
-            } else if (count > 31) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + D);
+            if (iswsG1 <= 21) {
+                $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u6d4b\u8bd5\u5f97\u5206\uff1a' + iswsG1 + '\x3c\x2f\x68\x31\x3e\x3c\x62\x72\x2f\x3e' + A)
+            } else if (iswsG1 > 21 && iswsG1 <= 25) {
+                $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u6d4b\u8bd5\u5f97\u5206\uff1a' + iswsG1 + '\x3c\x2f\x68\x31\x3e\x3c\x62\x72\x2f\x3e' + B)
+            } else if (iswsG1 > 25 && iswsG1 <= 31) {
+                $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u6d4b\u8bd5\u5f97\u5206\uff1a' + iswsG1 + '\x3c\x2f\x68\x31\x3e\x3c\x62\x72\x2f\x3e' + C)
+            } else if (iswsG1 > 31) {
+                $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u6d4b\u8bd5\u5f97\u5206\uff1a' + iswsG1 + '\x3c\x2f\x68\x31\x3e\x3c\x62\x72\x2f\x3e' + D)
             } else {
-                $('.result').html('<h1>请完成量表！！！</h1>');
+                $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u8bf7\u5b8c\u6210\u91cf\u8868\uff01\uff01\uff01\x3c\x2f\x68\x31\x3e')
             }
         }
-        chart_rader($data, 10);
+        chart_rader($data, 10)
     }
 </script>
 
