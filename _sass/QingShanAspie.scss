@@ -2,6 +2,7 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "variables",
+"CardBox",
 "question",
 "base",
 "navbar",
@@ -10,4 +11,6 @@
 "autumn",
 "skills",
 "timeline",
-"404";
+"404",
+"alert",
+"load";
