@@ -45,13 +45,10 @@ defaults:
 permalink: Articles/:title
 
 exclude:
-- Readme.md
 - README.md
 - CONTRIBUTING.md
 - LICENSE
 - Gemfile
 - Gemfile.lock
 - Readme_DEV.md
-- ArticleCopyright.txt
-- CNAME
 
