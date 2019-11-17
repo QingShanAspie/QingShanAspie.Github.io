@@ -17,18 +17,18 @@ description: 述情障碍又译作“情感表达不能”或“情感难言症�
     const B = '\u53ef\u80fd\u6709\u8ff0\u60c5\u969c\u788d';
     const C = '\u8ff0\u60c5\u969c\u788d';
 
-    function GetResult(usdqt1) {
-        if (window["\x70\x61\x72\x73\x65\x49\x6e\x74"]('\x7b\x7b \x73\x69\x74\x65\x2e\x64\x61\x74\x61\x2e\x4f\x41\x51\x2e\x63\x6f\x75\x6e\x74 \x7d\x7d') !== window["\x4f\x62\x6a\x65\x63\x74"]['\x6b\x65\x79\x73']($data)['\x6c\x65\x6e\x67\x74\x68']) {
-            $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u8bf7\u5b8c\u6210\u91cf\u8868\uff01\uff01\uff01\x3c\x2f\x68\x31\x3e')
+    function GetResult(count) {
+        if (parseInt('{{ site.data.OAQ.count }}') !== Object.keys($data).length) {
+            $('.result').html('<h1>请完成量表！！！</h1>');
         } else {
-            if (usdqt1 <= 94) {
-                $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u6d4b\u8bd5\u5f97\u5206\uff1a' + usdqt1 + '\x3c\x2f\x68\x31\x3e\x3c\x62\x72\x2f\x3e' + A)
-            } else if (usdqt1 > 94 && usdqt1 <= 112) {
-                $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u6d4b\u8bd5\u5f97\u5206\uff1a' + usdqt1 + '\x3c\x2f\x68\x31\x3e\x3c\x62\x72\x2f\x3e' + B)
-            } else if (usdqt1 > 112) {
-                $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u6d4b\u8bd5\u5f97\u5206\uff1a' + usdqt1 + '\x3c\x2f\x68\x31\x3e\x3c\x62\x72\x2f\x3e' + C)
+            if (count <= 94) {
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + A);
+            } else if (count > 94 && count <= 112) {
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + B);
+            } else if (count > 112) {
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + C);
             } else {
-                $('\x2e\x72\x65\x73\x75\x6c\x74')['\x68\x74\x6d\x6c']('\x3c\x68\x31\x3e\u8bf7\u5b8c\u6210\u91cf\u8868\uff01\uff01\uff01\x3c\x2f\x68\x31\x3e')
+                $('.result').html('<h1>请完成量表！！！</h1>');
             }
         }
     }
