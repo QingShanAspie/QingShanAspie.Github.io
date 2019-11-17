@@ -10,3 +10,32 @@ function Resoult($data) {
     }
     return count;
 }
+
+function SaveCookies($data, name) {
+    let Cookie = {
+        "DATA": window.btoa(JSON.stringify($data))
+    };
+    const objToStr = JSON.stringify(Cookie);
+    setCookie(name, objToStr);
+}
+
+function setCookie(name, value) {
+    let exp = new Date();
+    exp.setTime(exp.getTime() + 60 * 60 * 2000);
+    document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString() + ";path=/";
+}
+
+function getCookie(name) {
+    let arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+    if (arr = document.cookie.match(reg)) {
+        return unescape(arr[2]);
+    } else {
+        return null;
+    }
+}
+
+function removeCookie(name) {
+    let exp = new Date();
+    exp.setTime(exp.getTime() - 1);
+    document.cookie = name + "=" + escape("value") + ";expires=" + exp.toGMTString() + ";path=/";
+}

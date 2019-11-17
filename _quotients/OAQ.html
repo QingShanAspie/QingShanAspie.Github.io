@@ -6,6 +6,15 @@ image: /assets/img/OAQ.jpg
 description: 述情障碍又译作“情感表达不能”或“情感难言症”。
 ---
 
+<script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
+<script>
+    alert("<b>本量表只作为参考，具体诊断还需要医院的分析。</b>" +
+        "<br><br>" +
+        "翻译：青衫" +
+        "<br><br>" +
+        "本页面使用Cookie来储存您的结果，储存时长为2小时");
+</script>
+
 {% include Quotients/OAQ.html %}
 
 {% include QuestionTable.html %}
@@ -30,6 +39,45 @@ description: 述情障碍又译作“情感表达不能”或“情感难言症�
             } else {
                 $('.result').html('<h1>请完成量表！！！</h1>');
             }
+            SaveCookies($data, "OAQ");
         }
     }
 </script>
+
+<script>
+        let ReTest = '<div class="row">' +
+            '<div class="col-md-12">' +
+            '<div class="submit_wrapper setres">' +
+            '<button class="btn btn-action btn-lg" onclick="ReTestFunc();">' +
+            '<span>重新测试&nbsp;</span><span class="fa fa-caret-right"></span>' +
+            '</button>' +
+            '</div>' +
+            '</div>' +
+            '</div>'
+    
+        function ReTestFunc(){
+            removeCookie("OAQ");
+            window.location.reload()
+        }
+    
+        function CookieResult(count) {
+            if (count <= 94) {
+                $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + A + '<br/><br/>' + ReTest);
+            } else if (count > 94 && count <= 112) {
+                $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + B + '<br/><br/>' + ReTest);
+            } else if (count > 112) {
+                $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + C + '<br/><br/>' + ReTest);
+            } else {
+                $('.result').html('<h1>您上次没有完成量表！！！</h1>' + '<br/><br/>' + ReTest);
+            }
+        }
+    
+        let Cookie = getCookie("OAQ");
+        if (Cookie != null) {
+            $('.test-body').addClass('hide');
+            let dataJson = window.atob(JSON.parse(Cookie)['DATA']);
+            let datas = JSON.parse(dataJson);
+            let res = Resoult(datas);
+            CookieResult(res);
+        }
+    </script>

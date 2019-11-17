@@ -18,7 +18,9 @@ description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症�
         "The Autism Spectrum Quotient: Children's Version (AQ-Child).<br>" +
         "Journal of Autism and Developmental Disorders Dec 7</small>" +
         "<br><br>" +
-        "翻译：青衫");
+        "翻译：青衫" +
+        "<br><br>" +
+        "本页面使用Cookie来储存您的结果，储存时长为2小时");
 </script>
 
 <p style="text-align: center; color: #33975b">
@@ -39,7 +41,7 @@ description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症�
 <div class="chart-radar" id="chart"></div>
 
 <script>
-    const A='\u975e\u5b64\u72ec\u75c7\u8c31\u7cfb';
+    const A = '\u975e\u5b64\u72ec\u75c7\u8c31\u7cfb';
     const D = '\u5b69\u5b50\u975e\u5e38\u53ef\u80fd\u6709\u9ad8\u529f\u80fd\u5b64\u72ec\u75c7\u8c31\u7cfb\u969c\u788d';
 
     function GetResult(count) {
@@ -48,14 +50,51 @@ description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症�
         } else {
             if (count => 76) {
                 $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + D);
-            }else if (count < 76){
+            } else if (count < 76) {
                 $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + A);
             } else {
                 $('.result').html('<h1>请完成量表！！！</h1>');
             }
             chart_rader($data, 30);
+            SaveCookies($data, "AQ-C");
         }
     }
 </script>
 
 {% include Rader.html %}
+
+<script>
+    let ReTest = '<div class="row">' +
+        '<div class="col-md-12">' +
+        '<div class="submit_wrapper setres">' +
+        '<button class="btn btn-action btn-lg" onclick="ReTestFunc();">' +
+        '<span>重新测试&nbsp;</span><span class="fa fa-caret-right"></span>' +
+        '</button>' +
+        '</div>' +
+        '</div>' +
+        '</div>'
+
+    function ReTestFunc() {
+        removeCookie("AQ-C");
+        window.location.reload()
+    }
+
+    function CookieResult(count) {
+        if (count => 76) {
+            $('.result').html('<h1>您的孩子上次的测试得分：' + count + '</h1><br/>' + D + '<br/><br/>' + ReTest);
+        } else if (count < 76) {
+            $('.result').html('<h1>您的孩子上次的测试得分：' + count + '</h1><br/>' + A + '<br/><br/>' + ReTest);
+        } else {
+            $('.result').html('<h1>您的孩子上次没有完成量表！！！</h1>' + '<br/><br/>' + ReTest);
+        }
+    }
+
+    let Cookie = getCookie("AQ-C");
+    if (Cookie != null) {
+        $('.test-body').addClass('hide');
+        let dataJson = window.atob(JSON.parse(Cookie)['DATA']);
+        let datas = JSON.parse(dataJson);
+        let res = Resoult(datas);
+        CookieResult(res);
+    }
+</script>

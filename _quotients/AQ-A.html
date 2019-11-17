@@ -16,7 +16,9 @@ description: 孤独症谱系成人测试量表，用于测试成年人的孤独�
         "Malesand Females, Scientists and Mathematicians. 31: J " +
         "Autism Dev Disord 5-17. 2001.</small>" +
         "<br><br>" +
-        "翻译：青衫");
+        "翻译：青衫" +
+        "<br><br>" +
+        "本页面使用Cookie来储存您的结果，储存时长为2小时");
 </script>
 
 <p style="text-align: center; color: #33975b">
@@ -59,8 +61,49 @@ description: 孤独症谱系成人测试量表，用于测试成年人的孤独�
                 $('.result').html('<h1>请完成量表！！！</h1>');
             }
             chart_rader($data, 10);
+            SaveCookies($data, "AQ-A");
         }
     }
 </script>
 
 {% include Rader.html %}
+
+<script>
+    let ReTest = '<div class="row">' +
+        '<div class="col-md-12">' +
+        '<div class="submit_wrapper setres">' +
+        '<button class="btn btn-action btn-lg" onclick="ReTestFunc();">' +
+        '<span>重新测试&nbsp;</span><span class="fa fa-caret-right"></span>' +
+        '</button>' +
+        '</div>' +
+        '</div>' +
+        '</div>'
+
+    function ReTestFunc(){
+        removeCookie("AQ-A");
+        window.location.reload()
+    }
+
+    function CookieResult(count) {
+        if (count <= 21) {
+            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + A + '<br/><br/>' + ReTest);
+        } else if (count > 21 && count <= 25) {
+            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + B + '<br/><br/>' + ReTest);
+        } else if (count > 25 && count <= 31) {
+            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + C + '<br/><br/>' + ReTest);
+        } else if (count > 31) {
+            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + D + '<br/><br/>' + ReTest);
+        } else {
+            $('.result').html('<h1>您上次没有完成量表！！！</h1>' + '<br/><br/>' + ReTest);
+        }
+    }
+
+    let Cookie = getCookie("AQ-A");
+    if (Cookie != null) {
+        $('.test-body').addClass('hide');
+        let dataJson = window.atob(JSON.parse(Cookie)['DATA']);
+        let datas = JSON.parse(dataJson);
+        let res = Resoult(datas);
+        CookieResult(res);
+    }
+</script>
