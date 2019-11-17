@@ -39,18 +39,21 @@ description: 孤独症谱系儿童测试量表，用于测试儿童的孤独症�
 <div class="chart-radar" id="chart"></div>
 
 <script>
+    const A='\u975e\u5b64\u72ec\u75c7\u8c31\u7cfb';
     const D = '\u5b69\u5b50\u975e\u5e38\u53ef\u80fd\u6709\u9ad8\u529f\u80fd\u5b64\u72ec\u75c7\u8c31\u7cfb\u969c\u788d';
 
     function GetResult(count) {
         if (parseInt('{{ site.data.AQ-C.count }}') !== Object.keys($data).length) {
             $('.result').html('<h1>请完成量表！！！</h1>');
         } else {
-            if (count > 76) {
+            if (count => 76) {
                 $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + D);
+            }else if (count < 76){
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + A);
             } else {
                 $('.result').html('<h1>请完成量表！！！</h1>');
             }
-            chart_rader($data, 10);
+            chart_rader($data, 30);
         }
     }
 </script>
