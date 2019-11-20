@@ -10,5 +10,14 @@ layout: null
       "url"      : "{{ post.external_url | default: post.url | relative_url }}",
       "date"     : "{{ post.date }}"
     } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+  {% endfor %},
+  {% for new in site.news %}
+    {
+      "title"    : "{{ new.title | escape }}",
+      "category" : "{{ new.category }}",
+      "tags"     : "{{ new.tags | join: ', ' }}",
+      "url"      : "{{ new.external_url | default: new.url | relative_url }}",
+      "date"     : "{{ new.date }}"
+    } {% unless forloop.last %},{% endunless %}
+{% endfor %}
 ]

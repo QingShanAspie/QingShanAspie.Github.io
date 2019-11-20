@@ -2,7 +2,7 @@
 layout: page
 title: 加入
 permalink: /Join/
-weight: 3
+weight: 4
 ---
 
 <img align="center" width="100px" src="/assets/favicon.ico" />

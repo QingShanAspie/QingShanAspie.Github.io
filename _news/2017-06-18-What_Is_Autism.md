@@ -2,7 +2,7 @@
 title: 「不知孤独的孤独者」孤独症的那些事儿
 tags: [介绍, 孤独症, 介绍孤独症]
 style: 
-color: 
+color: success
 description: 孤独症是什么？一文理清孤独症的迷思
 author: [青衫]
 ---

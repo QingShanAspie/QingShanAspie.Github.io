@@ -22,6 +22,9 @@ collections:
   quotients:
     output: true
     permalink: /Quotients/:name
+  news:
+    output: true
+    permalink: /News/:name
 
 compress_html:
   clippings: all
@@ -39,6 +42,11 @@ defaults:
       type: "quotients"
     values:
       layout: "page"
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "post"
 
 
 permalink: Articles/:title
