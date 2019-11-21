@@ -5,7 +5,8 @@
   background: $primary;
 }
 
-.nav-link, .navbar-brand {
+.nav-link,
+.navbar-brand {
   &::after {
     @extend .link-after;
     width: 0;

@@ -70,6 +70,7 @@
     transform: rotate(360deg);
     animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
   }
+
   100% {
     transform: rotate(960deg)
   }
@@ -115,6 +116,7 @@
   25% {
     transform: translateY(10px) rotate(5deg);
   }
+
   75% {
     transform: rotate(-5deg);
   }
@@ -142,6 +144,7 @@
   25% {
     transform: rotate(10deg) translateY(5px)
   }
+
   75% {
     transform: rotate(-10deg)
   }
@@ -157,6 +160,7 @@
   25% {
     transform: translate(10px, 0) rotate(-10deg)
   }
+
   75% {
     transform: translateX(10px)
   }
@@ -170,10 +174,12 @@
   0% {
     transform: translateX(-1300px)
   }
+
   50% {
     transform: translateX(0);
     animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
   }
+
   100% {
     transform: translateX(1300px)
   }
