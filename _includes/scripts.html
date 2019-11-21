@@ -23,3 +23,16 @@
 
 <!-- CopyRight -->
 <script src="{{ '/assets/js/CopyRight.js' | relative_url }}"></script>
+
+<!-- Console Copyright -->
+<script>
+    let httpRequest = new XMLHttpRequest();
+    httpRequest.open('GET', 'https://api.github.com/repos/QingShanAspie/QingShanAspie.Github.io', true);
+    httpRequest.send();
+    httpRequest.onreadystatechange = function () {
+        if (httpRequest.readyState == 4 && httpRequest.status == 200) {
+            let json = JSON.parse(httpRequest.responseText);
+            console.log("%c 青衫Aspie %c VERSION: {{ site.version }}   " + json['updated_at'], "color: #fadfa3; background: #030307;", "background: #fadfa3;");
+        }
+    };
+</script>
