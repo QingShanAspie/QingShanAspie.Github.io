@@ -1,5 +1,3 @@
-
-
 ### 本地搭建
 1. `sudo apt update && sudo apt upgrade`
 2. `sudo apt-get install ruby-dev ruby` 

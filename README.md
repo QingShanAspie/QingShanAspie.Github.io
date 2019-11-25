@@ -1,8 +1,6 @@
 # 青衫 Aspie 
 ## 致力于孤独症谱系权威资讯资源
 
-  [![VERSION](https://img.shields.io/badge/VERSION-0.1B-green?style=for-the-badge)](https://github.com/GloomyGhost-MosquitoSeal/lessampler/blob/master/README.CN.md)
-
 ## 请注意：  
 **网站所有未注明版权的文章，均按照[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-nd/4.0/)进行许可。**  
 **这意味着您将不可以：转载，重新发布，商业使用!**
