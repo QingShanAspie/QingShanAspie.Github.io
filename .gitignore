@@ -7,3 +7,4 @@ _site/
 Gemfile.lock
 src/tools/build/
 src/tools/Release/
+.DS_Store
