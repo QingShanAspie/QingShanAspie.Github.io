@@ -11,6 +11,24 @@ function Resoult($data) {
     return count;
 }
 
+function ADHD_Resoult_A($data) {
+    let i;
+    let count = 0;
+    for (i = 0; i < 9; ++i) {
+        count += $data[i];
+    }
+    return count;
+}
+
+function ADHD_Resoult_B($data) {
+    let i;
+    let count = 0;
+    for (i = 9; i < 18; ++i) {
+        count += $data[i];
+    }
+    return count;
+}
+
 function SaveCookies($data, name) {
     let Cookie = {
         "DATA": window.btoa(JSON.stringify($data))

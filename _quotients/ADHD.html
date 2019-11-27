@@ -1,0 +1,100 @@
+---
+title: 成人 ADHD 自填量表 (ASRS)
+name: 成人 ADHD 自填量表 (ASRS)
+tag: [孤独症, 量表, 在线测试, ADHD, 成人测试]
+image: /assets/img/ADHD.jpg
+description: 孤独症谱系成人测试量表，用于测试成年人的孤独症商数
+---
+
+<script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
+<script>
+    alert("<b>本量表只作为参考，具体诊断还需要医院的分析。</b>" +
+        "<br><br>" +
+        "本量表参考文献：<br>" +
+        "<small><a href=\"https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/adhd/18Q_Chinese%20(Traditional)_final.pdf\">18Q-Chinese-Traditional.pdf</a><br>" +
+        "转自世界卫生组织 Composite International Diagnostic Interview </small>" +
+        "<br><br>" +
+        "翻译: GloomyGhost<br>" +
+        "本页面使用Cookie来储存您的结果，储存时长为2小时");
+</script>
+
+<p style="text-align: center; color: #33975b">
+    <b>成人 ADHD 自填量表 (ASRS)</b>
+    <br>
+    转自世界卫生组织 
+    <br>
+    Composite International Diagnostic Interview 
+</p>
+
+{% include Quotients/ADHD.html %}
+
+{% include QuestionTable.html %}
+
+<div class="result"></div>
+<br>
+
+<script>
+    function GetResult(count) {
+        GetResultADHD();
+    }
+
+    function GetResultADHD() {
+        let ResultA = ADHD_Resoult_A($data);
+        let ResultB = ADHD_Resoult_B($data);
+
+        if (isNaN(ResultA) || isNaN(ResultB)) {
+            $('.result').html('<h1>请完成量表！！！</h1>');
+        } else {
+            if (ResultA <= 16 || ResultB <= 16) {
+                $('.result').html('<h1>您的测试得分<br>A：' + ResultA + '<br>B：' + ResultB + '<br>您不太可能有ADHD' + '</h1><br/>');
+            } else if ((ResultA > 16 && ResultA <= 23) || (ResultB > 16 && ResultB <= 23)) {
+                $('.result').html('<h1>您的测试得分<br>A：' + ResultA + '<br>B：' + ResultB + '<br>您可能有ADHD' + '</h1><br/>');
+            } else if (ResultA > 23 || ResultB > 23) {
+                $('.result').html('<h1>您的测试得分<br>A：' + ResultA + '<br>B：' + ResultB + '<br>您非常可能有ADHD' + '</h1><br/>');
+            }
+            SaveCookies($data, "ADHD");
+        }
+    }
+</script>
+
+<script>
+    let ReTest = '<div class="row">' +
+        '<div class="col-md-12">' +
+        '<div class="submit_wrapper setres">' +
+        '<button class="btn btn-action btn-lg" onclick="ReTestFunc();">' +
+        '<span>重新测试&nbsp;</span><span class="fa fa-caret-right"></span>' +
+        '</button>' +
+        '</div>' +
+        '</div>' +
+        '</div>';
+
+    function ReTestFunc() {
+        removeCookie("ADHD");
+        window.location.reload()
+    }
+
+    function CookieResult(CookieData) {
+        let ResultA = ADHD_Resoult_A(CookieData);
+        let ResultB = ADHD_Resoult_B(CookieData);
+
+        if (isNaN(ResultA) || isNaN(ResultB)) {
+            $('.result').html('<h1>请完成量表！！！</h1>');
+        } else {
+            if (ResultA <= 16 || ResultB <= 16) {
+                $('.result').html('<h1>您上次的测试得分<br>A：' + ResultA + '<br>B：' + ResultB + '<br>您不太可能有ADHD' + '</h1><br/>' + ReTest);
+            } else if ((ResultA > 16 && ResultA <= 23) || (ResultB > 16 && ResultB <= 23)) {
+                $('.result').html('<h1>您上次的测试得分<br>A：' + ResultA + '<br>B：' + ResultB + '<br>您可能有ADHD' + '</h1><br/>' + ReTest);
+            } else if (ResultA > 23 || ResultB > 23) {
+                $('.result').html('<h1>您上次的测试得分<br>A：' + ResultA + '<br>B：' + ResultB + '<br>您非常可能有ADHD' + '</h1><br/>' + ReTest);
+            }
+        }
+    }
+
+    let Cookie = getCookie("ADHD");
+    if (Cookie != null) {
+        $('.test-body').addClass('hide');
+        let dataJson = window.atob(JSON.parse(Cookie)['DATA']);
+        let datas = JSON.parse(dataJson);
+        CookieResult(datas);
+    }
+</script>
