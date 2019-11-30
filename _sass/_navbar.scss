@@ -1,15 +1,17 @@
 .link-after {
-  content: '';
-  display: block;
-  height: .15em;
+  content   : '';
+  display   : block;
+  height    : .15em;
   background: $primary;
 }
 
 .nav-link,
 .navbar-brand {
+  margin-right: 0;
+
   &::after {
     @extend .link-after;
-    width: 0;
+    width     : 0;
     transition: width .35s;
   }
 
@@ -35,6 +37,6 @@
 
 .nav-logo {
   padding-bottom: 5px;
-  padding-right: 10px;
-  width: 40px;
+  padding-right : 10px;
+  width         : 40px;
 }
