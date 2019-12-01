@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 资源
 permalink: /Resource/
 weight: 4
