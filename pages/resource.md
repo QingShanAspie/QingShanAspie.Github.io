@@ -11,8 +11,8 @@ weight: 4
 
 最好用的：http://www.rdos.net/eng/Aspie-quiz.php
 
-常用版：AQ (Autism Spectrum Quotient)-- 孤独商。比如
-https://psychology-tools.com/autism-spectrum-quotient/
+常用版：AQ (Autism Spectrum Quotient)-- 孤独商。比如  
+https://psychology-tools.com/autism-spectrum-quotient/  
 含有50个问题，5分钟左右做完。孤独症谱系得分一般在32以上。
 
 https://www.autismresearchcentre.com/arc_tests
