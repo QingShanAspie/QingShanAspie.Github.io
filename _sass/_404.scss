@@ -19,12 +19,12 @@
 }
 
 .cls-6 {
-  fill: #b65c32;
+  fill   : #b65c32;
   opacity: 0.6;
 }
 
 .cls-7 {
-  fill: #b65c32;
+  fill   : #b65c32;
   opacity: 0.4;
 }
 
@@ -60,14 +60,14 @@
 /* animations */
 
 .wheel {
-  animation: wheel-rotate 6s ease infinite;
+  animation       : wheel-rotate 6s ease infinite;
   transform-origin: center;
-  transform-box: fill-box;
+  transform-box   : fill-box;
 }
 
 @keyframes wheel-rotate {
   50% {
-    transform: rotate(360deg);
+    transform                : rotate(360deg);
     animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
   }
 
@@ -77,15 +77,15 @@
 }
 
 .clock-hand-1 {
-  animation: clock-rotate 3s linear infinite;
+  animation       : clock-rotate 3s linear infinite;
   transform-origin: bottom;
-  transform-box: fill-box;
+  transform-box   : fill-box;
 }
 
 .clock-hand-2 {
-  animation: clock-rotate 6s linear infinite;
+  animation       : clock-rotate 6s linear infinite;
   transform-origin: bottom;
-  transform-box: fill-box;
+  transform-box   : fill-box;
 }
 
 @keyframes clock-rotate {
@@ -95,9 +95,9 @@
 }
 
 #box-top {
-  animation: box-top-anim 2s linear infinite;
+  animation       : box-top-anim 2s linear infinite;
   transform-origin: right top;
-  transform-box: fill-box;
+  transform-box   : fill-box;
 }
 
 @keyframes box-top-anim {
@@ -107,9 +107,9 @@
 }
 
 #umbrella {
-  animation: umbrella-anim 6s linear infinite;
+  animation       : umbrella-anim 6s linear infinite;
   transform-origin: center;
-  transform-box: fill-box;
+  transform-box   : fill-box;
 }
 
 @keyframes umbrella-anim {
@@ -123,9 +123,9 @@
 }
 
 #cup {
-  animation: cup-rotate 3s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+  animation       : cup-rotate 3s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
   transform-origin: top left;
-  transform-box: fill-box;
+  transform-box   : fill-box;
 }
 
 @keyframes cup-rotate {
@@ -135,9 +135,9 @@
 }
 
 #pillow {
-  animation: pillow-anim 3s linear infinite;
+  animation       : pillow-anim 3s linear infinite;
   transform-origin: center;
-  transform-box: fill-box;
+  transform-box   : fill-box;
 }
 
 @keyframes pillow-anim {
@@ -151,9 +151,9 @@
 }
 
 #stripe {
-  animation: stripe-anim 3s linear infinite;
+  animation       : stripe-anim 3s linear infinite;
   transform-origin: center;
-  transform-box: fill-box;
+  transform-box   : fill-box;
 }
 
 @keyframes stripe-anim {
@@ -176,7 +176,7 @@
   }
 
   50% {
-    transform: translateX(0);
+    transform                : translateX(0);
     animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
   }
 
@@ -186,9 +186,9 @@
 }
 
 #rucksack {
-  animation: ruck-anim 3s linear infinite;
+  animation       : ruck-anim 3s linear infinite;
   transform-origin: top;
-  transform-box: fill-box;
+  transform-box   : fill-box;
 }
 
 @keyframes ruck-anim {
@@ -198,10 +198,10 @@
 }
 
 .circle {
-  animation: circle-anim ease infinite;
+  animation       : circle-anim ease infinite;
   transform-origin: center;
-  transform-box: fill-box;
-  perspective: 0px;
+  transform-box   : fill-box;
+  perspective     : 0px;
 }
 
 .circle.c1 {
@@ -240,21 +240,21 @@
 }
 
 .four.a {
-  transform-origin: bottom left;
+  transform-origin  : bottom left;
   animation-duration: 3s;
-  transform-box: fill-box;
+  transform-box     : fill-box;
 }
 
 .four.b {
-  transform-origin: bottom right;
+  transform-origin  : bottom right;
   animation-duration: 3s;
-  transform-box: fill-box;
+  transform-box     : fill-box;
 }
 
 #ou {
   animation-duration: 6s;
-  transform-origin: center;
-  transform-box: fill-box;
+  transform-origin  : center;
+  transform-box     : fill-box;
 }
 
 @keyframes four-anim {
