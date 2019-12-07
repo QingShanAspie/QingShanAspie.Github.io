@@ -9,7 +9,7 @@ repository: QingShanAspie/QingShanAspie.Github.io
 
 debug: 0
 
-version: 0.1.12.3
+version: 0.1.12.7
 
 markdown: kramdown
 
@@ -52,6 +52,11 @@ defaults:
 
 
 permalink: Articles/:title
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
 
 exclude:
 - README.md
