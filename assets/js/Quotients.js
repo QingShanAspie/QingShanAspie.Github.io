@@ -1,7 +1,3 @@
-/**
- * @return number: count
- */
-
 function Resoult($data) {
     let i;
     let count = 0;

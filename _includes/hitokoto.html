@@ -1,1 +1,14 @@
-<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+<script>
+    fetch('https://v1.hitokoto.cn/?c=a')
+        .then(function (res){
+            return res.json();
+        })
+        .then(function (data) {
+            let hitokoto = document.getElementById('hitokoto');
+            hitokoto.innerText = data.hitokoto + " 来自 ( σ'ω')σ《" + data.from + "》";
+        })
+        .catch(function (err) {
+            console.error(err);
+            hitokoto.innerText = "(◞‸◟ ) 获取失败了。。。。"
+        })
+</script>
