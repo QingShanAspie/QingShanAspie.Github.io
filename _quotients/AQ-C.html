@@ -48,7 +48,7 @@ description: 孤独商儿童测试量表，用于测试儿童的孤独症商数
         if (parseInt('{{ site.data.AQ-C.count }}') !== Object.keys($data).length) {
             $('.result').html('<h1>请完成量表！！！</h1>');
         } else {
-            if (count => 76) {
+            if (count >= 76) {
                 $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + D);
             } else if (count < 76) {
                 $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + A);
@@ -80,7 +80,7 @@ description: 孤独商儿童测试量表，用于测试儿童的孤独症商数
     }
 
     function CookieResult(count) {
-        if (count => 76) {
+        if (count >= 76) {
             $('.result').html('<h1>您的孩子上次的测试得分：' + count + '</h1><br/>' + D + '<br/><br/>' + ReTest);
         } else if (count < 76) {
             $('.result').html('<h1>您的孩子上次的测试得分：' + count + '</h1><br/>' + A + '<br/><br/>' + ReTest);
