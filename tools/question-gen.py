@@ -13,4 +13,4 @@ filename += ".yml"
 with open(filename,'w') as f:
     f.write(que)
 
-print("完成了！")
+print("完成了！！！")
