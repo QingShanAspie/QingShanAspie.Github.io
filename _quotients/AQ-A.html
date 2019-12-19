@@ -6,21 +6,6 @@ image: /assets/img/AQ-A.jpg
 description: 孤独商成人测试量表，用于测试成年人的孤独症商数
 ---
 
-<script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
-<script>
-    alert("<b>本量表只作为参考，具体诊断还需要医院的分析。</b>" +
-        "<br>" +
-        "本量表参考文献：<br>" +
-        "<small>Simon Baron-Cohen, et al. The Autism-Spectrum Quotient (AQ):" +
-        " Evidence from Asperger Syndrome/High-Functioning Autism, " +
-        "Malesand Females, Scientists and Mathematicians. 31: J " +
-        "Autism Dev Disord 5-17. 2001.</small>" +
-        "<br><br>" +
-        "翻译：青衫" +
-        "<br><br>" +
-        "本页面使用Cookie来储存您的结果，储存时长为2小时");
-</script>
-
 <p style="text-align: center; color: #33975b">
     本量表为成人ASD筛查量表
     <br>
@@ -34,6 +19,24 @@ description: 孤独商成人测试量表，用于测试成年人的孤独症商�
 {% include Quotients/AQ-A.html %}
 
 {% include QuestionTable.html %}
+
+<script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
+<script>
+    let Cookie = getCookie("AQ-A");
+    if (Cookie === null) {
+        alert("<b>本量表只作为参考，具体诊断还需要医院的分析。</b>" +
+            "<br>" +
+            "本量表参考文献：<br>" +
+            "<small>Simon Baron-Cohen, et al. The Autism-Spectrum Quotient (AQ):" +
+            " Evidence from Asperger Syndrome/High-Functioning Autism, " +
+            "Malesand Females, Scientists and Mathematicians. 31: J " +
+            "Autism Dev Disord 5-17. 2001.</small>" +
+            "<br><br>" +
+            "翻译：青衫" +
+            "<br><br>" +
+            "本页面使用Cookie来储存您的结果，储存时长为2小时");
+    }
+</script>
 
 <div class="result"></div>
 <br>
@@ -79,7 +82,7 @@ description: 孤独商成人测试量表，用于测试成年人的孤独症商�
         '</div>' +
         '</div>';
 
-    function ReTestFunc(){
+    function ReTestFunc() {
         removeCookie("AQ-A");
         window.location.reload()
     }

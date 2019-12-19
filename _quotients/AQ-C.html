@@ -6,23 +6,6 @@ image: /assets/img/AQ-C.jpg
 description: 孤独商儿童测试量表，用于测试儿童的孤独症商数
 ---
 
-<script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
-<script>
-    alert("<b>本量表只作为参考，具体诊断还需要医院的分析。</b>" +
-        "<br>" +
-        "本量表参考文献：<br>" +
-        "<small>" +
-        "<a href='https://www.ncbi.nlm.nih.gov/pubmed/18064550?ordinalpos=2&itool=EntrezSystem2." +
-        "PEntrez.Pubmed.Pubmed_ResultsPanel.Pubmed_RVDocSum'> " +
-        "Auyeung B, Baron-Cohen S, Wheelwright S, Allison C. (2007)</a><br>" +
-        "The Autism Spectrum Quotient: Children's Version (AQ-Child).<br>" +
-        "Journal of Autism and Developmental Disorders Dec 7</small>" +
-        "<br><br>" +
-        "翻译：青衫" +
-        "<br><br>" +
-        "本页面使用Cookie来储存您的结果，储存时长为2小时");
-</script>
-
 <p style="text-align: center; color: #33975b">
     本量表为儿童ASD筛查量表
     <br>
@@ -35,6 +18,29 @@ description: 孤独商儿童测试量表，用于测试儿童的孤独症商数
 {% include Quotients/AQ-C.html %}
 
 {% include QuestionTable.html %}
+
+<script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
+<script>
+    let Cookie = getCookie("AQ-C");
+    if (Cookie === null) {
+        alert("<b>本量表只作为参考，具体诊断还需要医院的分析。</b>" +
+            "<br>" +
+            "本量表参考文献：<br>" +
+            "<small>" +
+            "<a href='https://www.ncbi.nlm.nih.gov/pubmed/18064550?ordinalpos=2&itool=EntrezSystem2." +
+            "PEntrez.Pubmed.Pubmed_ResultsPanel.Pubmed_RVDocSum'> " +
+            "Auyeung B, Baron-Cohen S, Wheelwright S, Allison C. (2007)</a><br>" +
+            "The Autism Spectrum Quotient: Children's Version (AQ-Child).<br>" +
+            "Journal of Autism and Developmental Disorders Dec 7</small>" +
+            "<br><br>" +
+            "翻译：青衫" +
+            "<br><br>" +
+            "本页面使用Cookie来储存您的结果，储存时长为2小时");
+    }
+</script>
+
+
+
 
 <div class="result"></div>
 <br>
