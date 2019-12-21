@@ -101,7 +101,6 @@ description: 孤独商成人测试量表，用于测试成年人的孤独症商�
         }
     }
 
-    let Cookie = getCookie("AQ-A");
     if (Cookie != null) {
         $('.test-body').addClass('hide');
         let dataJson = window.atob(JSON.parse(Cookie)['DATA']);

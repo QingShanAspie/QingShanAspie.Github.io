@@ -95,7 +95,6 @@ description: 孤独商儿童测试量表，用于测试儿童的孤独症商数
         }
     }
 
-    let Cookie = getCookie("AQ-C");
     if (Cookie != null) {
         $('.test-body').addClass('hide');
         let dataJson = window.atob(JSON.parse(Cookie)['DATA']);
