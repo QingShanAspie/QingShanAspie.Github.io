@@ -53,13 +53,13 @@ description: 孤独商成人测试量表，用于测试成年人的孤独症商�
             $('.result').html('<h1>请完成量表！！！</h1>');
         } else {
             if (count <= 21) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + A);
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + A + '</h1>');
             } else if (count > 21 && count <= 25) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + B);
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + B + '</h1>');
             } else if (count > 25 && count <= 31) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + C);
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + C + '</h1>');
             } else if (count > 31) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + D);
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + D + '</h1>');
             } else {
                 $('.result').html('<h1>请完成量表！！！</h1>');
             }
@@ -89,13 +89,13 @@ description: 孤独商成人测试量表，用于测试成年人的孤独症商�
 
     function CookieResult(count) {
         if (count <= 21) {
-            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + A + '<br/><br/>' + ReTest);
+            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/><h1>' + A + '</h1><br/><br/>' + ReTest);
         } else if (count > 21 && count <= 25) {
-            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + B + '<br/><br/>' + ReTest);
+            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/><h1>' + B + '</h1><br/><br/>' + ReTest);
         } else if (count > 25 && count <= 31) {
-            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + C + '<br/><br/>' + ReTest);
+            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/><h1>' + C + '</h1><br/><br/>' + ReTest);
         } else if (count > 31) {
-            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + D + '<br/><br/>' + ReTest);
+            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/><h1>' + D + '</h1><br/><br/>' + ReTest);
         } else {
             $('.result').html('<h1>您上次没有完成量表！！！</h1>' + '<br/><br/>' + ReTest);
         }

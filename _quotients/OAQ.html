@@ -34,11 +34,11 @@ description: 述情障碍又译作“情感表达不能”或“情感难言症�
             $('.result').html('<h1>请完成量表！！！</h1>');
         } else {
             if (count <= 94) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + A);
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + A + '</h1>');
             } else if (count > 94 && count <= 112) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + B);
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + B + '</h1>');
             } else if (count > 112) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/>' + C);
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + C + '</h1>');
             } else {
                 $('.result').html('<h1>请完成量表！！！</h1>');
             }
@@ -65,11 +65,11 @@ description: 述情障碍又译作“情感表达不能”或“情感难言症�
 
     function CookieResult(count) {
         if (count <= 94) {
-            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + A + '<br/><br/>' + ReTest);
+            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/><h1>' + A + '</h1><br/><br/>' + ReTest);
         } else if (count > 94 && count <= 112) {
-            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + B + '<br/><br/>' + ReTest);
+            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/><h1>' + B + '</h1><br/><br/>' + ReTest);
         } else if (count > 112) {
-            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/>' + C + '<br/><br/>' + ReTest);
+            $('.result').html('<h1>您上次的测试得分：' + count + '</h1><br/><h1>' + C + '</h1><br/><br/>' + ReTest);
         } else {
             $('.result').html('<h1>您上次没有完成量表！！！</h1>' + '<br/><br/>' + ReTest);
         }
