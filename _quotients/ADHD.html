@@ -36,6 +36,7 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
 
 <div class="result1"></div>
 <div class="result2"></div>
+<div class="retestButton"></div>
 <br>
 
 <script>
@@ -93,11 +94,11 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
             $('.result1').html('<h1>请完成量表！！！</h1>');
         } else {
             if (ResultA <= 16) {
-                $('.result1').html('<h1>您的测试得分<br/><br/>A部分：' + ResultA + '<br/>根据此部分的得分：<br>您不太可能有ADHD' + '</h1>');
+                $('.result1').html('<h1>您上次的测试得分<br/><br/>A部分：' + ResultA + '<br/>根据此部分的得分：<br>您不太可能有ADHD' + '</h1>');
             } else if (ResultA > 16 && ResultA <= 23) {
-                $('.result1').html('<h1>您的测试得分<br/><br/>A部分：' + ResultA + '<br/>根据此部分的得分：<br>您可能有ADHD' + '</h1>');
+                $('.result1').html('<h1>您上次的测试得分<br/><br/>A部分：' + ResultA + '<br/>根据此部分的得分：<br>您可能有ADHD' + '</h1>');
             } else if (ResultA > 23) {
-                $('.result1').html('<h1>您的测试得分<br/><br/>A部分：' + ResultA + '<br/>根据此部分的得分：<br>您非常可能有ADHD' + '</h1>');
+                $('.result1').html('<h1>您上次的测试得分<br/><br/>A部分：' + ResultA + '<br/>根据此部分的得分：<br>您非常可能有ADHD' + '</h1>');
             }
             if (ResultB <= 16) {
                 $('.result2').html('<h1><br>B部分：' + ResultB + '<br/>根据此部分的得分：<br>您不太可能有ADHD' + '</h1><br/>');
@@ -106,6 +107,7 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
             } else if (ResultB > 23) {
                 $('.result2').html('<h1><br>B部分：' + ResultB + '<br/>根据此部分的得分：<br>您非常可能有ADHD' + '</h1><br/>');
             }
+            $('.retestButton').html(ReTest);
         }
     }
 
