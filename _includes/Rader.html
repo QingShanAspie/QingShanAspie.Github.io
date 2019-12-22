@@ -1,3 +1,6 @@
+<!-- Echarts JavaScript CDN -->
+<script src="https://cdn.bootcss.com/echarts/4.3.0/echarts.min.js"></script>
+
 <script src="{{ '/assets/js/RaderResult.min.js' | relative_url }}"></script>
 
 <script>
@@ -12,7 +15,7 @@
         }
 
         /* 初始化雷达图 */
-        let radar_chart = echarts.init(document.getElementById("chart"),);
+        let radar_chart = echarts.init(document.getElementById("chart"));
         let option = {
             tooltip: {},
             radar: {
@@ -26,11 +29,11 @@
                     }
                 },
                 indicator: [
-                    {name: '社交技\n巧', max: muti},
-                    {name: '注意力\n切换', max: muti},
-                    {name: '细节注\n意力', max: muti},
-                    {name: '交流', max: muti},
-                    {name: '想象力\n', max: muti},
+                    { name: '社交技\n巧', max: muti },
+                    { name: '注意力\n切换', max: muti },
+                    { name: '细节注\n意力', max: muti },
+                    { name: '交流', max: muti },
+                    { name: '想象力\n', max: muti },
                 ]
             },
             series: [{
