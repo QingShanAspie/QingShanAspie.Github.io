@@ -25,20 +25,5 @@ layout: null
             {% endfor %}
         </item>
         {% endfor %}
-        {% for new in site.news %}
-        <item>
-            <title>{{ new.title | xml_escape }}</title>
-            <description>{{ new.content | xml_escape }}</description>
-            <pubDate>{{ pnew.date | date_to_rfc822 }}</pubDate>
-            <link>{{ new.url | prepend: site.baseurl | prepend: site.url }}</link>
-            <guid isPermaLink="true">{{ new.url | prepend: site.baseurl | prepend: site.url }}</guid>
-            {% for tag in new.tags %}
-            <category>{{ tag | xml_escape }}</category>
-            {% endfor %}
-            {% for cat in new.categories %}
-            <category>{{ cat | xml_escape }}</category>
-            {% endfor %}
-        </item>
-        {% endfor %}
     </channel>
 </rss>

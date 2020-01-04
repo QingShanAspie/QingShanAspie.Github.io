@@ -9,24 +9,21 @@ repository: QingShanAspie/QingShanAspie.Github.io
 
 debug: 0
 
-version: 0.1.1
+version: 0.1.2
 
 markdown: kramdown
 
 author:
-  name     : 青衫 Aspie
-  email    : qingshan_aspie@126.com
-  github   : 
-  wxmp     : https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247483668&idx=2&sn=dce6ec69066d00eec50cdfc2adf87bcb&chksm=e819171cdf6e9e0a53bc87fbcbbddd1868fc44f0d60965ab51a69ba8d98e71dd2494b0f03627&scene=21#wechat_redirect
-  zhihu    : qing-shan-83-9-38
+  name: 青衫 Aspie
+  email: qingshan_aspie@126.com
+  github:
+  wxmp: https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247483668&idx=2&sn=dce6ec69066d00eec50cdfc2adf87bcb&chksm=e819171cdf6e9e0a53bc87fbcbbddd1868fc44f0d60965ab51a69ba8d98e71dd2494b0f03627&scene=21#wechat_redirect
+  zhihu: qing-shan-83-9-38
 
 collections:
   quotients:
     output: true
     permalink: /Quotients/:name
-  news:
-    output: true
-    permalink: /News/:name
 
 compress_html:
   clippings: all
@@ -44,25 +41,17 @@ defaults:
       type: "quotients"
     values:
       layout: "page"
-  - scope:
-      path: ""
-      type: "news"
-    values:
-      layout: "post"
-
 
 permalink: Articles/:title
 
 sass:
-    sass_dir: _sass
-    style: compressed
-
+  sass_dir: _sass
+  style: compressed
 
 exclude:
-- README.md
-- CONTRIBUTING.md
-- LICENSE
-- Gemfile
-- Gemfile.lock
-- Readme_DEV.md
-
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - Readme_DEV.md
