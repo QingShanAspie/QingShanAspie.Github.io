@@ -10,5 +10,5 @@ layout: null
       "url"      : "{{ post.external_url | default: post.url | relative_url }}",
       "date"     : "{{ post.date }}"
     } {% unless forloop.last %},{% endunless %}
-  {% endfor %},
+  {% endfor %}
 ]
