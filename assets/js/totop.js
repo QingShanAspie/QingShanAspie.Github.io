@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
     let totop = $("#totop"),
         canvas = $("#totop-canvas"),
         percent = $("#totop-percent"),
@@ -16,17 +16,23 @@ $(function() {
         ctx.stroke();
     }
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         let docHeight = $(document).height() - $(window).height(),
             scrollTop = $(window).scrollTop(),
-            per = parseInt(scrollTop / docHeight * 100);
+            per = parseInt((scrollTop / docHeight * 100) + 3);
         if (scrollTop >= 200) {
             totop.addClass("display");
             ctx.clearRect(0, 0, width, height);
             drawCircle("#efefef", 1);
-            drawCircle("#555555", per/100);
-        } else
+            drawCircle("#555555", per / 100);
+        } else {
             totop.removeClass("display");
+        }
+        // 在盒子里你超过
+        if (per > 100) {
+            per = 100;
+        }
+
         percent.attr("data-percent", per);
     });
 });
