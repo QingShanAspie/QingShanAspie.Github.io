@@ -39,6 +39,9 @@ weight: 5
 
 {% include CardBox.html %}
 
+# 感谢
+
+{% include Contributor.html %}
 
 # 联系我们
 
