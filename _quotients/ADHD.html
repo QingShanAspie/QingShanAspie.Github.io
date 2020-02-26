@@ -20,6 +20,30 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
 {% include QuestionTable.html %}
 
 <script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
+
+<script>
+    let ADHD = {
+        "A": [{
+            "A": "您不太可能有ADHD"
+        }],
+        "B": [{
+            "A": "您很有可能有ADHD-I（注意力缺失为主）",
+            "B": "您非常有可能有ADHD-I（注意力缺失为主）"
+        }],
+        "C": [{
+            "A": "您很有可能有ADHD-H（过度运动为主）",
+            "B": "您非常有可能有ADHD-H（过度运动为主）"
+        }],
+        "D": [{
+            "A": "您很有可能有ADHD-C（不专心与过度运动混合）",
+            "B": "您非常有可能有ADHD-C（不专心与过度运动混合）"
+        }],
+        "E": [{
+            "A": "您很有可能有ADHD-C（不专心与过度运动混合，其中过度运动比较严重）",
+            "B": "您很有可能有ADHD-C（不专心与过度运动混合，其中注意力缺失比较严重）"
+        }]
+    };
+</script>
 <script>
     let Cookie = getCookie("ADHD");
     if (Cookie === null) {
@@ -87,27 +111,6 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
     }
 
     function ResultDispCookie(val1, val2, ResultA, ResultB) {
-        let ADHD = {
-            "A": [{
-                "A": "您不太可能有ADHD"
-            }],
-            "B": [{
-                "A": "您很有可能有ADHD-I（注意力缺失为主）",
-                "B": "您非常有可能有ADHD-I（注意力缺失为主）"
-            }],
-            "C": [{
-                "A": "您很有可能有ADHD-H（过度运动为主）",
-                "B": "您非常有可能有ADHD-H（过度运动为主）"
-            }],
-            "D": [{
-                "A": "您很有可能有ADHD-C（不专心与过度运动混合）",
-                "B": "您非常有可能有ADHD-C（不专心与过度运动混合）"
-            }],
-            "E": [{
-                "A": "您很有可能有ADHD-C（不专心与过度运动混合，其中过度运动比较严重）",
-                "B": "您很有可能有ADHD-C（不专心与过度运动混合，其中注意力缺失比较严重）"
-            }]
-        }
         $('.result').html('<h1>A部分（不专心）所得分数：' + ResultA + '<br/> B部分（过度运动）所得分数：' + ResultB + '<br/>测试结果表示您：<br/>' + ADHD[val1][0][val2] + '</h1>');
     }
 </script>
@@ -175,27 +178,6 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
     }
 
     function ResultDispCookie(val1, val2, ResultA, ResultB) {
-        let ADHD = {
-            "A": [{
-                "A": "您不太可能有ADHD"
-            }],
-            "B": [{
-                "A": "您很有可能有ADHD-I（注意力缺失为主）",
-                "B": "您非常有可能有ADHD-I（注意力缺失为主）"
-            }],
-            "C": [{
-                "A": "您很有可能有ADHD-H（过度运动为主）",
-                "B": "您非常有可能有ADHD-H（过度运动为主）"
-            }],
-            "D": [{
-                "A": "您很有可能有ADHD-C（不专心与过度运动混合）",
-                "B": "您非常有可能有ADHD-C（不专心与过度运动混合）"
-            }],
-            "E": [{
-                "A": "您很有可能有ADHD-C（不专心与过度运动混合，其中过度运动比较严重）",
-                "B": "您很有可能有ADHD-C（不专心与过度运动混合，其中注意力缺失比较严重）"
-            }]
-        }
         $('.result').html('<h1>您上次的分数为：<br/>A部分（不专心）所得分数：' + ResultA + '<br/> B部分（过度运动）所得分数：' + ResultB + '<br/>测试结果表示您：<br/>' + ADHD[val1][0][val2] + '</h1>');
     }
 
