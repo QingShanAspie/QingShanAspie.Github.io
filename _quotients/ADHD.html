@@ -4,7 +4,6 @@ name: 成人 ADHD 自填量表 (ASRS)
 tag: [多动症, 量表, 在线测试, ADHD, 成人测试]
 image: /assets/img/ADHD.jpg
 description: ADHD多动症成人测试量表，用于测试成年人的多动症情况
-external_url: https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/18Q_Chinese%20(Traditional)_final.pdf
 ---
 
 
@@ -34,8 +33,7 @@ external_url: https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/18Q_Chinese%20(Tra
     }
 </script>
 
-<div class="result1"></div>
-<div class="result2"></div>
+<div class="result"></div>
 <div class="retestButton"></div>
 <br>
 
@@ -52,21 +50,65 @@ external_url: https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/18Q_Chinese%20(Tra
             $('.result1').html('<h1>请完成量表！！！</h1>');
         } else {
             if (ResultA <= 16) {
-                $('.result1').html('<h1>您的测试得分<br/><br/>A部分：' + ResultA + '<br/>根据此部分的得分：<br>您不太可能有ADHD' + '</h1>');
-            } else if (ResultA > 16 && ResultA <= 23) {
-                $('.result1').html('<h1>您的测试得分<br/><br/>A部分：' + ResultA + '<br/>根据此部分的得分：<br>您可能有ADHD' + '</h1>');
-            } else if (ResultA > 23) {
-                $('.result1').html('<h1>您的测试得分<br/><br/>A部分：' + ResultA + '<br/>根据此部分的得分：<br>您非常可能有ADHD' + '</h1>');
+                if (ResultB <= 16) {
+                    ResultDispCookie("A", "A", ResultA, ResultB);
+                }
+                if (ResultB <= 23 && ResultB >= 17) {
+                    ResultDispCookie("C", "A", ResultA, ResultB);
+                }
+                if (ResultB >= 24) {
+                    ResultDispCookie("C", "B", ResultA, ResultB);
+                }
             }
-            if (ResultB <= 16) {
-                $('.result2').html('<h1><br>B部分：' + ResultB + '<br/>根据此部分的得分：<br>您不太可能有ADHD' + '</h1><br/>');
-            } else if (ResultB > 16 && ResultB <= 23) {
-                $('.result2').html('<h1><br>B部分：' + ResultB + '<br/>根据此部分的得分：<br>您可能有ADHD' + '</h1><br/>');
-            } else if (ResultB > 23) {
-                $('.result2').html('<h1><br>B部分：' + ResultB + '<br/>根据此部分的得分：<br>您非常可能有ADHD' + '</h1><br/>');
+            if (ResultA >= 17 && ResultA <= 23) {
+                if (ResultB <= 16) {
+                    ResultDispCookie("B", "A", ResultA, ResultB);
+                }
+                if (ResultB <= 23 && ResultB >= 17) {
+                    ResultDispCookie("D", "A", ResultA, ResultB);
+                }
+                if (ResultB >= 24) {
+                    ResultDispCookie("E", "A", ResultA, ResultB);
+                }
+            }
+            if (ResultA >= 24) {
+                if (ResultB <= 16) {
+                    ResultDispCookie("B", "B", ResultA, ResultB);
+                }
+                if (ResultB <= 23 && ResultB >= 17) {
+                    ResultDispCookie("D", "B", ResultA, ResultB);
+                }
+                if (ResultB >= 24) {
+                    ResultDispCookie("E", "B", ResultA, ResultB);
+                }
             }
             SaveCookies($data, "ADHD");
         }
+    }
+
+    function ResultDispCookie(val1, val2, ResultA, ResultB) {
+        let ADHD = {
+            "A": [{
+                "A": "您不太可能有ADHD"
+            }],
+            "B": [{
+                "A": "您很有可能有ADHD-I（注意力缺失为主）",
+                "B": "您非常有可能有ADHD-I（注意力缺失为主）"
+            }],
+            "C": [{
+                "A": "您很有可能有ADHD-H（过度运动为主）",
+                "B": "您非常有可能有ADHD-H（过度运动为主）"
+            }],
+            "D": [{
+                "A": "您很有可能有ADHD-C（不专心与过度运动混合）",
+                "B": "您非常有可能有ADHD-C（不专心与过度运动混合）"
+            }],
+            "E": [{
+                "A": "您很有可能有ADHD-C（不专心与过度运动混合，其中过度运动比较严重）",
+                "B": "您很有可能有ADHD-C（不专心与过度运动混合，其中注意力缺失比较严重）"
+            }]
+        }
+        $('.result').html('<h1>A部分（不专心）所得分数：' + ResultA + '<br/> B部分（过度运动）所得分数：' + ResultB + '<br/>测试结果表示您：<br/>' + ADHD[val1][0][val2] + '</h1>');
     }
 </script>
 
@@ -96,21 +138,65 @@ external_url: https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/18Q_Chinese%20(Tra
             $('.result1').html('<h1>请完成量表！！！</h1>');
         } else {
             if (ResultA <= 16) {
-                $('.result1').html('<h1>您上次的测试得分<br/><br/>A部分：' + ResultA + '<br/>根据此部分的得分：<br>您不太可能有ADHD' + '</h1>');
-            } else if (ResultA > 16 && ResultA <= 23) {
-                $('.result1').html('<h1>您上次的测试得分<br/><br/>A部分：' + ResultA + '<br/>根据此部分的得分：<br>您可能有ADHD' + '</h1>');
-            } else if (ResultA > 23) {
-                $('.result1').html('<h1>您上次的测试得分<br/><br/>A部分：' + ResultA + '<br/>根据此部分的得分：<br>您非常可能有ADHD' + '</h1>');
+                if (ResultB <= 16) {
+                    ResultDispCookie("A", "A", ResultA, ResultB);
+                }
+                if (ResultB <= 23 && ResultB >= 17) {
+                    ResultDispCookie("C", "A", ResultA, ResultB);
+                }
+                if (ResultB >= 24) {
+                    ResultDispCookie("C", "B", ResultA, ResultB);
+                }
             }
-            if (ResultB <= 16) {
-                $('.result2').html('<h1><br>B部分：' + ResultB + '<br/>根据此部分的得分：<br>您不太可能有ADHD' + '</h1><br/>');
-            } else if (ResultB > 16 && ResultB <= 23) {
-                $('.result2').html('<h1><br>B部分：' + ResultB + '<br/>根据此部分的得分：<br>您可能有ADHD' + '</h1><br/>');
-            } else if (ResultB > 23) {
-                $('.result2').html('<h1><br>B部分：' + ResultB + '<br/>根据此部分的得分：<br>您非常可能有ADHD' + '</h1><br/>');
+            if (ResultA >= 17 && ResultA <= 23) {
+                if (ResultB <= 16) {
+                    ResultDispCookie("B", "A", ResultA, ResultB);
+                }
+                if (ResultB <= 23 && ResultB >= 17) {
+                    ResultDispCookie("D", "A", ResultA, ResultB);
+                }
+                if (ResultB >= 24) {
+                    ResultDispCookie("E", "A", ResultA, ResultB);
+                }
+            }
+            if (ResultA >= 24) {
+                if (ResultB <= 16) {
+                    ResultDispCookie("B", "B", ResultA, ResultB);
+                }
+                if (ResultB <= 23 && ResultB >= 17) {
+                    ResultDispCookie("D", "B", ResultA, ResultB);
+                }
+                if (ResultB >= 24) {
+                    ResultDispCookie("E", "B", ResultA, ResultB);
+                }
             }
             $('.retestButton').html(ReTest);
         }
+    }
+
+    function ResultDispCookie(val1, val2, ResultA, ResultB) {
+        let ADHD = {
+            "A": [{
+                "A": "您不太可能有ADHD"
+            }],
+            "B": [{
+                "A": "您很有可能有ADHD-I（注意力缺失为主）",
+                "B": "您非常有可能有ADHD-I（注意力缺失为主）"
+            }],
+            "C": [{
+                "A": "您很有可能有ADHD-H（过度运动为主）",
+                "B": "您非常有可能有ADHD-H（过度运动为主）"
+            }],
+            "D": [{
+                "A": "您很有可能有ADHD-C（不专心与过度运动混合）",
+                "B": "您非常有可能有ADHD-C（不专心与过度运动混合）"
+            }],
+            "E": [{
+                "A": "您很有可能有ADHD-C（不专心与过度运动混合，其中过度运动比较严重）",
+                "B": "您很有可能有ADHD-C（不专心与过度运动混合，其中注意力缺失比较严重）"
+            }]
+        }
+        $('.result').html('<h1>您上次的分数为：<br/>A部分（不专心）所得分数：' + ResultA + '<br/> B部分（过度运动）所得分数：' + ResultB + '<br/>测试结果表示您：<br/>' + ADHD[val1][0][val2] + '</h1>');
     }
 
     if (Cookie != null) {

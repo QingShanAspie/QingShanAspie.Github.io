@@ -3,8 +3,8 @@
         <div class="col-md-12 test-label">
             <div class="test-body">
                 <div id="test-form">
-                    <p class="phone-layout agree-text">同意</p>
-                    <p class="phone-layout disagree-text">反对</p>
+                    <p class="phone-layout agree-text">经常这样</p>
+                    <p class="phone-layout disagree-text">从来没有</p>
                     {% for q in site.data.ADHD.question %}
                     <div class="question-wrapper set1">
                         <div class="statement">
@@ -12,7 +12,7 @@
                         </div>
                         <div class="row decision">
                             <div class="hidden-xs col-sm-3 caption left agree-str"
-                                onclick="setAnswer('{{ q.id }}', 4);">同意
+                                onclick="setAnswer('{{ q.id }}', 4);">经常这样
                             </div>
                             <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
                                 aria-label="Options">
@@ -33,7 +33,7 @@
                                 </label>
                             </div>
                             <div class="hidden-xs col-sm-3 caption right disagree-str"
-                                onclick="setAnswer('{{ q.id }}', 0);">反对
+                                onclick="setAnswer('{{ q.id }}', 0);">从来没有
                             </div>
                         </div>
                     </div>
