@@ -75,43 +75,43 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
         } else {
             if (ResultA <= 16) {
                 if (ResultB <= 16) {
-                    ResultDispCookie("A", "A", ResultA, ResultB);
+                    ResultDisp("A", "A", ResultA, ResultB);
                 }
                 if (ResultB <= 23 && ResultB >= 17) {
-                    ResultDispCookie("C", "A", ResultA, ResultB);
+                    ResultDisp("C", "A", ResultA, ResultB);
                 }
                 if (ResultB >= 24) {
-                    ResultDispCookie("C", "B", ResultA, ResultB);
+                    ResultDisp("C", "B", ResultA, ResultB);
                 }
             }
             if (ResultA >= 17 && ResultA <= 23) {
                 if (ResultB <= 16) {
-                    ResultDispCookie("B", "A", ResultA, ResultB);
+                    ResultDisp("B", "A", ResultA, ResultB);
                 }
                 if (ResultB <= 23 && ResultB >= 17) {
-                    ResultDispCookie("D", "A", ResultA, ResultB);
+                    ResultDisp("D", "A", ResultA, ResultB);
                 }
                 if (ResultB >= 24) {
-                    ResultDispCookie("E", "A", ResultA, ResultB);
+                    ResultDisp("E", "A", ResultA, ResultB);
                 }
             }
             if (ResultA >= 24) {
                 if (ResultB <= 16) {
-                    ResultDispCookie("B", "B", ResultA, ResultB);
+                    ResultDisp("B", "B", ResultA, ResultB);
                 }
                 if (ResultB <= 23 && ResultB >= 17) {
-                    ResultDispCookie("D", "B", ResultA, ResultB);
+                    ResultDisp("D", "B", ResultA, ResultB);
                 }
                 if (ResultB >= 24) {
-                    ResultDispCookie("E", "B", ResultA, ResultB);
+                    ResultDisp("E", "B", ResultA, ResultB);
                 }
             }
             SaveCookies($data, "ADHD");
         }
     }
 
-    function ResultDispCookie(val1, val2, ResultA, ResultB) {
-        $('.result').html('<h1>A部分（不专心）所得分数：' + ResultA + '<br/> B部分（过度运动）所得分数：' + ResultB + '<br/>测试结果表示您：<br/>' + ADHD[val1][0][val2] + '</h1>');
+    function ResultDisp(val1, val2, ResultA, ResultB) {
+        $('.result').html('<h1>A部分（注意力障碍）所得分数：' + ResultA + '<br/> B部分（多动/冲动控制障碍）所得分数：' + ResultB + '<br/>测试结果表示您：<br/>' + ADHD[val1][0][val2] + '</h1>');
     }
 </script>
 
@@ -178,7 +178,7 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
     }
 
     function ResultDispCookie(val1, val2, ResultA, ResultB) {
-        $('.result').html('<h1>您上次的分数为：<br/>A部分（不专心）所得分数：' + ResultA + '<br/> B部分（过度运动）所得分数：' + ResultB + '<br/>测试结果表示您：<br/>' + ADHD[val1][0][val2] + '</h1>');
+        $('.result').html('<h1>您上次的测试结果：<br/>A部分（注意力障碍）所得分数：' + ResultA + '<br/> B部分（多动/冲动控制障碍）所得分数：' + ResultB + '<br/>测试结果表示您：<br/>' + ADHD[val1][0][val2] + '</h1>');
     }
 
     if (Cookie != null) {
