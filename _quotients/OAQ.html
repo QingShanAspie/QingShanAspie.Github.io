@@ -11,6 +11,7 @@ description: 述情障碍又译作“情感表达不能”或“情感难言症�
 {% include QuestionTable.html %}
 
 <script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/QuotientsConst.js' | relative_url }}"></script>
 <script>
     let Cookie = getCookie("OAQ");
     if (Cookie === null) {
@@ -52,16 +53,6 @@ description: 述情障碍又译作“情感表达不能”或“情感难言症�
 {% include totop.html %}
 
 <script>
-    let ReTest = '<div class="row">' +
-        '<div class="col-md-12">' +
-        '<div class="submit_wrapper setres">' +
-        '<button class="btn btn-action btn-lg" onclick="ReTestFunc();">' +
-        '<span>重新测试&nbsp;</span><span class="fa fa-caret-right"></span>' +
-        '</button>' +
-        '</div>' +
-        '</div>' +
-        '</div>';
-
     function ReTestFunc() {
         removeCookie("OAQ");
         window.location.reload()

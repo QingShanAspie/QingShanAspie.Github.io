@@ -20,30 +20,7 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
 {% include QuestionTable.html %}
 
 <script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
-
-<script>
-    let ADHD = {
-        "A": [{
-            "A": "您不太可能有ADHD"
-        }],
-        "B": [{
-            "A": "您很有可能有ADHD-I（注意力缺失为主）",
-            "B": "您非常有可能有ADHD-I（注意力缺失为主）"
-        }],
-        "C": [{
-            "A": "您很有可能有ADHD-H（过度运动为主）",
-            "B": "您非常有可能有ADHD-H（过度运动为主）"
-        }],
-        "D": [{
-            "A": "您很有可能有ADHD-C（不专心与过度运动混合）",
-            "B": "您非常有可能有ADHD-C（不专心与过度运动混合）"
-        }],
-        "E": [{
-            "A": "您很有可能有ADHD-C（不专心与过度运动混合，其中过度运动比较严重）",
-            "B": "您很有可能有ADHD-C（不专心与过度运动混合，其中注意力缺失比较严重）"
-        }]
-    };
-</script>
+<script src="{{ '/assets/js/QuotientsConst.js' | relative_url }}"></script>
 <script>
     let Cookie = getCookie("ADHD");
     if (Cookie === null) {
@@ -71,7 +48,7 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
         let ResultB = ADHD_Resoult_B($data);
 
         if (isNaN(ResultA) || isNaN(ResultB)) {
-            $('.result1').html('<h1>请完成量表！！！</h1>');
+            $('.result').html('<h1>请完成量表！！！</h1>' + ReTest);
         } else {
             if (ResultA <= 16) {
                 if (ResultB <= 16) {
@@ -118,16 +95,6 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
 {% include totop.html %}
 
 <script>
-    let ReTest = '<div class="row">' +
-        '<div class="col-md-12">' +
-        '<div class="submit_wrapper setres">' +
-        '<button class="btn btn-action btn-lg" onclick="ReTestFunc();">' +
-        '<span>重新测试&nbsp;</span><span class="fa fa-caret-right"></span>' +
-        '</button>' +
-        '</div>' +
-        '</div>' +
-        '</div>';
-
     function ReTestFunc() {
         removeCookie("ADHD");
         window.location.reload()
@@ -138,7 +105,7 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
         let ResultB = ADHD_Resoult_B(CookieData);
 
         if (isNaN(ResultA) || isNaN(ResultB)) {
-            $('.result1').html('<h1>请完成量表！！！</h1>');
+            $('.result').html('<h1>请完成量表！！！</h1>');
         } else {
             if (ResultA <= 16) {
                 if (ResultB <= 16) {

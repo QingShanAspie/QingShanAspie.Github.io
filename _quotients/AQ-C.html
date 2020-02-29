@@ -20,6 +20,7 @@ description: 孤独商儿童测试量表，用于测试儿童的孤独症商数
 {% include QuestionTable.html %}
 
 <script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/QuotientsConst.js' | relative_url }}"></script>
 <script>
     let Cookie = getCookie("AQ-C");
     if (Cookie === null) {
@@ -55,9 +56,9 @@ description: 孤独商儿童测试量表，用于测试儿童的孤独症商数
             $('.result').html('<h1>请完成量表！！！</h1>');
         } else {
             if (count >= 76) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + D+ '</h1>');
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + D + '</h1>');
             } else if (count < 76) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + A+ '</h1>');
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + A + '</h1>');
             } else {
                 $('.result').html('<h1>请完成量表！！！</h1>');
             }
@@ -72,16 +73,6 @@ description: 孤独商儿童测试量表，用于测试儿童的孤独症商数
 {% include Rader.html %}
 
 <script>
-    let ReTest = '<div class="row">' +
-        '<div class="col-md-12">' +
-        '<div class="submit_wrapper setres">' +
-        '<button class="btn btn-action btn-lg" onclick="ReTestFunc();">' +
-        '<span>重新测试&nbsp;</span><span class="fa fa-caret-right"></span>' +
-        '</button>' +
-        '</div>' +
-        '</div>' +
-        '</div>';
-
     function ReTestFunc() {
         removeCookie("AQ-C");
         window.location.reload()
