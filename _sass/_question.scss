@@ -200,7 +200,7 @@ sup {
   background-color: #fff;
   width: 28px;
   height: 28px;
-  border: 2px solid #ececeb;
+  border: 2px solid #7d7d7d;
 }
 
 .test-label #test-form .question-wrapper .decision .options .option.disagree {
@@ -221,7 +221,7 @@ sup {
 
 .test-label #test-form .question-wrapper .decision .options .option.neutral.active,
 .test-label #test-form .question-wrapper .decision .options .option.neutral:hover {
-  background-color: #ececeb;
+  background-color: #7d7d7d;
 }
 
 .submit_wrapper {
@@ -293,7 +293,7 @@ input[type="radio"] {
   }
   .test-label #test-form .question-wrapper .decision .options .option.neutral {
     background-color: #fff;
-    border: 2px solid #ececeb;
+    border: 2px solid #7d7d7d;
     transition: ease-in 100ms;
   }
 }
