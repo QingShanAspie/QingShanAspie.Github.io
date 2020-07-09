@@ -16,8 +16,7 @@ markdown: kramdown
 author:
   name: 青衫 Aspie
   email: qingshan_aspie@126.com
-  github:
-  wxmp: https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247483668&idx=2&sn=dce6ec69066d00eec50cdfc2adf87bcb&chksm=e819171cdf6e9e0a53bc87fbcbbddd1868fc44f0d60965ab51a69ba8d98e71dd2494b0f03627&scene=21#wechat_redirect
+  wxmp: http://mp.weixin.qq.com/mp/homepage?__biz=MzIyMzgyMjY5NQ==&hid=1&sn=f3f557bb16f4781bf487fe58efa0c15f&scene=18
   zhihu: qing-shan-83-9-38
 
 collections:
