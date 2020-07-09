@@ -5,23 +5,24 @@
 .home-new-text {
     margin-top: 4em;
     text-align: center;
-    font-size : 25px;
+    font-size: 25px;
 }
 
 .more-button {
-    cursor       : pointer;
-    text-align   : right;
+    cursor: pointer;
+    text-align: right;
+    padding-top: 20px;
     padding-right: 17px;
 }
 
 .more-button span {
-    border-radius   : $rounded-borders;
-    color           : white;
+    border-radius: $rounded-borders;
+    color: white;
     background-color: $primary;
-    padding-top     : 5px;
-    padding-bottom  : 5px;
-    padding-left    : 10px;
-    padding-right   : 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .footer-text {

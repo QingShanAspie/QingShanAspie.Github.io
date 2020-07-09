@@ -7,55 +7,55 @@ body {
 }
 
 #container {
-  display : inline-block;
+  display: inline-block;
   position: relative;
-  width   : 100%;
+  width: 100%;
 }
 
 #dummy {
-  font-size : 37px;
+  font-size: 37px;
   text-align: center;
 }
 
 #element {
   position: absolute;
-  top     : 0;
-  bottom  : 0;
-  left    : 0;
-  right   : 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .circle-image {
-  width          : 100%;
-  height         : 100%;
-  border-radius  : 50%;
-  object-fit     : cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
   object-position: center;
 }
 
 // Footer
 .social {
   text-decoration: none !important;
-  color          : #6c757d;
+  color: #6c757d;
 
   &.qq:hover {
-    color: #17a2b8
+    color: #17a2b8;
   }
 
   &.weixin:hover {
-    color: #3ab827
+    color: #3ab827;
   }
 
   &.email:hover {
-    color: #db4437
+    color: #db4437;
   }
 
   &.github:hover {
-    color: #333333
+    color: #333333;
   }
 }
 
 hr {
-  width     : 30%;
+  width: 30%;
   border-top: 1px dotted #fff;
 }

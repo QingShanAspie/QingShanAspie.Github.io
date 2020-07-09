@@ -1,18 +1,5 @@
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "variables",
-"CardBox",
-"Contributor",
-"question",
-"base",
-"navbar",
-"quotient",
-"articles",
-"autumn",
-"skills",
-"timeline",
-"404",
-"alert",
-"load",
-"others";
+@import "variables", "CardBox", "Contributor", "question", "base", "navbar", "quotient", "articles", "autumn", "skills",
+    "timeline", "404", "alert", "load", "others";
