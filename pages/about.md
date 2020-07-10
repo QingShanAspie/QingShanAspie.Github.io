@@ -41,6 +41,8 @@ weight: 5
 
 # 感谢
 
+---
+
 {% include Contributor.html %}
 
 # 联系我们
