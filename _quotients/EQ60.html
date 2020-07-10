@@ -6,6 +6,7 @@ image: /assets/img/EQ60.jpg
 description: 同理商测试，解自己的同理心程度
 ---
 
+<!--
 
 <p style="text-align: center; color: #33975b">
     <b>同理商测试量表 (Empathy Quotient)</b><br>
@@ -41,9 +42,9 @@ description: 同理商测试，解自己的同理心程度
             $('.result').html('<h1>请完成量表！！！</h1>');
         } else {
             if (count <= 30) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您可能患有ASD" + '</h1>');
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您可能有ASD" + '</h1>');
             } else {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您不太可能患有ASD" + '</h1>');
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您不太可能有ASD" + '</h1>');
             }
         }
         SaveCookies($data, "EQ60");
@@ -60,9 +61,9 @@ description: 同理商测试，解自己的同理心程度
 
     function CookieResult(count) {
         if (count <= 30) {
-            $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您可能患有ASD" + '</h1>' + ReTest);
+            $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您可能有ASD" + '</h1>' + ReTest);
         } else {
-            $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您不太可能患有ASD" + '</h1>' + ReTest);
+            $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您不太可能有ASD" + '</h1>' + ReTest);
         }
     }
 
@@ -74,3 +75,4 @@ description: 同理商测试，解自己的同理心程度
         CookieResult(res);
     }
 </script>
+-->
