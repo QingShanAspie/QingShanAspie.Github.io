@@ -3,7 +3,7 @@
         <div class="col-md-12 test-label">
             <div class="test-body">
                 <div id="test-form">
-                    <p class="phone-layout agree-text">同意</p>
+                    <p class="phone-layout agree-text">赞同</p>
                     <p class="phone-layout disagree-text">反对</p>
                     {% for q in site.data.OAQ.question %}
                     <div class="question-wrapper set1">
@@ -13,7 +13,7 @@
                         {% if q.rev == 0 %}
                         <div class="row decision">
                             <div class="hidden-xs col-sm-3 caption left agree-str"
-                                 onclick="setAnswer('{{ q.id }}', 5);">同意
+                                 onclick="setAnswer('{{ q.id }}', 5);">赞同
                             </div>
                             <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
                                  aria-label="Options">
@@ -40,7 +40,7 @@
                         {% else %}
                         <div class="row decision">
                             <div class="hidden-xs col-sm-3 caption left agree-str"
-                                 onclick="setAnswer('{{ q.id }}', 1);">同意
+                                 onclick="setAnswer('{{ q.id }}', 1);">赞同
                             </div>
                             <div class="col-xs-12 col-sm-6 options btn-group" data-toggle="buttons" role="group"
                                  aria-label="Options">

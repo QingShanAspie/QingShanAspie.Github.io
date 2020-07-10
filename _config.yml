@@ -9,7 +9,9 @@ repository: QingShanAspie/QingShanAspie.Github.io
 
 debug: 0
 
-version: 0.1.3
+version: 0.1.4
+
+qver: 1.1.2
 
 markdown: kramdown
 
