@@ -9,73 +9,73 @@ description: 同理商测试，解自己的同理心程度
 
 <h1>敬请期待</h1>
 
-<!--
 
-<p style="text-align: center; color: #33975b">
-    <b>同理商测试量表 (Empathy Quotient)</b><br>
-    来自:<br>
-    <small><a href="https://pubmed.ncbi.nlm.nih.gov/15162935/">The Empathy Quotient: An Investigation of Adults
-            with Asperger Syndrome or High Functioning Autism,
-            and Normal Sex Differences</a></small>
-</p>
+<div class="tobecon">
+    <p style="text-align: center; color: #33975b">
+        <b>同理商测试量表 (Empathy Quotient)</b><br>
+        来自:<br>
+        <small><a href="https://pubmed.ncbi.nlm.nih.gov/15162935/">The Empathy Quotient: An Investigation of Adults
+                with Asperger Syndrome or High Functioning Autism,
+                and Normal Sex Differences</a></small>
+    </p>
 
-{% include Quotients/EQ60.html %}
+    {% include Quotients/EQ60.html %}
 
-{% include QuestionTable.html %}
+    {% include QuestionTable.html %}
 
-<script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/QuotientsConst.js' | relative_url }}"></script>
-<script>
-    let Cookie = getCookie("EQ60");
-    if (Cookie === null) {
-        alert("<b>本量表只作为参考，具体诊断还需要医院的分析。</b>" +
-            "<br><br>" +
-            "<br><br>" +
-            "本页面使用Cookie来储存您的结果，储存时长为2小时");
-    }
-</script>
+    <script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/QuotientsConst.js' | relative_url }}"></script>
+    <script>
+        let Cookie = getCookie("EQ60");
+        if (Cookie === null) {
+            alert("<b>本量表只作为参考，具体诊断还需要医院的分析。</b>" +
+                "<br><br>" +
+                "<br><br>" +
+                "本页面使用Cookie来储存您的结果，储存时长为2小时");
+        }
+    </script>
 
-<div class="result"></div>
-<div class="retestButton"></div>
-<br>
+    <div class="result"></div>
+    <div class="retestButton"></div>
+    <br>
 
-<script>
-    function GetResult(count) {
-        if (parseInt('{{ site.data.EQ60.count }}') !== Object.keys($data).length) {
-            $('.result').html('<h1>请完成量表！！！</h1>');
-        } else {
-            if (count <= 30) {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您可能有ASD" + '</h1>');
+    <script>
+        function GetResult(count) {
+            if (parseInt('{{ site.data.EQ60.count }}') !== Object.keys($data).length) {
+                $('.result').html('<h1>请完成量表！！！</h1>');
             } else {
-                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您不太可能有ASD" + '</h1>');
+                if (count <= 30) {
+                    $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您可能有ASD" + '</h1>');
+                } else {
+                    $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您不太可能有ASD" + '</h1>');
+                }
+            }
+            SaveCookies($data, "EQ60");
+        }
+    </script>
+
+    {% include totop.html %}
+
+    <script>
+        function ReTestFunc() {
+            removeCookie("EQ60");
+            window.location.reload()
+        }
+
+        function CookieResult(count) {
+            if (count <= 30) {
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您可能有ASD" + '</h1>' + ReTest);
+            } else {
+                $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您不太可能有ASD" + '</h1>' + ReTest);
             }
         }
-        SaveCookies($data, "EQ60");
-    }
-</script>
 
-{% include totop.html %}
-
-<script>
-    function ReTestFunc() {
-        removeCookie("EQ60");
-        window.location.reload()
-    }
-
-    function CookieResult(count) {
-        if (count <= 30) {
-            $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您可能有ASD" + '</h1>' + ReTest);
-        } else {
-            $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您不太可能有ASD" + '</h1>' + ReTest);
+        if (Cookie != null) {
+            $('.test-body').addClass('hide');
+            let dataJson = window.atob(JSON.parse(Cookie)['DATA']);
+            let datas = JSON.parse(dataJson);
+            let res = Resoult(datas);
+            CookieResult(res);
         }
-    }
-
-    if (Cookie != null) {
-        $('.test-body').addClass('hide');
-        let dataJson = window.atob(JSON.parse(Cookie)['DATA']);
-        let datas = JSON.parse(dataJson);
-        let res = Resoult(datas);
-        CookieResult(res);
-    }
-</script>
--->
+    </script>
+</div>

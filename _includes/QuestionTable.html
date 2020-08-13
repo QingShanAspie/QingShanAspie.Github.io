@@ -6,3 +6,10 @@
 
 <script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
 <script src="{{ '/assets/js/Quotients.js' | relative_url }}"></script>
+
+<script>
+    let tobecon_states = getQueryString('tobecon');
+    if (tobecon_states == 1) {
+        $('.tobecon').css("display", "block")
+    }
+</script>
