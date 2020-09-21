@@ -141,7 +141,7 @@ sup {
 .test-label #test-form .question-wrapper .decision .caption.left {
   text-align: right;
   padding-right: 0;
-  color: #4c9070;
+  color: $quotientAgree;
   cursor: pointer;
   padding-bottom: 10px;
 }
@@ -149,7 +149,7 @@ sup {
 .test-label #test-form .question-wrapper .decision .caption.right {
   text-align: left;
   padding-left: 0;
-  color: #94657e;
+  color: $quotientDisagree;
   cursor: pointer;
   padding-bottom: 10px;
 }
@@ -173,8 +173,8 @@ sup {
 }
 
 .test-label #test-form .question-wrapper .decision .options .option.agree {
-  background-color: #fff;
-  border: 2px solid #4c9070;
+  background-color: $quotientWhite;
+  border: 2px solid $quotientAgree;
   transition: ease-in 200ms;
 }
 
@@ -197,31 +197,31 @@ sup {
 }
 
 .test-label #test-form .question-wrapper .decision .options .option.neutral {
-  background-color: #fff;
+  background-color: $quotientWhite;
   width: 28px;
   height: 28px;
-  border: 2px solid #7d7d7d;
+  border: 2px solid $quotientNeutral;
 }
 
 .test-label #test-form .question-wrapper .decision .options .option.disagree {
-  background-color: #fff;
-  border: 2px solid #94657e;
+  background-color: $quotientWhite;
+  border: 2px solid $quotientDisagree;
   transition: ease-in 200ms;
 }
 
 .test-label #test-form .question-wrapper .decision .options .option.agree.active,
 .test-label #test-form .question-wrapper .decision .options .option.agree:hover {
-  background-color: #4c9070;
+  background-color: $quotientAgree;
 }
 
 .test-label #test-form .question-wrapper .decision .options .option.disagree.active,
 .test-label #test-form .question-wrapper .decision .options .option.disagree:hover {
-  background-color: #94657e;
+  background-color: $quotientDisagree;
 }
 
 .test-label #test-form .question-wrapper .decision .options .option.neutral.active,
 .test-label #test-form .question-wrapper .decision .options .option.neutral:hover {
-  background-color: #7d7d7d;
+  background-color: $quotientNeutral;
 }
 
 .submit_wrapper {
@@ -229,10 +229,10 @@ sup {
 }
 
 .btn-action {
-  background-color: #de6951;
-  color: #fff;
+  background-color: $quotientButton;
+  color: $quotientWhite;
   margin: 10px 0 25px;
-  border: #de6951 1px;
+  border: $quotientButton 1px;
 }
 
 input[type="radio"] {
@@ -240,10 +240,10 @@ input[type="radio"] {
 }
 
 .btn-action:hover {
-  background-color: #ffffff;
-  color: #de6951;
+  background-color: $quotientWhite;
+  color: $quotientButton;
   margin: 10px 0 25px;
-  border: #de6951 1px;
+  border: $quotientButton 1px;
 }
 
 .row.text {
@@ -266,14 +266,14 @@ input[type="radio"] {
   }
 
   .agree-text {
-    color: #4c9070;
+    color: $quotientAgree;
     display: block;
     float: left;
     margin-left: 10px;
   }
 
   .disagree-text {
-    color: #94657e;
+    color: $quotientDisagree;
     display: block;
     float: right;
     margin-right: 10px;
@@ -282,18 +282,18 @@ input[type="radio"] {
 
 @media screen and (max-width: 768px) {
   .test-label #test-form .question-wrapper .decision .options .option.agree {
-    background-color: #fff;
-    border: 2px solid #4c9070;
+    background-color: $quotientWhite;
+    border: 2px solid $quotientAgree;
     transition: ease-in 100ms;
   }
   .test-label #test-form .question-wrapper .decision .options .option.disagree {
-    background-color: #fff;
-    border: 2px solid #94657e;
+    background-color: $quotientWhite;
+    border: 2px solid $quotientDisagree;
     transition: ease-in 100ms;
   }
   .test-label #test-form .question-wrapper .decision .options .option.neutral {
-    background-color: #fff;
-    border: 2px solid #7d7d7d;
+    background-color: $quotientWhite;
+    border: 2px solid $quotientNeutral;
     transition: ease-in 100ms;
   }
 }
@@ -301,7 +301,7 @@ input[type="radio"] {
 .bar-line {
   margin: auto auto;
   width: 200px;
-  background: #fff;
+  background: $quotientWhite;
   border-radius: 8px;
   display: none;
   position: center;
@@ -335,7 +335,7 @@ input[type="radio"] {
 }
 
 #percent {
-  color: #4dbf7d;
+  color: $primary;
   text-align: center;
 }
 

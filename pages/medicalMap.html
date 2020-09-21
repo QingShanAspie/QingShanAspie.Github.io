@@ -1,0 +1,34 @@
+---
+layout: default
+title: 就诊
+permalink: /Medical-Map/
+weight: 4
+---
+
+<!-- Echarts JavaScript CDN -->
+<script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+<script src="https://cdn.staticfile.org/jquery-resize/1.0/jquery.ba-resize.min.js"></script>
+
+<script src="{{ '/assets/js/echarts/china.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/echarts/mapData.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/echarts/mapFunc.js' | relative_url }}"></script>
+
+
+<div class="chart">
+    <div id="china_chart" style="height: 800px; width: 100%;"></div>
+</div>
+
+
+<script>
+    let chart = echarts.init(document.getElementById('china_chart'));
+    chart.setOption(option);
+
+
+    chart.on('click', function (params) {
+        console.log(params)
+    })
+
+    $('.chart').resize(function () {
+        chart.resize();
+    });
+</script>

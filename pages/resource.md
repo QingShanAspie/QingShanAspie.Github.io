@@ -2,7 +2,7 @@
 layout: page
 title: 资源
 permalink: /Resource/
-weight: 4
+weight: 2
 ---
 
 > 大部分都是英文的，小伙伴们可以一起汉化。其中一些网站由于网络原因，可能无法访问。

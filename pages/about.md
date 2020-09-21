@@ -2,7 +2,7 @@
 layout: page
 title: 关于
 permalink: /About/
-weight: 5
+weight: 3
 ---
 
 <img align="center" width="100px" src="/assets/favicon.ico"  alt="LOGO"/>
