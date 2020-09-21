@@ -63,27 +63,24 @@ function ProcessBar(time) {
 }
 
 function Resoult($data) {
-    let i;
     let count = 0;
-    for (i = 0; i < Object.keys($data).length; ++i) {
+    for (let i = 0; i < Object.keys($data).length; ++i) {
         count += $data[i];
     }
     return count;
 }
 
 function ADHD_Resoult_A($data) {
-    let i;
     let count = 0;
-    for (i = 0; i < 9; ++i) {
+    for (let i = 0; i < 9; ++i) {
         count += $data[i];
     }
     return count;
 }
 
 function ADHD_Resoult_B($data) {
-    let i;
     let count = 0;
-    for (i = 9; i < 18; ++i) {
+    for (let i = 9; i < 18; ++i) {
         count += $data[i];
     }
     return count;
