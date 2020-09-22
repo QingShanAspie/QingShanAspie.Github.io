@@ -16,7 +16,7 @@ MapInfo:
 
   - name: 广东
     location: 广州医科大学附属脑科医院（广州市惠爱医院），深圳市康宁医院
-    describe: 惠爱医院：吴秋霞(可确诊ASD) 程道猛 李苏义(均可确诊ADHD)<br>康宁医院：王中磊(可确诊ASD与ADHD，有ados) 石顺治(可确诊ADHD) 齐云柯(可确诊ADHD)
+    describe: 惠爱医院：吴秋霞(可确诊ASD) 程道猛 李苏义(均可确诊ADHD)<br>康宁医院：王中磊(可确诊ASD与ADHD，有ados) <br> 石顺治(可确诊ADHD) 齐云柯(可确诊ADHD)
     mutiLink: true
     infoLink: 
       - https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484084&idx=1&sn=3c40520f525486252d1384c1bb942c01&chksm=e81914bcdf6e9daaaebcea46f3909d2f891da3ecf4db9ecb71bb7b549335e61058e2d036faf4&token=198713600&lang=en_US#rd
@@ -30,7 +30,7 @@ MapInfo:
 
   - name: 重庆
     location: 重庆市精神卫生中心
-    describe: 王敏建 王大开(均可确诊ADHD)，王敏(可能能诊断成人asd，案例只写了“特质”，到底能不能确诊不知)
+    describe: 王敏建 王大开(均可确诊ADHD)，王敏(可能能诊断成人asd，<br>案例只写了“特质”，到底能不能确诊不知)
     mutiLink: false
     infoLink: 0
 

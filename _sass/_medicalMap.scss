@@ -1,0 +1,13 @@
+#china_list {
+    display: none;
+}
+
+@media screen and (max-width: 575px) {
+    #china_chart {
+        display: none;
+    }
+
+    #china_list {
+        display: block;
+    }
+}
