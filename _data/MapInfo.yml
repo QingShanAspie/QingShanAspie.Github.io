@@ -11,19 +11,86 @@ MapInfo:
   - name: 湖南
     location: 中南大学湘雅二医院
     describe: 崔夕龙(可确诊ADHD)
+    mutiLink: false
     infoLink: 0
 
   - name: 广东
     location: 广州医科大学附属脑科医院（广州市惠爱医院），深圳市康宁医院
-    describe: 惠爱医院：吴秋霞 程道猛 李苏义(均可确诊ADHD)<br>康宁医院：王中磊(可确诊ASD与ADHD) 石顺治(可确诊ADHD) 齐云柯(可确诊ADHD)
-    infoLink: https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484084&idx=1&sn=3c40520f525486252d1384c1bb942c01&chksm=e81914bcdf6e9daaaebcea46f3909d2f891da3ecf4db9ecb71bb7b549335e61058e2d036faf4&token=198713600&lang=en_US#rd
+    describe: 惠爱医院：吴秋霞(可确诊ASD) 程道猛 李苏义(均可确诊ADHD)<br>康宁医院：王中磊(可确诊ASD与ADHD，有ados) 石顺治(可确诊ADHD) 齐云柯(可确诊ADHD)
+    mutiLink: true
+    infoLink: 
+      - https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484084&idx=1&sn=3c40520f525486252d1384c1bb942c01&chksm=e81914bcdf6e9daaaebcea46f3909d2f891da3ecf4db9ecb71bb7b549335e61058e2d036faf4&token=198713600&lang=en_US#rd
+      - https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484121&idx=1&sn=527fa482e5d2b30295909ab1af496450&chksm=e81914d1df6e9dc7b4451211cc6eba5b7940330ee07630ae1181e9e2789ed9b93f7fa0e36dc9&token=198713600&lang=en_US#rd
+
+  - name: 湖北
+    location: 武汉市精神卫生中心
+    describe: 李轶琛 汤珺(均可确诊ADHD)
+    mutiLink: false
+    infoLink: 0
+
+  - name: 重庆
+    location: 重庆市精神卫生中心
+    describe: 王敏建 王大开(均可确诊ADHD)，王敏(可能能诊断成人asd，案例只写了“特质”，到底能不能确诊不知)
+    mutiLink: false
+    infoLink: 0
+
+  - name: 上海
+    location: 上海新华医院
+    describe: 张劲松 夏卫萍 帅澜(均可确诊ADHD)
+    mutiLink: false
+    infoLink: https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484305&idx=1&sn=3829a5ac3b46a403dc4d38f33c4f0abd&chksm=e8191599df6e9c8f9c4db169a29e85bd3ea0c7f19e71f667454d280967da34a1795a25cd997f&token=198713600&lang=en_US#rd
+
+  - name: 辽宁
+    location: 辽宁电力中心医院
+    describe: 姜爽 (可确诊ADHD与ASD)
+    mutiLink: false
+    infoLink: 0
+
+  - name: 陕西
+    location: 西安交大第二附属医院
+    describe: 王亚萍 (可确诊ADHD)
+    mutiLink: false
+    infoLink: 0
+
+  - name: 山西
+    location: 山西医科大学第一医院
+    describe: 曹晓华
+    mutiLink: false
+    infoLink: https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484422&idx=1&sn=8200c42d8bd4c365d8d7fe8c572a566e&chksm=e819120edf6e9b18bbd2c81484e5a182d83715342d162a21df88e93abcada8d9817ce5b78ab7&token=198713600&lang=en_US#rd
+
+  - name: 山东
+    location: 山东省精神卫生中心
+    describe: 殷爱华 (可确诊ADHD, 共现疑似asd不推荐)
+    mutiLink: false
+    infoLink: 0
+
+  - name: 四川
+    location: 四川大学华西医院，成都四医院
+    describe: 华西医院：黄颐 单友荷 李元媛(均可确诊ADHD)<br>成都四医院：多动症科室(可确诊，对开药很谨慎)
+    mutiLink: false
+    infoLink: 0
+
+  - name: 浙江
+    location: 杭州市第七人民医院
+    describe: 廖文静 周国岭 周圆月 (均可确诊ADHD)
+    mutiLink: false
+    infoLink: 0
+
+  - name: 河南
+    location: 河南省妇幼保健院(郑大三附院)
+    describe: 姚梅玲(有ados)
+    mutiLink: false
+    infoLink: 0
+
+  - name: 云南
+    location: 昆明医学院附属第一医院(云大医院)
+    describe: 卢瑾
+    mutiLink: false
+    infoLink: 0
 
   - name: 
-    location:
-    describe:
-    infoLink:
+    location: 
+    describe: 
+    mutiLink: false
+    infoLink: 0
 
-  - name: 
-    location:
-    describe:
-    infoLink:      
