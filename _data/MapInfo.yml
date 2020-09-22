@@ -1,0 +1,29 @@
+MapInfo:
+  - name: 北京
+    location: 北京大学第六医院
+    describe: 王玉凤(可确诊ADHD) <br> 钱秋谨(可确诊ASD, ADHD) <br> 孙黎(可确诊ADHD)
+    mutiLink: true
+    infoLink: 
+      - https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484064&idx=1&sn=daf306e34794622121e4b24454bd59e0&chksm=e81914a8df6e9dbe92f17d871c45257eaad504ce75e82604cd03f0c1e3eee6706b3b0b7fcd8b&token=198713600&lang=en_US#rd
+      - https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484121&idx=1&sn=527fa482e5d2b30295909ab1af496450&chksm=e81914d1df6e9dc7b4451211cc6eba5b7940330ee07630ae1181e9e2789ed9b93f7fa0e36dc9&token=198713600&lang=en_US#rd
+    
+
+  - name: 湖南
+    location: 中南大学湘雅二医院
+    describe: 崔夕龙(可确诊ADHD)
+    infoLink: 0
+
+  - name: 广东
+    location: 广州医科大学附属脑科医院（广州市惠爱医院），深圳市康宁医院
+    describe: 惠爱医院：吴秋霞 程道猛 李苏义(均可确诊ADHD)<br>康宁医院：王中磊(可确诊ASD与ADHD) 石顺治(可确诊ADHD) 齐云柯(可确诊ADHD)
+    infoLink: https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484084&idx=1&sn=3c40520f525486252d1384c1bb942c01&chksm=e81914bcdf6e9daaaebcea46f3909d2f891da3ecf4db9ecb71bb7b549335e61058e2d036faf4&token=198713600&lang=en_US#rd
+
+  - name: 
+    location:
+    describe:
+    infoLink:
+
+  - name: 
+    location:
+    describe:
+    infoLink:      

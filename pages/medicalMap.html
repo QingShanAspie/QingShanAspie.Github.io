@@ -9,9 +9,27 @@ weight: 4
 <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
 <script src="https://cdn.staticfile.org/jquery-resize/1.0/jquery.ba-resize.min.js"></script>
 
+<!-- Data loading, please do not edit -->
+<script>
+    const MapInfo = [
+    {% for data in site.data.MapInfo.MapInfo %}
+    {% if data.mutiLink %}
+    { name: "{{ data.name }}", location: "{{ data.location }}", describe: "{{ data.describe }}", mutiLink: "{{ data.mutiLink }}" , infoLink: [
+    {% for link in data.infoLink %}
+    "{{ link }}",
+    {% endfor %}
+    ]},
+    {% else %}
+    { name: "{{ data.name }}", location: "{{ data.location }}", describe: "{{ data.describe }}", mutiLink: "{{ data.mutiLink }}" , infoLink: "{{ data.infoLink }}" },
+    {% endif%}
+    {% endfor %}
+    ]
+</script>
+
 <script src="{{ '/assets/js/echarts/china.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/echarts/mapData.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/echarts/mapFunc.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
 
 
 <div class="chart">
@@ -25,7 +43,23 @@ weight: 4
 
 
     chart.on('click', function (params) {
-        console.log(params)
+        for (let i = 0; i < MapInfo.length; ++i) {
+            if (MapInfo[i].name == params.name) {
+                if (MapInfo[i].infoLink == '0') {
+                    break
+                } else {
+                    if (MapInfo[i].mutiLink == 'true') {
+                        let links = '<h3>请选择就诊故事</h3>'
+                        for (let index = 0; index < MapInfo[i].infoLink.length; index++) {
+                            links = links + '<a href="' + MapInfo[i].infoLink[index] + '">就诊故事' + (index + 1) + '</a><br>'
+                        }
+                        alert(links)
+                    } else {
+                        window.open(MapInfo[i].infoLink)
+                    }
+                }
+            }
+        }
     })
 
     $('.chart').resize(function () {

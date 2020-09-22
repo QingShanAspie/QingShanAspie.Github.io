@@ -6,11 +6,11 @@ let option = {
     },
     tooltip: {
         formatter: function (params) {
-            let info = '<p style="font-size:18px">' + params.name + '</p><p style="font-size:10px">' + getInfo(params.name) + '</p>'
+            let info = '<h3>' + params.name + '</h3><p style="font-size:14px">' + getInfo(params.name) + '</p>'
             return info;
         },
         trigger: 'item',
-        backgroundColor: "#ff7f50"
+        backgroundColor: "#ffab91"
     },
     visualMap: {
         show: false,

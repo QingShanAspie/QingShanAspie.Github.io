@@ -8,14 +8,14 @@ const MapData = [
     { name: '云南', value: 1 },
     { name: '辽宁', value: 0 },
     { name: '黑龙江', value: 0 },
-    { name: '湖南', value: 0 },
+    { name: '湖南', value: 2 },
     { name: '安徽', value: 0 },
     { name: '山东', value: 0 },
     { name: '新疆', value: 0 },
     { name: '江苏', value: 0 },
     { name: '浙江', value: 0 },
     { name: '江西', value: 0 },
-    { name: '湖北', value: 2 },
+    { name: '湖北', value: 0 },
     { name: '广西', value: 0 },
     { name: '甘肃', value: 0 },
     { name: '山西', value: 0 },
@@ -24,7 +24,7 @@ const MapData = [
     { name: '吉林', value: 0 },
     { name: '福建', value: 0 },
     { name: '贵州', value: 0 },
-    { name: '广东', value: 0 },
+    { name: '广东', value: 3 },
     { name: '青海', value: 0 },
     { name: '西藏', value: 0 },
     { name: '四川', value: 0 },
@@ -38,5 +38,14 @@ const MapData = [
 
 
 function getInfo(name) {
-    return '暂无信息'
+    for (let i = 0; i < MapInfo.length; ++i) {
+        if (MapInfo[i].name == name) {
+            if (MapInfo[i].infoLink == 0) {
+                return '<h5>就诊地点：</h5><br>' + MapInfo[i].location + '<h5><br>可选择的科室/医生：<br></h5>' + MapInfo[i].describe
+            } else {
+                return '<h5>就诊地点：</h5><br>' + MapInfo[i].location + '<h5><br>可选择的科室/医生：<br></h5>' + MapInfo[i].describe + '<br><br>点击地图可查看就诊故事'
+            }
+        }
+    }
+    return '暂无就诊信息'
 }
