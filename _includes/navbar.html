@@ -1,10 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-light">
 
     <img class="nav-logo" src="/assets/favicon.ico" alt="LOGO">
-    <a class="navbar-brand" href="{{ site.baseurl }}/"><h5><b>{{ site.title }}</b></h5></a>
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+        <h5><b>{{ site.title }}</b></h5>
+    </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -14,7 +16,8 @@
             {% for site_page in pages %}
             {% if site_page.title %}
             <a class="nav-item nav-link {% if page.url contains site_page.permalink %} active {% endif %}"
-               href="{% if site_page.external_url %} {{ site_page.external_url }} {% else %} {{ site_page.permalink | relative_url }} {% endif %}">{{
+                href="{% if site_page.external_url %} {{ site_page.external_url }} {% else %} {{ site_page.permalink | relative_url }} {% endif %}"
+                target="_blank">{{
                 site_page.title }}</a>
             {% endif %}
             {% endfor %}
