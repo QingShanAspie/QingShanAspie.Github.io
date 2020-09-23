@@ -19,8 +19,35 @@ weight: 4
 
 
 <div id="china_list">
-    <h5 align="center">手机版敬请期待</h5>
+    <div class="col-lg-10 mx-auto mt-5 article">
+        {% for data in site.data.MapInfo.MapInfo %}
+        {% if data.mutiLink %}
+        <p>
+        <h5>{{ data.name }} ：</h5>
+        <h6>{{ data.location }}：</h6>
+        {{ data.describe }}
+        </p>
+        {% for link in data.infoLink %}
+        <p>
+            <a href="{{ link }}">就诊故事</a>
+        </p>
+        {% endfor %}
+        {% else %}
+        <p>
+        <h5>{{ data.name }}</h5>
+        <h6>{{ data.location }}</h6>
+        {{ data.describe }}
+        </p>
+        {% if data.infoLink != 0 %}
+        <div class="link_list">
+            <a id="mobie_link" href="{{ data.infoLink }}">就诊故事</a>
+        </div>
+        {% endif %}
+        {% endif%}
+        {% endfor %}
+    </div>
 </div>
+
 
 <div class="chart">
     <div id="china_chart" style="height: 800px; width: 100%;"></div>
