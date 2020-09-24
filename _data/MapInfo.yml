@@ -37,8 +37,10 @@ MapInfo:
   - name: 上海
     location: 上海新华医院
     describe: 张劲松 夏卫萍 帅澜(均可确诊ADHD)
-    mutiLink: false
-    infoLink: https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484305&idx=1&sn=3829a5ac3b46a403dc4d38f33c4f0abd&chksm=e8191599df6e9c8f9c4db169a29e85bd3ea0c7f19e71f667454d280967da34a1795a25cd997f&token=198713600&lang=en_US#rd
+    mutiLink: true
+    infoLink: 
+      - https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484305&idx=1&sn=3829a5ac3b46a403dc4d38f33c4f0abd&chksm=e8191599df6e9c8f9c4db169a29e85bd3ea0c7f19e71f667454d280967da34a1795a25cd997f&token=198713600&lang=en_US#rd
+      - https://mp.weixin.qq.com/s/i1hT9NihBj8EKn-ockKB8Q
 
   - name: 辽宁
     location: 辽宁电力中心医院
