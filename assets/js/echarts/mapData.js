@@ -16,7 +16,7 @@ const MapData = [
     { name: '黑龙江', value: 0 },
     { name: '湖南', value: 2 },
     { name: '安徽', value: 0 },
-    { name: '山东', value: 0 },
+    { name: '山东', value: 2 },
     { name: '新疆', value: 0 },
     { name: '江苏', value: 3 },
     { name: '浙江', value: 2 },
