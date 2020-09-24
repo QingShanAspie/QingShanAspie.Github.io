@@ -84,7 +84,14 @@ MapInfo:
 
   - name: 云南
     location: 昆明医学院附属第一医院(云大医院)
-    describe: 卢瑾（可确诊ASD）
+    describe: 卢瑾（可确诊ASD与ADHD）
+    mutiLink: false
+    infoLink: 0
+
+
+  - name: 江苏
+    location: 南京脑科儿童心理卫生中心
+    describe: 焦公恺（可诊断成人adhd和asd）
     mutiLink: false
     infoLink: 0
 
@@ -94,3 +101,14 @@ MapInfo:
     mutiLink: false
     infoLink: 0
 
+  - name: 
+    location: 
+    describe: 
+    mutiLink: false
+    infoLink: 0
+
+  - name: 
+    location: 
+    describe: 
+    mutiLink: false
+    infoLink: 0
