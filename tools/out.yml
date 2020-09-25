@@ -1,19 +1,13 @@
-# 0 -> 无可选择医院
-# 1 -> 单独ASD
-# 2 -> 单独ADHD
-# 3 -> ASD/ADHD均可
-
-MapInfo:
-  - name: 北京
+   - name: 北京
     value: 3
-    location: 北京大学第六医院
-    describe: 王玉凤(可确诊ADHD) <br> 钱秋谨(可确诊ASD, ADHD) <br> 孙黎(可确诊ADHD)
-    mutiLink: true
+    location: 
+    describe: 
+    mutiLink: 
     infoLink: 
-      - title: 北医六院成年ASD+ADHD就诊记
-        url: https://mp.weixin.qq.com/s/AYKfbKJg8VVoxMHHTvq4gQ
-      - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
-        url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
+      - title: 
+        url: 
+      - title: 
+        url: 
 
   - name: 天津
     value: 0
@@ -28,19 +22,19 @@ MapInfo:
 
   - name: 上海
     value: 2
-    location: 上海新华医院
-    describe: 张劲松 夏卫萍 帅澜(均可确诊ADHD)
-    mutiLink: true
+    location: 
+    describe: 
+    mutiLink: 
     infoLink: 
-      - title: 上海新华医院adhd确诊指南
-        url: https://mp.weixin.qq.com/s/4bgsrcvmOpGAGGglUUIXTg
-      - title: 【更新】上海新华医院ADHD就诊流程
-        url: https://mp.weixin.qq.com/s/i1hT9NihBj8EKn-ockKB8Q
+      - title: 
+        url: 
+      - title: 
+        url: 
 
   - name: 重庆
     value: 3
-    location: 重庆市精神卫生中心
-    describe: 王敏建 王大开(均可确诊ADHD)，王敏(可能能诊断成人asd，<br>案例只写了“特质”，到底能不能确诊不知)
+    location: 
+    describe: 
     mutiLink: 
     infoLink: 
       - title: 
@@ -61,8 +55,8 @@ MapInfo:
 
   - name: 河南
     value: 1
-    location: 河南省妇幼保健院(郑大三附院)
-    describe: 姚梅玲(确诊ASD并有ados)
+    location: 
+    describe: 
     mutiLink: 
     infoLink: 
       - title: 
@@ -72,8 +66,8 @@ MapInfo:
 
   - name: 云南
     value: 3
-    location: 昆明医学院附属第一医院(云大医院)
-    describe: 卢瑾（可确诊ASD与ADHD）
+    location: 
+    describe: 
     mutiLink: 
     infoLink: 
       - title: 
@@ -83,8 +77,8 @@ MapInfo:
 
   - name: 辽宁
     value: 3
-    location: 辽宁电力中心医院
-    describe: 姜爽 (可确诊ADHD与ASD)
+    location: 
+    describe: 
     mutiLink: 
     infoLink: 
       - title: 
@@ -105,8 +99,8 @@ MapInfo:
 
   - name: 湖南
     value: 2
-    location: 中南大学湘雅二医院
-    describe: 崔夕龙(可确诊ADHD)
+    location: 
+    describe: 
     mutiLink: 
     infoLink: 
       - title: 
@@ -127,8 +121,8 @@ MapInfo:
 
   - name: 山东
     value: 2
-    location: 山东省精神卫生中心
-    describe: 殷爱华 (可确诊ADHD, 共现疑似asd不推荐)
+    location: 
+    describe: 
     mutiLink: 
     infoLink: 
       - title: 
@@ -149,8 +143,8 @@ MapInfo:
 
   - name: 江苏
     value: 3
-    location: 南京脑科儿童心理卫生中心
-    describe: 焦公恺（可诊断成人adhd和asd）
+    location: 
+    describe: 
     mutiLink: 
     infoLink: 
       - title: 
@@ -160,8 +154,8 @@ MapInfo:
 
   - name: 浙江
     value: 2
-    location: 杭州市第七人民医院
-    describe: 廖文静 周国岭 周圆月 (均可确诊ADHD)
+    location: 
+    describe: 
     mutiLink: 
     infoLink: 
       - title: 
@@ -182,8 +176,8 @@ MapInfo:
 
   - name: 湖北
     value: 2
-    location: 武汉市精神卫生中心
-    describe: 李轶琛 汤珺(均可确诊ADHD)
+    location: 
+    describe: 
     mutiLink: 
     infoLink: 
       - title: 
@@ -215,13 +209,14 @@ MapInfo:
 
   - name: 山西
     value: 2
-    location: 山西医科大学第一医院
-    describe: 曹晓华（可确诊ADHD）
-    mutiLink: false
+    location: 
+    describe: 
+    mutiLink: 
     infoLink: 
-      - title: 山西医科大学第一医院成人ADHD确诊指南
-        url: https://mp.weixin.qq.com/s/lvWbwrzFYeWOcyDbKT7hWw
-
+      - title: 
+        url: 
+      - title: 
+        url: 
 
   - name: 内蒙古
     value: 0
@@ -236,8 +231,8 @@ MapInfo:
 
   - name: 陕西
     value: 2
-    location: 西安交大第二附属医院
-    describe: 王亚萍 (可确诊ADHD)
+    location: 
+    describe: 
     mutiLink: 
     infoLink: 
       - title: 
@@ -280,14 +275,14 @@ MapInfo:
 
   - name: 广东
     value: 3
-    location: 广州医科大学附属脑科医院（广州市惠爱医院），深圳市康宁医院
-    describe: 惠爱医院：吴秋霞(可确诊ASD) 程道猛 李苏义(均可确诊ADHD)<br>康宁医院：王中磊(可确诊ASD与ADHD，有ados) <br> 石顺治(可确诊ADHD) 齐云柯(可确诊ADHD)
-    mutiLink: true
+    location: 
+    describe: 
+    mutiLink: 
     infoLink: 
-      - title: 深圳康宁成人ADHD+阿斯伯格确诊记
-        url: https://mp.weixin.qq.com/s/-qPgCoP_Tje4nwYPi9x9qg
-      - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
-        url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
+      - title: 
+        url: 
+      - title: 
+        url: 
 
   - name: 青海
     value: 0
@@ -313,8 +308,8 @@ MapInfo:
 
   - name: 四川
     value: 2
-    location: 四川大学华西医院，成都四医院
-    describe: 华西医院：黄颐 单友荷 李元媛(均可确诊ADHD)<br>成都四医院：多动症科室(可确诊，对开药很谨慎)
+    location: 
+    describe: 
     mutiLink: 
     infoLink: 
       - title: 

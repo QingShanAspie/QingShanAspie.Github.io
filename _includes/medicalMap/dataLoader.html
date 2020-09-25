@@ -1,15 +1,22 @@
 <script>
-    const MapInfo = [
-    {% for data in site.data.MapInfo.MapInfo %}
-    {% if data.mutiLink %}
-    { name: "{{ data.name }}", location: "{{ data.location }}", describe: "{{ data.describe }}", mutiLink: "{{ data.mutiLink }}" , infoLink: [
-    {% for link in data.infoLink %}
-    "{{ link }}",
-    {% endfor %}
-    ]},
-    {% else %}
-    { name: "{{ data.name }}", location: "{{ data.location }}", describe: "{{ data.describe }}", mutiLink: "{{ data.mutiLink }}" , infoLink: "{{ data.infoLink }}" },
-    {% endif%}
-    {% endfor %}
-    ]
+    const MapInfo = [{% for data in site.data.MapInfo.MapInfo %}
+                        { 
+                            name: "{{ data.name }}",
+                            value: "{{ data.value }}",{% if data.value == 0 %}
+                        },{% else %}
+                            location: "{{ data.location }}",
+                            describe: "{{ data.describe }}",
+                            mutiLink: "{{ data.mutiLink }}",{% if data.mutiLink %}
+                            infoLink: [{% for info in data.infoLink %}{% if info.title %}
+                                {
+                                    title: "{{ info.title }}",
+                                    url: "{{ info.url }}"
+                                },{% endif %}{% endfor %}
+                            ]{% else %}{% for info in data.infoLink %}{% if info.title %}
+                            infoLink:{
+                                title: "{{ info.title }}",
+                                url: "{{ info.url }}"
+                            },{% endif %}{% endfor %}{% endif %}
+                        },{% endif %}{% endfor %}
+                    ]
 </script>

@@ -21,29 +21,14 @@ weight: 4
 <div id="china_list">
     <div class="col-lg-10 mx-auto mt-5 article">
         {% for data in site.data.MapInfo.MapInfo %}
-        {% if data.mutiLink %}
-        <p>
+        <p>{% if data.value == 0 %}{% else %}{% if data.mutiLink %}
         <h5>{{ data.name }} ：</h5>
-        <h6>{{ data.location }}：</h6>
-        {{ data.describe }}
-        </p>
-        {% for link in data.infoLink %}
-        <p>
-            <a href="{{ link }}">就诊故事</a>
-        </p>
-        {% endfor %}
-        {% else %}
-        <p>
+        <h6>{{ data.location }}：</h6>{{ data.describe }}{% for link in data.infoLink %}
+        <a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}{% else %}
         <h5>{{ data.name }}</h5>
-        <h6>{{ data.location }}</h6>
-        {{ data.describe }}
+        <h6>{{ data.location }}</h6>{{ data.describe }}
+        {% for link in data.infoLink %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}{% endif %}{% endif %}
         </p>
-        {% if data.infoLink != 0 %}
-        <div class="link_list">
-            <a id="mobie_link" href="{{ data.infoLink }}">就诊故事</a>
-        </div>
-        {% endif %}
-        {% endif%}
         {% endfor %}
     </div>
 </div>
@@ -59,19 +44,17 @@ weight: 4
     chart.on('click', function (params) {
         for (let i = 0; i < MapInfo.length; i++) {
             if (MapInfo[i].name == params.name) {
-                if (MapInfo[i].infoLink == '0') {
-                    break;
-                } else {
+                if (MapInfo[i].value != '0') {
                     if (MapInfo[i].mutiLink == 'true') {
-                        let links = '<h3>请选择就诊故事</h3>';
+                        let links = '<h4>请选择就诊故事</h4>';
                         for (let index = 0; index < MapInfo[i].infoLink.length; index++) {
-                            links = links + '<a href="' + MapInfo[i].infoLink[index] + '">就诊故事' + (index + 1) + '</a><br>';
+                            links = links + '<a href="' + MapInfo[i].infoLink[index].url + '" target="">' + MapInfo[i].infoLink[index].title + '</a><br>';
                         }
                         alert(links);
                     } else {
-                        window.open(MapInfo[i].infoLink);
+                        window.open(MapInfo[i].infoLink.url);
                     }
-                }
+                } 
             }
         }
     });
