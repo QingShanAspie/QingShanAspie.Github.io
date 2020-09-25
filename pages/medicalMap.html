@@ -21,13 +21,10 @@ weight: 4
 <div id="china_list">
     <div class="col-lg-10 mx-auto mt-5 article">
         {% for data in site.data.MapInfo.MapInfo %}
-        <p>{% if data.value == 0 %}{% else %}{% if data.mutiLink %}
+        <p>{% if data.value == 0 %}{% else %}
         <h5>{{ data.name }} ：</h5>
-        <h6>{{ data.location }}：</h6>{{ data.describe }}{% for link in data.infoLink %}
-        <a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}{% else %}
-        <h5>{{ data.name }}</h5>
-        <h6>{{ data.location }}</h6>{{ data.describe }}
-        {% for link in data.infoLink %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}{% endif %}{% endif %}
+        <h6>{{ data.location }}：</h6>{{ data.describe }}
+        {% for link in data.infoLink %}{% if link.title %}<ul><li><a href="{{ link.url }}">{{ link.title }}</a></li></ul>{% endif %}{% endfor %}{% endif %}
         </p>
         {% endfor %}
     </div>
