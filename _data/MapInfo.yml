@@ -63,12 +63,10 @@ MapInfo:
     value: 1
     location: 河南省妇幼保健院(郑大三附院)
     describe: 姚梅玲(确诊ASD并有ados)
-    mutiLink: 
+    mutiLink: false
     infoLink: 
-      - title: 
-        url: 
-      - title: 
-        url: 
+      - title: https://mp.weixin.qq.com/s/CC-EE3FlVlMydLertPKuhQ
+        url: 河南省妇幼保健院（郑大三附院）就诊指南
 
   - name: 云南
     value: 3
@@ -246,9 +244,9 @@ MapInfo:
         url: 
 
   - name: 吉林
-    value: 0
-    location: 
-    describe: 
+    value: 2
+    location: 吉林大学白求恩第一医院
+    describe: 心理卫生科 刘畅 (可确诊ADHD)
     mutiLink: 
     infoLink: 
       - title: 
