@@ -65,8 +65,8 @@ MapInfo:
     describe: 姚梅玲(确诊ASD并有ados)
     mutiLink: false
     infoLink: 
-      - title: https://mp.weixin.qq.com/s/CC-EE3FlVlMydLertPKuhQ
-        url: 河南省妇幼保健院（郑大三附院）就诊指南
+      - title: 河南省妇幼保健院（郑大三附院）就诊指南
+        url: https://mp.weixin.qq.com/s/CC-EE3FlVlMydLertPKuhQ
 
   - name: 云南
     value: 3
