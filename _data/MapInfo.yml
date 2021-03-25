@@ -7,7 +7,7 @@ MapInfo:
   - name: 北京
     value: 3
     location: 北京大学第六医院
-    describe: 王玉凤(可确诊ADHD) <br> 钱秋谨(可确诊ASD, ADHD) <br> 孙黎(可确诊ADHD)
+    describe: 王玉凤(可确诊ADHD) <br> 钱秋谨(可确诊ASD, ADHD) <br> 孙黎(可确诊ADHD) <br> 王⼒芳(可确诊ADHD)
     mutiLink: true
     infoLink: 
       - title: 北医六院成年ASD+ADHD就诊记
@@ -49,9 +49,9 @@ MapInfo:
         url: 
 
   - name: 河北
-    value: 0
-    location: 
-    describe: 
+    value: 2
+    location: 河北省儿童医院心理行为科 <br> 石家庄市第八医院精八科
+    describe: 河北省儿童医院心理行为科：王霞， 石家庄市第八医院精八科：李素水
     mutiLink: 
     infoLink: 
       - title: 
@@ -81,8 +81,8 @@ MapInfo:
 
   - name: 辽宁
     value: 3
-    location: 辽宁电力中心医院
-    describe: 姜爽 (可确诊ADHD与ASD)
+    location: 辽宁电力中心医院，沈阳盛京医院南翔园区
+    describe: 辽宁电力中心医院：姜爽 (可确诊ADHD与ASD)， 沈阳盛京医院南翔园区：彭淼医生可确诊成人ADHD
     mutiLink: 
     infoLink: 
       - title: 
@@ -104,7 +104,7 @@ MapInfo:
   - name: 湖南
     value: 2
     location: 中南大学湘雅二医院
-    describe: 崔夕龙(可确诊ADHD)
+    describe: 崔夕龙(可确诊ADHD) ⻩春(可确诊ADHD) 吴仁容(可确诊ADHD)
     mutiLink: 
     infoLink: 
       - title: 
@@ -148,18 +148,18 @@ MapInfo:
   - name: 江苏
     value: 3
     location: 南京脑科儿童心理卫生中心
-    describe: 焦公恺（可诊断成人adhd和asd）
+    describe: 焦公恺（可诊断成人ADHD和ASD）张会会
     mutiLink: 
     infoLink: 
-      - title: 
-        url: 
+      - title: 南京脑科医院成人asd+adhd就诊经历
+        url: https://mp.weixin.qq.com/s/jBg86bXnYZsIJ7FpM4Hkcw
       - title: 
         url: 
 
   - name: 浙江
     value: 2
     location: 杭州市第七人民医院
-    describe: 廖文静 周国岭 周圆月 (均可确诊ADHD)
+    describe: 廖文静 周国岭 周圆月 (均可确诊ADHD)(据说现在不收成人诊断了)
     mutiLink: 
     infoLink: 
       - title: 
@@ -256,8 +256,8 @@ MapInfo:
 
   - name: 福建
     value: 0
-    location: 
-    describe: 
+    location: 厦门仙岳医院
+    describe: 卢大力医生可确诊成人ADHD
     mutiLink: 
     infoLink: 
       - title: 
@@ -278,8 +278,9 @@ MapInfo:
 
   - name: 广东
     value: 3
-    location: 广州医科大学附属脑科医院（广州市惠爱医院），深圳市康宁医院
-    describe: 惠爱医院：吴秋霞(可确诊ASD) 程道猛 李苏义(均可确诊ADHD)<br>康宁医院：王中磊(可确诊ASD与ADHD，有ados) <br> 石顺治(可确诊ADHD) 齐云柯(可确诊ADHD)
+    location: 广州医科大学附属脑科医院（广州市惠爱医院），深圳市康宁医院 ，广东省人民医院
+    describe: 惠爱医院：吴秋霞(可确诊ASD) 程道猛 李苏义(均可确诊ADHD)<br>康宁医院：王中磊(可确诊ASD与ADHD，有ados) <br> 石顺治(可确诊ADHD) 齐云柯(可确诊ADHD)，人民医院：杨帆医生，戚元丽 可确诊、开药
+
     mutiLink: true
     infoLink: 
       - title: 深圳康宁成人ADHD+阿斯伯格确诊记
