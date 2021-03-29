@@ -40,11 +40,11 @@ MapInfo:
   - name: 重庆
     value: 3
     location: 重庆市精神卫生中心
-    describe: 王敏建(均可确诊ADHD)，王敏建(可能能诊断成人asd，<br>案例只写了“特质”，到底能不能确诊不知) 冉曼利（ADHD）
-    mutiLink: 
+    describe: 王敏建(均可确诊ADHD)，王敏建(可能能诊断成人asd，<br>案例只写了“特质”，到底能不能确诊不知)，冉曼利（ADHD）
+    mutiLink: false
     infoLink: 
-      - title: 
-        url: 
+      - title: 四川大学华西医院和重庆精神卫生中心成人ADHD就诊记录
+        url: https://mp.weixin.qq.com/s/XegOiuQMeDg_INtJ5yhnmQ
       - title: 
         url: 
 
@@ -314,10 +314,10 @@ MapInfo:
     value: 2
     location: 四川大学华西医院，成都四医院
     describe: 华西医院：黄颐 单友荷 李元媛(均可确诊ADHD)<br>成都四医院：多动症科室(可确诊，对开药很谨慎)
-    mutiLink: 
+    mutiLink: false
     infoLink: 
-      - title: 
-        url: 
+      - title: 四川大学华西医院和重庆精神卫生中心成人ADHD就诊记录
+        url: https://mp.weixin.qq.com/s/XegOiuQMeDg_INtJ5yhnmQ
       - title: 
         url: 
 
