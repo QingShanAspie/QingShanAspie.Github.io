@@ -149,7 +149,7 @@ MapInfo:
     value: 3
     location: 南京脑科儿童心理卫生中心
     describe: 焦公凯（可诊断成人ADHD和ASD）张会会（可诊断成人ADHD）
-    mutiLink: 
+    mutiLink: true
     infoLink: 
       - title: 南京脑科医院成人asd+adhd就诊经历
         url: https://mp.weixin.qq.com/s/jBg86bXnYZsIJ7FpM4Hkcw
