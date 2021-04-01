@@ -153,8 +153,8 @@ MapInfo:
     infoLink: 
       - title: 南京脑科医院成人asd+adhd就诊经历
         url: https://mp.weixin.qq.com/s/jBg86bXnYZsIJ7FpM4Hkcw
-      - title: 
-        url: 
+      - title: 南京脑科医院ADHD就诊经历（成人直接挂号方法）
+        url: https://mp.weixin.qq.com/s/Dgm2KxidxLI6a2dKGazQgg
 
   - name: 浙江
     value: 2
@@ -280,13 +280,14 @@ MapInfo:
     value: 3
     location: 广州医科大学附属脑科医院（广州市惠爱医院），深圳市康宁医院 ，广东省人民医院
     describe: 惠爱医院：吴秋霞(可确诊ASD) 程道猛 李苏义(均可确诊ADHD)<br>康宁医院：王中磊(可确诊ASD与ADHD，有ados) <br> <small>康宁王中磊医生4/1-6/30停诊，望周知。停诊的这三月，由李颖源医生代替王医生，依然是每周三下午。尽管王医生停诊，康宁儿少门诊依然接纳成人adhd就诊 </small><br> 石顺治(可确诊ADHD) 齐云柯(可确诊ADHD)，人民医院：杨帆医生，戚元丽 可确诊、开药
-
     mutiLink: true
     infoLink: 
       - title: 深圳康宁成人ADHD+阿斯伯格确诊记
         url: https://mp.weixin.qq.com/s/-qPgCoP_Tje4nwYPi9x9qg
       - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
         url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
+      - title: 【更新】深圳康宁医院和成都华西医院成人ASD+ADHD最新就诊细节更新
+        url: https://mp.weixin.qq.com/s/WRADPkC2-_dW60fBP4VteA
 
   - name: 青海
     value: 0
