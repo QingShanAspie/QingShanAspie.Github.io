@@ -20,18 +20,6 @@ weight: 3
 
 <br/>
 
-# 文章版权,许可
-
----
-
-<div align="center">
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"></a><br/>作品采用<a
-        rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0
-    国际许可协议</a>进行许可。<br/><b style="color: red">这意味着您将不可以：无出处转载，重新编辑发布，商业使用!</b>
-    <br> 但是我们支持您将文章分享给更多的人，只需要带上我们的出处与链接即可！
-</div>
-<br><br><br>
-
 
 # 贡献者
 
