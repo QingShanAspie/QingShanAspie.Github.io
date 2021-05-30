@@ -51,7 +51,7 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
         let ResultB = ADHD_Resoult_B($data);
 
         if (isNaN(ResultA) || isNaN(ResultB)) {
-            $('.result').html('<h1>请完成量表！！！</h1>' + ReTest);
+            $('.result').html('<h1>请完成量表</h1>' + ReTest);
         } else {
             if (ResultA <= 16) {
                 if (ResultB <= 16) {

@@ -42,7 +42,7 @@ description: 同理商测试，解自己的同理心程度
     <script>
         function GetResult(count) {
             if (parseInt('{{ site.data.EQ60.count }}') !== Object.keys($data).length) {
-                $('.result').html('<h1>请完成量表！！！</h1>');
+                $('.result').html('<h1>请完成量表</h1>');
             } else {
                 if (count <= 30) {
                     $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + "根据测试结果显示您可能有ASD" + '</h1>');

@@ -34,7 +34,7 @@ description: 述情障碍又译作“情感表达不能”或“情感难言症�
 
     function GetResult(count) {
         if (parseInt('{{ site.data.OAQ.count }}') !== Object.keys($data).length) {
-            $('.result').html('<h1>请完成量表！！！</h1>');
+            $('.result').html('<h1>请完成量表</h1>');
         } else {
             if (count <= 94) {
                 $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + A + '</h1>');
@@ -43,7 +43,7 @@ description: 述情障碍又译作“情感表达不能”或“情感难言症�
             } else if (count > 112) {
                 $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + C + '</h1>');
             } else {
-                $('.result').html('<h1>请完成量表！！！</h1>');
+                $('.result').html('<h1>请完成量表</h1>');
             }
             SaveCookies($data, "OAQ");
         }

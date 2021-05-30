@@ -51,7 +51,7 @@ description: 孤独商成人测试量表，用于测试成年人的孤独症商�
 
     function GetResult(count) {
         if (parseInt('{{ site.data.AQ-A.count }}') !== Object.keys($data).length) {
-            $('.result').html('<h1>请完成量表！！！</h1>');
+            $('.result').html('<h1>请完成量表</h1>');
         } else {
             if (count <= 21) {
                 $('.result').html('<h1>测试得分：' + count + '</h1><br/><h1>' + A + '</h1>');
