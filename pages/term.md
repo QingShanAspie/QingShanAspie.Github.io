@@ -13,7 +13,7 @@ weight: 5
 ### 文章版权,许可
 
 <div>
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"></a><br/><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /><br/><br/>除特别说明外，作品均采用<a rel="license"
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"></a><br/><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /><br/><br/>除特别说明外，作品均采用<a rel="license"
         href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0
         国际许可协议</a>进行许可。<br /><b style="color: red">禁止无出处转载，重新编辑发布，和商业使用。青衫会对侵权者追究法律责任。</b>
     <br> 但是我们支持您将文章分享给更多的人，只需要带上我们的出处与链接即可！
