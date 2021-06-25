@@ -11,7 +11,7 @@
 </div>
 
 <div class="card-columns m-3 mt-5">
-    {% for quotient in site.quotients limit:3 %}
+    {% for quotient in site.quotients limit:6 %}
       {% comment %} Determine quotient URL {% endcomment %}
       {% if quotient.external_url %}
         {% assign quotient_url = quotient.external_url %}
