@@ -60,9 +60,9 @@ MapInfo:
         url: 
 
   - name: 河南
-    value: 1
-    location: 河南省妇幼保健院(郑大三附院)
-    describe: 姚梅玲(确诊ASD并有ados)
+    value: 2
+    location: 河南省妇幼保健院(郑大三附院)心理门诊
+    describe: 姚梅玲(确诊ASD并有ados)，段桂琴(ADHD)
     mutiLink: false
     infoLink: 
       - title: 河南省妇幼保健院（郑大三附院）就诊指南
@@ -315,8 +315,8 @@ MapInfo:
 
   - name: 四川
     value: 2
-    location: 四川大学华西医院，成都四医院
-    describe: 华西医院：黄颐 单友荷 李元媛(均可确诊ADHD)<br>成都四医院：多动症科室(可确诊，对开药很谨慎)
+    location: 四川大学华西医院，成都四医院，成都军区机关医院
+    describe: 华西医院：黄颐 单友荷 李元媛 (均可确诊ADHD) 殷莉(ASD)<br>成都四医院：多动症科室(可确诊，对开药很谨慎)<br>成都军区机关医院： 蒲昭霞(ADHD)
     mutiLink: false
     infoLink: 
       - title: 四川大学华西医院和重庆精神卫生中心成人ADHD就诊记录
@@ -362,7 +362,7 @@ MapInfo:
     location: 
     describe: 
     mutiLink: 
-    infoLink: 
+    infoLink:
       - title: 
         url: 
       - title: 
