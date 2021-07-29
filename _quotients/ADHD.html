@@ -6,6 +6,9 @@ image: /assets/img/ADHD.jpg
 description: ADHD多动症成人测试量表，用于测试成年人的多动症情况
 ---
 
+<!--
+    
+-->
 
 <p style="text-align: center; color: #33975b">
     <b>成人 ADHD 自填量表 (ASRS)</b>
@@ -18,9 +21,9 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
     </small>
 </p>
 
-{% include Quotients/ADHD.html %}
+{% include quotients/table/ADHD.html %}
 
-{% include QuestionTable.html %}
+{% include quotients/degree_div.html %}
 
 <script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/QuotientsConst.min.js' | relative_url }}"></script>
@@ -95,7 +98,7 @@ description: ADHD多动症成人测试量表，用于测试成年人的多动症
     }
 </script>
 
-{% include totop.html %}
+{% include utils/totop.html %}
 
 <script>
     function ReTestFunc() {

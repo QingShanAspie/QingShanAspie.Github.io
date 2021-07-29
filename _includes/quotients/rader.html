@@ -1,3 +1,7 @@
+<!--
+# 雷达图模块 
+-->
+
 <!-- Echarts JavaScript CDN -->
 <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
 
@@ -13,8 +17,6 @@
         if (!isNaN(Out['dim1']) || !isNaN(Out['dim2']) || !isNaN(Out['dim3'])) {
             ReSizeOn();
         }
-
-        /* 初始化雷达图 */
         let radar_chart = echarts.init(document.getElementById("chart"));
         let option = {
             tooltip: {},

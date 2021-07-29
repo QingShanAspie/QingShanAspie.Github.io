@@ -16,9 +16,9 @@ description: 孤独商成人测试量表，用于测试成年人的孤独症商�
     <br>
 </p>
 
-{% include Quotients/AQ-A.html %}
+{% include quotients/table/AQ-A.html %}
 
-{% include QuestionTable.html %}
+{% include quotients/degree_div.html %}
 
 <script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/QuotientsConst.min.js' | relative_url }}"></script>
@@ -70,9 +70,9 @@ description: 孤独商成人测试量表，用于测试成年人的孤独症商�
     }
 </script>
 
-{% include totop.html %}
+{% include utils/totop.html %}
 
-{% include Rader.html %}
+{% include quotients/rader.html %}
 
 <script>
     function ReTestFunc() {

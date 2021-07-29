@@ -25,13 +25,7 @@ weight: 3
 
 ---
 
-{% include CardBox.html %}
-
-# 感谢
-
----
-
-{% include Contributor.html %}
+{% include about/card_box.html %}
 
 # 联系我们
 

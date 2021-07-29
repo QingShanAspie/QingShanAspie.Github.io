@@ -5,15 +5,13 @@ permalink: /term
 weight: 5
 ---
 
-{% include center.html %}
 
 # 青衫 Aspie 网站使用条款
 
 
-### 文章版权,许可
-
-<div>
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"></a><br/><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /><br/><br/>除特别说明外，作品均采用<a rel="license"
+<div class="center">
+<h3>文章版权,许可</h3>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"></a><br/><img alt="Creative Commons License" style="border-width:0" src="/assets/img/88x31.png" /><br/><br/>除特别说明外，作品均采用<a rel="license"
         href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0
         国际许可协议</a>进行许可。<br /><b style="color: red">禁止无出处转载，重新编辑发布，和商业使用。青衫会对侵权者追究法律责任。</b>
     <br> 但是我们支持您将文章分享给更多的人，只需要带上我们的出处与链接即可！
@@ -23,7 +21,8 @@ weight: 5
 
 许可原文：来自 [Creative Commons — Attribution-NonCommercial-NoDerivatives 4.0 International — CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode)
 
-```
+<div class="break-word-pre">
+<pre>
 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
 
 Creative Commons Corporation ("Creative Commons") is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an "as-is" basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
@@ -125,4 +124,5 @@ By exercising the Licensed Rights (defined below), You accept and agree to be bo
 Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the "Licensor." The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark "Creative Commons" or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
-```
+</pre>
+</div>

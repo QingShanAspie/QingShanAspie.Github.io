@@ -1,8 +1,11 @@
+<!-- 
+    # 页脚部分组件
+-->
+
 <footer class="mt-auto py-3 text-center">
     <div class="footer-text">
         <small class="text-muted mb-2">
-            用
-            <i class="fas fa-code"></i> 和 <i class="fas fa-heart"></i> 构建 |
+            用<i class="fas fa-code"></i> 和 <i class="fas fa-heart"></i> 构建 |
             来自：<strong>{{ site.author.name }}</strong> |
             网站版本: {{ site.time | date_to_string }} - v.{{ site.version }} | 量表版本: {{ site.qver }} | <a
                 class="social email" href="/term">使用条款</a>
@@ -12,7 +15,7 @@
         </small>
         <br />
         <small class="text-muted mb-2" id="hitokoto">_(:зゝ∠)_ 获取中 _(∠ゝз:)_</small>
-        {% include hitokoto.html %}
-        {% include social.html %}
+        {% include component/hitokoto.html %}
+        {% include component/social.html %}
     </div>
 </footer>

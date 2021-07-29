@@ -59,3 +59,12 @@ hr {
   width: 30%;
   border-top: 1px dotted #fff;
 }
+
+.center {
+  text-align: center;
+}
+
+.break-word-pre pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

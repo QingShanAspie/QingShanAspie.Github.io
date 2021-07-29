@@ -15,9 +15,9 @@ description: 孤独商儿童测试量表，用于测试儿童的孤独症商数
     <br>
 </p>
 
-{% include Quotients/AQ-C.html %}
+{% include quotients/table/AQ-C.html %}
 
-{% include QuestionTable.html %}
+{% include quotients/degree_div.html %}
 
 <script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/QuotientsConst.min.js' | relative_url }}"></script>
@@ -66,9 +66,9 @@ description: 孤独商儿童测试量表，用于测试儿童的孤独症商数
     }
 </script>
 
-{% include totop.html %}
+{% include utils/totop.html %}
 
-{% include Rader.html %}
+{% include quotients/rader.html %}
 
 <script>
     function ReTestFunc() {
