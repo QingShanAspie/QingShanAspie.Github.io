@@ -10,15 +10,60 @@ map_info:
       - name: 北京大学第六医院
         doctor: 
         - name: 王玉凤
-          desc: 可确诊ADHD
+          clas: 2
+          desc: 
         - name: 钱秋谨
-          desc: 可确诊ASD, ADHD
+          clas: 3
+          desc: 
         - name: 孙黎
-          desc: 可确诊ADHD
+          clas: 2
+          desc: 
         - name: 王⼒芳
-          desc: 可确诊ADHD
+          clas: 2
+          desc: 
     info_link: 
       - title: 北医六院成年ASD+ADHD就诊记
         url: https://mp.weixin.qq.com/s/AYKfbKJg8VVoxMHHTvq4gQ
       - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
         url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
+
+  - name: 广东
+    value: 3
+    location:
+      - name: 广州医科大学附属脑科医院（广州市惠爱医院）
+        doctor: 
+        - name: 吴秋霞
+          clas: 1
+          desc: 
+        - name: 程道猛
+          clas: 2
+          desc: 
+        - name: 李苏义
+          clas: 2
+          desc: 
+      - name: 深圳市康宁医院
+        doctor: 
+        - name: 王中磊
+          clas: 3
+          desc: 康宁王中磊医生4/1-6/30停诊，望周知。停诊的这三月，由李颖源医生代替王医生，依然是每周三下午。尽管王医生停诊，康宁儿少门诊依然接纳成人adhd就诊
+        - name: 石顺治
+          clas: 2
+          desc: 
+        - name: 齐云柯
+          clas: 2
+          desc: 
+      - name: 广东省人民医院
+        doctor: 
+        - name: 杨帆
+          clas: 2
+          desc:
+        - name: 戚元丽
+          clas: 2
+          desc:  
+    infoLink: 
+      - title: 深圳康宁成人ADHD+阿斯伯格确诊记
+        url: https://mp.weixin.qq.com/s/-qPgCoP_Tje4nwYPi9x9qg
+      - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
+        url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
+      - title: 【更新】深圳康宁医院和成都华西医院成人ASD+ADHD最新就诊细节更新
+        url: https://mp.weixin.qq.com/s/WRADPkC2-_dW60fBP4VteA

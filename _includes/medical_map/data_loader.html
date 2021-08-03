@@ -3,24 +3,35 @@
 -->
 
 <script>
-const MapInfo = [{% for data in site.data.MapInfo.MapInfo %}
-                    { 
-                        name: "{{ data.name }}",
-                        value: "{{ data.value }}",{% if data.value == 0 %}
-                    },{% else %}
-                        location: "{{ data.location }}",
-                        describe: "{{ data.describe }}",
-                        mutiLink: "{{ data.mutiLink }}",{% if data.mutiLink %}
-                        infoLink: [{% for info in data.infoLink %}{% if info.title %}
-                            {
-                                title: "{{ info.title }}",
-                                url: "{{ info.url }}"
-                            },{% endif %}{% endfor %}
-                        ]{% else %}{% for info in data.infoLink %}{% if info.title %}
-                        infoLink:{
-                            title: "{{ info.title }}",
-                            url: "{{ info.url }}"
-                        },{% endif %}{% endfor %}{% endif %}
-                    },{% endif %}{% endfor %}
-                ]
+const MapInfo = [{% for data in site.data.map_info.map_info %}
+                    {
+                        "name": "{{ data.name }}",
+                        "value": {{ data.value }},
+                        "location": [
+                            {% for loc in data.location %}
+                                    {
+                                        "name": "{{ loc.name }}",
+                                        "doctor": [
+                                        {% for doc in loc.doctor %}
+                                            {
+                                                "name": "{{ doc.name }}",
+                                                "clas":  {{ doc.clas }},
+                                                "desc": "{{ doc.desc }}",
+                                            },
+                                        {% endfor %}
+                                        ],
+                                    },
+                            {% endfor %}
+                        ], 
+                        "info_link": [
+                        {% for link in data.info_link %}
+                                    {
+                                        "title": "{{ link.title }}",
+                                        "url": "{{ link.url }}",
+                                    },
+                        {% endfor %}
+                        ],
+                    },
+                {% endfor %}
+            ]
 </script>

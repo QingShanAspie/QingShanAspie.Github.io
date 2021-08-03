@@ -24,7 +24,9 @@ weight: 4
         <p>{% if data.value == 0 %}{% else %}
         <h5>{{ data.name }} ：</h5>
         <h6>{{ data.location }}：</h6>{{ data.describe }}
-        {% for link in data.infoLink %}{% if link.title %}<ul><li><a href="{{ link.url }}">{{ link.title }}</a></li></ul>{% endif %}{% endfor %}{% endif %}
+        {% for link in data.infoLink %}{% if link.title %}<ul>
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        </ul>{% endif %}{% endfor %}{% endif %}
         </p>
         {% endfor %}
     </div>
@@ -51,7 +53,7 @@ weight: 4
                     } else {
                         window.open(MapInfo[i].infoLink.url);
                     }
-                } 
+                }
             }
         }
     });
