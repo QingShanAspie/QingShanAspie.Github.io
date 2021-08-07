@@ -1,0 +1,69 @@
+<!-- Echarts JavaScript CDN -->
+<script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+<script src="https://cdn.staticfile.org/jquery-resize/1.0/jquery.ba-resize.min.js"></script>
+
+<!-- Data loading, please do not edit -->
+{% include medical_map/data_loader.html %}
+
+<script src="{{ '/assets/js/echarts/china.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/echarts/mapData.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/echarts/mapFunc.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
+
+<!-- 手机屏幕适应 -->
+<div id="china_list">
+    <div class="col-lg-10 mx-auto mt-5 article">
+        {% for data in site.data.map_info.map_info %}
+        <p>{% if data.value != 0 %}
+        <h3>{{ data.name }}</h3>
+        {% for locate in data.location %}
+        <p>
+        <blockquote>
+            <h6>{{ locate.name }} ：</h6>
+        </blockquote>
+        <p>
+            {% for doctor in locate.doctor %}
+        <h6>{{ doctor.name }} 医生</h6>
+        {% if doctor.desc %}
+        <pre>注：{{ doctor.desc }}</pre>
+        {% endif %}
+        {% endfor %}
+        </p>
+        {% endfor %}
+        </p>
+        {% for link in data.info_link %}{% if link.title %}<ul>
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        </ul>{% endif %}{% endfor %}{% endif %}
+        </p>
+        {% endfor %}
+    </div>
+</div>
+
+
+<div class="chart">
+    <div id="china_chart" style="height: 800px; width: 100%;"></div>
+</div>
+
+<script>
+    let chart = echarts.init(document.getElementById('china_chart'));
+    chart.setOption(option);
+    chart.on('click', function (params) {
+        for (let i = 0; i < MapInfo.length; i++) {
+            if (MapInfo[i].info_link) {
+                if (MapInfo[i].name == params.name) {
+                    if (MapInfo[i].value != '0') {
+                        let links = '<h4>请选择就诊故事</h4>';
+                        for (let index = 0; index < MapInfo[i].info_link.length; index++) {
+                            links = links + '<a href="' + MapInfo[i].info_link[index].url + '" target="">' + MapInfo[i].info_link[index].title + '</a><br>';
+                        }
+                        alert(links);
+                    }
+                }
+            }
+        }
+    });
+
+    $('.chart').resize(function () {
+        chart.resize();
+    });
+</script>

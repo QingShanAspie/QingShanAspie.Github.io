@@ -15,7 +15,7 @@ const MapInfo = [{% for data in site.data.map_info.map_info %}
                                         {% for doc in loc.doctor %}
                                             {
                                                 "name": "{{ doc.name }}",
-                                                "clas":  {{ doc.clas }},
+                                                "clas": "{{ doc.clas }}",
                                                 "desc": "{{ doc.desc }}",
                                             },
                                         {% endfor %}
@@ -23,14 +23,16 @@ const MapInfo = [{% for data in site.data.map_info.map_info %}
                                     },
                             {% endfor %}
                         ], 
-                        "info_link": [
-                        {% for link in data.info_link %}
-                                    {
-                                        "title": "{{ link.title }}",
-                                        "url": "{{ link.url }}",
-                                    },
-                        {% endfor %}
-                        ],
+                        {% if data.info_link %}
+                            "info_link": [
+                            {% for link in data.info_link %}
+                                        {
+                                            "title": "{{ link.title }}",
+                                            "url": "{{ link.url }}",
+                                        },
+                            {% endfor %}
+                            ],
+                        {% endif %}
                     },
                 {% endfor %}
             ]

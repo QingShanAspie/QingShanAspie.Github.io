@@ -6,7 +6,7 @@ let option = {
     },
     tooltip: {
         formatter: function (params) {
-            let info = '<h3>' + params.name + '</h3><p style="font-size:14px">' + getInfo(params.name) + '</p>'
+            let info = '<h4>' + params.name + '</h4><p style="font-size:14px">' + getInfo(params.name) + '</p>'
             return info;
         },
         trigger: 'item',
