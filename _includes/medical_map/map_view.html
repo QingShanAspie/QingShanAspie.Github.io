@@ -54,7 +54,7 @@
                     if (MapInfo[i].value != '0') {
                         let links = '<h4>请选择就诊故事</h4>';
                         for (let index = 0; index < MapInfo[i].info_link.length; index++) {
-                            links = links + '<p><a href="' + MapInfo[i].info_link[index].url + '" target="">' + MapInfo[i].info_link[index].title + '</a></p>';
+                            links = links + '<p><br><a href="' + MapInfo[i].info_link[index].url + '" target="">' + MapInfo[i].info_link[index].title + '</a></p>';
                         }
                         alert(links);
                     }
