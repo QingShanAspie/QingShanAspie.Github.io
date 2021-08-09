@@ -23,7 +23,18 @@
         </blockquote>
         <p>
             {% for doctor in locate.doctor %}
-        <h6>{{ doctor.name }} 医生</h6>
+        <h6>
+            {{ doctor.name }} 医生
+            {% if doctor.clas == 1 %}
+            （可确诊ASD）
+            {% endif %}
+            {% if doctor.clas == 2 %}
+            （可确诊ADHD）
+            {% endif %}
+            {% if doctor.clas == 3 %}
+            （可确诊ASD与ADHD）
+            {% endif %}
+        </h6>
         {% if doctor.desc %}
         <pre>注：{{ doctor.desc }}</pre>
         {% endif %}

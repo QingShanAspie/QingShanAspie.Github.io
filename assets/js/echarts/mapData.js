@@ -12,6 +12,7 @@ function getInfo(name) {
                         if (ele.name.search('科室') == -1) {
                             map_data += ' 医生';
                         }
+                        map_data += '（' + doc_clas(ele.clas) + '）';
                         if (ele.desc != null) {
                             map_data += '<small>' + ele.desc + '</small><br>';
                         }
@@ -24,5 +25,15 @@ function getInfo(name) {
                 return map_data;
             }
         }
+    }
+}
+
+function doc_clas(level) {
+    if (level == '1') {
+        return '可确诊ASD';
+    } else if (level == '2') {
+        return '可确诊ADHD';
+    } else if (level == '3') {
+        return '可确诊ASD与ADHD';
     }
 }
