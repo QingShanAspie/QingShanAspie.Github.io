@@ -45,7 +45,7 @@ map_info:
         doctor: 
         - name: 王中磊
           clas: 3
-          desc: 康宁王中磊医生4/1-6/30停诊，望周知。停诊的这三月，由李颖源医生代替王医生，<br>依然是每周三下午。尽管王医生停诊，康宁儿少门诊依然接纳成人adhd就诊
+          desc: 由于ADOS评估时间已经排到年底了，所以接下来测评室暂停ADOS评估了。想去做成人ADOS的朋友不要白跑一趟。7/22/21<br>青衫注：ados是asd诊断金标准，但是不是必需。发育史和日常表现翔实足矣。
         - name: 石顺治
           clas: 2
           desc: 
@@ -59,7 +59,7 @@ map_info:
           desc:
         - name: 戚元丽
           clas: 2
-          desc:  
+          desc: 
     info_link: 
       - title: 深圳康宁成人ADHD+阿斯伯格确诊记
         url: https://mp.weixin.qq.com/s/-qPgCoP_Tje4nwYPi9x9qg
