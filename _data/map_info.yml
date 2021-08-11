@@ -21,11 +21,18 @@ map_info:
         - name: 王⼒芳
           clas: 2
           desc: 
+      - name: 北京安定医院
+        doctor: 
+        - name: 吴元贞
+          clas: 2
+          desc: 
     info_link: 
       - title: 北医六院成年ASD+ADHD就诊记
         url: https://mp.weixin.qq.com/s/AYKfbKJg8VVoxMHHTvq4gQ
       - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
         url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
+      - title: 北京安定医院成人ADHD就诊指南
+        url: https://mp.weixin.qq.com/s/21b6BK52CpcYqjERw_EAwg
 
   - name: 广东
     value: 3
@@ -45,7 +52,7 @@ map_info:
         doctor: 
         - name: 王中磊
           clas: 3
-          desc: 康宁王中磊医生4/1-6/30停诊，望周知。停诊的这三月，由李颖源医生代替王医生，<br>依然是每周三下午。尽管王医生停诊，康宁儿少门诊依然接纳成人adhd就诊
+          desc: 由于ADOS评估时间已经排到年底了，所以接下来测评室暂停ADOS评估了。想去做成人ADOS的朋友不要白跑一趟。7/22/21<br>青衫注：ados是asd诊断金标准，但是不是必需。发育史和日常表现翔实足矣。
         - name: 石顺治
           clas: 2
           desc: 
@@ -60,6 +67,16 @@ map_info:
         - name: 戚元丽
           clas: 2
           desc:  
+      - name: 广州暨南大学附属第一医院精神心理科
+        doctor: 
+        - name: 贾滟滨
+          clas: 2
+          desc:
+      - name: 广州妇幼保健院
+        doctor: 
+        - name: 查彩慧
+          clas: 2
+          desc:            
     info_link: 
       - title: 深圳康宁成人ADHD+阿斯伯格确诊记
         url: https://mp.weixin.qq.com/s/-qPgCoP_Tje4nwYPi9x9qg
@@ -87,6 +104,10 @@ map_info:
         url: https://mp.weixin.qq.com/s/4bgsrcvmOpGAGGglUUIXTg
       - title: 【更新】上海新华医院ADHD就诊流程
         url: https://mp.weixin.qq.com/s/i1hT9NihBj8EKn-ockKB8Q
+      - title: 【更新】上海新华医院异地就诊tips
+        url: https://mp.weixin.qq.com/s/Zldy5YP2C9RN7vXscfw5iQ
+      - title: 【更新】上海新华医院ADHD就诊攻略（2021/5/4）
+        url: https://mp.weixin.qq.com/s/fm69NfoAO8BY97OIfd9I6w
         
   - name: 重庆
     value: 2
@@ -97,7 +118,7 @@ map_info:
           clas: 2
           desc: 
         - name: 冉曼利
-          clas: 2
+          clas: 3
           desc: 
     info_link: 
       - title: 四川大学华西医院和重庆精神卫生中心成人ADHD就诊记录
@@ -127,7 +148,12 @@ map_info:
           desc: 
         - name: 段桂琴
           clas: 2
-          desc:     
+          desc:   
+     info_link: 
+      - title: 郑州大学第三附属医院（郑州市妇幼保健院）成人ADHD就诊指南
+        url: https://mp.weixin.qq.com/s/niGILl_iLYyyKUdiBkXDWw
+      - title: 河南省妇幼保健院（郑大三附院）就诊指南
+        url: https://mp.weixin.qq.com/s/CC-EE3FlVlMydLertPKuhQ
 
   - name: 云南
     value: 3
@@ -220,7 +246,10 @@ map_info:
           desc:    
         - name: 汤珺
           clas: 3
-          desc: 
+          desc:
+    info_link: 
+      - title: 武汉市精神卫生中心（二七院区）ADHD就诊经历
+        url: https://mp.weixin.qq.com/s/iw5a1cPSNbYodqMShtVStg
       
   - name: 山西
     value: 2
@@ -230,7 +259,7 @@ map_info:
         - name: 曹晓华
           clas: 2
           desc:    
-    info_link: 
+     info_link: 
       - title: 山西医科大学第一医院成人ADHD确诊指南
         url: https://mp.weixin.qq.com/s/lvWbwrzFYeWOcyDbKT7hWw   
 
@@ -242,6 +271,9 @@ map_info:
         - name: 王亚萍 
           clas: 2
           desc: 
+    info_link: 
+      - title: 西安交通大学第二附属医院成人ADHD就诊记录
+        url: https://mp.weixin.qq.com/s/TPLerqcp0lD6THMFJM3m6w
    
   - name: 吉林
     value: 2
