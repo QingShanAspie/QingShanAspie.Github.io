@@ -136,7 +136,24 @@ map_info:
         doctor: 
         - name: 李素水
           clas: 2
-          desc:
+          desc: 
+          
+  - name: 河南
+    value: 3
+    location:
+      - name: 河南省妇幼保健院（郑大三附院）心理门诊
+        doctor: 
+        - name: 姚梅玲
+          clas: 1
+          desc: 
+        - name: 段桂琴
+          clas: 2
+          desc:   
+    info_link: 
+      - title: 郑州大学第三附属医院（郑州市妇幼保健院）成人ADHD就诊指南
+        url: https://mp.weixin.qq.com/s/niGILl_iLYyyKUdiBkXDWw
+      - title: 河南省妇幼保健院（郑大三附院）就诊指南
+        url: https://mp.weixin.qq.com/s/CC-EE3FlVlMydLertPKuhQ
 
   - name: 云南
     value: 3
@@ -242,7 +259,7 @@ map_info:
         - name: 曹晓华
           clas: 2
           desc:    
-     info_link: 
+    info_link: 
       - title: 山西医科大学第一医院成人ADHD确诊指南
         url: https://mp.weixin.qq.com/s/lvWbwrzFYeWOcyDbKT7hWw   
 
