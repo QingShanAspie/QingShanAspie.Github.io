@@ -136,7 +136,7 @@ map_info:
         doctor: 
         - name: 李素水
           clas: 2
-          desc: 
+          desc:
           
   - name: 河南
     value: 3
