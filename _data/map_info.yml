@@ -84,7 +84,7 @@ map_info:
         url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
       - title: 【更新】深圳康宁医院和成都华西医院成人ASD+ADHD最新就诊细节更新
         url: https://mp.weixin.qq.com/s/WRADPkC2-_dW60fBP4VteA
-        
+
   - name: 上海
     value: 2
     location:
@@ -137,7 +137,7 @@ map_info:
         - name: 李素水
           clas: 2
           desc:
-          
+
   - name: 河南
     value: 3
     location:
@@ -163,7 +163,7 @@ map_info:
         - name: 卢瑾
           clas: 3
           desc: 
- 
+
   - name: 辽宁
     value: 3
     location:
@@ -192,7 +192,7 @@ map_info:
         - name: 苏林雁
           clas: 2
           desc: 
-   
+
   - name: 山东
     value: 2
     location:
@@ -201,7 +201,7 @@ map_info:
         - name: 殷爱华 
           clas: 2
           desc:  
-   
+
   - name: 江苏
     value: 3
     location:
