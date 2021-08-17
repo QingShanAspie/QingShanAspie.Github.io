@@ -294,7 +294,7 @@ map_info:
         doctor: 
         - name: 卢大力
           clas: 2
-          desc: 
+          desc: <br>卢大力医生（原厦门仙岳医院）：阳光小筑心理工作室，QQ:64143513
    
   - name: 四川
     value: 3
