@@ -167,7 +167,7 @@ map_info:
   - name: 辽宁
     value: 3
     location:
-      - name: 辽宁电力中心医院
+      - name: 辽宁省肿瘤医院
         doctor: 
         - name: 姜爽
           clas: 3
