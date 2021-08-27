@@ -21,11 +21,18 @@ map_info:
         - name: 王⼒芳
           clas: 2
           desc: 
+      - name: 北京安定医院
+        doctor: 
+        - name: 吴元贞
+          clas: 2
+          desc: 
     info_link: 
       - title: 北医六院成年ASD+ADHD就诊记
         url: https://mp.weixin.qq.com/s/AYKfbKJg8VVoxMHHTvq4gQ
       - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
         url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
+      - title: 北京安定医院成人ADHD就诊指南
+        url: https://mp.weixin.qq.com/s/21b6BK52CpcYqjERw_EAwg
 
   - name: 广东
     value: 3
@@ -49,6 +56,9 @@ map_info:
         - name: 石顺治
           clas: 2
           desc: 
+        - name: 李颖源
+          class: 3
+          desc: 深圳康宁李颖源医生可确诊成人asd和adhd，每周四下午出诊。
         - name: 齐云柯
           clas: 2
           desc: 
@@ -59,7 +69,17 @@ map_info:
           desc:
         - name: 戚元丽
           clas: 2
-          desc: 
+          desc:  
+      - name: 广州暨南大学附属第一医院精神心理科
+        doctor: 
+        - name: 贾滟滨
+          clas: 2
+          desc:
+      - name: 广州妇幼保健院
+        doctor: 
+        - name: 查彩慧
+          clas: 2
+          desc:           
     info_link: 
       - title: 深圳康宁成人ADHD+阿斯伯格确诊记
         url: https://mp.weixin.qq.com/s/-qPgCoP_Tje4nwYPi9x9qg
@@ -67,6 +87,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
       - title: 【更新】深圳康宁医院和成都华西医院成人ASD+ADHD最新就诊细节更新
         url: https://mp.weixin.qq.com/s/WRADPkC2-_dW60fBP4VteA
+      - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
+        url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
         
   - name: 上海
     value: 2
@@ -87,6 +109,10 @@ map_info:
         url: https://mp.weixin.qq.com/s/4bgsrcvmOpGAGGglUUIXTg
       - title: 【更新】上海新华医院ADHD就诊流程
         url: https://mp.weixin.qq.com/s/i1hT9NihBj8EKn-ockKB8Q
+      - title: 【更新】上海新华医院异地就诊tips
+        url: https://mp.weixin.qq.com/s/Zldy5YP2C9RN7vXscfw5iQ
+      - title: 【更新】上海新华医院ADHD就诊攻略（2021/5/4）
+        url: https://mp.weixin.qq.com/s/fm69NfoAO8BY97OIfd9I6w
         
   - name: 重庆
     value: 2
@@ -97,11 +123,13 @@ map_info:
           clas: 2
           desc: 
         - name: 冉曼利
-          clas: 2
+          clas: 3
           desc: 
     info_link: 
       - title: 四川大学华西医院和重庆精神卫生中心成人ADHD就诊记录
         url: https://mp.weixin.qq.com/s/XegOiuQMeDg_INtJ5yhnmQ
+      - title: 重庆市精神卫生中心（金紫山区）成人ASD就诊指南
+        url: https://mp.weixin.qq.com/s/kEgRojRImJ5pGhD4mKuNKg
 
   - name: 河北
     value: 2
@@ -120,14 +148,19 @@ map_info:
   - name: 河南
     value: 3
     location:
-      - name: 河南省妇幼保健院(郑大三附院)心理门诊
+      - name: 河南省妇幼保健院（郑大三附院）心理门诊
         doctor: 
         - name: 姚梅玲
           clas: 1
           desc: 
         - name: 段桂琴
           clas: 2
-          desc:     
+          desc:   
+    info_link: 
+      - title: 郑州大学第三附属医院（郑州市妇幼保健院）成人ADHD就诊指南
+        url: https://mp.weixin.qq.com/s/niGILl_iLYyyKUdiBkXDWw
+      - title: 河南省妇幼保健院（郑大三附院）就诊指南
+        url: https://mp.weixin.qq.com/s/CC-EE3FlVlMydLertPKuhQ
 
   - name: 云南
     value: 3
@@ -141,7 +174,7 @@ map_info:
   - name: 辽宁
     value: 3
     location:
-      - name: 辽宁电力中心医院
+      - name: 辽宁省肿瘤医院
         doctor: 
         - name: 姜爽
           clas: 3
@@ -175,7 +208,10 @@ map_info:
         - name: 殷爱华 
           clas: 2
           desc:  
-   
+    info_link: 
+      - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
+        url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
+       
   - name: 江苏
     value: 3
     location:
@@ -185,6 +221,9 @@ map_info:
           clas: 3
           desc:   
         - name: 张会会
+          clas: 2
+          desc:
+        - name: 鲍晨曦
           clas: 2
           desc:
     info_link: 
@@ -220,7 +259,12 @@ map_info:
           desc:    
         - name: 汤珺
           clas: 3
-          desc: 
+          desc:
+    info_link: 
+      - title: 武汉市精神卫生中心（二七院区）ADHD就诊经历
+        url: https://mp.weixin.qq.com/s/iw5a1cPSNbYodqMShtVStg
+      - title: 武汉市精神卫生中心（二七院区）成人ASD+ADHD就诊记录
+        url: https://mp.weixin.qq.com/s/JWvpvEkp2Tvw85pyP93XfQ
       
   - name: 山西
     value: 2
@@ -242,6 +286,9 @@ map_info:
         - name: 王亚萍 
           clas: 2
           desc: 
+    info_link: 
+      - title: 西安交通大学第二附属医院成人ADHD就诊记录
+        url: https://mp.weixin.qq.com/s/TPLerqcp0lD6THMFJM3m6w
    
   - name: 吉林
     value: 2
@@ -259,7 +306,7 @@ map_info:
         doctor: 
         - name: 卢大力
           clas: 2
-          desc: 
+          desc: <br>卢大力医生（原厦门仙岳医院）：阳光小筑心理工作室，QQ:64143513
    
   - name: 四川
     value: 3
