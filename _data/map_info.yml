@@ -56,6 +56,9 @@ map_info:
         - name: 石顺治
           clas: 2
           desc: 
+        - name: 李颖源
+          class: 3
+          desc: 深圳康宁李颖源医生可确诊成人asd和adhd，每周四下午出诊。
         - name: 齐云柯
           clas: 2
           desc: 
@@ -76,7 +79,7 @@ map_info:
         doctor: 
         - name: 查彩慧
           clas: 2
-          desc:            
+          desc:           
     info_link: 
       - title: 深圳康宁成人ADHD+阿斯伯格确诊记
         url: https://mp.weixin.qq.com/s/-qPgCoP_Tje4nwYPi9x9qg
@@ -84,6 +87,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
       - title: 【更新】深圳康宁医院和成都华西医院成人ASD+ADHD最新就诊细节更新
         url: https://mp.weixin.qq.com/s/WRADPkC2-_dW60fBP4VteA
+      - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
+        url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
         
   - name: 上海
     value: 2
@@ -123,6 +128,8 @@ map_info:
     info_link: 
       - title: 四川大学华西医院和重庆精神卫生中心成人ADHD就诊记录
         url: https://mp.weixin.qq.com/s/XegOiuQMeDg_INtJ5yhnmQ
+      - title: 重庆市精神卫生中心（金紫山区）成人ASD就诊指南
+        url: https://mp.weixin.qq.com/s/kEgRojRImJ5pGhD4mKuNKg
 
   - name: 河北
     value: 2
@@ -201,7 +208,10 @@ map_info:
         - name: 殷爱华 
           clas: 2
           desc:  
-   
+    info_link: 
+      - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
+        url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
+       
   - name: 江苏
     value: 3
     location:
@@ -225,18 +235,12 @@ map_info:
         url: https://mp.weixin.qq.com/s/m5PZbCTl4SQKAOsI6UQQCQ
         
   - name: 浙江
-    value: 2
+    value: 0
     location:
-      - name: 杭州市第七人民医院
+      - name: 
         doctor: 
-        - name: 廖文静 
-          clas: 2
-          desc:      
-        - name: 周国岭
-          clas: 2
-          desc:        
-        - name: 周圆月 
-          clas: 2
+        - name: 
+          clas: 
           desc: 
 
   - name: 湖北
@@ -253,6 +257,8 @@ map_info:
     info_link: 
       - title: 武汉市精神卫生中心（二七院区）ADHD就诊经历
         url: https://mp.weixin.qq.com/s/iw5a1cPSNbYodqMShtVStg
+      - title: 武汉市精神卫生中心（二七院区）成人ASD+ADHD就诊记录
+        url: https://mp.weixin.qq.com/s/JWvpvEkp2Tvw85pyP93XfQ
       
   - name: 山西
     value: 2
