@@ -33,6 +33,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
       - title: 北京安定医院成人ADHD就诊指南
         url: https://mp.weixin.qq.com/s/21b6BK52CpcYqjERw_EAwg
+      - title: 北京安定医院成人ADHD&抑郁共现就诊记录
+        url: https://mp.weixin.qq.com/s/7TWo-auMYB1hIASsbY3cRw
 
   - name: 广东
     value: 3
@@ -92,6 +94,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/WRADPkC2-_dW60fBP4VteA
       - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
         url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
+      - title: 广东省人民医院ADHD成人就诊指南及对新人建议
+        url: https://mp.weixin.qq.com/s/Ai7E6GANjg2Z2tqA84wzog
         
   - name: 上海
     value: 2
@@ -391,13 +395,28 @@ map_info:
           desc: 
     
   - name: 广西
-    value: 0
+    value: 3
     location: 
-      - name: 
+      - name: 广西壮族自治区人民医院（桃源院区）
         doctor: 
-        - name: 
-          clas: 
-          desc:     
+        - name: 秦岭
+          clas: 2
+          desc:
+        - name: 刘海润
+          clas: 2
+          desc:
+        - name: 傅燕虹
+          clas: 2
+          desc:
+        - name: 黄思艳
+          clas: 2
+          desc:
+        - name: 张鸿
+          clas: 2
+          desc:
+        - name: 李丹丹
+          clas: 2
+          desc:
     
   - name: 甘肃
     value: 0
