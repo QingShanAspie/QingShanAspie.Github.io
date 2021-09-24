@@ -127,7 +127,7 @@ map_info:
       - name: 重庆市精神卫生中心
         doctor: 
         - name: 王敏建
-          clas: 2
+          clas: 3
           desc: 
         - name: 冉曼利
           clas: 3
@@ -177,7 +177,10 @@ map_info:
         - name: 卢瑾
           clas: 3
           desc: 
- 
+    info_link: 
+      - title: 昆明医科大成人ADHD就诊攻略
+        url: https://mp.weixin.qq.com/s/v52WiSbILr3lDfrZCndeLg
+        
   - name: 辽宁
     value: 3
     location:
