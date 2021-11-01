@@ -26,6 +26,9 @@ map_info:
         - name: 吴元贞
           clas: 2
           desc: 
+        - name: 陈旭
+          clas: 1
+          desc: 安定医院陈旭医生周三下午特需门诊可看成人ASD（转自网络经验贴）
     info_link: 
       - title: 北医六院成年ASD+ADHD就诊记
         url: https://mp.weixin.qq.com/s/AYKfbKJg8VVoxMHHTvq4gQ
