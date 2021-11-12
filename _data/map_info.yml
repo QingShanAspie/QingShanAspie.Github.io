@@ -106,10 +106,7 @@ map_info:
           desc: 
         - name: 夏卫萍
           clas: 2
-          desc: 
-        - name: 帅澜
-          clas: 2
-          desc:     
+          desc:   
     info_link: 
       - title: 上海新华医院adhd确诊指南
         url: https://mp.weixin.qq.com/s/4bgsrcvmOpGAGGglUUIXTg
