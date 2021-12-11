@@ -41,6 +41,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/21b6BK52CpcYqjERw_EAwg
       - title: 北京安定医院成人ADHD&抑郁共现就诊记录
         url: https://mp.weixin.qq.com/s/7TWo-auMYB1hIASsbY3cRw
+      - title: 北京安定医院成人ASD就诊记录
+        url: https://mp.weixin.qq.com/s/LJ1ZUrNBfPgBoevfXfgv2g
 
   - name: 广东
     value: 3
@@ -102,6 +104,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
       - title: 广东省人民医院ADHD成人就诊指南及对新人建议
         url: https://mp.weixin.qq.com/s/Ai7E6GANjg2Z2tqA84wzog
+      - title: 广州脑科（惠爱）医院的成人ADHD就诊记录
+        url: https://mp.weixin.qq.com/s/m12qan6xax6-g4_NZ8Whww
         
   - name: 上海
     value: 2
@@ -123,6 +127,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/Zldy5YP2C9RN7vXscfw5iQ
       - title: 【更新】上海新华医院ADHD就诊攻略（2021/5/4）
         url: https://mp.weixin.qq.com/s/fm69NfoAO8BY97OIfd9I6w
+      - title: 【更新】上海新华医院成人ADHD就诊记录（2021.9.25）
+        url: https://mp.weixin.qq.com/s/m3kg-gUZOwpd1JGAtAExkg
         
   - name: 重庆
     value: 2
@@ -181,8 +187,8 @@ map_info:
           clas: 3
           desc: 
     info_link: 
-      - title: 
-        url: 
+      - title: 昆明医科大成人ADHD就诊攻略
+        url: https://mp.weixin.qq.com/s/v52WiSbILr3lDfrZCndeLg
         
   - name: 辽宁
     value: 3
@@ -318,6 +324,9 @@ map_info:
           clas: 2
         - name: 李韵
           clas: 2
+    info_link:
+      - title: 厦门仙岳医院成人ADHD就诊故事
+        url: https://mp.weixin.qq.com/s/CWbcIaEd9MaZp1FHq0cEnQ
    
   - name: 四川
     value: 3
@@ -427,6 +436,9 @@ map_info:
         - name: 李丹丹
           clas: 2
           desc:
+     info_link:
+       - title: 广西壮族自治区人民医院成人ASD+ADHD就诊指南
+         url: https://mp.weixin.qq.com/s/hUEZ6PPncUeDu355qqGPIA
     
   - name: 甘肃
     value: 0
