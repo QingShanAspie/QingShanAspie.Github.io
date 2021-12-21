@@ -202,7 +202,7 @@ map_info:
         doctor: 
         - name: 彭淼
           clas: 3
-          desc:      
+          desc: 支持多项共病诊断   
           
   - name: 湖南
     value: 2
