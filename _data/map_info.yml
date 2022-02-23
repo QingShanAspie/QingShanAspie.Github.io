@@ -254,13 +254,13 @@ map_info:
         url: https://mp.weixin.qq.com/s/m5PZbCTl4SQKAOsI6UQQCQ
         
   - name: 浙江
-    value: 0
+    value: 3
     location:
-      - name: 
+      - name: 杭州市第七人民医院
         doctor: 
-        - name: 
-          clas: 
-          desc: 
+        - name: 刘艳
+          clas: 2
+          desc: 挂号儿童心理科，可开36mg和18mg的专注达。
 
   - name: 湖北
     value: 3
