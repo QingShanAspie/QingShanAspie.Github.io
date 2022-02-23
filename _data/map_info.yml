@@ -255,12 +255,12 @@ map_info:
         
   - name: 浙江
     value: 0
-    location:
-      - name: 
+    location: 
+      - name: 浙江大学医学院附属第一医院 （余杭院区）（庆春院区）
         doctor: 
         - name: 
           clas: 
-          desc: 
+          desc: 挂精神卫生科 - 注意缺陷多动障碍科
 
   - name: 湖北
     value: 3
