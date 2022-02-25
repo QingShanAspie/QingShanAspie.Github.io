@@ -258,9 +258,14 @@ map_info:
     location: 
       - name: 浙江大学医学院附属第一医院 （余杭院区）（庆春院区）
         doctor: 
-        - name: 
+        - name: 付广慧
           clas: 
-          desc: 挂精神卫生科 - 注意缺陷多动障碍科
+          desc: 精神卫生科 - 注意缺陷多动障碍科
+      - name: 杭州市第七人民医院
+        doctor: 
+        - name: 刘艳
+          clas:
+          desc: 儿童心理科，可以开18mg和36mg的专注达。
 
   - name: 湖北
     value: 3
