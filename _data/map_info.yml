@@ -254,7 +254,7 @@ map_info:
         url: https://mp.weixin.qq.com/s/m5PZbCTl4SQKAOsI6UQQCQ
         
   - name: 浙江
-    value: 0
+    value: 2
     location: 
       - name: 浙江大学医学院附属第一医院 （余杭院区）（庆春院区）
         doctor: 
