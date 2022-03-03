@@ -245,6 +245,9 @@ map_info:
         - name: 鲍晨曦
           clas: 2
           desc:
+        - name: 柯晓燕
+          clas: 2
+          desc:
     info_link: 
       - title: 南京脑科医院成人asd+adhd就诊经历
         url: https://mp.weixin.qq.com/s/jBg86bXnYZsIJ7FpM4Hkcw
@@ -254,7 +257,7 @@ map_info:
         url: https://mp.weixin.qq.com/s/m5PZbCTl4SQKAOsI6UQQCQ
         
   - name: 浙江
-    value: 0
+    value: 3
     location: 
       - name: 浙江大学医学院附属第一医院 （余杭院区）（庆春院区）
         doctor: 
