@@ -513,22 +513,22 @@ map_info:
           desc: 
     
   - name: 香港
-    value: 0
+    value: 3
     location:  
-      - name: 
+      - name: 中建医务（中建醫務）
         doctor: 
-        - name:  
-          clas: 
-          desc: 
+        - name: 麦棨诺（麥棨諾）
+          clas: 2
+          desc: 麦棨诺医生讲普通话，可确诊成人ADHD。中建医务地址：香港中环毕打街1-3号中建大厦608室。
     
   - name: 澳门
-    value: 0
+    value: 3
     location:  
-      - name: 
+      - name: 澳门镜湖医院（澳門鏡湖醫院）
         doctor: 
-        - name: 
-          clas: 
-          desc: 
+        - name: 麦棨诺（麥棨諾）
+          clas: 2
+          desc: 麦棨诺医生讲普通话，可确诊成人ADHD。澳门镜湖医院就诊请先预约神经内科转介。
     
   - name: 南海诸岛
     value: 0
