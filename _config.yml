@@ -57,3 +57,4 @@ exclude:
   - Gemfile.lock
   - Readme_DEV.md
   - SECURITY.md
+  - backup

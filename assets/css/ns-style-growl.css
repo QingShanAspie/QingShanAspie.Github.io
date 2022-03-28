@@ -228,12 +228,12 @@
 
 .ns-effect-slide .ns-close::before,
 .ns-effect-slide .ns-close::after {
-	background: #333;
+	background: rgb(255, 255, 255);
 }
 
 .ns-effect-slide .ns-close:hover::before,
 .ns-effect-slide .ns-close:hover::after {
-	background: #fff;
+	background: rgb(255, 255, 255);
 }
 
 .ns-effect-slide.ns-show {

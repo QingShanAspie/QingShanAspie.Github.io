@@ -6,8 +6,8 @@
 {% include medical_map/data_loader.html %}
 
 <script src="{{ '/assets/js/echarts/china.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/echarts/mapData.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/echarts/mapFunc.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/echarts/map_data.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/echarts/map_func.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
 
 <!-- 手机屏幕适应 -->
@@ -59,13 +59,13 @@
     let chart = echarts.init(document.getElementById('china_chart'));
     chart.setOption(option);
     chart.on('click', function (params) {
-        for (let i = 0; i < MapInfo.length; i++) {
-            if (MapInfo[i].info_link) {
-                if (MapInfo[i].name == params.name) {
-                    if (MapInfo[i].value != '0') {
+        for (let i = 0; i < map_info.length; i++) {
+            if (map_info[i].info_link) {
+                if (map_info[i].name == params.name) {
+                    if (map_info[i].value != '0') {
                         let links = '<h4>请选择就诊故事</h4>';
-                        for (let index = 0; index < MapInfo[i].info_link.length; index++) {
-                            links = links + '<p><br><a href="' + MapInfo[i].info_link[index].url + '" target="">' + MapInfo[i].info_link[index].title + '</a></p>';
+                        for (let index = 0; index < map_info[i].info_link.length; index++) {
+                            links = links + '<p><br><a href="' + map_info[i].info_link[index].url + '" target="">' + map_info[i].info_link[index].title + '</a></p>';
                         }
                         alert(links);
                     }

@@ -1,0 +1,32 @@
+<script src="{{ '/assets/js/echarts/world.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/echarts/map_data.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/echarts/map_func_int.js' | relative_url }}"></script>
+
+{% include medical_map/data_loader_int.html %}
+
+<div class="chart-container">
+    <div id="container" style="height: 800px; width: 100%;"></div>
+</div>
+
+<script>
+    let chart_int = echarts.init(document.getElementById('container'), 'white', { renderer: 'canvas' });
+    chart_int.setOption(option_int);
+    chart_int.on('click', function (params) {
+        for (let i = 0; i < map_info.length; i++) {
+            if (map_info[i].info_link) {
+                if (map_info[i].name == params.name) {
+                    if (map_info[i].value != '0') {
+                        let links = '<h4>请选择就诊故事</h4>';
+                        for (let index = 0; index < map_info[i].info_link.length; index++) {
+                            links = links + '<p><br><a href="' + map_info[i].info_link[index].url + '" target="">' + map_info[i].info_link[index].title + '</a></p>';
+                        }
+                        alert(links);
+                    }
+                }
+            }
+        }
+    });
+    $('.chart-container').resize(function () {
+        chart_int.resize();
+    });
+</script>

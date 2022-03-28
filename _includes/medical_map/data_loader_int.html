@@ -1,7 +1,7 @@
 <!-- 就诊地图数据引入 -->
 
 <script>
-const map_info = [{% for data in site.data.map_info.map_info %}
+const map_info_int = [{% for data in site.data.map_info.map_info %}
                     {
                         "name": "{{ data.name }}",
                         "value": {{ data.value }},

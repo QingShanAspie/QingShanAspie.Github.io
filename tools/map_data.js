@@ -1,4 +1,4 @@
-const MapData = [
+const map_data = [
     { name: '北京', value: 3 },
     { name: '天津', value: 0 },
     { name: '上海', value: 2 },
@@ -37,10 +37,10 @@ const MapData = [
 ];
 
 let yml = ' '
-for (let index = 0; index < MapData.length; index++) {
+for (let index = 0; index < map_data.length; index++) {
     yml = yml +
-    '  - name: ' + MapData[index].name + 
-    '\n    value: ' + MapData[index].value + 
+    '  - name: ' + map_data[index].name + 
+    '\n    value: ' + map_data[index].value + 
     '\n    location: ' + 
     '\n    describe: ' +
     '\n    mutiLink: ' + 

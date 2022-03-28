@@ -1,7 +1,7 @@
 let date = new Date();
-let eventGrayDay = ["4.4", "9.18", "12.13"]
+let event_grayDay = ["4.4", "9.18", "12.13"]
 
-if (eventGrayDay.indexOf((date.getMonth() + 1) + "." + (date.getDate())) !== -1) {
+if (event_grayDay.indexOf((date.getMonth() + 1) + "." + (date.getDate())) !== -1) {
     $("html").css({
         "-webkit-filter": "grayscale(100%)",
         "-moz-filter": "grayscale(100%)",
