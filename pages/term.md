@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 使用条款
-permalink: /term
+permalink: /term/
 weight: 5
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 就诊地图
-permalink: /Medical-Map/
+permalink: /medical-map/
 weight: 4
 ---
 
@@ -10,7 +10,7 @@ weight: 4
     let int_map = false;
 </script>
 
-<div class="more-button"><span onclick="change_map();">国际版</span></div>
+<!-- <div class="more-button"><span id="map_button" onclick="change_map();">国际版</span></div> -->
 
 <div class="china_map">
     {% include medical_map/china_map_view.html %}
@@ -25,11 +25,13 @@ weight: 4
         if (china_map) {
             $('.china_map').css("display", "none");
             $('.int_map').css("display", "block");
+            $('#map_button').text("国内版")
             china_map = false;
             int_map = true;
         } else if (int_map) {
             $('.china_map').css("display", "block");
             $('.int_map').css("display", "none");
+            $('#map_button').text("国际版")
             china_map = true;
             int_map = false;
         }

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 关于
-permalink: /About/
+permalink: /about/
 weight: 3
 ---
 
