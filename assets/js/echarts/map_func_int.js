@@ -52,6 +52,6 @@ let option_int = {
                 areaColor: '#d1c4e9'
             }
         },
-        data: MapInfo
+        data: map_info
     }]
 };
