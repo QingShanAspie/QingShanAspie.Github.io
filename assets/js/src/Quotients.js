@@ -21,7 +21,27 @@ $j(document).on('click', '.btn-default.option', function () {
     $j(this).addClass('active');
 });
 
-function finish() {
+function finish(id) {
+    if (id !== Object.keys($data).length) {
+        setTimeout(function () {
+            let notification = new NotificationFx({
+                message: '<p>请完成量表</p>',
+                layout: 'growl',
+                effect: 'slide',
+                type: 'warning',
+                ttl: 30,
+                onClose: function () {
+                    addCookie('term', 1000);
+                }
+            });
+            notification.show();
+        }, 800);
+    } else {
+        submit();
+    }
+}
+
+function submit() {
     /* 清除表单 */
     $('.test-body').addClass('Out-hide');
 
