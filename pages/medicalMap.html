@@ -5,4 +5,33 @@ permalink: /Medical-Map/
 weight: 4
 ---
 
-{% include medical_map/map_view.html %}
+<script>
+    let china_map = true;
+    let int_map = false;
+</script>
+
+<div class="more-button"><span onclick="change_map();">国际版</span></div>
+
+<div class="china_map">
+    {% include medical_map/china_map_view.html %}
+</div>
+
+<div class="int_map" style="display: none;">
+    {% include medical_map/int_map_view.html %}
+</div>
+
+<script>
+    function change_map() {
+        if (china_map) {
+            $('.china_map').css("display", "none");
+            $('.int_map').css("display", "block");
+            china_map = false;
+            int_map = true;
+        } else if (int_map) {
+            $('.china_map').css("display", "block");
+            $('.int_map').css("display", "none");
+            china_map = true;
+            int_map = false;
+        }
+    }
+</script>

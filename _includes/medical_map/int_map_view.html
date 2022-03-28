@@ -1,0 +1,17 @@
+<script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+<script src="{{ '/assets/js/echarts/mapData.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/echarts/mapFuncInt.js' | relative_url }}"></script>
+
+{% include medical_map/data_loader.html %}
+
+<div class="chart-container">
+    <div id="container" style="height: 800px; width: 100%;"></div>
+</div>
+
+<script>
+    let chart_container = echarts.init(document.getElementById('container'), 'white', { renderer: 'canvas' });
+    chart_container.setOption(option_int);
+    $('.chart-container').resize(function () {
+        chart_container.resize();
+    });
+</script>
