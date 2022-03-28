@@ -1,0 +1,543 @@
+# 0 -> 无可选择医院
+# 1 -> 单独ASD
+# 2 -> 单独ADHD
+# 3 -> ASD/ADHD均可
+
+map_info:
+  - name: 北京
+    value: 3
+    location: 
+      - name: 北京大学第六医院
+        doctor: 
+        - name: 王玉凤
+          clas: 2
+          desc: 
+        - name: 钱秋谨
+          clas: 3
+          desc: 
+        - name: 孙黎
+          clas: 2
+          desc: 
+        - name: 王⼒芳
+          clas: 2
+          desc: 
+      - name: 北京安定医院
+        doctor: 
+        - name: 吴元贞
+          clas: 2
+          desc: 
+        - name: 陈旭
+          clas: 1
+          desc: 安定医院陈旭医生周三下午特需门诊可看成人ASD（转自网络经验贴）
+        - name: 何凡
+          clas: 1
+          desc: 
+        - name: 周玉明
+          clas: 3
+          desc: 周玉明医生可以确诊成人ASD和ADHD, 每周五上午作为副主任医生在孤独症门诊出诊。
+    info_link: 
+      - title: 北医六院成年ASD+ADHD就诊记
+        url: https://mp.weixin.qq.com/s/AYKfbKJg8VVoxMHHTvq4gQ
+      - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
+        url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
+      - title: 北京安定医院成人ADHD就诊指南
+        url: https://mp.weixin.qq.com/s/21b6BK52CpcYqjERw_EAwg
+      - title: 北京安定医院成人ADHD&抑郁共现就诊记录
+        url: https://mp.weixin.qq.com/s/7TWo-auMYB1hIASsbY3cRw
+      - title: 北京安定医院成人ASD就诊记录
+        url: https://mp.weixin.qq.com/s/LJ1ZUrNBfPgBoevfXfgv2g
+
+  - name: 广东
+    value: 3
+    location:
+      - name: 广州医科大学附属脑科医院（广州市惠爱医院）
+        doctor: 
+        - name: 吴秋霞
+          clas: 1
+          desc: 
+        - name: 程道猛
+          clas: 2
+          desc: 
+        - name: 李苏义
+          clas: 2
+          desc: 
+      - name: 深圳市康宁医院
+        doctor: 
+        - name: 王中磊
+          clas: 3
+          desc: 由于ADOS评估时间已经排到年底了，所以接下来测评室暂停ADOS评估了。想去做成人ADOS的朋友不要白跑一趟。7/22/21<br>青衫注：ados是asd诊断金标准，但是不是必需。发育史和日常表现翔实足矣。
+        - name: 石顺治
+          clas: 2
+          desc: 
+        - name: 李颖源
+          clas: 3
+          desc: 深圳康宁李颖源医生可确诊成人asd和adhd，每周四下午出诊。
+        - name: 齐云柯
+          clas: 2
+          desc: 
+        - name: 杨志伟
+          clas: 1
+          desc: 
+      - name: 广东省人民医院
+        doctor: 
+        - name: 杨帆
+          clas: 2
+          desc:
+        - name: 戚元丽
+          clas: 2
+          desc:  
+      - name: 广州暨南大学附属第一医院精神心理科
+        doctor: 
+        - name: 贾滟滨
+          clas: 2
+          desc:
+      - name: 广州妇幼保健院
+        doctor: 
+        - name: 查彩慧
+          clas: 2
+          desc:           
+    info_link: 
+      - title: 深圳康宁成人ADHD+阿斯伯格确诊记
+        url: https://mp.weixin.qq.com/s/-qPgCoP_Tje4nwYPi9x9qg
+      - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
+        url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
+      - title: 【更新】深圳康宁医院和成都华西医院成人ASD+ADHD最新就诊细节更新
+        url: https://mp.weixin.qq.com/s/WRADPkC2-_dW60fBP4VteA
+      - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
+        url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
+      - title: 广东省人民医院ADHD成人就诊指南及对新人建议
+        url: https://mp.weixin.qq.com/s/Ai7E6GANjg2Z2tqA84wzog
+      - title: 广州脑科（惠爱）医院的成人ADHD就诊记录
+        url: https://mp.weixin.qq.com/s/m12qan6xax6-g4_NZ8Whww
+        
+  - name: 上海
+    value: 2
+    location:
+      - name: 上海新华医院
+        doctor: 
+        - name: 张劲松
+          clas: 2
+          desc: 
+        - name: 夏卫萍
+          clas: 2
+          desc:   
+    info_link: 
+      - title: 上海新华医院adhd确诊指南
+        url: https://mp.weixin.qq.com/s/4bgsrcvmOpGAGGglUUIXTg
+      - title: 【更新】上海新华医院ADHD就诊流程
+        url: https://mp.weixin.qq.com/s/i1hT9NihBj8EKn-ockKB8Q
+      - title: 【更新】上海新华医院异地就诊tips
+        url: https://mp.weixin.qq.com/s/Zldy5YP2C9RN7vXscfw5iQ
+      - title: 【更新】上海新华医院ADHD就诊攻略（2021/5/4）
+        url: https://mp.weixin.qq.com/s/fm69NfoAO8BY97OIfd9I6w
+      - title: 【更新】上海新华医院成人ADHD就诊记录（2021.9.25）
+        url: https://mp.weixin.qq.com/s/m3kg-gUZOwpd1JGAtAExkg
+        
+  - name: 重庆
+    value: 2
+    location:     
+      - name: 重庆市精神卫生中心
+        doctor: 
+        - name: 王敏建
+          clas: 3
+          desc: 
+        - name: 冉曼利
+          clas: 3
+          desc: 
+    info_link: 
+      - title: 四川大学华西医院和重庆精神卫生中心成人ADHD就诊记录
+        url: https://mp.weixin.qq.com/s/XegOiuQMeDg_INtJ5yhnmQ
+      - title: 重庆市精神卫生中心（金紫山区）成人ASD就诊指南
+        url: https://mp.weixin.qq.com/s/kEgRojRImJ5pGhD4mKuNKg
+
+  - name: 河北
+    value: 2
+    location:
+      - name: 河北省儿童医院心理行为科
+        doctor: 
+        - name: 王霞
+          clas: 2
+          desc: 
+      - name: 石家庄市第八医院精八科
+        doctor: 
+        - name: 李素水
+          clas: 2
+          desc: 
+          
+  - name: 河南
+    value: 3
+    location:
+      - name: 河南省妇幼保健院（郑大三附院）心理门诊
+        doctor: 
+        - name: 姚梅玲
+          clas: 1
+          desc: 
+        - name: 段桂琴
+          clas: 2
+          desc:   
+    info_link: 
+      - title: 郑州大学第三附属医院（郑州市妇幼保健院）成人ADHD就诊指南
+        url: https://mp.weixin.qq.com/s/niGILl_iLYyyKUdiBkXDWw
+      - title: 河南省妇幼保健院（郑大三附院）就诊指南
+        url: https://mp.weixin.qq.com/s/CC-EE3FlVlMydLertPKuhQ
+
+  - name: 云南
+    value: 3
+    location:
+      - name: 昆明医学院附属第一医院(云大医院)
+        doctor: 
+        - name: 卢瑾
+          clas: 3
+          desc: 
+    info_link: 
+      - title: 昆明医科大成人ADHD就诊攻略
+        url: https://mp.weixin.qq.com/s/v52WiSbILr3lDfrZCndeLg
+        
+  - name: 辽宁
+    value: 3
+    location:
+      - name: 辽宁省肿瘤医院
+        doctor: 
+        - name: 姜爽
+          clas: 3
+          desc: 
+      - name: 中国医科大学沈阳盛京医院（滑翔院区）
+        doctor: 
+        - name: 彭淼
+          clas: 3
+          desc: 支持多项共病诊断   
+          
+  - name: 湖南
+    value: 2
+    location:
+      - name: 中南大学湘雅二医院
+        doctor: 
+        - name: 崔夕龙
+          clas: 2
+          desc:         
+        - name: ⻩春香
+          clas: 2
+          desc:       
+        - name: 苏林雁
+          clas: 2
+          desc: 
+   
+  - name: 山东
+    value: 2
+    location:
+      - name: 山东省精神卫生中心
+        doctor: 
+        - name: 殷爱华 
+          clas: 2
+          desc:  
+    info_link: 
+      - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
+        url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
+       
+  - name: 江苏
+    value: 3
+    location:
+      - name: 南京脑科儿童心理卫生中心
+        doctor: 
+        - name: 焦公凯 
+          clas: 3
+          desc:   
+        - name: 张会会
+          clas: 2
+          desc:
+        - name: 鲍晨曦
+          clas: 2
+          desc:
+        - name: 柯晓燕
+          clas: 2
+          desc:
+    info_link: 
+      - title: 南京脑科医院成人asd+adhd就诊经历
+        url: https://mp.weixin.qq.com/s/jBg86bXnYZsIJ7FpM4Hkcw
+      - title: 南京脑科医院ADHD就诊经历（成人直接挂号方法）
+        url: https://mp.weixin.qq.com/s/Dgm2KxidxLI6a2dKGazQgg
+      - title: 【更新】成人ASD南京脑科就诊流程
+        url: https://mp.weixin.qq.com/s/m5PZbCTl4SQKAOsI6UQQCQ
+        
+  - name: 浙江
+    value: 3
+    location: 
+      - name: 浙江大学医学院附属第一医院 （余杭院区）（庆春院区）
+        doctor: 
+        - name: 付广慧
+          clas: 2
+          desc: <br>精神卫生科 - 注意缺陷多动障碍科
+      - name: 杭州市第七人民医院
+        doctor: 
+        - name: 刘艳
+          clas: 2
+          desc: <br>儿童心理科，可以开18mg和36mg的专注达。
+
+  - name: 湖北
+    value: 3
+    location:
+      - name: 杭武汉市精神卫生中心（二七院区）
+        doctor: 
+        - name: 李轶琛
+          clas: 2
+          desc:    
+        - name: 汤珺
+          clas: 3
+          desc:
+    info_link: 
+      - title: 武汉市精神卫生中心（二七院区）ADHD就诊经历
+        url: https://mp.weixin.qq.com/s/iw5a1cPSNbYodqMShtVStg
+      - title: 武汉市精神卫生中心（二七院区）成人ASD+ADHD就诊记录
+        url: https://mp.weixin.qq.com/s/JWvpvEkp2Tvw85pyP93XfQ
+      
+  - name: 山西
+    value: 2
+    location:
+      - name: 山西医科大学第一医院
+        doctor: 
+        - name: 曹晓华
+          clas: 2
+          desc:    
+    info_link: 
+      - title: 山西医科大学第一医院成人ADHD确诊指南
+        url: https://mp.weixin.qq.com/s/lvWbwrzFYeWOcyDbKT7hWw   
+
+  - name: 陕西
+    value: 2
+    location:
+      - name: 西安交大第二附属医院
+        doctor: 
+        - name: 王亚萍 
+          clas: 2
+          desc: 
+    info_link: 
+      - title: 西安交通大学第二附属医院成人ADHD就诊记录
+        url: https://mp.weixin.qq.com/s/TPLerqcp0lD6THMFJM3m6w
+   
+  - name: 吉林
+    value: 2
+    location:
+      - name: 吉林大学白求恩第一医院
+        doctor: 
+        - name: 刘畅
+          clas: 2
+          desc: 
+     
+  - name: 福建
+    value: 2
+    location:
+      - name: 厦门仙岳医院
+        doctor: 
+        - name: 卢大力
+          clas: 2
+          desc: <br>卢大力医生（原厦门仙岳医院）：阳光小筑心理工作室，QQ:64143513
+        - name: 李宗磊
+          clas: 3
+          desc: <br>李宗磊医生可以确诊成人阿斯伯格综合征
+        - name: 李韵
+          clas: 2
+    info_link:
+      - title: 厦门仙岳医院成人ADHD就诊故事
+        url: https://mp.weixin.qq.com/s/CWbcIaEd9MaZp1FHq0cEnQ
+   
+  - name: 四川
+    value: 3
+    location:
+      - name: 四川大学华西医院
+        doctor: 
+        - name: 黄颐 
+          clas: 2
+          desc: 
+        - name: 单友荷
+          clas: 2
+          desc: 
+        - name: 李元媛 
+          clas: 2
+          desc:           
+        - name: 殷莉
+          clas: 1
+          desc: 
+      - name: 成都四医院
+        doctor:
+        - name: 多动症科室
+          clas: 2
+          desc: 
+      - name: 成都军区机关医院
+        doctor:
+        - name: 蒲昭霞
+          clas: 2
+          desc: 
+    info_link: 
+      - title: 四川大学华西医院和重庆精神卫生中心成人ADHD就诊记录
+        url: https://mp.weixin.qq.com/s/XegOiuQMeDg_INtJ5yhnmQ
+    
+  - name: 宁夏
+    value: 0
+    location:
+      - name: 
+        doctor: 
+        - name: 
+          clas: 
+          desc: 
+    
+  - name: 海南
+    value: 0
+    location:
+      - name: 
+        doctor: 
+        - name: 
+          clas: 
+          desc: 
+  
+  - name: 青海
+    value: 0
+    location: 
+      - name: 
+        doctor: 
+        - name: 
+          clas: 
+          desc:     
+    
+  - name: 西藏
+    value: 0
+    location:  
+      - name: 
+        doctor: 
+        - name: 
+          clas: 
+          desc:    
+    
+  - name: 贵州
+    value: 0
+    location:  
+      - name: 
+        doctor: 
+        - name: 
+          clas: 
+          desc: 
+    
+  - name: 内蒙古
+    value: 0
+    location: 
+      - name: 
+        doctor: 
+        - name:  
+          clas: 
+          desc: 
+    
+  - name: 广西
+    value: 3
+    location: 
+      - name: 广西壮族自治区人民医院（桃源院区）
+        doctor: 
+        - name: 秦岭
+          clas: 2
+          desc:
+        - name: 刘海润
+          clas: 2
+          desc:
+        - name: 傅燕虹
+          clas: 2
+          desc:
+        - name: 黄思艳
+          clas: 2
+          desc:
+        - name: 张鸿
+          clas: 2
+          desc:
+        - name: 李丹丹
+          clas: 2
+          desc:
+    info_link:
+        - title: 广西壮族自治区人民医院成人ASD+ADHD就诊指南
+          url: https://mp.weixin.qq.com/s/hUEZ6PPncUeDu355qqGPIA
+    
+  - name: 甘肃
+    value: 0
+    location:  
+      - name: 
+        doctor: 
+        - name: 
+          clas: 
+          desc:    
+    
+  - name: 江西
+    value: 0
+    location:
+      - name: 
+        doctor: 
+        - name: 
+          clas: 
+          desc:   
+
+  - name: 新疆
+    value: 0
+    location:  
+      - name: 
+        doctor: 
+        - name: 
+          clas: 
+          desc: 
+
+  - name: 安徽
+    value: 0
+    location: 
+      - name:
+        doctor: 
+        - name:  
+          clas: 
+          desc:      
+
+  - name: 黑龙江
+    value: 0
+    location: 
+      - name: 
+        doctor: 
+        - name: 
+          clas: 
+          desc: 
+
+  - name: 天津
+    value: 0
+    location: 
+      - name: 
+        doctor: 
+        - name: 
+          clas: 
+          desc:     
+    
+  - name: 台湾
+    value: 0
+    location:  
+      - name: 
+        doctor: 
+        - name: 
+          clas: 
+          desc: 
+    
+  - name: 香港
+    value: 3
+    location:  
+      - name: 中建医务（中建醫務）
+        doctor: 
+        - name: 麦棨诺（麥棨諾）
+          clas: 2
+          desc: 麦棨诺医生讲普通话，可确诊成人ADHD。中建医务地址：香港中环毕打街1-3号中建大厦608室。
+    
+  - name: 澳门
+    value: 3
+    location:  
+      - name: 澳门镜湖医院（澳門鏡湖醫院）
+        doctor: 
+        - name: 麦棨诺（麥棨諾）
+          clas: 2
+          desc: 麦棨诺医生讲普通话，可确诊成人ADHD。澳门镜湖医院就诊请先预约神经内科转介。
+    
+  - name: 南海诸岛
+    value: 0
+    location:  
+      - name: 
+        doctor: 
+        - name:  
+          clas: 
+          desc: 
