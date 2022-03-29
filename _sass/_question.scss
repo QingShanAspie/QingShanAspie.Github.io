@@ -32,6 +32,10 @@
   display: none;
 }
 
+.neutral-text {
+  display: none;
+}
+
 .visible-lg-block {
   display: block !important;
 }
@@ -265,18 +269,31 @@ input[type="radio"] {
     display: none;
   }
 
+  .text-layout {
+    margin: 0 auto;
+  }
+
+  .phone-text {
+    text-align: center;
+  }
+
   .agree-text {
     color: $quotientAgree;
     display: block;
     float: left;
-    margin-left: 10px;
+    margin-left: 45px;
   }
 
   .disagree-text {
     color: $quotientDisagree;
     display: block;
     float: right;
-    margin-right: 10px;
+    margin-right: 45px;
+  }
+
+  .neutral-text {
+    color: $quotientNeutral;
+    display: contents;
   }
 }
 
