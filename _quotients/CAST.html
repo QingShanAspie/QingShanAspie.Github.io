@@ -61,7 +61,7 @@ description: 儿童期孤独症谱系问卷 CAST Childhood Autism Spectrum Test
 <script>
     function ReTestFunc() {
         removeCookie("CAST");
-        window.location.reload()
+        window.location.reload();
     }
 
     function CookieResult(count) {
@@ -78,7 +78,45 @@ description: 儿童期孤独症谱系问卷 CAST Childhood Autism Spectrum Test
         $('.test-body').addClass('hide');
         let dataJson = window.atob(JSON.parse(Cookie)['DATA']);
         let datas = JSON.parse(dataJson);
+        $data = datas;
         let res = Resoult(datas);
         CookieResult(res);
     }
 </script>
+
+<div class="result-table">
+    <figure>
+        <table>
+            <thead>
+                <tr>
+                    <th>问题</th>
+                    <th>分数（赞同/中立/反对）</th>
+                    <th>得分</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for q in site.data.CAST.question %}
+                <tr>
+                    <td>{{ q.str }}</td>
+                    <td>
+                        {% if q.rev == 0 %}
+                        0/0/1
+                        {% endif %}
+                        {% if q.rev == 1 %}
+                        1/0/0
+                        {% endif %}
+                        {% if q.rev == 2 %}
+                        0/0/0
+                        {% endif %}
+                    </td>
+                    <td><span class='my_result_{{ q.id }}'></span>
+                        <script>
+                            $('.my_result_{{ q.id }}').text(get_data_by_id('{{ q.id }}', $data));
+                        </script>
+                    </td>
+                </tr>    
+                {% endfor %}
+            </tbody>
+        </table>
+    </figure>
+</div>
