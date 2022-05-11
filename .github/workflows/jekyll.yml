@@ -10,6 +10,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    
+    permissions:
+      pull-requests: write
 
     steps:
     - uses: actions/checkout@v2
@@ -18,3 +21,8 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+
+    - uses: hmarr/auto-approve-action@v2
+      if: github.actor == 'dependabot[bot]'
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
