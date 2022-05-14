@@ -100,7 +100,12 @@ map_info:
         doctor: 
         - name: 李雷俊
           clas: 3
-          desc:           
+          desc: 
+      - name: 广州医学院第二附属医院
+        doctor:
+        - name: 刘军
+          clas: 2
+          desc: 可确诊成人adhd
     info_link: 
       - title: 深圳康宁成人ADHD+阿斯伯格确诊记
         url: https://mp.weixin.qq.com/s/-qPgCoP_Tje4nwYPi9x9qg
@@ -114,6 +119,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/Ai7E6GANjg2Z2tqA84wzog
       - title: 广州脑科（惠爱）医院的成人ADHD就诊记录
         url: https://mp.weixin.qq.com/s/m12qan6xax6-g4_NZ8Whww
+      - title: 广州医科大学附属脑科医院成人ADHD就诊攻略
+        url: https://mp.weixin.qq.com/s/x2YbnQL2X_7eS-O9sGruJQ
         
   - name: 上海
     value: 2
@@ -154,6 +161,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/XegOiuQMeDg_INtJ5yhnmQ
       - title: 重庆市精神卫生中心（金紫山区）成人ASD就诊指南
         url: https://mp.weixin.qq.com/s/kEgRojRImJ5pGhD4mKuNKg
+      - title: 重庆精神卫生中心成人ADHD就诊指南
+        url: https://mp.weixin.qq.com/s/2_Odxg33yDij99nPMIxJ_Q
 
   - name: 河北
     value: 2
@@ -210,8 +219,13 @@ map_info:
         doctor: 
         - name: 彭淼
           clas: 3
-          desc: 支持多项共病诊断   
-          
+          desc: 支持多项共病诊断  
+     info_link: 
+       - title: 辽宁省肿瘤医院成人ADHD就诊经历
+         url: https://mp.weixin.qq.com/s/QgSuovQHPG2oyy_gAeYXJg
+       - title: 一位医生想传达出的心意【含就诊攻略】
+         url: https://mp.weixin.qq.com/s/XCRQQ7iP6m9PofgAFuZrGQ
+         
   - name: 湖南
     value: 2
     location:
@@ -277,7 +291,12 @@ map_info:
         - name: 刘艳
           clas: 2
           desc: <br>儿童心理科，可以开18mg和36mg的专注达。
-
+      - name: 宁波市康宁医院
+        doctor: 
+        - name: 程芳
+          clas: 1
+          desc: 可确诊成人ASD
+          
   - name: 湖北
     value: 3
     location:
