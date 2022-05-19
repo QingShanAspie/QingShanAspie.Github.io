@@ -340,6 +340,9 @@ map_info:
         - name: 王亚萍 
           clas: 2
           desc: 
+        - name: 张欢 
+          clas: 2
+          desc: 心理精神病科
     info_link: 
       - title: 西安交通大学第二附属医院成人ADHD就诊记录
         url: https://mp.weixin.qq.com/s/TPLerqcp0lD6THMFJM3m6w
