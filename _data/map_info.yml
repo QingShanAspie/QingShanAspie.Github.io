@@ -355,9 +355,7 @@ map_info:
         - name: 
           clas: 
           desc:
-    info_link: 
-      - title: 一位医生想传达出的心意【含就诊攻略】
-        url: https://mp.weixin.qq.com/s/XCRQQ7iP6m9PofgAFuZrGQ
+
      
   - name: 福建
     value: 2
