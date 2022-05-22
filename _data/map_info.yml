@@ -350,10 +350,10 @@ map_info:
   - name: 吉林
     value: 2
     location:
-      - name: 吉林大学白求恩第一医院
+      - name: 
         doctor: 
-        - name: 刘畅
-          clas: 2
+        - name: 
+          clas: 
           desc:
     info_link: 
       - title: 一位医生想传达出的心意【含就诊攻略】
