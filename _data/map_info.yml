@@ -348,7 +348,7 @@ map_info:
         url: https://mp.weixin.qq.com/s/TPLerqcp0lD6THMFJM3m6w
    
   - name: 吉林
-    value: 2
+    value: 0
     location:
       - name: 
         doctor: 
