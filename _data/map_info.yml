@@ -541,13 +541,13 @@ map_info:
           desc: 
 
   - name: 天津
-    value: 0
+    value: 3
     location: 
-      - name: 
+      - name: 天津市安定医院
         doctor: 
-        - name: 
-          clas: 
-          desc:     
+        - name: 雷彤
+          clas: 2
+          desc: 雷彤医生可以确诊成人ADHD   
     
   - name: 台湾
     value: 0
