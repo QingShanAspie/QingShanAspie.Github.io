@@ -35,6 +35,16 @@ map_info:
         - name: 周玉明
           clas: 3
           desc: 周玉明医生可以确诊成人ASD和ADHD, 每周五上午作为副主任医生在孤独症门诊出诊。
+      - name: 广东省佛山市顺德区大良伍仲佩纪念医院
+        doctor: 
+        - name: 冯婉霞
+          clas: 3
+          desc: 
+      - name: 顺德区妇幼保健院
+        doctor: 
+        - name: 梁烨
+          clas: 2
+          desc: 
     info_link: 
       - title: 北医六院成年ASD+ADHD就诊记
         url: https://mp.weixin.qq.com/s/AYKfbKJg8VVoxMHHTvq4gQ
