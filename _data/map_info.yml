@@ -106,7 +106,7 @@ map_info:
         - name: 刘军
           clas: 2
           desc: <br>可确诊成人ADHD
-		  - name: 广东省佛山市顺德区大良伍仲佩纪念医院
+      - name: 广东省佛山市顺德区大良伍仲佩纪念医院
         doctor: 
         - name: 冯婉霞
           clas: 3
