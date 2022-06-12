@@ -262,6 +262,11 @@ map_info:
         - name: 殷爱华 
           clas: 2
           desc:  
+      - name: 山东省立医院
+        doctor: 
+        - name: 焦志安 
+          clas: 2
+          desc: 焦志安医生可确诊成人ADHD 
     info_link: 
       - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
         url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
