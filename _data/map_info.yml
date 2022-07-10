@@ -131,6 +131,9 @@ map_info:
         url: https://mp.weixin.qq.com/s/m12qan6xax6-g4_NZ8Whww
       - title: 广州医科大学附属脑科医院成人ADHD就诊攻略
         url: https://mp.weixin.qq.com/s/x2YbnQL2X_7eS-O9sGruJQ
+      - title: 广州医科大学附属脑科医院成人ASD就诊经验
+        url: https://mp.weixin.qq.com/s/u_l3DvQc4Le-DuuQtL7p_A
+
         
   - name: 上海
     value: 2
@@ -267,14 +270,24 @@ map_info:
         - name: 焦志安 
           clas: 2
           desc: 焦志安医生可确诊成人ADHD 
+      - name: 山东省济宁医学院附属医院心理咨询科
+        doctor: 
+        - name: 王微 
+          clas: 2
+          desc: 王微主任医师可确诊成人ADHD 
+        - name: 刘传新
+          clas: 2
+          desc: 刘传新主任医师医师可确诊成人ADHD 
     info_link: 
       - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
         url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
+      - title: 山东省立医院成人ADHD就诊攻略
+        url: https://mp.weixin.qq.com/s/wz18VzkSd4d3PAVUNk8kBw
        
   - name: 江苏
     value: 3
     location:
-      - name: 南京脑科儿童心理卫生中心
+      - name: 南京脑科儿童心理卫生中心 <br>南京脑科医院儿童心理卫生中心所有医生都可以确诊成人ADHD患者，只需要先精神科挂号，再网上挂号，儿童心理卫生中心普通号复诊就行。
         doctor: 
         - name: 焦公凯 
           clas: 3
