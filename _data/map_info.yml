@@ -301,6 +301,9 @@ map_info:
         - name: 柯晓燕
           clas: 2
           desc:
+        - name: 梁金凤
+          clas: 2
+          desc: 梁金凤医生可确诊成人ADHD
     info_link: 
       - title: 南京脑科医院成人asd+adhd就诊经历
         url: https://mp.weixin.qq.com/s/jBg86bXnYZsIJ7FpM4Hkcw
