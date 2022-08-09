@@ -400,8 +400,8 @@ map_info:
           clas: 3
           desc: <br>李宗磊医生可以确诊成人阿斯伯格综合征。青衫注：厦门仙岳医院的李宗磊医生去外地进修，要进修一年，所以这一年内的门诊应该都是停诊状态。
         - name: 李韵
-          clas: 2
-    info_link:
+          clas: 3
+    info_link: 
       - title: 厦门仙岳医院成人ADHD就诊故事
         url: https://mp.weixin.qq.com/s/CWbcIaEd9MaZp1FHq0cEnQ
    
