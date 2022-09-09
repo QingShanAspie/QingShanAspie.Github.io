@@ -253,6 +253,9 @@ map_info:
         - name: 苏林雁
           clas: 2
           desc: 
+        - name: 欧建君
+          clas: 1
+          desc: <br>自闭症专项门诊
     info_link: 
       - title: 
         url: 
@@ -311,7 +314,9 @@ map_info:
         url: https://mp.weixin.qq.com/s/Dgm2KxidxLI6a2dKGazQgg
       - title: 【更新】成人ASD南京脑科就诊流程
         url: https://mp.weixin.qq.com/s/m5PZbCTl4SQKAOsI6UQQCQ
-        
+      - title: 【更新】南京脑科医院成人ADHD就诊经历
+        url: https://mp.weixin.qq.com/s/MvDLtTPjPors-VFTSd2P4A
+    
   - name: 浙江
     value: 3
     location: 
@@ -401,6 +406,11 @@ map_info:
           desc: <br>李宗磊医生可以确诊成人阿斯伯格综合征。青衫注：厦门仙岳医院的李宗磊医生去外地进修，要进修一年，所以这一年内的门诊应该都是停诊状态。
         - name: 李韵
           clas: 3
+      - name: 福建省儿童医院
+        doctor: 
+        - name: 刘秀梅（儿童发育行为儿保门诊）
+          clas: 2
+          desc: <br>刘秀梅医生可以确诊成人ADHD   
     info_link: 
       - title: 厦门仙岳医院成人ADHD就诊故事
         url: https://mp.weixin.qq.com/s/CWbcIaEd9MaZp1FHq0cEnQ
@@ -525,7 +535,8 @@ map_info:
     info_link:
         - title: 广西壮族自治区人民医院成人ASD+ADHD就诊指南
           url: https://mp.weixin.qq.com/s/hUEZ6PPncUeDu355qqGPIA
-    
+        - title: 广西壮族自治区人民医院成人ADHD就诊指南
+          url: https://mp.weixin.qq.com/s/w-9IOKGw53wWPtcwl_8AvA
   - name: 甘肃
     value: 0
     location:  
