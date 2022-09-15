@@ -27,6 +27,10 @@ weight: 3
 
 {% include about/card_box.html %}
 
+# 财务公示
+
+请访问链接：[青衫Aspie账务情况公示](https://www.notion.so/9cd69930deea44639f409ede6f27cd73?v=58752a00521d4bf2b169b3c3f5322478)
+
 # 联系我们
 
 ---
