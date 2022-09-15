@@ -335,6 +335,11 @@ map_info:
         - name: 程芳
           clas: 1
           desc: <br>可确诊成人ASD
+      - name: 浙江大学邵逸夫医院
+        doctor: 
+        - name: 覃艳华
+          clas: 2
+          desc: <br>可确诊成人ADHD
     info_link: 
       - title: 
         url: 
