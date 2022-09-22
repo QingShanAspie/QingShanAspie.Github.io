@@ -257,8 +257,8 @@ map_info:
           clas: 1
           desc: <br>自闭症专项门诊
     info_link: 
-      - title: 
-        url: 
+      - title: 长沙湘雅二医院成人ASD就诊经历
+        url: https://mp.weixin.qq.com/s/xf-mJwp47Cn03gP3Aqq8Ig
         
   - name: 山东
     value: 2
@@ -542,6 +542,8 @@ map_info:
           url: https://mp.weixin.qq.com/s/hUEZ6PPncUeDu355qqGPIA
         - title: 广西壮族自治区人民医院成人ADHD就诊指南
           url: https://mp.weixin.qq.com/s/w-9IOKGw53wWPtcwl_8AvA
+        - title: 广西壮族自治区人民医院成人ASD就诊指南
+          url: https://mp.weixin.qq.com/s/Y0f4BJ1G_MhhVqagpZA4kw
   - name: 甘肃
     value: 0
     location:  
