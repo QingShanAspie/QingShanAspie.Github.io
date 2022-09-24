@@ -11,7 +11,7 @@ weight: 3
 
 ---
 
-<img style="float: left;padding-right: 15px;width: 190px" src="/assets/img/qingshan.jpg">
+<img style="float: left;padding-right: 15px;width: 210px" src="/assets/img/qingshan.jpg">
 <br/>
 **青衫，Ph.D. 医学本科，神经科学博士**  
 
