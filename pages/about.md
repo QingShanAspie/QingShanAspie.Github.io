@@ -11,11 +11,11 @@ weight: 3
 
 ---
 
-<img style="float: left;padding-right: 15px;width: 150px" src="/assets/img/qingshan.jpg">
+<img style="float: left;padding-right: 15px;width: 190px" src="/assets/img/qingshan.jpg">
 <br/>
 **青衫，Ph.D. 医学本科，神经科学博士**  
 
-青衫Aspie创始人，ASD人士
+青衫Aspie创始人，ASD人士  
 公众号·微信读书·知乎·豆瓣 @青衫Aspie
 
 > &nbsp;&nbsp;&nbsp;&nbsp;20岁时自我诊断为阿斯伯格综合征，23岁得到了高功能孤独症谱系障碍/阿斯伯格综合征的临床专业诊断。  
