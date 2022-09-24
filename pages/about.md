@@ -13,12 +13,12 @@ weight: 3
 
 <img style="float: left;padding-right: 15px;width: 150px" src="/assets/img/qingshan.jpg">
 <br/>
-**青衫，Ph.D. 医学本科，神经科学博士**
-医学本科，神经科学博士
+**青衫，Ph.D. 医学本科，神经科学博士**  
+
 青衫Aspie创始人，ASD人士
 公众号·微信读书·知乎·豆瓣 @青衫Aspie
 
-> &nbsp;&nbsp;&nbsp;&nbsp;20岁时自我诊断为阿斯伯格综合征，23岁得到了高功能孤独症谱系障碍/阿斯伯格综合征的临床专业诊断。
+> &nbsp;&nbsp;&nbsp;&nbsp;20岁时自我诊断为阿斯伯格综合征，23岁得到了高功能孤独症谱系障碍/阿斯伯格综合征的临床专业诊断。  
 > &nbsp;&nbsp;&nbsp;&nbsp;青衫Aspie开始于2016年1月，公众号注册于2017年4月，为公益非盈利组织。青衫Aspie致力于普及提供精神障碍、发育障碍的优质权威资讯资源和互助，希望能够帮助不一样的你和家人了解自己。
 
 <br/>
