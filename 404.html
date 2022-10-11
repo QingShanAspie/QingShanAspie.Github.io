@@ -14,9 +14,9 @@
     function redirectToCorrectPage() {
       let url = window.location.toString();
       if(url.search("/Quotients/"))
-        return url.toLowerCase();  
+        window.location = url.toLowerCase();  
       if(url.search("/Medical-Map/"))
-        return url.toLowerCase();  
+        window.location = url.toLowerCase();  
     }  
     window.onload = redirectToCorrectPage;  
   </script>
