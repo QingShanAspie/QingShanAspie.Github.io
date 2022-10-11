@@ -10,4 +10,14 @@
     {% include component/404.html %}
   </body>
 
+  <script>
+    function redirectToCorrectPage() {
+      let url = window.location.toString();
+      if(url.str.search("/Quotients/"))
+        return value.toLowerCase();  
+      if(url.str.search("/Medical-Map/"))
+        return value.toLowerCase();  
+    }  
+    window.onload = redirectToCorrectPage;  
+  
 </html>
