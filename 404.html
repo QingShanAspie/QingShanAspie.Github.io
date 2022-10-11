@@ -6,10 +6,6 @@
 
   {% include component/head.html %}
 
-  <body class="container">
-    {% include component/404.html %}
-  </body>
-
   <script>
     function redirectToCorrectPage() {
       let url = window.location.toString();
@@ -20,4 +16,8 @@
     }  
     window.onload = redirectToCorrectPage;  
   </script>
+  
+  <body class="container">
+    {% include component/404.html %}
+  </body>
 </html>
