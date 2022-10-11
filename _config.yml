@@ -24,7 +24,7 @@ author:
 collections:
   quotients:
     output: true
-    permalink: /Quotients/:name
+    permalink: /quotients/:name
 
 compress_html:
   clippings: all
@@ -43,7 +43,7 @@ defaults:
     values:
       layout: "page"
 
-permalink: Articles/:title
+permalink: articles/:title
 
 sass:
   sass_dir: _sass
