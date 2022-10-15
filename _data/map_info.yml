@@ -145,7 +145,12 @@ map_info:
           desc: 
         - name: 夏卫萍
           clas: 2
-          desc:   
+          desc: 
+      - name: 上海市第一人民医院松江南院
+        doctor:
+        - name: 王兰兰
+          clas: 2
+          desc: <br>可确诊成人ADHD，每周三下午设有成人注意缺陷及多动障碍专病门诊，号目测很充足，医生也很温柔。 
     info_link: 
       - title: 上海新华医院adhd确诊指南
         url: https://mp.weixin.qq.com/s/4bgsrcvmOpGAGGglUUIXTg
@@ -341,7 +346,11 @@ map_info:
           clas: 2
           desc: <br>可确诊成人ADHD
     info_link: 
-      - title: 
+      - title: 宁波市康宁医院成人ASD+ADHD确诊经历
+        url: https://mp.weixin.qq.com/s/Tr7HkeqhX9NcrDW0zYCjjg
+      - title: 宁波市康宁医院成人ASD确诊经历
+        url: https://mp.weixin.qq.com/s/MSwfnsUOHhScZ5kkEk8KpA
+      - title:
         url: 
           
   - name: 湖北
