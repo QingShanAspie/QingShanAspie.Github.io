@@ -21,6 +21,9 @@ map_info:
         - name: 王⼒芳
           clas: 2
           desc: 
+        - name: 曹庆久
+          clas: 2
+          desc: <br>可确诊成人ADHD
       - name: 北京安定医院
         doctor: 
         - name: 吴元贞
