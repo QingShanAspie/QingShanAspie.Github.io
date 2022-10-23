@@ -224,6 +224,9 @@ map_info:
         - name: 卢瑾
           clas: 3
           desc: 
+        - name: 杨润许
+          clas: 2
+          desc: <br>可诊断成人ADHD
     info_link: 
       - title: 昆明医科大成人ADHD就诊攻略
         url: https://mp.weixin.qq.com/s/v52WiSbILr3lDfrZCndeLg
