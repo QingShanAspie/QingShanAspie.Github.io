@@ -24,6 +24,9 @@ map_info:
         - name: 曹庆久
           clas: 2
           desc: <br>可确诊成人ADHD
+        - name: 顾伯美
+          clas: 2
+          desc: <br>可确诊成人ADHD
       - name: 北京安定医院
         doctor: 
         - name: 吴元贞
@@ -109,9 +112,9 @@ map_info:
         - name: 刘军
           clas: 2
           desc: <br>可确诊成人ADHD
-      - name: 广东省佛山市顺德区大良伍仲佩纪念医院
+      - name: 中山大学附属第三医院
         doctor: 
-        - name: 冯婉霞
+        - name: 静进
           clas: 3
           desc: 
       - name: 中共广东医科大学顺德妇女儿童医院（佛山市顺德区妇幼保健院）
@@ -119,6 +122,7 @@ map_info:
         - name: 梁烨
           clas: 2
           desc: 
+     
     info_link: 
       - title: 深圳康宁成人ADHD+阿斯伯格确诊记
         url: https://mp.weixin.qq.com/s/-qPgCoP_Tje4nwYPi9x9qg
