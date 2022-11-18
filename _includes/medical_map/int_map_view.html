@@ -2,31 +2,40 @@
 <script src="{{ '/assets/js/echarts/map_data.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/echarts/map_func_int.js' | relative_url }}"></script>
 
-{% include medical_map/data_loader_int.html %}
 
-<div class="chart-container">
-    <div id="container" style="height: 800px; width: 100%;"></div>
+<div class="col-lg-10 mx-auto mt-5 article">
+    {% for data in site.data.map_info_int.map_info_int %}
+    <p>{% if data.value != 0 %}
+    <h3>{{ data.name }}</h3>
+    {% for locate in data.location %}
+    <p>
+    <blockquote>
+        <h6>{{ locate.name }} ：</h6>
+    </blockquote>
+    <p>
+        {% for doctor in locate.doctor %}
+    <h6>
+        {{ doctor.name }} 医生
+        {% if doctor.clas == 1 %}
+        （可确诊ASD）
+        {% endif %}
+        {% if doctor.clas == 2 %}
+        （可确诊ADHD）
+        {% endif %}
+        {% if doctor.clas == 3 %}
+        （可确诊ASD与ADHD）
+        {% endif %}
+    </h6>
+    {% if doctor.desc %}
+    <pre>注：{{ doctor.desc }}</pre>
+    {% endif %}
+    {% endfor %}
+    </p>
+    {% endfor %}
+    </p>
+    {% for link in data.info_link %}{% if link.title %}<ul>
+        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+    </ul>{% endif %}{% endfor %}{% endif %}
+    </p>
+    {% endfor %}
 </div>
-
-<script>
-    let chart_int = echarts.init(document.getElementById('container'), 'white', { renderer: 'canvas' });
-    chart_int.setOption(option_int);
-    chart_int.on('click', function (params) {
-        for (let i = 0; i < map_info.length; i++) {
-            if (map_info[i].info_link) {
-                if (map_info[i].name == params.name) {
-                    if (map_info[i].value != '0') {
-                        let links = '<h4>请选择就诊故事</h4>';
-                        for (let index = 0; index < map_info[i].info_link.length; index++) {
-                            links = links + '<p><br><a href="' + map_info[i].info_link[index].url + '" target="">' + map_info[i].info_link[index].title + '</a></p>';
-                        }
-                        alert(links);
-                    }
-                }
-            }
-        }
-    });
-    $('.chart-container').resize(function () {
-        chart_int.resize();
-    });
-</script>
