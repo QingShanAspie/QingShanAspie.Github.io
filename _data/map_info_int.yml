@@ -12,7 +12,6 @@ map_info_int:
         - name: 
           clas: 
           desc: 
-     
     info_link: 
       - title: 荷兰成人ADHD就诊故事
         url: https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247498747&idx=1&sn=b708a8c0f64dca717d81a1e3b13eca92&chksm=e81aedf3df6d64e5057d3a4b9f413d7202744790d1b2ab4d60c202add6610d1a16742c1b82f0&scene=178&cur_album_id=1516342663438974979&rd2werd=1&key=85d1834203d63d5fb03c6bc3ad8f509901dd783efe6b65f9df3f3cb1f2a51b46574dc6a1ffe21ebbf86f5b56fc446c5f4bce2ce0b2d0263b0f604676160571105d721d69378458e656b22d4b856f6016499c3bdba2a461e69f293ef7868843eea041b4e93349b8d20b5a684c2ffade5248cbcc5a012bbe50cf8369d53c1f93bc&ascene=15&uin=Mjc3NTkzMzQyMA%3D%3D&devicetype=Windows+10+x64&version=63080029&lang=zh_CN&session_us=gh_0c09375fe977&exportkey=n_ChQIAhIQn8tzYeG9WcwrgF3Jj6ItlhLlAQIE97dBBAEAAAAAAL7LBouO3JcAAAAOpnltbLcz9gKNyK89dVj0Iw7vlnYfEH8rXYluWtQjgGz%2B8rNVEijp1PS4y47usbTDmw52UB6ubVNr31yj%2FaZMHToqB9mmfh0fARurz0sIz2w6McRRhr4ONrNb%2Fz8hiH7vXKhMqKZ9rhANqC6M5jf6NYmbEw%2FcKCdN%2B%2BPQ7j5cJ6iU7AcT60nMEuCZprva3fuzxQdRLZgOKFeKdEKdaP%2Bul9kVI46R%2FDl2kEkhEVZ6dS0N%2FWugjiyliZRD2mtS%2BmntjXnTzRJilwS78WMmZUM%3D&acctmode=0&pass_ticket=Q8lF9azFdnm4Coo4i2v4nvK7WxPhM62fQ6Wsf696afLa9qed1JQtDFXtGAQiz3gp&wx_header=0&fontgear=2
@@ -40,8 +39,7 @@ map_info_int:
          doctor:
          - name:
            clas:
-           desc:
-           
+           desc:           
      info_link: 
        - title: 在法国成人确诊ASD
          url: https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484426&idx=1&sn=1f1938227138276ab2ac373ad918bfc2&chksm=e8191202df6e9b1426d398ee55c77c4b175a6e5af893cd91105b96f0acbf7cd65a20e9f0687b&scene=178&cur_album_id=1516342663438974979&rd2werd=1&key=c66e6e9341c1aeb07dcf427f963f8f7cbd8975330eee58e3728138807be26d22f315e8ee4b832e9dd0b45b7e116b5cf8ea4811c6603b5fb1d93796e0a6019511303944fb89a74839a838949de41b901c0ee2c675418c71a375058bef1fc4320e5ad6461f942d690ab691070494eed1a267fb9ae39111b61995242fa8f0102785&ascene=15&uin=Mjc3NTkzMzQyMA%3D%3D&devicetype=Windows+10+x64&version=63080029&lang=zh_CN&session_us=gh_0c09375fe977&exportkey=n_ChQIAhIQRcg%2BNyrTxXCrif4hdCuNtBLlAQIE97dBBAEAAAAAAE1uC3lNmGkAAAAOpnltbLcz9gKNyK89dVj0oqG1mkkrg2k5uiYKGVmFnVFWpBT5Dylpt0ie41PLNqRlrLSpeqUl6DgQebzU0r8ohXew27Shuinr5GjfRvoDg4%2BBDOdNpAR1TFcnZvZblT9sVa3kdTPt19i4CanKZueyjozoqZYKPpszRXew2ZzN8hYJCMMfwGRQA8axj8tzusoOnoWwqk37OCVUMMrDxM76hr6jG8h93mk3yRL4kkI7nu1Rd7e9bGCIJuhFikxtAO2xblcOiNjE60ireSLwZ%2FQ%3D&acctmode=0&pass_ticket=Q8lF9azFdnm4Coo4i2v4nvK7WxPhM62fQ6Wsf696afLnFZ%2F8ZyQeBzEXwxoNzdCg&wx_header=0&fontgear=2
@@ -53,8 +51,7 @@ map_info_int:
          doctor:
          - name:
            clas:
-           desc:
-           
+           desc:          
      info_link: 
        - title: 澳洲asd+adhd就诊经历
          url: https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484263&idx=1&sn=7700528821f49bf60944923c96e4648a&chksm=e819156fdf6e9c7986300cca22e505f7281a7065578c65e1143013bf4b6193fdd27c81e7059c&scene=178&cur_album_id=1516342663438974979&rd2werd=1&key=6712576603ca120e39b1f6d8b1ced77c75672439f0abdce90c66059797080ceb56e12b3757a71e699e8a21963cd91d07456f44d1ebffa8d4c11d784e260efc30b2cfd49cc63e6372dd923bb014c4edff54337ef0c89c81e2f49e5c6ced06f7ee60ff3756d66a9226c5e258bfcce36aa2685cf4532a8ca6dbaf65051d2956c7bc&ascene=15&uin=Mjc3NTkzMzQyMA%3D%3D&devicetype=Windows+10+x64&version=63080029&lang=zh_CN&session_us=gh_0c09375fe977&exportkey=n_ChQIAhIQ4bkbBBfAkYde1q05qqQzLhLlAQIE97dBBAEAAAAAAD5BGdDDHoYAAAAOpnltbLcz9gKNyK89dVj0hMImeNaA1U%2FzcEjXOSzorvUBPNb9BOidu%2FIuZqf1talgie7j3fNOLsrOo%2BfrA7kym%2BfhS5vVKCKQUn5r438jhsB86p3yf3Czwhcibjn8GFlZa7FOTc3OooJG56Di5P7Wtb2zA7FILM8bxETpj%2FA5BFTXbS%2FpbMwek%2BTa3%2FdMQDhpaz%2BZ0c%2FgmeOhF8mVzFPzsq%2B4OPQIJPv9ZoTOquxknNe2E6UW3XFNBW2LwdvfezMBcviE1o%2Bf2yhfpFW7UwY%3D&acctmode=0&pass_ticket=Q8lF9azFdnm4Coo4i2v4nvK7WxPhM62fQ6Wsf696afItszWrjw0Yv%2FOBfgyS8HX5&wx_header=0&fontgear=2
