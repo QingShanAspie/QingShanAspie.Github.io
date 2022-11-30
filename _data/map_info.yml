@@ -27,6 +27,9 @@ map_info:
         - name: 顾伯美
           clas: 2
           desc: <br>可确诊成人ADHD
+        - name: 赵梦捷
+          clas: 2
+          desc: <br>北京大学第六医院儿童门诊的普通门诊也可能可以看成人ADHD，案例在赵梦捷医生处确诊。
       - name: 北京安定医院
         doctor: 
         - name: 吴元贞
