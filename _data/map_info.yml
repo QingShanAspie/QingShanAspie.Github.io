@@ -115,11 +115,6 @@ map_info:
         - name: 刘军
           clas: 2
           desc: <br>可确诊成人ADHD
-      - name: 中山大学附属第三医院
-        doctor: 
-        - name: 静进
-          clas: 3
-          desc: 
       - name: 中共广东医科大学顺德妇女儿童医院（佛山市顺德区妇幼保健院）
         doctor: 
         - name: 梁烨
