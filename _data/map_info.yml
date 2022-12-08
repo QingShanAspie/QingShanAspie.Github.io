@@ -340,6 +340,9 @@ map_info:
         - name: 付广慧
           clas: 2
           desc: <br>精神卫生科 - 注意缺陷多动障碍科
+        - name: 胡少华
+          clas: 2
+          desc: <br>可以诊断成人ADHD，医生人很好。
       - name: 杭州市第七人民医院
         doctor: 
         - name: 刘艳
