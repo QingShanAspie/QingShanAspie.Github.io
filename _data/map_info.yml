@@ -343,6 +343,9 @@ map_info:
         - name: 胡少华
           clas: 2
           desc: <br>可以诊断成人ADHD，医生人很好。
+        - name: 陆绍佳
+          clas: 2
+          desc: <br>精神卫生科
       - name: 杭州市第七人民医院
         doctor: 
         - name: 刘艳
