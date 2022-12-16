@@ -120,6 +120,11 @@ map_info:
         - name: 梁烨
           clas: 2
           desc: 
+      - name: 汕头大学精神卫生中心
+        doctor: 
+        - name: 李艾
+          clas: 1
+          desc: 
      
     info_link: 
       - title: 深圳康宁成人ADHD+阿斯伯格确诊记
