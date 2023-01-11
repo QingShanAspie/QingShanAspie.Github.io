@@ -366,13 +366,18 @@ map_info:
         - name: 覃艳华
           clas: 2
           desc: <br>可确诊成人ADHD
+      - name: 浙江金华妇幼保健院
+        doctor: 
+        - name: 刘畅
+          clas: 2
+          desc: <br>可确诊成人ADHD，但是因为一些复杂的原因建议阅读链接文章再决定是否前往。
     info_link: 
       - title: 宁波市康宁医院成人ASD+ADHD确诊经历
         url: https://mp.weixin.qq.com/s/Tr7HkeqhX9NcrDW0zYCjjg
       - title: 宁波市康宁医院成人ASD确诊经历
         url: https://mp.weixin.qq.com/s/MSwfnsUOHhScZ5kkEk8KpA
-      - title:
-        url: 
+      - title: 浙江金华市妇幼保健院成人ADHD确诊记录
+        url: https://mp.weixin.qq.com/s/1H4-wA-G10KNXoESBaY_Wg
           
   - name: 湖北
     value: 3
@@ -645,6 +650,9 @@ map_info:
         - name: 麦棨诺（麥棨諾）
           clas: 2
           desc: 麦棨诺医生讲普通话，可确诊成人ADHD。中建医务地址：香港中环毕打街1-3号中建大厦608室。
+    info_link:
+        - title: 【香港确诊】一个人类世界的猫猫人的自白
+            url: https://mp.weixin.qq.com/s/0LqAbvmLB_HNPKUBoFpVeA
     
   - name: 澳门
     value: 3
