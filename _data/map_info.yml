@@ -652,7 +652,7 @@ map_info:
           desc: 麦棨诺医生讲普通话，可确诊成人ADHD。中建医务地址：香港中环毕打街1-3号中建大厦608室。
     info_link:
         - title: 【香港确诊】一个人类世界的猫猫人的自白
-            url: https://mp.weixin.qq.com/s/0LqAbvmLB_HNPKUBoFpVeA
+          url: https://mp.weixin.qq.com/s/0LqAbvmLB_HNPKUBoFpVeA
     
   - name: 澳门
     value: 3
