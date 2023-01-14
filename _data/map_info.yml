@@ -36,8 +36,8 @@ map_info:
           clas: 2
           desc: 
         - name: 陈旭
-          clas: 1
-          desc: 安定医院陈旭医生周三下午特需门诊可看成人ASD（转自网络经验贴）
+          clas: 3
+          desc: 安定医院陈旭医生周三下午特需门诊可看成人ASD（转自网络经验贴），陈旭医生也可以确诊成人ADHD.
         - name: 何凡
           clas: 3
           desc: 何凡医生可以开药。
