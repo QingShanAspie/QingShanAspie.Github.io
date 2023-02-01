@@ -371,6 +371,11 @@ map_info:
         - name: 刘畅
           clas: 2
           desc: <br>可确诊成人ADHD，但是因为一些复杂的原因建议阅读链接文章再决定是否前往。
+      - name: 温州医科大学附属康宁医院
+        doctor: 
+        - name: 于学力
+          clas: 2
+          desc: <br>可确诊成人ADHD
     info_link: 
       - title: 宁波市康宁医院成人ASD+ADHD确诊经历
         url: https://mp.weixin.qq.com/s/Tr7HkeqhX9NcrDW0zYCjjg
