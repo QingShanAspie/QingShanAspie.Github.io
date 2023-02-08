@@ -37,7 +37,7 @@ map_info:
           desc: 
         - name: 陈旭
           clas: 3
-          desc: 安定医院陈旭医生周三下午特需门诊可看成人ASD（转自网络经验贴），陈旭医生也可以确诊成人ADHD.
+          desc: <br>安定医院陈旭医生周三下午特需门诊可看成人ASD（转自网络经验贴），陈旭医生也可以确诊成人ADHD
         - name: 何凡
           clas: 3
           desc: 何凡医生可以开药。
@@ -257,7 +257,7 @@ map_info:
         doctor: 
         - name: 彭淼
           clas: 3
-          desc: 支持多项共病诊断   
+          desc: <br>支持多项共病诊断   
     info_link: 
       - title: 一位医生想传达出的心意【含就诊攻略】
         url: https://mp.weixin.qq.com/s/XCRQQ7iP6m9PofgAFuZrGQ
@@ -297,7 +297,7 @@ map_info:
         doctor: 
         - name: 焦志安 
           clas: 2
-          desc: 焦志安医生可确诊成人ADHD 
+          desc: <br>焦志安医生可确诊成人ADHD 
       - name: 山东省济宁医学院附属医院心理咨询科
         doctor: 
         - name: 王微 
@@ -305,7 +305,13 @@ map_info:
           desc: 王微主任医师可确诊成人ADHD 
         - name: 刘传新
           clas: 2
-          desc: 刘传新主任医师医师可确诊成人ADHD 
+          desc: <br>刘传新主任医师医师可确诊成人ADHD
+      - name: 青岛精神卫生中心（青岛市第七人民医院）
+        doctor: 
+        - name: 万好 
+          clas: 2
+          desc: <br>万好医师可确诊成人ADHD 
+      
     info_link: 
       - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
         url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
@@ -659,7 +665,7 @@ map_info:
         doctor: 
         - name: 麦棨诺（麥棨諾）
           clas: 2
-          desc: 麦棨诺医生讲普通话，可确诊成人ADHD。中建医务地址：香港中环毕打街1-3号中建大厦608室。
+          desc: <br>麦棨诺医生讲普通话，可确诊成人ADHD。中建医务地址：香港中环毕打街1-3号中建大厦608室。
     info_link:
         - title: 【香港确诊】一个人类世界的猫猫人的自白
           url: https://mp.weixin.qq.com/s/0LqAbvmLB_HNPKUBoFpVeA
@@ -671,7 +677,7 @@ map_info:
         doctor: 
         - name: 麦棨诺（麥棨諾）
           clas: 2
-          desc: 麦棨诺医生讲普通话，可确诊成人ADHD。澳门镜湖医院就诊请先预约神经内科转介。
+          desc: <br>麦棨诺医生讲普通话，可确诊成人ADHD。澳门镜湖医院就诊请先预约神经内科转介。
     
   - name: 南海诸岛
     value: 0
