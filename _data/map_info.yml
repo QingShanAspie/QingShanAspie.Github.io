@@ -309,8 +309,8 @@ map_info:
       - name: 青岛精神卫生中心（青岛市第七人民医院）
         doctor: 
         - name: 万好 
-          clas: 2
-          desc: <br>万好医师可确诊成人ADHD 
+          clas: 3
+          desc: <br>万好医师可确诊成人ADHD以及成人ASD
       
     info_link: 
       - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
