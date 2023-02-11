@@ -1,0 +1,98 @@
+---
+title: 边缘人格障碍表现量表(BSL-23)
+name: 边缘人格障碍表现量表(BSL-23)
+tag: [量表, 在线测试, BSL-23]
+image: /assets/img/BPD.jpg
+description: 边缘人格障碍表现量表 <br>BSL-23
+---
+
+<p style="text-align: center; color: #33975b">
+    <b>边缘人格障碍表现量表 BSL-23</b>
+    <br>焦虑抑郁等都可能造成分值偏高<br>
+    <small>
+        <br>本量表只作为筛查，具体诊断还需要医院的分析。
+    </small>
+</p>
+
+{% include quotients/table/BPD.html %}
+
+{% include quotients/degree_div.html %}
+
+<script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/QuotientsConst.min.js' | relative_url }}"></script>
+<script>
+    let Cookie = getCookie("BPD");
+    if (Cookie === null) {
+        alert("<b>本量表只作为筛查，具体诊断还需要医院的分析。</b>" +
+            "<br>焦虑抑郁等都可能造成分值偏高<br>" +
+            "<br>Reference: <br>" +
+            "<br>Yang, H., Lei, X., Zhong, M., Zhou, Q., Ling, Y., Jungkunz, M., & Yi, J. (2018). " +
+            "<br>Psychometric properties of the Chinese version of the brief borderline symptom list in " +
+            "<br>undergraduate students and clinical patients. Frontiers in psychology, 9, 605." +
+            "<br>" +
+            "<br>Bohus, M., Limberger, M. F., Frank, U., Chapman, A. L., Kühler, T., & Stieglitz, R. D. (2007)." +
+            "<br>sychometric properties of the borderline symptom list (BSL). Psychopathology, 40(2), 126-132." +
+            "<br><br>翻译：<a href=\"https://www.zi-mannheim.de/fileadmin/user_upload/downloads/forschung/PSM_downloads/BSL-23_taiwanesisch.pdf\">BSL-23_taiwanesisch.pdf</a>" +
+            "<br>本页面使用Cookie来储存您的结果，储存时长为2小时");
+    }
+</script>
+
+<div class="result"></div>
+
+<script>
+    function GetResult(count) {
+        if (parseInt('{{ site.data.BPD.count }}') !== Object.keys($data).length) {
+            $('.result').html('<h1>请完成量表</h1>');
+        } else {
+            let bpd_score = count / (parseInt('{{ site.data.BPD.count }}') * 1.0)
+            if (bpd_score < 0.3) {
+                $('.result').html('<h1>None/Low</h1>' + ReTest);
+            } else if (bpd_score >= 0.3 && bpd_score < 1.1) {
+                $('.result').html('<h1>Mild</h1>' + ReTest);
+            } else if (bpd_score >= 1.1 && bpd_score < 1.9) {
+                $('.result').html('<h1>Moderate</h1>' + ReTest);
+            } else if (bpd_score >= 1.9 && bpd_score < 2.7) {
+                $('.result').html('<h1>High</h1>' + ReTest);
+            } else if (bpd_score >= 2.7 && bpd_score < 3.5) {
+                $('.result').html('<h1>Very High</h1>' + ReTest);
+            } else if (bpd_score >= 3.5 && bpd_score < 4) {
+                $('.result').html('<h1>Extremely High</h1>' + ReTest);
+            }
+            SaveCookies($data, "BPD");
+        }
+    }
+</script>
+
+{% include utils/totop.html %}
+
+<script>
+    function ReTestFunc() {
+        removeCookie("BPD");
+        window.location.reload();
+    }
+
+    function CookieResult(count) {
+        let bpd_score = count / (parseInt('{{ site.data.BPD.count }}') * 1.0)
+        if (bpd_score < 0.3) {
+            $('.result').html('<h1>None/Low</h1>' + ReTest);
+        } else if (bpd_score >= 0.3 && bpd_score < 1.1) {
+            $('.result').html('<h1>Mild</h1>' + ReTest);
+        } else if (bpd_score >= 1.1 && bpd_score < 1.9) {
+            $('.result').html('<h1>Moderate</h1>' + ReTest);
+        } else if (bpd_score >= 1.9 && bpd_score < 2.7) {
+            $('.result').html('<h1>High</h1>' + ReTest);
+        } else if (bpd_score >= 2.7 && bpd_score < 3.5) {
+            $('.result').html('<h1>Very High</h1>' + ReTest);
+        } else if (bpd_score >= 3.5 && bpd_score < 4) {
+            $('.result').html('<h1>Extremely High</h1>' + ReTest);
+        }
+    }
+
+    if (Cookie != null) {
+        $('.test-body').addClass('hide');
+        let dataJson = window.atob(JSON.parse(Cookie)['DATA']);
+        let datas = JSON.parse(dataJson);
+        let res = Resoult(datas);
+        CookieResult(res);
+    }
+</script>
