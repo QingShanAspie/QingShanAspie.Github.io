@@ -63,6 +63,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/7TWo-auMYB1hIASsbY3cRw
       - title: 北京安定医院成人ASD就诊记录
         url: https://mp.weixin.qq.com/s/LJ1ZUrNBfPgBoevfXfgv2g
+      - title: 北京回龙观医院成人ASD+ADHD就诊经历
+        url: https://mp.weixin.qq.com/s/BOPdBRbVimwi9PbWghnShg
 
   - name: 广东
     value: 3
@@ -407,6 +409,9 @@ map_info:
         url: https://mp.weixin.qq.com/s/MSwfnsUOHhScZ5kkEk8KpA
       - title: 浙江金华市妇幼保健院成人ADHD确诊记录
         url: https://mp.weixin.qq.com/s/1H4-wA-G10KNXoESBaY_Wg
+      - title: 浙江大学第一附属医院成人ADHD就诊经历
+        url: https://www.bilibili.com/bangumi/play/ep417337?spm_id_from=333.788.recommend_more_video.2
+       
           
   - name: 湖北
     value: 3
