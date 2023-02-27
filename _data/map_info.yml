@@ -140,6 +140,16 @@ map_info:
         - name: 冯婉霞
           clas: 3
           desc: <br>冯医生人很好，具体剂量问题请咨询冯医生，初诊有问到刻板行为和家庭养育情况。
+      - name: 江门市妇幼保健院
+        doctor: 
+        - name: 许律琴
+          clas: 2
+          desc: <br>推荐原因：本医院有成人ADHD专门门诊。
+      - name: 中山市博爱医院（妇幼保健院）
+        doctor: 
+        - name: 张艳红
+          clas: 2
+          desc: <br>推荐原因：医院推文介绍其接诊患者经历
      
     info_link: 
       - title: 深圳康宁成人ADHD+阿斯伯格确诊记
@@ -176,6 +186,16 @@ map_info:
         - name: 王兰兰
           clas: 2
           desc: <br>可确诊成人ADHD，每周三下午设有成人注意缺陷及多动障碍专病门诊，号目测很充足，医生也很温柔。 
+      - name: 上海同济医院ADHD门诊
+        doctor:
+        - name: 刘飞
+          clas: 2
+          desc: <br>可确诊成人ADHD。信息来自于网友，需亲自就诊核实。
+      - name: 上海市宝山区精神卫生中心
+        doctor:
+        - name: 曹亚宁
+          clas: 2
+          desc: <br>科普可能暗含诊断信息。信息来自于网友，需亲自就诊核实。 
     info_link: 
       - title: 上海新华医院adhd确诊指南
         url: https://mp.weixin.qq.com/s/4bgsrcvmOpGAGGglUUIXTg
@@ -303,6 +323,9 @@ map_info:
         - name: 殷爱华 
           clas: 2
           desc:  
+        - name: 徐德峰
+          clas: 2
+          desc: <br>推荐原因：个人专业介绍有成人ADHD，该医生由网友推荐，需亲自就诊核实。
       - name: 山东省立医院
         doctor: 
         - name: 焦志安 
@@ -321,6 +344,14 @@ map_info:
         - name: 万好 
           clas: 3
           desc: <br>万好医师可确诊成人ADHD以及成人ASD
+      - name: 青岛市立医院
+        doctor: 
+        - name: 王俊 
+          clas: 2
+          desc: <br>推荐原因：医院推文介绍其接诊患者经历，信息由网友提供，具体情况需要亲自就诊核实。
+        - name: 秦俊峰
+          class: 2
+          desc: <br>推荐原因：医院推文介绍其接诊患者经历，信息由网友提供，具体情况需要亲自就诊核实。
       
     info_link: 
       - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
@@ -353,6 +384,11 @@ map_info:
         - name: 卜茹 
           clas: 2
           desc: <br>可以确诊成人ADHD
+      - name: 常州市德安医院
+        doctor: 
+        - name: 高婷叶
+          clas: 2
+          desc: <br>推荐原因：医院推文介绍其接诊患者经历，信息来自于网友，需亲自就诊核实。
     info_link: 
       - title: 南京脑科医院成人asd+adhd就诊经历
         url: https://mp.weixin.qq.com/s/jBg86bXnYZsIJ7FpM4Hkcw
@@ -402,6 +438,11 @@ map_info:
         - name: 于学力
           clas: 2
           desc: <br>可确诊成人ADHD
+      - name: 江山市第四人民医院
+        doctor: 
+        - name: 祝勇敢
+          clas: 2
+          desc: <br>推荐原因：医院推文介绍其接诊患者经历，信息来自于网友，需亲自就诊核实。
     info_link: 
       - title: 宁波市康宁医院成人ASD+ADHD确诊经历
         url: https://mp.weixin.qq.com/s/Tr7HkeqhX9NcrDW0zYCjjg
