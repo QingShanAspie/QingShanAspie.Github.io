@@ -56,3 +56,15 @@ map_info_int:
           - title: 澳洲asd+adhd就诊经历
             url: https://mp.weixin.qq.com/s?__biz=MzIyMzgyMjY5NQ==&mid=2247484263&idx=1&sn=7700528821f49bf60944923c96e4648a&chksm=e819156fdf6e9c7986300cca22e505f7281a7065578c65e1143013bf4b6193fdd27c81e7059c&scene=178&cur_album_id=1516342663438974979&rd2werd=1&key=6712576603ca120e39b1f6d8b1ced77c75672439f0abdce90c66059797080ceb56e12b3757a71e699e8a21963cd91d07456f44d1ebffa8d4c11d784e260efc30b2cfd49cc63e6372dd923bb014c4edff54337ef0c89c81e2f49e5c6ced06f7ee60ff3756d66a9226c5e258bfcce36aa2685cf4532a8ca6dbaf65051d2956c7bc&ascene=15&uin=Mjc3NTkzMzQyMA%3D%3D&devicetype=Windows+10+x64&version=63080029&lang=zh_CN&session_us=gh_0c09375fe977&exportkey=n_ChQIAhIQ4bkbBBfAkYde1q05qqQzLhLlAQIE97dBBAEAAAAAAD5BGdDDHoYAAAAOpnltbLcz9gKNyK89dVj0hMImeNaA1U%2FzcEjXOSzorvUBPNb9BOidu%2FIuZqf1talgie7j3fNOLsrOo%2BfrA7kym%2BfhS5vVKCKQUn5r438jhsB86p3yf3Czwhcibjn8GFlZa7FOTc3OooJG56Di5P7Wtb2zA7FILM8bxETpj%2FA5BFTXbS%2FpbMwek%2BTa3%2FdMQDhpaz%2BZ0c%2FgmeOhF8mVzFPzsq%2B4OPQIJPv9ZoTOquxknNe2E6UW3XFNBW2LwdvfezMBcviE1o%2Bf2yhfpFW7UwY%3D&acctmode=0&pass_ticket=Q8lF9azFdnm4Coo4i2v4nvK7WxPhM62fQ6Wsf696afItszWrjw0Yv%2FOBfgyS8HX5&wx_header=0&fontgear=2
    
+      - name: 英国
+        value: 3
+        location:
+          - name: 
+            doctor:
+            - name:
+              clas:
+              desc:          
+        info_link: 
+          - title: 英国成人ASD+ADHD就诊记录
+            url: https://mp.weixin.qq.com/s/9vR3CuvxHFAA8EtgYW-dew
+   
