@@ -350,7 +350,7 @@ map_info:
           clas: 2
           desc: <br>推荐原因：医院推文介绍其接诊患者经历，信息由网友提供，具体情况需要亲自就诊核实。
         - name: 秦俊峰
-          class: 2
+          clas: 2
           desc: <br>推荐原因：医院推文介绍其接诊患者经历，信息由网友提供，具体情况需要亲自就诊核实。
       
     info_link: 
@@ -525,7 +525,7 @@ map_info:
         doctor: 
         - name: 刘秀梅（儿童发育行为儿保门诊）
           clas: 2
-          desc: 
+          desc: <br>福建省儿童医院挂不了成人的号，所以可能没办法找刘秀梅医生确诊成人ADHD。
     info_link: 
       - title: 厦门仙岳医院成人ADHD就诊故事
         url: https://mp.weixin.qq.com/s/CWbcIaEd9MaZp1FHq0cEnQ
@@ -557,6 +557,12 @@ map_info:
         - name: 蒲昭霞
           clas: 2
           desc: 
+      - name: 成都市四医院九江院区（成都市心理健康中心）
+        doctor:
+        - name: 刘芳
+          clas: 2
+          desc:
+     
     info_link: 
       - title: 四川大学华西医院和重庆精神卫生中心成人ADHD就诊记录
         url: https://mp.weixin.qq.com/s/XegOiuQMeDg_INtJ5yhnmQ
