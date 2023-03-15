@@ -44,6 +44,9 @@ map_info:
         - name: 周玉明
           clas: 3
           desc: 周玉明医生可以确诊成人ASD和ADHD, 每周五上午作为副主任医生在孤独症门诊出诊。
+        - name: 梁月竹
+          clas: 2
+          desc: 
       - name: 北京回龙观医院 <br>就诊需要去儿科，如果未成年开过择思达是可以给开药的，但是没有专注达
         doctor: 
         - name: 邸晓兰
@@ -352,6 +355,11 @@ map_info:
         - name: 秦俊峰
           clas: 2
           desc: <br>推荐原因：医院推文介绍其接诊患者经历，信息由网友提供，具体情况需要亲自就诊核实。
+      - name: 青岛妇女儿童医院
+        doctor: 
+        - name: 冀永娟 
+          clas: 2
+          desc: <br>可以确诊成人ADHD
       
     info_link: 
       - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
@@ -540,7 +548,7 @@ map_info:
           desc: 
         - name: 司徒明镜
           clas: 2
-          desc: <br>可以看成人adhd
+          desc: <br>可以就诊成人ADHD。ps：该地图上所有可以看ADHD的医生都有资质诊断成人
         - name: 李元媛 
           clas: 2
           desc:           
