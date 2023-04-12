@@ -6,14 +6,14 @@
 <div class="col-lg-10 mx-auto mt-5 article">
     {% for data in site.data.map_info_int.map_info_int %}
     <p>{% if data.value != 0 %}
-    {% if data.name %}
     <h3>{{ data.name }}</h3>
-    {% endif %}
     {% for locate in data.location %}
+    {% if locatea.name %}
     <p>
     <blockquote>
         <h6>{{ locate.name }} ：</h6>
     </blockquote>
+    {% endif %}
     <p>
         {% for doctor in locate.doctor %}
     <h6>
