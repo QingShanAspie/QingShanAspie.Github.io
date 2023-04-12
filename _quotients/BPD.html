@@ -58,11 +58,7 @@ description: 边缘人格障碍表现量表 <br>BSL-23
             $('.result').html('<h1>请完成量表</h1>');
         } else {
             let bpd_score = count / (parseInt('{{ site.data.BPD.count }}') * 1.0)
-            
-            if (bpd_score < 1.5) {
-                $('.result').append('<h1>您不太可能有BPD</h1>');
-            }
-            
+          
             if (bpd_score < 0.3) {
                 $('.result').html('<h1>None/Low<br>得分：' + bpd_score.toFixed(2) + '/总分：4</h1>' + ReTest);
             } else if (bpd_score >= 0.3 && bpd_score < 1.1) {
@@ -75,6 +71,10 @@ description: 边缘人格障碍表现量表 <br>BSL-23
                 $('.result').html('<h1>Very High<br>得分：' + bpd_score.toFixed(2) + '/总分：4</h1>' + ReTest);
             } else if (bpd_score >= 3.5) {
                 $('.result').html('<h1>Extremely High<br>得分：' + bpd_score.toFixed(2) + '/总分：4</h1>' + ReTest);
+            }
+            
+            if (bpd_score < 1.5) {
+                $('.result').append('<h1>您不太可能有BPD</h1>');
             }
             SaveCookies($data, "BPD");
         }
@@ -92,10 +92,6 @@ description: 边缘人格障碍表现量表 <br>BSL-23
     function CookieResult(count) {
         let bpd_score = count / (parseInt('{{ site.data.BPD.count }}') * 1.0)
         
-        if (bpd_score < 1.5) {
-            $('.result').append('<h1>您不太可能有BPD</h1>');
-        }
-        
         if (bpd_score < 0.3) {
             $('.result').html('<h1>None/Low<br>得分：' + bpd_score.toFixed(2) + '/总分：4</h1>' + ReTest);
         } else if (bpd_score >= 0.3 && bpd_score < 1.1) {
@@ -108,6 +104,10 @@ description: 边缘人格障碍表现量表 <br>BSL-23
             $('.result').html('<h1>Very High<br>得分：' + bpd_score.toFixed(2) + '/总分：4</h1>' + ReTest);
         } else if (bpd_score >= 3.5) {
             $('.result').html('<h1>Extremely High<br>得分：' + bpd_score.toFixed(2) + '/总分：4</h1>' + ReTest);
+        }
+        
+        if (bpd_score < 1.5) {
+            $('.result').append('<h1>您不太可能有BPD</h1>');
         }
     }
 
