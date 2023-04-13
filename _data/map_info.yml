@@ -68,6 +68,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/LJ1ZUrNBfPgBoevfXfgv2g
       - title: 北京回龙观医院成人ASD+ADHD就诊经历
         url: https://mp.weixin.qq.com/s/BOPdBRbVimwi9PbWghnShg
+      - title: 从零开始的成人ADHD药费报销教程（学生/职工医保）
+        url: https://mp.weixin.qq.com/s/WKfnCT4Ixl5Dn7sd2qF7hg
 
   - name: 广东
     value: 3
@@ -87,7 +89,7 @@ map_info:
         doctor: 
         - name: 王中磊
           clas: 3
-          desc: 王医生恢复每周四下午出诊。<br>由于ADOS评估时间已经排到年底了，所以接下来测评室暂停ADOS评估了。想去做成人ADOS的朋友不要白跑一趟。7/22/21<br>青衫注：ados是asd诊断金标准，但是不是必需。发育史和日常表现翔实足矣。
+          desc: 王医生岗位调整，从2023年4月15日起停出儿少精神科门诊。请预约儿少科其他医生就诊。<br>由于ADOS评估时间已经排到年底了，所以接下来测评室暂停ADOS评估了。想去做成人ADOS的朋友不要白跑一趟。7/22/21<br>青衫注：ados是asd诊断金标准，但是不是必需。发育史和日常表现翔实足矣。
         - name: 石顺治
           clas: 2
           desc: 
@@ -153,6 +155,11 @@ map_info:
         - name: 张艳红
           clas: 2
           desc: <br>推荐原因：医院推文介绍其接诊患者经历
+      - name: 珠海市妇幼保健院
+        doctor:
+        - name: 庄志成
+          clas: 2
+          desc: <br> 儿童心理行为科
      
     info_link: 
       - title: 深圳康宁成人ADHD+阿斯伯格确诊记
@@ -171,6 +178,14 @@ map_info:
         url: https://mp.weixin.qq.com/s/x2YbnQL2X_7eS-O9sGruJQ
       - title: 广州医科大学附属脑科医院成人ASD就诊经验
         url: https://mp.weixin.qq.com/s/u_l3DvQc4Le-DuuQtL7p_A
+      - title: 深圳康宁医院成人ADHD首诊医保报销就诊体验
+        url: https://mp.weixin.qq.com/s/KlMaEGBdCpf_V9Oim2urRQ
+      - title: 广东江门妇幼保健院成人ADHD确诊经历
+        url: https://mp.weixin.qq.com/s/ThT2Q03MuSHY-8nCZtqrLw
+      - title: 从精神病性障碍到ADHD、ASD，这是我的自我发现历程
+        url: https://mp.weixin.qq.com/s/VmABTjXexPw5NSy8_np4_A
+      - title: 喜大普奔！深圳康宁成人ADHD处方药医保初体验
+        url: https://mp.weixin.qq.com/s/bpY7yQ3VN4dWNRoA-XIAQg
 
         
   - name: 上海
@@ -210,6 +225,10 @@ map_info:
         url: https://mp.weixin.qq.com/s/fm69NfoAO8BY97OIfd9I6w
       - title: 【更新】上海新华医院成人ADHD就诊记录（2021.9.25）
         url: https://mp.weixin.qq.com/s/m3kg-gUZOwpd1JGAtAExkg
+      - title: 上海新华成人ADHD处方药报销
+        url: https://mp.weixin.qq.com/s/RRyyAlqJ1gp697Of0Qxx1A
+      - title: 上海市同济医院成人ADHD就诊攻略
+        url: https://mp.weixin.qq.com/s/bb43hw4P-IlSXIm_HUYqHw
         
   - name: 重庆
     value: 2
@@ -291,6 +310,9 @@ map_info:
         - name: 彭淼
           clas: 3
           desc: <br>支持多项共病诊断   
+        - name: 高倩
+          clas: 2
+          desc: <br>可以确诊成人ADHD
     info_link: 
       - title: 一位医生想传达出的心意【含就诊攻略】
         url: https://mp.weixin.qq.com/s/XCRQQ7iP6m9PofgAFuZrGQ
@@ -360,12 +382,19 @@ map_info:
         - name: 冀永娟 
           clas: 2
           desc: <br>可以确诊成人ADHD
+      - name: 山东大学齐鲁医院
+        doctor:
+        - name: 于晓晓
+          clas: 2
+          desc: <br>可诊断成人ADHD
       
     info_link: 
       - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
         url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
       - title: 山东省立医院成人ADHD就诊攻略
         url: https://mp.weixin.qq.com/s/wz18VzkSd4d3PAVUNk8kBw
+      - title: 山东省立医院（中心院区）成人ADHD就诊攻略【更新】
+        url: https://mp.weixin.qq.com/s/oPl3Fs8UvIqVdiyhd_sgRQ
        
   - name: 江苏
     value: 3
@@ -722,7 +751,10 @@ map_info:
         doctor: 
         - name: 雷彤
           clas: 2
-          desc: 雷彤医生可以确诊成人ADHD   
+          desc: 雷彤医生可以确诊成人ADHD
+    info_link:
+        - title: 天津市安定医院成人ADHD就诊经历
+          url: https://mp.weixin.qq.com/s/bwPMrJng4V4BM48t6Bm5fA
     
   - name: 台湾
     value: 3
