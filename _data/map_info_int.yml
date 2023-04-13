@@ -67,4 +67,16 @@ map_info_int:
         info_link: 
           - title: 英国成人ASD+ADHD就诊记录
             url: https://mp.weixin.qq.com/s/9vR3CuvxHFAA8EtgYW-dew
+            
+      - name: 加拿大
+        value: 3
+        location:
+          - name: 
+            doctor:
+            - name:
+              clas:
+              desc:          
+        info_link: 
+          - title: 加拿大成人ASD确诊经历
+            url: https://mp.weixin.qq.com/s/nMTGrZCAsF11avNY232e2Q
    
