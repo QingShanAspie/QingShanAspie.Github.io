@@ -625,7 +625,7 @@ map_info:
         doctor: 
         - name: 康延海
           clas: 2
-          desc: <br>群友消息，据说可以确诊成人ADHD，欢迎大家就诊写经验贴
+          desc: <br>群友消息，据说可以确诊成人ADHD，欢迎大家就诊写经验贴。
     info_link: 
       - title: 
         url: 
