@@ -421,10 +421,10 @@ map_info:
           desc:
         - name: 梁金凤
           clas: 2
-          desc: 梁金凤医生可确诊成人ADHD
+          desc: <br>梁金凤医生可确诊成人ADHD
         - name: 殷璐
           clas: 3
-          desc: 可确诊成人ASD和ADHD      
+          desc: <br>可确诊成人ASD和ADHD      
       - name: 扬州五台山医院
         doctor: 
         - name: 卜茹 
