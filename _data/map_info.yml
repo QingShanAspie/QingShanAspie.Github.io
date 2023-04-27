@@ -375,7 +375,7 @@ map_info:
         - name: 刘传新
           clas: 2
           desc: <br>刘传新主任医师医师可确诊成人ADHD
-      - name: 青岛精神卫生中心（青岛市第七人民医院）
+      - name: 青岛精神卫生中心（青岛市第七人民医院
         doctor: 
         - name: 万好 
           clas: 3
