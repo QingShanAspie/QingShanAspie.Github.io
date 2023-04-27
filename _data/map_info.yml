@@ -406,6 +406,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/wz18VzkSd4d3PAVUNk8kBw
       - title: 山东省立医院（中心院区）成人ADHD就诊攻略【更新】
         url: https://mp.weixin.qq.com/s/oPl3Fs8UvIqVdiyhd_sgRQ
+      - title: 山东省青岛市精神卫生中心成人ADHD就诊经历
+        url: https://mp.weixin.qq.com/s/ssmfFUZtSEu7YuADTT73-w
        
   - name: 江苏
     value: 3
@@ -527,7 +529,9 @@ map_info:
         url: https://mp.weixin.qq.com/s/iw5a1cPSNbYodqMShtVStg
       - title: 武汉市精神卫生中心（二七院区）成人ASD+ADHD就诊记录
         url: https://mp.weixin.qq.com/s/JWvpvEkp2Tvw85pyP93XfQ
-      
+      - title: 世界必有出口：武汉长沙深圳成人ASD+ADHD就诊经历
+        url: https://mp.weixin.qq.com/s/dSNUojHXjqBQOPATMmSaAA
+          
   - name: 山西
     value: 2
     location:
@@ -554,6 +558,8 @@ map_info:
     info_link: 
       - title: 西安交通大学第二附属医院成人ADHD就诊记录
         url: https://mp.weixin.qq.com/s/TPLerqcp0lD6THMFJM3m6w
+      - title: 【就诊更新】西安交通大学第二附属医院成人ADHD
+        url: https://mp.weixin.qq.com/s/yp6j3vCBHlw4u31LOOH9Ag
    
   - name: 吉林
     value: 0
