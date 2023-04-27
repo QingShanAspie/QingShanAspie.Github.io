@@ -322,7 +322,7 @@ map_info:
   - name: 湖南
     value: 2
     location:
-      - name: 中南大学湘雅二医院
+       -name: 中南大学湘雅二医院
         doctor: 
         - name: 崔夕龙
           clas: 2
