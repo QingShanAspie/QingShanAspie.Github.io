@@ -336,16 +336,16 @@ map_info:
         - name: 欧建君
           clas: 1
           desc: <br>自闭症专项门诊
-       - name:
-         doctor: 湖南湘潭医院
-         - name: 黄春香
-           clas: 2
-           desc: 可确诊成人ADHD
-       - name: 湖南省第二人民医院（省脑科医院）
-         doctor: 
-         - name: 周旭辉
-           clas: 2
-           desc: 酒瘾网瘾科，可以确诊成人ADHD
+      - name: 湖南湘潭医院
+        doctor: 
+        - name: 黄春香
+          clas: 2
+          desc: 可确诊成人ADHD
+      - name: 湖南省第二人民医院（省脑科医院）
+        doctor: 
+        - name: 周旭辉
+          clas: 2
+          desc: 酒瘾网瘾科，可以确诊成人ADHD
        
     info_link: 
       - title: 长沙湘雅二医院成人ASD就诊经历
