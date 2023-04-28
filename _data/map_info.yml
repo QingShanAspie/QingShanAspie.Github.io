@@ -345,7 +345,7 @@ map_info:
         doctor: 
         - name: 周旭辉
           clas: 2
-          desc: 酒瘾网瘾科，可以确诊成人ADHD
+          desc: <br>酒瘾网瘾科，可以确诊成人ADHD
        
     info_link: 
       - title: 长沙湘雅二医院成人ASD就诊经历
@@ -607,7 +607,7 @@ map_info:
         - name: 蒲昭霞
           clas: 2
           desc: 
-      - name: 成都市四医院九江院区（成都市心理健康中心）<br>由于多动症科室没有了，所以看不了成人ADHD
+      - name: 成都市四医院九江院区（成都市心理健康中心）<br>由于多动症科室没有了，所以看不了成人ADHD。
         doctor:
         - name: 刘芳
           clas: 2
@@ -669,7 +669,7 @@ map_info:
         doctor: 
         - name: 莫芸
           clas: 2
-          desc: <br>可以确诊成人
+          desc: <br>可以确诊成人ADHD
     
   - name: 内蒙古
     value: 0
