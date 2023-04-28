@@ -663,13 +663,13 @@ map_info:
           desc:    
     
   - name: 贵州
-    value: 0
+    value: 2
     location:  
-      - name: 
+      - name: 贵州省第二人民医院
         doctor: 
-        - name: 
-          clas: 
-          desc: 
+        - name: 莫芸
+          clas: 2
+          desc: <br>可以确诊成人
     
   - name: 内蒙古
     value: 0
