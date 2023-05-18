@@ -241,6 +241,9 @@ map_info:
         - name: 冉曼利
           clas: 3
           desc: 
+        - name: 张骁
+          clas: 2
+          desc: 
     info_link: 
       - title: 四川大学华西医院和重庆精神卫生中心成人ADHD就诊记录
         url: https://mp.weixin.qq.com/s/XegOiuQMeDg_INtJ5yhnmQ
@@ -500,6 +503,15 @@ map_info:
         - name: 祝勇敢
           clas: 2
           desc: <br>推荐原因：医院推文介绍其接诊患者经历，信息来自于网友，需亲自就诊核实。
+      - name: 浙江大学医学院附属第二医院
+        doctor: 
+        - name: 林铮 
+          clas: 2
+          desc: 可以确诊成人ADHD，，在解放路、滨江院区都有出专家门诊。
+        - name: 金嘉郦
+          clas: 2
+          desc: 滨江院区周六下午， "注意缺陷/学习困难门诊"。
+          
     info_link: 
       - title: 宁波市康宁医院成人ASD+ADHD确诊经历
         url: https://mp.weixin.qq.com/s/Tr7HkeqhX9NcrDW0zYCjjg
@@ -509,6 +521,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/1H4-wA-G10KNXoESBaY_Wg
       - title: 浙江大学第一附属医院成人ADHD就诊经历
         url: https://mp.weixin.qq.com/s/FxvlRWIMUpZzbZsaCB5yug
+      - title: 
+        url: 
        
           
   - name: 湖北
