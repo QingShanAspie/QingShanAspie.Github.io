@@ -23,10 +23,10 @@ map_info:
           desc: 
         - name: 曹庆久
           clas: 2
-          desc: <br>可确诊成人ADHD
+          desc: 
         - name: 顾伯美
           clas: 2
-          desc: <br>可确诊成人ADHD
+          desc: 
         - name: 赵梦捷
           clas: 2
           desc: <br>北京大学第六医院儿童门诊的普通门诊也可能可以看成人ADHD，案例在赵梦捷医生处确诊。
@@ -51,10 +51,10 @@ map_info:
         doctor: 
         - name: 邸晓兰
           clas: 3
-          desc: <br>可以确诊成人ASD和ADHD
+          desc: 
         - name: 李斌彬
           clas: 3
-          desc: <br>可以确诊成人ASD和ADHD
+          desc: 
     info_link: 
       - title: 北医六院成年ASD+ADHD就诊记
         url: https://mp.weixin.qq.com/s/AYKfbKJg8VVoxMHHTvq4gQ
@@ -129,7 +129,7 @@ map_info:
         doctor: 
         - name: 刘军
           clas: 2
-          desc: <br>可确诊成人ADHD
+          desc: 
       - name: 中共广东医科大学顺德妇女儿童医院（佛山市顺德区妇幼保健院）
         doctor: 
         - name: 梁烨
@@ -138,7 +138,7 @@ map_info:
       - name: 汕头大学精神卫生中心
         doctor: 
         - name: 李艾
-          clas: 1
+          clas: 3
           desc: 
       - name: 佛山顺德大良伍仲佩纪念医院
         doctor: 
@@ -160,6 +160,9 @@ map_info:
         - name: 庄志成
           clas: 2
           desc: <br> 儿童心理行为科
+        - name: 陈强
+          clas: 2
+          desc: 
      
     info_link: 
       - title: 深圳康宁成人ADHD+阿斯伯格确诊记
@@ -208,12 +211,12 @@ map_info:
         doctor:
         - name: 刘飞
           clas: 2
-          desc: <br>可确诊成人ADHD。信息来自于网友，需亲自就诊核实。
+          desc: 
       - name: 上海市宝山区精神卫生中心
         doctor:
         - name: 曹亚宁
           clas: 2
-          desc: <br>科普可能暗含诊断信息。信息来自于网友，需亲自就诊核实。 
+          desc: 
     info_link: 
       - title: 上海新华医院adhd确诊指南
         url: https://mp.weixin.qq.com/s/4bgsrcvmOpGAGGglUUIXTg
@@ -293,7 +296,7 @@ map_info:
           desc: 
         - name: 杨润许
           clas: 2
-          desc: <br>可诊断成人ADHD
+          desc: 
     info_link: 
       - title: 昆明医科大成人ADHD就诊攻略
         url: https://mp.weixin.qq.com/s/v52WiSbILr3lDfrZCndeLg
@@ -315,7 +318,7 @@ map_info:
           desc: <br>支持多项共病诊断   
         - name: 高倩
           clas: 2
-          desc: <br>可以确诊成人ADHD
+          desc: 
     info_link: 
       - title: 一位医生想传达出的心意【含就诊攻略】
         url: https://mp.weixin.qq.com/s/XCRQQ7iP6m9PofgAFuZrGQ
@@ -347,12 +350,12 @@ map_info:
         doctor: 
         - name: 黄春香
           clas: 2
-          desc: 可确诊成人ADHD
+          desc: 
       - name: 湖南省第二人民医院（省脑科医院）
         doctor: 
         - name: 周旭辉
           clas: 2
-          desc: <br>酒瘾网瘾科，可以确诊成人ADHD
+          desc: <br>酒瘾网瘾科
        
     info_link: 
       - title: 长沙湘雅二医院成人ASD就诊经历
@@ -368,43 +371,43 @@ map_info:
           desc:  
         - name: 徐德峰
           clas: 2
-          desc: <br>推荐原因：个人专业介绍有成人ADHD，该医生由网友推荐，需亲自就诊核实。
+          desc:
       - name: 山东省立医院
         doctor: 
         - name: 焦志安 
           clas: 2
-          desc: <br>焦志安医生可确诊成人ADHD 
+          desc: 
       - name: 山东省济宁医学院附属医院心理咨询科
         doctor: 
         - name: 王微 
           clas: 2
-          desc: 王微主任医师可确诊成人ADHD 
+          desc: 
         - name: 刘传新
           clas: 2
-          desc: <br>刘传新主任医师医师可确诊成人ADHD
+          desc: 
       - name: 青岛精神卫生中心（青岛市第七人民医院
         doctor: 
         - name: 万好 
           clas: 3
-          desc: <br>万好医师可确诊成人ADHD以及成人ASD
+          desc: 
       - name: 青岛市立医院
         doctor: 
         - name: 王俊 
           clas: 2
-          desc: <br>推荐原因：医院推文介绍其接诊患者经历，信息由网友提供，具体情况需要亲自就诊核实。
+          desc: 
         - name: 秦俊峰
           clas: 2
-          desc: <br>推荐原因：医院推文介绍其接诊患者经历，信息由网友提供，具体情况需要亲自就诊核实。
+          desc: 
       - name: 青岛妇女儿童医院
         doctor: 
         - name: 冀永娟 
           clas: 2
-          desc: <br>可以确诊成人ADHD
+          desc: 
       - name: 山东大学齐鲁医院
         doctor:
         - name: 于晓晓
           clas: 2
-          desc: <br>可诊断成人ADHD
+          desc:
       
     info_link: 
       - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
@@ -435,20 +438,20 @@ map_info:
           desc:
         - name: 梁金凤
           clas: 2
-          desc: <br>梁金凤医生可确诊成人ADHD
+          desc: 
         - name: 殷璐
           clas: 3
-          desc: <br>可确诊成人ASD和ADHD      
+          desc:     
       - name: 扬州五台山医院
         doctor: 
         - name: 卜茹 
           clas: 2
-          desc: <br>可以确诊成人ADHD
+          desc: 
       - name: 常州市德安医院
         doctor: 
         - name: 高婷叶
           clas: 2
-          desc: <br>推荐原因：医院推文介绍其接诊患者经历，信息来自于网友，需亲自就诊核实。
+          desc: 
     info_link: 
       - title: 南京脑科医院成人asd+adhd就诊经历
         url: https://mp.weixin.qq.com/s/jBg86bXnYZsIJ7FpM4Hkcw
@@ -469,7 +472,7 @@ map_info:
           desc: <br>精神卫生科 - 注意缺陷多动障碍科
         - name: 胡少华
           clas: 2
-          desc: <br>可以诊断成人ADHD，医生人很好。
+          desc: 
         - name: 陆绍佳
           clas: 2
           desc: <br>精神卫生科
@@ -482,35 +485,35 @@ map_info:
         doctor: 
         - name: 程芳
           clas: 1
-          desc: <br>可确诊成人ASD
+          desc: 
       - name: 浙江大学邵逸夫医院
         doctor: 
         - name: 覃艳华
           clas: 2
-          desc: <br>可确诊成人ADHD
+          desc: 
       - name: 浙江金华妇幼保健院
         doctor: 
         - name: 刘畅
           clas: 2
-          desc: <br>可确诊成人ADHD，但是因为一些复杂的原因建议阅读链接文章再决定是否前往。
+          desc: <br>因为一些复杂的原因建议阅读链接文章再决定是否前往。
       - name: 温州医科大学附属康宁医院
         doctor: 
         - name: 于学力
           clas: 2
-          desc: <br>可确诊成人ADHD
+          desc: 
       - name: 江山市第四人民医院
         doctor: 
         - name: 祝勇敢
           clas: 2
-          desc: <br>推荐原因：医院推文介绍其接诊患者经历，信息来自于网友，需亲自就诊核实。
+          desc: 
       - name: 浙江大学医学院附属第二医院
         doctor: 
         - name: 林铮 
           clas: 2
-          desc: 可以确诊成人ADHD，，在解放路、滨江院区都有出专家门诊。
+          desc: <br>在解放路、滨江院区都有出专家门诊。
         - name: 金嘉郦
           clas: 2
-          desc: 滨江院区周六下午， "注意缺陷/学习困难门诊"。
+          desc: <br>滨江院区周六下午， "注意缺陷/学习困难门诊"。
           
     info_link: 
       - title: 宁波市康宁医院成人ASD+ADHD确诊经历
@@ -613,7 +616,7 @@ map_info:
           desc: 
         - name: 司徒明镜
           clas: 2
-          desc: <br>可以就诊成人ADHD。ps：该地图上所有可以看ADHD的医生都有资质诊断成人
+          desc: <br>ps：该地图上所有可以看ADHD的医生都有资质诊断成人
         - name: 李元媛 
           clas: 2
           desc:           
@@ -656,7 +659,7 @@ map_info:
         doctor: 
         - name: 康延海
           clas: 2
-          desc: <br>群友消息，据说可以确诊成人ADHD，欢迎大家就诊写经验贴。
+          desc: 
     info_link: 
       - title: 
         url: 
@@ -689,7 +692,7 @@ map_info:
         doctor: 
         - name: 莫芸
           clas: 2
-          desc: <br>可以确诊成人ADHD
+          desc: 
     
   - name: 内蒙古
     value: 0
@@ -787,7 +790,7 @@ map_info:
         doctor: 
         - name: 雷彤
           clas: 2
-          desc: 雷彤医生可以确诊成人ADHD
+          desc: 
     info_link:
        - title: 天津市安定医院成人ADHD就诊经历
          url: https://mp.weixin.qq.com/s/bwPMrJng4V4BM48t6Bm5fA
