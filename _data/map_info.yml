@@ -640,6 +640,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/CWbcIaEd9MaZp1FHq0cEnQ
       - title: 我曾经竭尽全力去摘那颗星：厦门仙岳医院成人ADHD就诊指南
         url: https://mp.weixin.qq.com/s/0k7f7FeqPG6817QKC-B4Rw
+      - title: 世界不曾经历过相同的两场雨季：ADHD确诊心路历程
+        url: https://mp.weixin.qq.com/s/szJCRWljKSC-6TtV0P5ZJg
    
   - name: 四川
     value: 3
@@ -731,6 +733,8 @@ map_info:
     info_link:
         - title: 我与拖延二三事：贵州省人民医院成人ADHD就诊经历
           url: https://mp.weixin.qq.com/s/PBW2dnjKTqP8kbgU4jEKYg
+        - title: 贵州省第二人民医院成人ADHD就诊经历
+          url: https://mp.weixin.qq.com/s/St1pufe9rM30RHyIloHu3Q
     
   - name: 内蒙古
     value: 0
@@ -797,23 +801,29 @@ map_info:
   - name: 新疆
     value: 0
     location:  
-      - name: 合肥市第四人民医院
+      - name: 
         doctor: 
-        - name: 钟慧
-          clas: 2
-          desc: <br> 周二出诊，挂号青少年心理科。
-        - name: 朱丽
-          clas: 2
-          desc: <br> 周四出诊，挂号青少年心理科。
+        - name: 
+          clas: 
+          desc: 
+        - name: 
+          clas: 
+          desc:
 
   - name: 安徽
     value: 0
     location: 
-      - name:
+      - name: 合肥市第四人民医院
         doctor: 
-        - name:  
-          clas: 
-          desc:      
+        - name: 钟慧
+          clas: 2
+          desc: <br>周二出诊，挂号青少年心理科。
+        - name: 朱丽
+          clas: 2
+          desc: <br>周四出诊，挂号青少年心理科。
+    info_link:
+        - title: 合肥四院（安徽省精卫）成人ADHD确诊经历
+          url: https://mp.weixin.qq.com/s/4rJdxqr_Fldt1yKvKw3Ugg
 
   - name: 黑龙江
     value: 0
