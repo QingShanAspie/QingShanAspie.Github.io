@@ -195,6 +195,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/VmABTjXexPw5NSy8_np4_A
       - title: 喜大普奔！深圳康宁成人ADHD处方药医保初体验
         url: https://mp.weixin.qq.com/s/bpY7yQ3VN4dWNRoA-XIAQg
+      - title: 少数的故事：汕头大学精神卫生中心成人ASD和ADHD确诊经历
+        url: https://mp.weixin.qq.com/s/JOxvBGNUAv7TZaMvwmtSHw
 
         
   - name: 上海
@@ -537,8 +539,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/1H4-wA-G10KNXoESBaY_Wg
       - title: 浙江大学第一附属医院成人ADHD就诊经历
         url: https://mp.weixin.qq.com/s/FxvlRWIMUpZzbZsaCB5yug
-      - title: 
-        url: 
+      - title: 浙医一院余杭院区成人ADHD就诊经历
+        url: https://mp.weixin.qq.com/s/LGnaqruj4KfJeTedsgDQQQ
        
           
   - name: 湖北
@@ -636,6 +638,8 @@ map_info:
     info_link: 
       - title: 厦门仙岳医院成人ADHD就诊故事
         url: https://mp.weixin.qq.com/s/CWbcIaEd9MaZp1FHq0cEnQ
+      - title: 我曾经竭尽全力去摘那颗星：厦门仙岳医院成人ADHD就诊指南
+        url: https://mp.weixin.qq.com/s/0k7f7FeqPG6817QKC-B4Rw
    
   - name: 四川
     value: 3
@@ -724,6 +728,9 @@ map_info:
         - name: 莫芸
           clas: 2
           desc: 
+    info_link:
+        - title: 我与拖延二三事：贵州省人民医院成人ADHD就诊经历
+          url: https://mp.weixin.qq.com/s/PBW2dnjKTqP8kbgU4jEKYg
     
   - name: 内蒙古
     value: 0
