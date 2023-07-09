@@ -84,3 +84,17 @@ map_info_int:
           - title: 我在加拿大确诊了ASD，然后呢？
             url: https://mp.weixin.qq.com/s/XV8tZ1qnTvs0_dxX5feWbg
    
+
+      - name: 日本
+        value: 3
+        location:
+          - name: 
+            doctor:
+            - name:
+              clas:
+              desc:          
+        info_link: 
+          - title: 至高者希望我躲藏在灌木丛中：日本九州大学病院ASD就诊故事
+            url: https://mp.weixin.qq.com/s/zA7RB1hlVGCgtQgFXKm3Bg
+          
+   
