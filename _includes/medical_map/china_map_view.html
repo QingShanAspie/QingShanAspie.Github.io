@@ -27,6 +27,9 @@
             <h6>{{ locate.name }} ：</h6>
         </blockquote>
         {% endif %}
+        {% if locate.desc %}
+        <pre>注：{{ locate.desc }}</pre>
+        {% endif %}
         <p>
         {% for doctor in locate.doctor %}
         <h6>
