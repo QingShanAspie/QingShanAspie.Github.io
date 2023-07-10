@@ -528,7 +528,7 @@ map_info:
           desc: <br>在解放路、滨江院区都有出专家门诊。
         - name: 金嘉郦
           clas: 2
-          desc: <br>滨江院区周六下午， "注意缺陷/学习困难门诊"。
+          desc: <br>滨江院区周六下午， '注意缺陷/学习困难门诊'。
           
     info_link: 
       - title: 宁波市康宁医院成人ASD+ADHD确诊经历

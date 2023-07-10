@@ -10,12 +10,16 @@
 <script src="{{ '/assets/js/echarts/map_func.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
 
-<!-- 手机屏幕适应 -->
+<div class="chart">
+    <div id="china_chart" style="height: 800px; width: 100%;"></div>
+</div>
+
+<!-- 列表 -->
 <div id="china_list">
     <div class="col-lg-10 mx-auto mt-5 article">
         {% for data in site.data.map_info.map_info %}
         <p>{% if data.value != 0 %}
-        <h3>{{ data.name }}</h3>
+        <h3 id="{{ data.name }}">{{ data.name }}</h3>
         {% for locate in data.location %}
         <p>
         <blockquote>
@@ -50,28 +54,11 @@
     </div>
 </div>
 
-
-<div class="chart">
-    <div id="china_chart" style="height: 800px; width: 100%;"></div>
-</div>
-
 <script>
     let chart = echarts.init(document.getElementById('china_chart'));
     chart.setOption(option);
     chart.on('click', function (params) {
-        for (let i = 0; i < map_info.length; i++) {
-            if (map_info[i].info_link) {
-                if (map_info[i].name == params.name) {
-                    if (map_info[i].value != '0') {
-                        let links = '<h4>请选择就诊故事</h4>';
-                        for (let index = 0; index < map_info[i].info_link.length; index++) {
-                            links = links + '<p><br><a href="' + map_info[i].info_link[index].url + '" target="">' + map_info[i].info_link[index].title + '</a></p>';
-                        }
-                        alert(links);
-                    }
-                }
-            }
-        }
+        $(location).attr('href', '#' + params.name);
     });
 
     $('.chart').resize(function () {
