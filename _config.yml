@@ -58,3 +58,4 @@ exclude:
   - Readme_DEV.md
   - SECURITY.md
   - backup
+  - docs/
