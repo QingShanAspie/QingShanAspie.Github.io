@@ -181,7 +181,7 @@ map_info:
           clas: 3
           desc: 冯医生人很好，具体剂量问题请咨询冯医生，初诊有问到刻板行为和家庭养育情况。        
       - name: 江门市妇幼保健院
-        desc: 推荐原因：本医院有成人ADHD专门门诊。
+        desc: 本医院有成人ADHD专门门诊。
         doctor: 
         - name: 许律琴
           clas: 2
