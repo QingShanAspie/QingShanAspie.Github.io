@@ -200,11 +200,11 @@ map_info:
         - name: 陈强
           clas: 2
           desc:     
-  info_link: 
-    - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
-      url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
-    - title: 从精神病性障碍到ADHD、ASD，这是我的自我发现历程
-      url: https://mp.weixin.qq.com/s/VmABTjXexPw5NSy8_np4_A
+    info_link: 
+      - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
+        url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
+      - title: 从精神病性障碍到ADHD、ASD，这是我的自我发现历程
+        url: https://mp.weixin.qq.com/s/VmABTjXexPw5NSy8_np4_A
       
       
 
