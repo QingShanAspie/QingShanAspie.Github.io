@@ -119,17 +119,17 @@ map_info:
         - name: 杨志伟
           clas: 1
           desc: 
-    - info_link:
-      - title: 深圳康宁成人ADHD+阿斯伯格确诊记
-        url: https://mp.weixin.qq.com/s/-qPgCoP_Tje4nwYPi9x9qg
-      - title: 【更新】深圳康宁医院和成都华西医院成人ASD+ADHD最新就诊细节更新
-        url: https://mp.weixin.qq.com/s/WRADPkC2-_dW60fBP4VteA
-      - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
-        url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
-      - title: 深圳康宁医院成人ADHD首诊医保报销就诊体验
-        url: https://mp.weixin.qq.com/s/KlMaEGBdCpf_V9Oim2urRQ
-      - title: 喜大普奔！深圳康宁成人ADHD处方药医保初体验
-        url: https://mp.weixin.qq.com/s/bpY7yQ3VN4dWNRoA-XIAQg       
+     - info_link:
+       - title: 深圳康宁成人ADHD+阿斯伯格确诊记
+         url: https://mp.weixin.qq.com/s/-qPgCoP_Tje4nwYPi9x9qg
+       - title: 【更新】深圳康宁医院和成都华西医院成人ASD+ADHD最新就诊细节更新
+         url: https://mp.weixin.qq.com/s/WRADPkC2-_dW60fBP4VteA
+       - title: 山东精卫&深圳康宁成人ASD近期就诊攻略
+         url: https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg
+       - title: 深圳康宁医院成人ADHD首诊医保报销就诊体验
+         url: https://mp.weixin.qq.com/s/KlMaEGBdCpf_V9Oim2urRQ
+       - title: 喜大普奔！深圳康宁成人ADHD处方药医保初体验
+         url: https://mp.weixin.qq.com/s/bpY7yQ3VN4dWNRoA-XIAQg       
       - name: 广东省人民医院
         doctor: 
         - name: 杨帆
