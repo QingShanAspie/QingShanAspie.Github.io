@@ -22,11 +22,13 @@
         <h3 id="{{ data.name }}">{{ data.name }}</h3>
         {% for locate in data.location %}
         <p>
+        {% if locate.name %}
         <blockquote>
             <h6>{{ locate.name }} ：</h6>
         </blockquote>
+        {% endif %}
         <p>
-            {% for doctor in locate.doctor %}
+        {% for doctor in locate.doctor %}
         <h6>
             {{ doctor.name }} 医生
             {% if doctor.clas == 1 %}
@@ -43,6 +45,9 @@
         <pre>注：{{ doctor.desc }}</pre>
         {% endif %}
         {% endfor %}
+        {% for link in locate.info_link %}{% if link.title %}<ul>
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        </ul>{% endif %}{% endfor %}
         </p>
         {% endfor %}
         </p>
