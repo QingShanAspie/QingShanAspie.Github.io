@@ -82,7 +82,7 @@ map_info:
         url: https://mp.weixin.qq.com/s/WKfnCT4Ixl5Dn7sd2qF7hg
 
 
-  - name: 广东
+  - name:  广东
     value: 3
     location:
       - name: 广州医科大学附属脑科医院（广州市惠爱医院）
