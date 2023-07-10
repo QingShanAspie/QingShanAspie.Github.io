@@ -2,7 +2,7 @@
 layout: default
 title: 使用条款
 permalink: /term/
-weight: 5
+weight: 6
 ---
 
 
