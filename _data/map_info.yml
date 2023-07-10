@@ -29,7 +29,7 @@ map_info:
           desc: 
         - name: 赵梦捷
           clas: 2
-          desc: <br>北京大学第六医院儿童门诊的普通门诊也可能可以看成人ADHD，案例在赵梦捷医生处确诊。
+          desc: 北京大学第六医院儿童门诊的普通门诊也可能可以看成人ADHD，案例在赵梦捷医生处确诊。
         - name: 司飞飞
           clas: 2
           desc: 
@@ -45,7 +45,7 @@ map_info:
           desc: 
         - name: 陈旭
           clas: 3
-          desc: <br>安定医院陈旭医生周三下午特需门诊可看成人ASD（转自网络经验贴），陈旭医生也可以确诊成人ADHD
+          desc: 安定医院陈旭医生周三下午特需门诊可看成人ASD（转自网络经验贴），陈旭医生也可以确诊成人ADHD
         - name: 何凡
           clas: 3
           desc: 何凡医生可以开药。
@@ -179,12 +179,13 @@ map_info:
         doctor: 
         - name: 冯婉霞
           clas: 3
-          desc: <br>冯医生人很好，具体剂量问题请咨询冯医生，初诊有问到刻板行为和家庭养育情况。        
+          desc: 冯医生人很好，具体剂量问题请咨询冯医生，初诊有问到刻板行为和家庭养育情况。        
       - name: 江门市妇幼保健院
+        desc: 推荐原因：本医院有成人ADHD专门门诊。
         doctor: 
         - name: 许律琴
           clas: 2
-          desc: <br>推荐原因：本医院有成人ADHD专门门诊。
+          desc: 
       - info_link:
         - title: 广东江门妇幼保健院成人ADHD确诊经历
           url: https://mp.weixin.qq.com/s/ThT2Q03MuSHY-8nCZtqrLw       
@@ -192,12 +193,12 @@ map_info:
         doctor: 
         - name: 张艳红
           clas: 2
-          desc: <br>推荐原因：医院推文介绍其接诊患者经历
+          desc: 
       - name: 珠海市妇幼保健院
         doctor:
         - name: 庄志成
           clas: 2
-          desc: <br> 儿童心理行为科
+          desc: 儿童心理行为科
         - name: 陈强
           clas: 2
           desc:     
@@ -235,10 +236,11 @@ map_info:
         - title: 上海新华成人ADHD处方药报销
           url: https://mp.weixin.qq.com/s/RRyyAlqJ1gp697Of0Qxx1A
       - name: 上海市第一人民医院松江南院
+        desc: 可确诊成人ADHD，每周三下午设有成人注意缺陷及多动障碍专病门诊，号目测很充足，医生也很温柔。
         doctor:
         - name: 王兰兰
           clas: 2
-          desc: <br>可确诊成人ADHD，每周三下午设有成人注意缺陷及多动障碍专病门诊，号目测很充足，医生也很温柔。王兰兰医生不仅周三在松江南院有专家门诊和adhd的专病门诊，她亲口说周五周六上午在北院专家门诊也可以找到她，都是一样的，北院在市区，可能对很多人来讲会近很多。
+          desc: 王兰兰医生不仅周三在松江南院有专家门诊和adhd的专病门诊，她亲口说周五周六上午在北院专家门诊也可以找到她，都是一样的，北院在市区，可能对很多人来讲会近很多。
       - name: 上海同济大学附属医院 - ADHD门诊
         doctor:
         - name: 刘飞
@@ -302,10 +304,10 @@ map_info:
           desc: 
         - name: 段桂琴
           clas: 2
-          desc: <br> 可以给成人开药，不需要使用儿童就诊卡。
+          desc: 可以给成人开药，不需要使用儿童就诊卡。
         - name: 宋春兰
           clas: 2
-          desc: <br> 可以给成人开药，需要用6-12岁小孩户口本照片办就诊卡取药。
+          desc: 可以给成人开药，需要用6-12岁小孩户口本照片办就诊卡取药。
     info_link: 
       - title: 郑州大学第三附属医院（郑州市妇幼保健院）成人ADHD就诊指南
         url: https://mp.weixin.qq.com/s/niGILl_iLYyyKUdiBkXDWw
@@ -435,10 +437,10 @@ map_info:
         doctor: 
         - name: 王俊 
           clas: 2
-          desc: <br> 神经内科 - 心理科门诊
+          desc: 神经内科 - 心理科门诊
         - name: 秦俊峰
           clas: 2
-          desc: <br> 可以开药。
+          desc: 可以开药。
       - info_link:
         - title: 青岛市市立医院成人ADHD就诊经历
           url: https://mp.weixin.qq.com/s/1a1vNP1mmucZvgevJP0yrA
@@ -454,7 +456,7 @@ map_info:
     value: 3
     location:
       - name: 南京脑科儿童心理卫生中心 
-        desc: <br>南京脑科医院儿童心理卫生中心所有医生都可以确诊成人ADHD患者，只需要先精神科挂号，再网上挂号，儿童心理卫生中心普通号复诊就行。
+        desc: 南京脑科医院儿童心理卫生中心所有医生都可以确诊成人ADHD患者，只需要先精神科挂号，再网上挂号，儿童心理卫生中心普通号复诊就行。
         doctor: 
         - name: 焦公凯 
           clas: 3
@@ -503,13 +505,13 @@ map_info:
         doctor: 
         - name: 付广慧
           clas: 2
-          desc: <br>精神卫生科 - 注意缺陷多动障碍科
+          desc: 精神卫生科 - 注意缺陷多动障碍科
         - name: 胡少华
           clas: 2
           desc: 
         - name: 陆绍佳
           clas: 2
-          desc: <br>精神卫生科
+          desc: 精神卫生科
       - info_link:
         - title: 浙江大学第一附属医院成人ADHD就诊经历
           url: https://mp.weixin.qq.com/s/FxvlRWIMUpZzbZsaCB5yug
@@ -519,7 +521,7 @@ map_info:
         doctor: 
         - name: 刘艳
           clas: 2
-          desc: <br>儿童心理科，可以开18mg和36mg的专注达。
+          desc: 儿童心理科，可以开18mg和36mg的专注达。
       - name: 宁波市康宁医院
         doctor: 
         - name: 程芳
@@ -539,7 +541,7 @@ map_info:
         doctor: 
         - name: 刘畅
           clas: 2
-          desc: <br>因为一些复杂的原因建议阅读链接文章再决定是否前往。
+          desc: 因为一些复杂的原因建议阅读链接文章再决定是否前往。
       - info_link:
         - title: 浙江金华市妇幼保健院成人ADHD确诊记录
           url: https://mp.weixin.qq.com/s/1H4-wA-G10KNXoESBaY_Wg
@@ -560,10 +562,10 @@ map_info:
         doctor: 
         - name: 林铮 
           clas: 2
-          desc: <br>在解放路、滨江院区都有出专家门诊。
+          desc: 在解放路、滨江院区都有出专家门诊。
         - name: 金嘉郦
           clas: 2
-          desc: <br>滨江院区周六下午， '注意缺陷/学习困难门诊'。
+          desc: 滨江院区周六下午， '注意缺陷/学习困难门诊'。
       
       
        
@@ -581,10 +583,10 @@ map_info:
           desc:
         - name: 张焱
           clas: 2
-          desc: <br>可看成人ADHD，也可以尝试询问成人ASD（建议不要抱太大希望），周二门诊
+          desc: 可看成人ADHD，也可以尝试询问成人ASD（建议不要抱太大希望），周二门诊
         - name: 路晓文
           clas: 2
-          desc: <br>可看成人ADHD，也可以尝试询问成人ASD（建议不要抱太大希望），周六门诊，可开zzd，有处方权。
+          desc: 可看成人ADHD，也可以尝试询问成人ASD（建议不要抱太大希望），周六门诊，可开zzd，有处方权。
     info_link: 
       - title: 武汉市精神卫生中心（二七院区）ADHD就诊经历
         url: https://mp.weixin.qq.com/s/iw5a1cPSNbYodqMShtVStg
@@ -620,12 +622,12 @@ map_info:
         doctor: 
         - name: 李强
           clas: 2
-          desc: <br> 可开18mg的zzd。确诊过程需要家长填写发育史问卷+各种量表，排除强迫，抑郁等情绪问题引起的分心。
+          desc: 可开18mg的zzd。确诊过程需要家长填写发育史问卷+各种量表，排除强迫，抑郁等情绪问题引起的分心。
       - name: 高新医院
         doctor:
         - name: 白洁
           clas: 2
-          desc: <br>临床心理科        
+          desc: 临床心理科        
     info_link: 
       - title: 西安交通大学第二附属医院成人ADHD就诊记录
         url: https://mp.weixin.qq.com/s/TPLerqcp0lD6THMFJM3m6w
@@ -644,7 +646,7 @@ map_info:
           desc:
         - name: 王瑞
           clas: 2
-          desc: <br>王瑞医生周二周六出诊，周六在儿童心理门诊，可复诊开18mgzzd。
+          desc: 王瑞医生周二周六出诊，周六在儿童心理门诊，可复诊开18mgzzd。
 
      
   - name: 福建
@@ -654,10 +656,10 @@ map_info:
         doctor:
         - name: 李韵
           clas: 2
-          desc: <br>学习障碍门诊
+          desc: 学习障碍门诊
         - name: 郑微
           clas: 2
-          desc: <br>学习障碍门诊         
+          desc: 学习障碍门诊         
     info_link: 
       - title: 厦门仙岳医院成人ADHD就诊故事
         url: https://mp.weixin.qq.com/s/CWbcIaEd9MaZp1FHq0cEnQ
@@ -676,7 +678,7 @@ map_info:
           desc: 
         - name: 司徒明镜
           clas: 2
-          desc: <br>ps：该地图上所有可以看ADHD的医生都有资质诊断成人
+          desc: ps：该地图上所有可以看ADHD的医生都有资质诊断成人
         - name: 李元媛 
           clas: 2
           desc:           
@@ -840,10 +842,10 @@ map_info:
         doctor: 
         - name: 钟慧
           clas: 2
-          desc: <br>周二出诊，挂号青少年心理科。
+          desc: 周二出诊，挂号青少年心理科。
         - name: 朱丽
           clas: 2
-          desc: <br>周四出诊，挂号青少年心理科。
+          desc: 周四出诊，挂号青少年心理科。
     info_link:
         - title: 合肥四院（安徽省精卫）成人ADHD确诊经历
           url: https://mp.weixin.qq.com/s/4rJdxqr_Fldt1yKvKw3Ugg
@@ -864,7 +866,7 @@ map_info:
         doctor: 
         - name: 雷彤
           clas: 2
-          desc: <br>天津安定医院青少年门诊都可以看ADHD。
+          desc: 天津安定医院青少年门诊都可以看ADHD。
     info_link:
        - title: 天津市安定医院成人ADHD就诊经历
          url: https://mp.weixin.qq.com/s/bwPMrJng4V4BM48t6Bm5fA
@@ -888,7 +890,7 @@ map_info:
         doctor: 
         - name: 麦棨诺（麥棨諾）
           clas: 2
-          desc: <br>麦棨诺医生讲普通话，可确诊成人ADHD。中建医务地址：香港中环毕打街1-3号中建大厦608室。
+          desc: 麦棨诺医生讲普通话，可确诊成人ADHD。中建医务地址：香港中环毕打街1-3号中建大厦608室。
     info_link:
         - title: 【香港确诊】一个人类世界的猫猫人的自白
           url: https://mp.weixin.qq.com/s/0LqAbvmLB_HNPKUBoFpVeA
@@ -900,7 +902,7 @@ map_info:
         doctor: 
         - name: 麦棨诺（麥棨諾）
           clas: 2
-          desc: <br>麦棨诺医生讲普通话，可确诊成人ADHD。澳门镜湖医院就诊请先预约神经内科转介。
+          desc: 麦棨诺医生讲普通话，可确诊成人ADHD。澳门镜湖医院就诊请先预约神经内科转介。
     
   - name: 南海诸岛
     value: 0
