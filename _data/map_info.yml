@@ -68,9 +68,6 @@ map_info:
       - name: 北京回龙观医院
         desc: 就诊需要去儿科，如果未成年开过择思达是可以给开药的，但是没有专注达
         doctor: 
-        - name: 邸晓兰
-          clas: 3
-          desc: 
         - name: 李斌彬
           clas: 3
           desc: 
@@ -201,7 +198,12 @@ map_info:
           desc: 儿童心理行为科
         - name: 陈强
           clas: 2
-          desc:     
+          desc: 
+      - name: 何贤纪念医院（广东省广州市番禺区）
+        doctor:
+        - name: 张国荣
+          clas: 2
+          desc: 失眠心理专科
     info_link: 
       - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
         url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
@@ -376,7 +378,10 @@ map_info:
           desc: 
         - name: 欧建君
           clas: 1
-          desc: <br>自闭症专项门诊
+          desc: 自闭症专项门诊
+        - name: 陈淑宝
+          clas: 2
+          desc: 可诊断，可开药。初诊的朋友可以尝试挂陈医生的精神科门诊咨询。<br>湘雅附二的门诊人很多，需要办理诊疗卡，建议提前去。
       - name: 湖南湘潭医院
         doctor: 
         - name: 黄春香
