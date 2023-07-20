@@ -19,7 +19,7 @@ map_info:
           clas: 2
           desc: 
         - name: 王⼒芳
-          clas: 2
+          clas: 3
           desc: 
         - name: 曹庆久
           clas: 2
@@ -199,6 +199,9 @@ map_info:
         - name: 陈强
           clas: 2
           desc: 
+      - info_link:
+        - title: 广东珠海妇幼保健院翠香社康成人ADHD就诊经历
+          url: https://mp.weixin.qq.com/s/Y4fMYOJzO5avPX6Eu3Z4NQ
       - name: 何贤纪念医院（广东省广州市番禺区）
         doctor:
         - name: 张国荣
