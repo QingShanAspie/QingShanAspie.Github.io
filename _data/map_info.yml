@@ -677,7 +677,7 @@ map_info:
         url: https://mp.weixin.qq.com/s/szJCRWljKSC-6TtV0P5ZJg
    
   - name: 四川
-    value: 3
+    value: 2
     location:
       - name: 四川大学华西医院
         doctor: 
@@ -781,7 +781,7 @@ map_info:
           desc: 
     
   - name: 广西
-    value: 3
+    value: 2
     location: 
       - name: 广西壮族自治区人民医院（桃源院区）
         doctor: 
@@ -871,7 +871,7 @@ map_info:
           desc: 
 
   - name: 天津
-    value: 3
+    value: 2
     location: 
       - name: 天津市安定医院
         doctor: 
