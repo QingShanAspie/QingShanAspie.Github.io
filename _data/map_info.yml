@@ -397,7 +397,12 @@ map_info:
           desc: 酒瘾网瘾科
         - name: 程明可
           clas: 2
-          desc:          
+          desc:   
+      - name: 湖南省衡阳市妇幼保健院
+        doctor:
+        - name: 段永红 
+          clas: 2
+          desc: 儿科门诊
     info_link: 
       - title: 长沙湘雅二医院成人ASD就诊经历
         url: https://mp.weixin.qq.com/s/xf-mJwp47Cn03gP3Aqq8Ig
