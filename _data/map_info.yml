@@ -85,7 +85,7 @@ map_info:
       - name: 广州医科大学附属脑科医院（广州市惠爱医院）
         doctor: 
         - name: 吴秋霞
-          clas: 1
+          clas: 3
           desc: 
         - name: 程道猛
           clas: 2
@@ -275,7 +275,7 @@ map_info:
           clas: 3
           desc: 
         - name: 张骁
-          clas: 2
+          clas: 3
           desc: 
     info_link: 
       - title: 四川大学华西医院和重庆精神卫生中心成人ADHD就诊记录
@@ -704,7 +704,10 @@ map_info:
         doctor:
         - name: 刘芳
           clas: 2
-          desc:    
+          desc:   
+        - name: 朱敏
+          clas: 2
+          desc: 
     info_link: 
       - title: 四川大学华西医院和重庆精神卫生中心成人ADHD就诊记录
         url: https://mp.weixin.qq.com/s/XegOiuQMeDg_INtJ5yhnmQ
