@@ -298,6 +298,11 @@ map_info:
         - name: 李素水
           clas: 2
           desc: 
+          - name: 河北医科大学第一医院
+        doctor: 
+        - name: 曹旭影
+          clas: 2
+          desc: 
           
   - name: 河南
     value: 3
