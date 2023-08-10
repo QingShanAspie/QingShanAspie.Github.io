@@ -78,7 +78,6 @@ map_info:
       - title: 从零开始的成人ADHD药费报销教程（学生/职工医保）
         url: https://mp.weixin.qq.com/s/WKfnCT4Ixl5Dn7sd2qF7hg
 
-
   - name: 广东
     value: 3
     location:
@@ -207,18 +206,15 @@ map_info:
         - name: 张国荣
           clas: 2
           desc: 失眠心理专科
+      - name: 佛山市顺德区妇幼保健院
+        doctor:
+        - name: 梁烨
+          clas: 2
     info_link: 
       - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
         url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
       - title: 从精神病性障碍到ADHD、ASD，这是我的自我发现历程
         url: https://mp.weixin.qq.com/s/VmABTjXexPw5NSy8_np4_A
-    - name: 佛山市顺德区妇幼保健院
-        doctor:
-        - name: 梁烨
-          clas: 2
-          
-      
-
         
   - name: 上海
     value: 3
@@ -302,7 +298,7 @@ map_info:
         - name: 李素水
           clas: 2
           desc: 
-          - name: 河北医科大学第一医院
+      - name: 河北医科大学第一医院
         doctor: 
         - name: 曹旭影
           clas: 2
