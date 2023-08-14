@@ -51,7 +51,7 @@ map_info:
           desc: 何凡医生可以开药。
         - name: 周玉明
           clas: 3
-          desc: 周玉明医生可以确诊成人ASD和ADHD, 每周五上午作为副主任医生在孤独症门诊出诊。
+          desc: 周玉明医生可以确诊成人ASD和ADHD, 每周五上午作为副主任医生在孤独症门诊出诊。 每周二、四、六下午在儿科精神科出诊，专家号60元。
         - name: 梁月竹
           clas: 2
           desc: 
@@ -126,7 +126,9 @@ map_info:
         - title: 深圳康宁医院成人ADHD首诊医保报销就诊体验
           url: https://mp.weixin.qq.com/s/KlMaEGBdCpf_V9Oim2urRQ
         - title: 喜大普奔！深圳康宁成人ADHD处方药医保初体验
-          url: https://mp.weixin.qq.com/s/bpY7yQ3VN4dWNRoA-XIAQg       
+          url: https://mp.weixin.qq.com/s/bpY7yQ3VN4dWNRoA-XIAQg
+        - title: 世界必有出口：武汉长沙深圳成人ASD+ADHD就诊经历
+          url: https://mp.weixin.qq.com/s/dSNUojHXjqBQOPATMmSaAA
       - name: 广东省人民医院
         doctor: 
         - name: 杨帆
@@ -411,6 +413,8 @@ map_info:
     info_link: 
       - title: 长沙湘雅二医院成人ASD就诊经历
         url: https://mp.weixin.qq.com/s/xf-mJwp47Cn03gP3Aqq8Ig
+      - title: 世界必有出口：武汉长沙深圳成人ASD+ADHD就诊经历
+        url: https://mp.weixin.qq.com/s/dSNUojHXjqBQOPATMmSaAA
         
   - name: 山东
     value: 3
@@ -825,6 +829,7 @@ map_info:
           url: https://mp.weixin.qq.com/s/w-9IOKGw53wWPtcwl_8AvA
         - title: 广西壮族自治区人民医院成人ASD就诊指南
           url: https://mp.weixin.qq.com/s/Y0f4BJ1G_MhhVqagpZA4kw
+        
           
   - name: 甘肃
     value: 0
@@ -842,7 +847,10 @@ map_info:
         doctor: 
         - name: 
           clas: 
-          desc:   
+          desc:  
+    info_link:
+        - title: ADHD在江西：从一个问号说开去，江西妇幼成人ADHD就诊筛查记录
+          url: https://mp.weixin.qq.com/s/CUiOaxwTWCOFo2t8L8EcYA
 
   - name: 新疆
     value: 0
