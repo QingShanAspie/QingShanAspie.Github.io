@@ -82,7 +82,7 @@ function App() {
             size={24}
             onClick={() => {
               window.open(
-                "https://qingshanasd.cn/assets/pdf/%e4%b8%8edcd%e5%85%b1%e5%90%8c%e7%94%9f%e6%b4%bb.pdf"
+                "https://qingshanasd.cn/assets/pdf/%E4%B8%8EDCD%E5%85%B1%E5%90%8C%E7%94%9F%E6%B4%BB.pdf"
               );
             }}
           />,
