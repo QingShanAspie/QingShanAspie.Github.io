@@ -12,12 +12,15 @@ function App() {
         className={classes.card}
         cover={<img alt="example" src={children} />}
         actions={[
-          <Popover
-            style={{ width: 500 }}
-            title="请前方青衫Aspie公众号查找"
-            trigger="hover"
-          >
-            <Link size={24} />{" "}
+          <Popover style={{ width: 500 }} trigger="hover">
+            <Link
+              size={24}
+              onClick={() => {
+                window.open(
+                  "https://mp.weixin.qq.com/s/p3rG-wJaV5IOke0lh7Tr4Q"
+                );
+              }}
+            />
           </Popover>,
           <DownloadSimple
             size={24}
