@@ -474,11 +474,16 @@ map_info:
           - name: 冀永娟
             clas: 2
             desc:
-      - name: 山东淮坊市人民医院
+      - name: 山东潍坊市人民医院
         doctor:
           - name: 赵约翰
             clas: 2
             desc:
+      - name: 山东泰安市中心医院临床心理科
+        doctor:
+          - name: 肖立群
+            clas: 2
+            desc: 
 
   - name: 江苏
     value: 3
@@ -592,6 +597,11 @@ map_info:
           - name: 金嘉郦
             clas: 2
             desc: 滨江院区周六下午， '注意缺陷/学习困难门诊'。
+      - name: 温州市第七人民医院
+        doctor: 
+          - name: 丁万涛
+            desc: 2
+            clas:
 
   - name: 湖北
     value: 3
