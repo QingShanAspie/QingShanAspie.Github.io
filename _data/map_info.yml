@@ -198,9 +198,9 @@ map_info:
           - name: 何淑华
             clas: 2
             desc: 心理科儿童行为发育门诊
-       - info_link:
-           - title: 我的22岁重生：广东中山市博爱医院成人ADHD就诊经历
-             url: https://mp.weixin.qq.com/s/cCw60aRcUpkHU82NA1SdmA
+      - info_link:
+          - title: 我的22岁重生：广东中山市博爱医院成人ADHD就诊经历
+            url: https://mp.weixin.qq.com/s/cCw60aRcUpkHU82NA1SdmA
       - name: 珠海市妇幼保健院
         doctor:
           - name: 庄志成
