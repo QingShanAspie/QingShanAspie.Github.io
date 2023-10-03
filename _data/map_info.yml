@@ -195,6 +195,12 @@ map_info:
           - name: 张艳红
             clas: 2
             desc:
+          - name: 何淑华
+            clas: 2
+            desc: 心理科儿童行为发育门诊
+       - info_link:
+           - title: 我的22岁重生：广东中山市博爱医院成人ADHD就诊经历
+             url: https://mp.weixin.qq.com/s/cCw60aRcUpkHU82NA1SdmA
       - name: 珠海市妇幼保健院
         doctor:
           - name: 庄志成
@@ -220,7 +226,7 @@ map_info:
         url: https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw
       - title: 从精神病性障碍到ADHD、ASD，这是我的自我发现历程
         url: https://mp.weixin.qq.com/s/VmABTjXexPw5NSy8_np4_A
-
+      
   - name: 上海
     value: 3
     location:
