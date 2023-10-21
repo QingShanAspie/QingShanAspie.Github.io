@@ -394,6 +394,11 @@ map_info:
           - name: 欧建君
             clas: 1
             desc: 自闭症专项门诊
+    info_link:
+      - title: 长沙湘雅二医院成人ASD就诊经历
+        url: https://mp.weixin.qq.com/s/xf-mJwp47Cn03gP3Aqq8Ig
+      - title: 世界必有出口：武汉长沙深圳成人ASD+ADHD就诊经历
+        url: https://mp.weixin.qq.com/s/dSNUojHXjqBQOPATMmSaAA
       - name: 湖南湘潭医院
         doctor:
           - name: 黄春香
@@ -412,11 +417,7 @@ map_info:
           - name: 段永红
             clas: 2
             desc: 儿科门诊
-    info_link:
-      - title: 长沙湘雅二医院成人ASD就诊经历
-        url: https://mp.weixin.qq.com/s/xf-mJwp47Cn03gP3Aqq8Ig
-      - title: 世界必有出口：武汉长沙深圳成人ASD+ADHD就诊经历
-        url: https://mp.weixin.qq.com/s/dSNUojHXjqBQOPATMmSaAA
+    
 
   - name: 山东
     value: 3
@@ -736,7 +737,7 @@ map_info:
           - name: 蒲昭霞
             clas: 2
             desc:
-      - name: 成都市四医院九江院区（成都市心理健康中心）<br>由于多动症科室没有了，所以看不了成人ADHD。
+      - name: 成都市四医院九江院区（成都市心理健康中心）
         doctor:
           - name: 刘芳
             clas: 2
@@ -864,10 +865,10 @@ map_info:
   - name: 江西
     value: 0
     location:
-      - name:
+      - name: 江西省妇幼保健院九龙湖院区
         doctor:
-          - name:
-            clas:
+          - name: 周文琴
+            clas: 2
             desc:
     info_link:
       - title: ADHD在江西：从一个问号说开去，江西妇幼成人ADHD就诊筛查记录
