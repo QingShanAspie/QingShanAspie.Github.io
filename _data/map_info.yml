@@ -373,9 +373,9 @@ map_info:
       - info_link:
           - title: 辽宁沈阳盛京医院滑翔院区成人ASD就诊记录
             url: https://mp.weixin.qq.com/s/KPC_MIbEaaSd-MXPp-79lQ
-    info_link:
-      - title: 一位医生想传达出的心意【含就诊攻略】
-        url: https://mp.weixin.qq.com/s/XCRQQ7iP6m9PofgAFuZrGQ
+        info_link:
+          - title: 一位医生想传达出的心意【含就诊攻略】
+            url: https://mp.weixin.qq.com/s/XCRQQ7iP6m9PofgAFuZrGQ
 
   - name: 湖南
     value: 3
