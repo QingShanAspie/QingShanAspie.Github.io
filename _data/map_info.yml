@@ -362,6 +362,8 @@ map_info:
             url: https://mp.weixin.qq.com/s/QgSuovQHPG2oyy_gAeYXJg
           - title: 辽宁省肿瘤医院成人ASD就诊故事
             url: https://mp.weixin.qq.com/s/WJsCPqjr92Y04wullZZ4_Q
+          - title: 一位医生想传达出的心意【含就诊攻略】
+            url: https://mp.weixin.qq.com/s/XCRQQ7iP6m9PofgAFuZrGQ
       - name: 中国医科大学沈阳盛京医院（滑翔院区）
         doctor:
           - name: 彭淼
@@ -373,9 +375,7 @@ map_info:
       - info_link:
           - title: 辽宁沈阳盛京医院滑翔院区成人ASD就诊记录
             url: https://mp.weixin.qq.com/s/KPC_MIbEaaSd-MXPp-79lQ
-        info_link:
-          - title: 一位医生想传达出的心意【含就诊攻略】
-            url: https://mp.weixin.qq.com/s/XCRQQ7iP6m9PofgAFuZrGQ
+
 
   - name: 湖南
     value: 3
