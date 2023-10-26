@@ -119,6 +119,9 @@ map_info:
           - name: 王冰
             clas: 2
             desc:
+          - name: 齐玉 
+            clas: 2
+            desc: 
       - info_link:
           - title: 深圳康宁成人ADHD+阿斯伯格确诊记
             url: https://mp.weixin.qq.com/s/-qPgCoP_Tje4nwYPi9x9qg
@@ -348,6 +351,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/v52WiSbILr3lDfrZCndeLg
       - title: 昆明医科大学第一附属医院成人ADHD确诊经历
         url: https://mp.weixin.qq.com/s/FuTtYmZ_dyMP40fkM5YT0A
+      - title: 【更新】昆明成人ADHD就诊经历
+        url: https://mp.weixin.qq.com/s/z9z7P7iN5PYo0azde9wXvw
 
   - name: 辽宁
     value: 3
