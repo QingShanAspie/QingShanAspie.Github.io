@@ -713,6 +713,9 @@ map_info:
           - name: 吴为阁
             clas: 3
             desc: 学习障碍门诊
+          - name: 王文强
+            clas: 3
+            desc: 专家门诊
     info_link:
       - title: 厦门仙岳医院成人ADHD就诊故事
         url: https://mp.weixin.qq.com/s/CWbcIaEd9MaZp1FHq0cEnQ
