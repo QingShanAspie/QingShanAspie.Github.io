@@ -577,6 +577,9 @@ map_info:
           - name: 覃艳华
             clas: 2
             desc:
+      - info_link:
+          - title: 浙大邵逸夫医院成人ADHD确诊经历
+            url: https://mp.weixin.qq.com/s/qEC1D80K9juDn8O82EIy8w
       - name: 浙江金华妇幼保健院
         doctor:
           - name: 刘畅
@@ -702,13 +705,13 @@ map_info:
       - name: 厦门仙岳医院
         doctor:
           - name: 李韵
-            clas: 2
+            clas: 3
             desc: 学习障碍门诊
           - name: 郑微
-            clas: 2
+            clas: 3
             desc: 学习障碍门诊
           - name: 吴为阁
-            clas: 2
+            clas: 3
             desc: 学习障碍门诊
     info_link:
       - title: 厦门仙岳医院成人ADHD就诊故事
@@ -717,6 +720,8 @@ map_info:
         url: https://mp.weixin.qq.com/s/0k7f7FeqPG6817QKC-B4Rw
       - title: 世界不曾经历过相同的两场雨季：ADHD确诊心路历程
         url: https://mp.weixin.qq.com/s/szJCRWljKSC-6TtV0P5ZJg
+      - title: 孤独与焦虑的集合体：厦门仙岳医院成人ASD确诊故事
+        url: https://mp.weixin.qq.com/s/GGCVFsB_Jq2Izih48w5ziQ
 
   - name: 四川
     value: 2
