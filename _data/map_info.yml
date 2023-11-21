@@ -532,6 +532,9 @@ map_info:
           - name: 卜茹
             clas: 2
             desc:
+          - name: 王万章
+            clas: 2
+            desc:
       - name: 常州市德安医院
         doctor:
           - name: 高婷叶
@@ -572,6 +575,8 @@ map_info:
             url: https://mp.weixin.qq.com/s/Tr7HkeqhX9NcrDW0zYCjjg
           - title: 宁波市康宁医院成人ASD确诊经历
             url: https://mp.weixin.qq.com/s/MSwfnsUOHhScZ5kkEk8KpA
+          - title: 宁波康宁与常州德安双A就诊：明天又是新的一天
+            url: https://mp.weixin.qq.com/s/a8aAWVetdMql_bDhg8MTvQ
       - name: 浙江大学邵逸夫医院
         doctor:
           - name: 覃艳华
