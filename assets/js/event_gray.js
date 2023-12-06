@@ -1,5 +1,5 @@
 let date = new Date();
-let event_grayDay = [ "1.11", "1.14", "1.15", "4.4", "9.18", "11.26", "11.27", "11.28", "11.29", "11.30", "12.13"]
+let event_grayDay = [ "1.11", "1.14", "1.15", "4.4", "9.18", "11.26", "12.13"]
 
 if (event_grayDay.indexOf((date.getMonth() + 1) + "." + (date.getDate())) !== -1) {
     $("html").css({
