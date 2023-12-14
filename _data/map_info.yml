@@ -314,6 +314,11 @@ map_info:
           - name: 曹旭影
             clas: 2
             desc:
+      - name: 河北省第六人民医院
+        doctor:
+          - name: 张欣
+            clas: 2
+            desc: 心理保健中心可以开药，张欣医生在儿少门诊。
 
   - name: 河南
     value: 3
@@ -766,6 +771,8 @@ map_info:
     info_link:
       - title: 四川大学华西医院和重庆精神卫生中心成人ADHD就诊记录
         url: https://mp.weixin.qq.com/s/XegOiuQMeDg_INtJ5yhnmQ
+      - title: 四川成都华西第二医院（锦江院区）成人ADHD就诊故事
+        url: https://mp.weixin.qq.com/s/0f_adQJe4dF9c_6Z8mY0Bw
 
   - name: 宁夏
     value: 0
@@ -936,6 +943,10 @@ map_info:
           - name: 雷彤
             clas: 2
             desc: 天津安定医院青少年门诊都可以看ADHD。
+          - name: 随广红 
+            clas: 2
+            desc: 
+            
     info_link:
       - title: 天津市安定医院成人ADHD就诊经历
         url: https://mp.weixin.qq.com/s/bwPMrJng4V4BM48t6Bm5fA
