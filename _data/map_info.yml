@@ -92,6 +92,9 @@ map_info:
           - name: 李苏义
             clas: 2
             desc:
+          - name: 叶碧瑜
+            clas: 2
+            desc:
       - info_link:
           - title: 广州脑科（惠爱）医院的成人ADHD就诊记录
             url: https://mp.weixin.qq.com/s/m12qan6xax6-g4_NZ8Whww
@@ -103,7 +106,7 @@ map_info:
         doctor:
           - name: 王中磊
             clas: 3
-            desc: 王医生岗位调整，从2023年4月15日起停出儿少精神科门诊。请预约儿少科其他医生就诊。<br>由于ADOS评估时间已经排到年底了，所以接下来测评室暂停ADOS评估了。想去做成人ADOS的朋友不要白跑一趟。7/22/21<br>青衫注：ados是asd诊断金标准，但是不是必需。发育史和日常表现翔实足矣。
+            desc: 王医生从12月18日开始接受就诊，时间在每周四下午。<br>由于ADOS评估时间已经排到年底了，所以接下来测评室暂停ADOS评估了。想去做成人ADOS的朋友不要白跑一趟。7/22/21<br>青衫注：ados是asd诊断金标准，但是不是必需。发育史和日常表现翔实足矣。
           - name: 石顺治
             clas: 2
             desc:
@@ -175,6 +178,9 @@ map_info:
         doctor:
           - name: 李艾
             clas: 3
+            desc:
+          - name: 黄燕虹
+            clas: 2
             desc:
       - info_link:
           - title: 少数的故事：汕头大学精神卫生中心成人ASD和ADHD确诊经历
@@ -314,6 +320,9 @@ map_info:
           - name: 曹旭影
             clas: 2
             desc:
+          - name: 王岚
+            clas: 2
+            desc: zzd和zsd可开。
       - name: 河北省第六人民医院
         doctor:
           - name: 张欣
@@ -496,6 +505,11 @@ map_info:
       - name: 山东泰安市中心医院临床心理科
         doctor:
           - name: 肖立群
+            clas: 2
+            desc: 
+      - name: 威海市立医院
+        doctor:
+          - name: 孙榕蔚
             clas: 2
             desc: 
 
@@ -902,14 +916,14 @@ map_info:
   - name: 新疆
     value: 0
     location:
-      - name:
+      - name: 新疆人民医院
         doctor:
-          - name:
-            clas:
-            desc:
-          - name:
-            clas:
-            desc:
+          - name: 邹邵红
+            clas: 2
+            desc: 有zzd处方权。
+          - name: 佟钙玉
+            clas: 2 
+            desc: 有zzd处方权。
 
   - name: 安徽
     value: 2
