@@ -649,8 +649,8 @@ map_info:
       - name: 温州市第七人民医院
         doctor: 
           - name: 丁万涛
-            desc: 2
-            clas:
+            clas: 2
+            desc:
 
   - name: 湖北
     value: 3
