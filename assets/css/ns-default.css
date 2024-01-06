@@ -11,7 +11,7 @@ html {
   filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
 }
 body {
-  filter: gray; /*ie9- */
+  filter: none !important; /*ie9- */
   background: none !important;
 }
 
