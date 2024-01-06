@@ -3,11 +3,11 @@
 /* 黑白页面 */
 
 html {
-  -webkit-filter: grayscale(100%); /* webkit */
-  -moz-filter: grayscale(100%); /*firefox*/
-  -ms-filter: grayscale(100%); /*ie9*/
-  -o-filter: grayscale(100%); /*opera*/
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%); /* webkit */
+  -moz-filter: grayscale(0%); /*firefox*/
+  -ms-filter: grayscale(0%); /*ie9*/
+  -o-filter: grayscale(0%); /*opera*/
+  filter: grayscale(0%);
   filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
 }
 body {
