@@ -399,6 +399,11 @@ map_info:
       - info_link:
           - title: 辽宁沈阳盛京医院滑翔院区成人ASD就诊记录
             url: https://mp.weixin.qq.com/s/KPC_MIbEaaSd-MXPp-79lQ
+      - name: 中国医科大学附属鞍山医院
+        doctor:
+          - name: 巴宇辰
+            clas: 2
+            desc: 
 
 
   - name: 湖南
@@ -477,9 +482,9 @@ map_info:
             desc:
       - name: 青岛精神卫生中心（青岛市第七人民医院）
         doctor:
-          - name: 万好
-            clas: 3
-            desc: 最好预约万好医生在漳州路的儿童门诊，大夫靠谱，环境安静，导诊人员很有耐心。
+          - name: 
+            clas: 
+            desc: 
       - info_link:
           - title: 山东省青岛市精神卫生中心成人ADHD就诊经历
             url: https://mp.weixin.qq.com/s/ssmfFUZtSEu7YuADTT73-w
