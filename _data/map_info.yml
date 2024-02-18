@@ -215,7 +215,7 @@ map_info:
       - name: 珠海市妇幼保健院
         doctor:
           - name: 庄志成
-            clas: 2
+            clas: 3
             desc: 儿童心理行为科
           - name: 陈强
             clas: 2
@@ -900,6 +900,9 @@ map_info:
           - name: 李丹丹
             clas: 2
             desc:
+          - name: 梁佳
+            clas: 2
+            desc: 临床心理科
       - name: 广西医科大学第一附属医院
         doctor:
           - name: 尤美娜
