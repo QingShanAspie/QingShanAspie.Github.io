@@ -171,6 +171,9 @@ map_info:
           - name: 刘军
             clas: 2
             desc:
+          - name: 苏程
+            clas: 2
+            desc: <br>有zzd处方权
       - name: 中共广东医科大学顺德妇女儿童医院（佛山市顺德区妇幼保健院）
         doctor:
           - name: 梁烨
@@ -423,6 +426,9 @@ map_info:
           - name: 欧建君
             clas: 1
             desc: 自闭症专项门诊
+          - name: 贺莹
+            desc: 2
+            clas:
     info_link:
       - title: 长沙湘雅二医院成人ASD就诊经历
         url: https://mp.weixin.qq.com/s/xf-mJwp47Cn03gP3Aqq8Ig
@@ -500,6 +506,9 @@ map_info:
             clas: 2
             desc: 非工作日去 不用排队 就诊体验好
           - name: 王冠军
+            clas: 2
+            desc:
+          - name: 万好
             clas: 2
             desc:
       - info_link:
