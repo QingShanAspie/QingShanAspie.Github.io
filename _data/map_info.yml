@@ -10,28 +10,28 @@ map_info:
       - name: 北京大学第六医院
         doctor:
           - name: 王玉凤
-            clas: 2
+            clas: 3
             desc:
           - name: 钱秋谨
             clas: 3
             desc:
           - name: 孙黎
-            clas: 2
+            clas: 3
             desc:
           - name: 王⼒芳
             clas: 3
             desc:
           - name: 曹庆久
-            clas: 2
+            clas: 3
             desc:
           - name: 顾伯美
-            clas: 2
+            clas: 3
             desc:
-          - name: 赵梦捷
-            clas: 2
-            desc: 北京大学第六医院儿童门诊的普通门诊也可能可以看成人ADHD，案例在赵梦捷医生处确诊。
+          - name: 赵梦婕
+            clas: 3
+            desc: 北京大学第六医院儿童门诊的普通门诊也可能可以看成人ADHD，案例在赵梦婕医生处确诊。
           - name: 司飞飞
-            clas: 2
+            clas: 3
             desc:
       - info_link:
           - title: 北医六院成年ASD+ADHD就诊记
