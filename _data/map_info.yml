@@ -686,6 +686,11 @@ map_info:
           - name: 斯亮
             clas: 2
             desc:
+      - name: 湖北宜昌市二医院（学习困难门诊）
+        doctor:
+          - name:
+            clas: 
+            desc:
             
     info_link:
       - title: 武汉市精神卫生中心（二七院区）ADHD就诊经历
