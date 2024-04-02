@@ -27,18 +27,24 @@ weight: 4
             $(".china_map").show();
             $(".china_map_child").hide();
             $(".int_map").hide();
+            $(this).css("font-weight", "bold");
+            $("#map_button_child, #map_button_int").css("font-weight", "normal");
         });
 
         $("#map_button_child").click(function(){
             $(".china_map").hide();
             $(".china_map_child").show();
             $(".int_map").hide();
+            $(this).css("font-weight", "bold");
+            $("#map_button, #map_button_int").css("font-weight", "normal");
         });
 
         $("#map_button_int").click(function(){
             $(".china_map").hide();
             $(".china_map_child").hide();
             $(".int_map").show();
+            $(this).css("font-weight", "bold");
+            $("#map_button, #map_button_child").css("font-weight", "normal");
         });
     });
 </script>
