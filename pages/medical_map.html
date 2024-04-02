@@ -5,15 +5,16 @@ permalink: /medical-map/
 weight: 4
 ---
 
-<script>
-    let china_map = true;
-    let int_map = false;
-</script>
-
-<div class="more-button"><span id="map_button" onclick="change_map();">国际版</span></div>
+<div class="more-button"><span id="map_button">国内版</span></div>
+<div class="more-button"><span id="map_button_child">儿童版</span></div>
+<div class="more-button"><span id="map_button_int">国际版</span></div>
 
 <div class="china_map">
     {% include medical_map/china_map_view.html %}
+</div>
+
+<div class="china_map_child" style="display: none;">
+    {% include medical_map/china_child_map_view.html %}
 </div>
 
 <div class="int_map" style="display: none;">
@@ -21,19 +22,23 @@ weight: 4
 </div>
 
 <script>
-    function change_map() {
-        if (china_map) {
-            $('.china_map').css("display", "none");
-            $('.int_map').css("display", "block");
-            $('#map_button').text("国内版")
-            china_map = false;
-            int_map = true;
-        } else if (int_map) {
-            $('.china_map').css("display", "block");
-            $('.int_map').css("display", "none");
-            $('#map_button').text("国际版")
-            china_map = true;
-            int_map = false;
-        }
-    }
+    $(document).ready(function(){
+        $("#map_button").click(function(){
+            $(".china_map").show();
+            $(".china_map_child").hide();
+            $(".int_map").hide();
+        });
+
+        $("#map_button_child").click(function(){
+            $(".china_map").hide();
+            $(".china_map_child").show();
+            $(".int_map").hide();
+        });
+
+        $("#map_button_int").click(function(){
+            $(".china_map").hide();
+            $(".china_map_child").hide();
+            $(".int_map").show();
+        });
+    });
 </script>
