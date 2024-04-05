@@ -73,9 +73,15 @@ map_info:
       - info_link:
           - title: 北京回龙观医院成人ASD+ADHD就诊经历
             url: 'https://mp.weixin.qq.com/s/BOPdBRbVimwi9PbWghnShg'
+      - name: 北京人民医院
+        doctor: 
+          - name: 曲珊
+            clas: 2
+            desc:
     info_link:
       - title: 从零开始的成人ADHD药费报销教程（学生/职工医保）
         url: 'https://mp.weixin.qq.com/s/WKfnCT4Ixl5Dn7sd2qF7hg'
+        
   - name: 广东
     value: 3
     location:
@@ -399,6 +405,11 @@ map_info:
           - name: 巴宇辰
             clas: 2
             desc: null
+      - name: 大连市第七人民医院
+        doctor:
+          - name: 李奕
+            clas: 2
+            desc: 
   - name: 湖南
     value: 3
     location:
@@ -414,11 +425,11 @@ map_info:
             clas: 2
             desc: null
           - name: 欧建君
-            clas: 1
+            clas: 3
             desc: 自闭症专项门诊
           - name: 贺莹
-            desc: 2
-            clas: null
+            clas: 2
+            desc: null
     info_link:
       - title: 长沙湘雅二医院成人ASD就诊经历
         url: 'https://mp.weixin.qq.com/s/xf-mJwp47Cn03gP3Aqq8Ig'
