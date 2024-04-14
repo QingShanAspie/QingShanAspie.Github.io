@@ -15,6 +15,11 @@ map_info:
           - name: 陈旭
             clas: 3
             desc: null
+      - name: 北京儿童医院
+        doctor:
+          - name: 闫春梅
+            clas: 3
+            desc: 较为依赖家长填写的量表，不建议青少年独自前往就诊。
   - name: 广东
     value: 3
     location:
@@ -32,6 +37,9 @@ map_info:
             clas: 3
             desc: null
           - name: 操小兰
+            clas: 3
+            desc: null
+          - name: 吴赵敏
             clas: 3
             desc: null
       - name: 深圳市康宁医院
@@ -89,24 +97,24 @@ map_info:
       - title: null
         url: null
   - name: 辽宁
-    value: 0
+    value: 2
     location:
-      - name: null
+      - name: 中国医科大学附属盛京医院滑翔院区
         doctor:
-          - name: null
-            clas: null
+          - name: 彭淼
+            clas: 2
             desc: null
       - info_link:
           - title: null
             url: null
   - name: 湖南
-    value: 0
+    value: 2
     location:
-      - name: null
+      - name: 湘雅附属二医院
         doctor:
-          - name: null
-            clas: null
-            desc: null
+          - name: 高雪屏
+            clas: 2
+            desc: 青少年儿童心理，学习困难门诊。
     info_link:
       - title: null
         url: null
@@ -123,6 +131,11 @@ map_info:
           - name: 王冠军
             clas: 2
             desc: null
+      - name: 济南市儿童医院
+        doctor:
+          - name: 刘金同
+            clas: 2
+            desc: 可开zzd和tmxt，门诊挂号注意选儿童保健门诊 - 心理卫生门诊。
   - name: 江苏
     value: 2
     location:
@@ -143,14 +156,30 @@ map_info:
           - name: 叶敏捷
             clas: 2
             desc: null
-  - name: 湖北
-    value: 0
-    location:
-      - name: null
+      - name: 浙江温州人民医院
         doctor:
-          - name: null
-            clas: null
+          - name: 陈明黎
+            clas: 1 
+            desc: 医生很有耐心且推荐书单及干预机构
+  - name: 湖北
+    value: 2
+    location:
+      - name: 武汉同济医院
+        desc: 儿保科
+        doctor:
+          - name: 陈敏
+            clas: 2
             desc: null
+       - name: 武汉心理医院
+         doctor:
+           - name: null
+             clas: null
+             desc: null
+       - name: 武汉儿童医院
+         doctor:
+           - name: null
+             clas: null
+             desc: null
   - name: 山西
     value: 0
     location:
@@ -185,24 +214,12 @@ map_info:
             clas: null
             desc: null
   - name: 福建
-    value: 0
+    value: 3
     location:
-      - name: null
+      - name: 福建省儿童医院
         doctor:
-          - name: null
-            clas: null
-            desc: null
-          - name: null
-            clas: null
-            desc: null
-          - name: null
-            clas: null
-            desc: null
-          - name: null
-            clas: null
-            desc: null
-          - name: null
-            clas: null
+          - name: 刘秀梅
+            clas: 3
             desc: null
     info_link:
       - title: null
@@ -362,12 +379,12 @@ map_info:
             clas: null
             desc: null
   - name: 天津
-    value: 0
+    value: 3
     location:
-      - name: null
+      - name: 天津市儿童医院
         doctor:
-          - name: null
-            clas: null
+          - name: 石萍
+            clas: 3
             desc: null
     info_link:
       - title: null
