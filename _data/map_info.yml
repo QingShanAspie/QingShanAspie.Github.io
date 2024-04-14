@@ -340,6 +340,11 @@ map_info:
           - name: 张欣
             clas: 2
             desc: 心理保健中心可以开药，张欣医生在儿少门诊。
+      - name: 河北医科大学附属医院
+        doctor:
+          - name: 乜欣红
+            clas: 2 
+            desc: null
   - name: 河南
     value: 3
     location:
@@ -532,6 +537,12 @@ map_info:
           - name: 肖立群
             clas: 2
             desc: 可以开tmxt
+      - name: 千佛山医院
+        desc: 心理科
+        doctor:
+          - name: 张华
+            clas: 2
+            desc: 有pjz处方权，需要做测试和量表。
   - name: 江苏
     value: 3
     location:
@@ -945,6 +956,7 @@ map_info:
     value: 2
     location:
       - name: 合肥市第四人民医院
+        desc: 成人adhd在青少年门诊进行诊断，且只有主任才能看。
         doctor:
           - name: 钟慧
             clas: 2
