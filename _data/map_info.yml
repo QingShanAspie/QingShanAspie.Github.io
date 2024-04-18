@@ -164,7 +164,7 @@ map_info:
           - name: 查彩慧
             clas: 2
             desc: null
-      - name: 中山大学附属第三医院
+			- name: 中山大学附属第三医院
         doctor:
           - name: 李雷俊
             clas: 3
