@@ -205,7 +205,7 @@ map_info:
       - name: 中山市博爱医院（妇幼保健院）
         doctor:
           - name: 张艳红
-            clas: 2
+            clas: 3
             desc: null
           - name: 何淑华
             clas: 2
@@ -1008,6 +1008,9 @@ map_info:
           - name: 麦棨诺（麥棨諾）
             clas: 2
             desc: 麦棨诺医生讲普通话，可确诊成人ADHD。中建医务地址：香港中环毕打街1-3号中建大厦608室。
+          - name: 林震
+            clas: 2
+            desc: 可讲普通话，可开zzd和Vyvanse，价格可谈。
     info_link:
       - title: 【香港确诊】一个人类世界的猫猫人的自白
         url: 'https://mp.weixin.qq.com/s/0LqAbvmLB_HNPKUBoFpVeA'
