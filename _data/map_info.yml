@@ -164,7 +164,7 @@ map_info:
           - name: 查彩慧
             clas: 2
             desc: null
-			- name: 中山大学附属第三医院
+      - name: 中山大学附属第三医院
         doctor:
           - name: 李雷俊
             clas: 3
@@ -283,6 +283,9 @@ map_info:
       - name: 上海同济大学附属医院 - ADHD门诊
         doctor:
           - name: 刘飞
+            clas: 2
+            desc: null
+          - name: 管晓枫
             clas: 2
             desc: null
       - info_link:
