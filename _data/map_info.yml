@@ -285,6 +285,9 @@ map_info:
           - name: 刘飞
             clas: 2
             desc: null
+          - name: 管晓枫
+            clas: 2
+            desc: null
       - info_link:
           - title: 上海市同济医院成人ADHD就诊攻略
             url: 'https://mp.weixin.qq.com/s/bb43hw4P-IlSXIm_HUYqHw'
