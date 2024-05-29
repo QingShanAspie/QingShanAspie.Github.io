@@ -205,7 +205,7 @@ map_info:
       - name: 中山市博爱医院（妇幼保健院）
         doctor:
           - name: 张艳红
-            clas: 3
+            clas: 2
             desc: null
           - name: 何淑华
             clas: 2
@@ -285,9 +285,6 @@ map_info:
           - name: 刘飞
             clas: 2
             desc: null
-          - name: 管晓枫
-            clas: 2
-            desc: null
       - info_link:
           - title: 上海市同济医院成人ADHD就诊攻略
             url: 'https://mp.weixin.qq.com/s/bb43hw4P-IlSXIm_HUYqHw'
@@ -343,11 +340,6 @@ map_info:
           - name: 张欣
             clas: 2
             desc: 心理保健中心可以开药，张欣医生在儿少门诊。
-      - name: 河北医科大学附属医院
-        doctor:
-          - name: 乜欣红
-            clas: 2 
-            desc: null
   - name: 河南
     value: 3
     location:
@@ -540,12 +532,6 @@ map_info:
           - name: 肖立群
             clas: 2
             desc: 可以开tmxt
-      - name: 千佛山医院
-        desc: 心理科
-        doctor:
-          - name: 张华
-            clas: 2
-            desc: 有pjz处方权，需要做测试和量表。
   - name: 江苏
     value: 3
     location:
@@ -959,7 +945,6 @@ map_info:
     value: 2
     location:
       - name: 合肥市第四人民医院
-        desc: 成人adhd在青少年门诊进行诊断，且只有主任才能看。
         doctor:
           - name: 钟慧
             clas: 2
@@ -1011,9 +996,6 @@ map_info:
           - name: 麦棨诺（麥棨諾）
             clas: 2
             desc: 麦棨诺医生讲普通话，可确诊成人ADHD。中建医务地址：香港中环毕打街1-3号中建大厦608室。
-          - name: 林震
-            clas: 2
-            desc: 可讲普通话，可开zzd和Vyvanse，价格可谈。
     info_link:
       - title: 【香港确诊】一个人类世界的猫猫人的自白
         url: 'https://mp.weixin.qq.com/s/0LqAbvmLB_HNPKUBoFpVeA'
