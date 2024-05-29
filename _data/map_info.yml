@@ -157,7 +157,6 @@ map_info:
       - name: 广州暨南大学附属第一医院精神心理科
         doctor:
           - name: 贾滟滨
-            desc: null
             clas: 2
             desc: null
       - name: 广州妇幼保健院（广州市妇女儿童医疗中心）
