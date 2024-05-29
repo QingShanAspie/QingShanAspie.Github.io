@@ -170,16 +170,16 @@ map_info:
           - name: 陈敏
             clas: 2
             desc: null
-       - name: 武汉心理医院
-         doctor:
-           - name: null
-             clas: null
-             desc: null
-       - name: 武汉儿童医院
-         doctor:
-           - name: null
-             clas: null
-             desc: null
+      - name: 武汉心理医院
+        doctor:
+          - name: null
+            clas: null
+            desc: null
+      - name: 武汉儿童医院
+        doctor:
+          - name: null
+            clas: null
+            desc: null
   - name: 山西
     value: 0
     location:
