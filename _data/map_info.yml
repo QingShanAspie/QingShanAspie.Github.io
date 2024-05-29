@@ -177,11 +177,6 @@ map_info:
           - name: 苏程
             clas: 2
             desc: <br>有zzd处方权
-      - name: 中共广东医科大学顺德妇女儿童医院（佛山市顺德区妇幼保健院）
-        doctor:
-          - name: 梁烨
-            clas: 2
-            desc: null
       - name: 汕头大学精神卫生中心
         doctor:
           - name: 李艾
@@ -210,7 +205,7 @@ map_info:
       - name: 中山市博爱医院（妇幼保健院）
         doctor:
           - name: 张艳红
-            clas: 2
+            clas: 3
             desc: null
           - name: 何淑华
             clas: 2
@@ -222,7 +217,7 @@ map_info:
         doctor:
           - name: 庄志成
             clas: 3
-            desc: 儿童心理行为科
+            desc: 儿童心理行为科，有36mg和18mgzzd处方权。
           - name: 陈强
             clas: 2
             desc: null
@@ -234,10 +229,15 @@ map_info:
           - name: 张国荣
             clas: 2
             desc: 失眠心理专科
-      - name: 佛山市顺德区妇幼保健院
+      - name: 广东医科大学顺德妇女儿童医院（佛山市顺德区妇幼保健院）
         doctor:
           - name: 梁烨
             clas: 2
+      - name: 江门市第四人民医院
+        doctor:
+          - name: 祝勇敢
+            clas: 2
+            desc: null
     info_link:
       - title: 【完全版】成年疑似孤独症谱系障碍简明就诊及自助指南
         url: 'https://mp.weixin.qq.com/s/rXa_Sj9uD2Rm_rlPEkzjuw'
@@ -249,7 +249,7 @@ map_info:
       - name: 上海新华医院
         doctor:
           - name: 张劲松
-            clas: 2
+            clas: 3
             desc: null
           - name: 夏卫萍
             clas: 2
@@ -273,10 +273,19 @@ map_info:
           - name: 王兰兰
             clas: 2
             desc: >-
-              王兰兰医生不仅周三在松江南院有专家门诊和adhd的专病门诊，她亲口说周五周六上午在北院专家门诊也可以找到她，都是一样的，北院在市区，可能对很多人来讲会近很多。
+              王兰兰医生不仅周三在松江南院有专家门诊和adhd的专病门诊，她亲口说周五周六上午在北院专家门诊也可以找到她。
+      - name: 上海第一人民医院虹口院区
+        doctor:
+          - name: 王兰兰
+            clas: 2
+            desc: >-
+              王兰兰医生不仅周三在松江南院有专家门诊和adhd的专病门诊，她亲口说周五周六上午在北院专家门诊也可以找到她。
       - name: 上海同济大学附属医院 - ADHD门诊
         doctor:
           - name: 刘飞
+            clas: 2
+            desc: null
+          - name: 管晓枫
             clas: 2
             desc: null
       - info_link:
@@ -334,6 +343,11 @@ map_info:
           - name: 张欣
             clas: 2
             desc: 心理保健中心可以开药，张欣医生在儿少门诊。
+      - name: 河北医科大学附属医院
+        doctor:
+          - name: 乜欣红
+            clas: 2 
+            desc: null
   - name: 河南
     value: 3
     location:
@@ -393,7 +407,7 @@ map_info:
         doctor:
           - name: 彭淼
             clas: 3
-            desc: <br>支持多项共病诊断
+            desc: 支持多项共病诊断
           - name: 高倩
             clas: 2
             desc: null
@@ -409,7 +423,7 @@ map_info:
         doctor:
           - name: 李奕
             clas: 2
-            desc: 
+            desc: null
   - name: 湖南
     value: 3
     location:
@@ -435,11 +449,6 @@ map_info:
         url: 'https://mp.weixin.qq.com/s/xf-mJwp47Cn03gP3Aqq8Ig'
       - title: 世界必有出口：武汉长沙深圳成人ASD+ADHD就诊经历
         url: 'https://mp.weixin.qq.com/s/dSNUojHXjqBQOPATMmSaAA'
-      - name: 湖南湘潭医院
-        doctor:
-          - name: 黄春香
-            clas: 2
-            desc: null
       - name: 湖南省第二人民医院（省脑科医院）
         doctor:
           - name: 周旭辉
@@ -477,11 +486,9 @@ map_info:
             url: 'https://mp.weixin.qq.com/s/wz18VzkSd4d3PAVUNk8kBw'
           - title: 山东省立医院（中心院区）成人ADHD就诊攻略【更新】
             url: 'https://mp.weixin.qq.com/s/oPl3Fs8UvIqVdiyhd_sgRQ'
-      - name: 山东省济宁医学院附属医院心理咨询科
+      - name: 山东省济宁医学院附属医院
+        desc: 心理咨询科
         doctor:
-          - name: 王微
-            clas: 2
-            desc: null
           - name: 刘传新
             clas: 2
             desc: null
@@ -497,7 +504,7 @@ map_info:
         doctor:
           - name: 王俊
             clas: 2
-            desc: 神经内科 - 心理科门诊
+            desc: 神经内科 - 东院临床心理科门诊
           - name: 秦俊峰
             clas: 2
             desc: 可以开药。
@@ -517,17 +524,12 @@ map_info:
         doctor:
           - name: 冀永娟
             clas: 2
-            desc: null
+            desc: 可开zzd。
       - name: 山东潍坊市人民医院
         doctor:
           - name: 赵约翰
             clas: 2
             desc: null
-      - name: 山东泰安市中心医院临床心理科
-        doctor:
-          - name: 肖立群
-            clas: 2
-            desc: 肖大夫现在在泰安八十八医院，中心医院可能排不到。
       - name: 威海市立医院
         doctor:
           - name: 孙榕蔚
@@ -538,6 +540,12 @@ map_info:
           - name: 肖立群
             clas: 2
             desc: 可以开tmxt
+      - name: 千佛山医院
+        desc: 心理科
+        doctor:
+          - name: 张华
+            clas: 2
+            desc: 有pjz处方权，需要做测试和量表。
   - name: 江苏
     value: 3
     location:
@@ -560,7 +568,7 @@ map_info:
             clas: 2
             desc: null
           - name: 殷璐
-            clas: 2
+            clas: 3
             desc: null
       - info_link:
           - title: 南京脑科医院成人asd+adhd就诊经历
@@ -746,18 +754,15 @@ map_info:
           - name: 王瑞
             clas: 2
             desc: 王瑞医生周二周六出诊，周六在儿童心理门诊，可复诊开18mgzzd。
+          - name: 田润辉
+            clas: 2
+            desc: 心理卫生科
   - name: 福建
-    value: 2
+    value: 3
     location:
       - name: 厦门仙岳医院
         doctor:
-          - name: 李韵
-            clas: 3
-            desc: 学习障碍门诊
           - name: 郑微
-            clas: 3
-            desc: 学习障碍门诊
-          - name: 吴为阁
             clas: 3
             desc: 学习障碍门诊
           - name: 王文强
@@ -775,6 +780,11 @@ map_info:
         url: 'https://mp.weixin.qq.com/s/szJCRWljKSC-6TtV0P5ZJg'
       - title: 孤独与焦虑的集合体：厦门仙岳医院成人ASD确诊故事
         url: 'https://mp.weixin.qq.com/s/GGCVFsB_Jq2Izih48w5ziQ'
+      - name: 福州台江心身康专科门诊
+        doctor:
+          - name: 郑建民
+            clas: 2
+            desc:
   - name: 四川
     value: 2
     location:
@@ -785,7 +795,7 @@ map_info:
             desc: null
           - name: 司徒明镜
             clas: 2
-            desc: ps：该地图上所有可以看ADHD的医生都有资质诊断成人
+            desc: null
           - name: 李元媛
             clas: 2
             desc: null
@@ -924,7 +934,7 @@ map_info:
       - title: 甘肃兰州成人ADHD就诊＆开药记录
         url: 'https://mp.weixin.qq.com/s/qMZSRCNLi9zUQmvO8dvuEg'
   - name: 江西
-    value: 0
+    value: 2
     location:
       - name: 江西省妇幼保健院九龙湖院区
         doctor:
@@ -935,7 +945,7 @@ map_info:
       - title: ADHD在江西：从一个问号说开去，江西妇幼成人ADHD就诊筛查记录
         url: 'https://mp.weixin.qq.com/s/CUiOaxwTWCOFo2t8L8EcYA'
   - name: 新疆
-    value: 0
+    value: 2
     location:
       - name: 新疆人民医院
         doctor:
@@ -949,6 +959,7 @@ map_info:
     value: 2
     location:
       - name: 合肥市第四人民医院
+        desc: 成人adhd在青少年门诊进行诊断，且只有主任才能看。
         doctor:
           - name: 钟慧
             clas: 2
@@ -993,18 +1004,21 @@ map_info:
       - title: 台湾AS的生活经历：我的路程及我的需要
         url: 'https://mp.weixin.qq.com/s/_1VsZzFmanAAAyTd7HEXyQ'
   - name: 香港
-    value: 3
+    value: 2
     location:
       - name: 中建医务（中建醫務）
         doctor:
           - name: 麦棨诺（麥棨諾）
             clas: 2
             desc: 麦棨诺医生讲普通话，可确诊成人ADHD。中建医务地址：香港中环毕打街1-3号中建大厦608室。
+          - name: 林震
+            clas: 2
+            desc: 可讲普通话，可开zzd和Vyvanse，价格可谈。
     info_link:
       - title: 【香港确诊】一个人类世界的猫猫人的自白
         url: 'https://mp.weixin.qq.com/s/0LqAbvmLB_HNPKUBoFpVeA'
   - name: 澳门
-    value: 3
+    value: 2
     location:
       - name: 澳门镜湖医院（澳門鏡湖醫院）
         doctor:
