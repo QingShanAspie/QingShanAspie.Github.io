@@ -652,6 +652,11 @@
               "name": "王岚",
               "clas": 2,
               "desc": "zzd和zsd可开。"
+            },
+            {
+              "name": "余明",
+              "clas": 2,
+              "desc": null
             }
           ]
         },
@@ -662,6 +667,11 @@
               "name": "张欣",
               "clas": 2,
               "desc": "心理保健中心可以开药，张欣医生在儿少门诊。"
+            },
+            {
+              "name": "李阳",
+              "clas": 2,
+              "desc": null
             }
           ]
         },
@@ -670,7 +680,7 @@
           "doctor": [
             {
               "name": "乜欣红",
-              "clas": 2,
+              "clas": 3,
               "desc": null
             }
           ]
@@ -750,6 +760,10 @@
         {
           "title": "【更新】昆明成人ADHD就诊经历",
           "url": "https://mp.weixin.qq.com/s/z9z7P7iN5PYo0azde9wXvw"
+        },
+        {
+          "title": "昆明医科大学第一附属医院成人ASD就诊经历",
+          "url": "https://mp.weixin.qq.com/s/rWSENteOhnqzwf6ekum-Uw"
         }
       ]
     },
@@ -1041,7 +1055,7 @@
             {
               "name": "孙榕蔚",
               "clas": 2,
-              "desc": null
+              "desc": "可以开zzd，需要户口本复印件，建议提前带好身份证和户口本索引页＋个人页印在一张纸上的复印件"
             }
           ]
         },
@@ -1161,6 +1175,7 @@
       "location": [
         {
           "name": "浙江大学医学院附属第一医院 （余杭院区）（庆春院区）",
+          "desc": "国外确诊记录也可开药",
           "doctor": [
             {
               "name": "付广慧",
@@ -1207,6 +1222,11 @@
             {
               "name": "程芳",
               "clas": 1,
+              "desc": null
+            },
+            {
+              "name": "胡珍玉",
+              "clas": 3,
               "desc": null
             }
           ]
@@ -1265,6 +1285,7 @@
         },
         {
           "name": "温州医科大学附属康宁医院",
+          "desc": "有ADHD门诊",
           "doctor": [
             {
               "name": "于学力",
@@ -1275,6 +1296,19 @@
               "name": "叶敏捷",
               "clas": 2,
               "desc": null
+            },
+            {
+              "name": "李美花",
+              "clas": 3,
+              "desc": null
+            }
+          ]
+        },
+        {
+          "info_link": [
+            {
+              "title": "温州康宁医院ASD成人就诊经历：确诊了，然后呢？",
+              "url": "https://mp.weixin.qq.com/s/gJfci3l40C82rjNNuvYmYA"
             }
           ]
         },
@@ -1722,14 +1756,14 @@
     },
     {
       "name": "内蒙古",
-      "value": 0,
+      "value": 2,
       "location": [
         {
-          "name": null,
+          "name": "内蒙古自治区第三医院儿少心理医学中心",
           "doctor": [
             {
-              "name": null,
-              "clas": null,
+              "name": "景兰",
+              "clas": 2,
               "desc": null
             }
           ]
@@ -1980,6 +2014,11 @@
               "name": "林震",
               "clas": 2,
               "desc": "可讲普通话，可开zzd和Vyvanse，价格可谈。"
+            },
+            {
+              "name": "李靖国",
+              "clas": 2,
+              "desc": null
             }
           ]
         }

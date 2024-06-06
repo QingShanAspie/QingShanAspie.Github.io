@@ -94,14 +94,14 @@
     },
     {
       "name": "上海",
-      "value": 0,
+      "value": 3,
       "location": [
         {
-          "name": null,
+          "name": "上海新华医院",
           "doctor": [
             {
-              "name": null,
-              "clas": null,
+              "name": "张劲松",
+              "clas": 3,
               "desc": null
             }
           ]
@@ -174,7 +174,8 @@
       "value": 0,
       "location": [
         {
-          "name": null,
+          "name": "昆明市儿童医院（书林院区）",
+          "desc": "儿保科多动症专科或学习困难专病门诊可看ADHD，开药可以挂普通儿保",
           "doctor": [
             {
               "name": null,
@@ -270,6 +271,16 @@
               "desc": "可开zzd和tmxt，门诊挂号注意选儿童保健门诊 - 心理卫生门诊。"
             }
           ]
+        },
+        {
+          "name": "青岛大学附属医院儿保科",
+          "doctor": [
+            {
+              "name": "衣明纪",
+              "clas": 3,
+              "desc": "可确诊ADHD、ASD以及抽动症"
+            }
+          ]
         }
       ]
     },
@@ -277,6 +288,16 @@
       "name": "江苏",
       "value": 2,
       "location": [
+        {
+          "name": "南京脑科儿童心理卫生中心",
+          "doctor": [
+            {
+              "name": "焦公凯",
+              "clas": 3,
+              "desc": null
+            }
+          ]
+        },
         {
           "name": "南京市儿童医院",
           "desc": "<br>学习困难门诊/心理行为门诊",
@@ -351,11 +372,12 @@
         },
         {
           "name": "武汉儿童医院",
+          "desc": "康复科有学习困难多动症门诊",
           "doctor": [
             {
-              "name": null,
-              "clas": null,
-              "desc": null
+              "name": "林俊",
+              "clas": 3,
+              "desc": "康复专家门诊"
             }
           ]
         }
@@ -625,14 +647,14 @@
     },
     {
       "name": "内蒙古",
-      "value": 0,
+      "value": 2,
       "location": [
         {
-          "name": null,
+          "name": "内蒙古自治区第三医院儿少心理医学中心",
           "doctor": [
             {
-              "name": null,
-              "clas": null,
+              "name": "任瑞",
+              "clas": 2,
               "desc": null
             }
           ]
