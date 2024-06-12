@@ -103,6 +103,11 @@
               "name": "张劲松",
               "clas": 3,
               "desc": null
+            },
+            {
+              "name": "李斐",
+              "clas": 3,
+              "desc": null
             }
           ]
         },
@@ -248,6 +253,11 @@
             {
               "name": "冀永娟",
               "clas": 2,
+              "desc": null
+            },
+            {
+              "name": "匡桂芳",
+              "clas": 3,
               "desc": null
             }
           ]
@@ -739,14 +749,14 @@
     },
     {
       "name": "安徽",
-      "value": 0,
+      "value": 3,
       "location": [
         {
-          "name": null,
+          "name": "中国科学技术大学附属安徽省立医院",
           "doctor": [
             {
-              "name": null,
-              "clas": null,
+              "name": "徐桂凤",
+              "clas": 3,
               "desc": null
             }
           ]

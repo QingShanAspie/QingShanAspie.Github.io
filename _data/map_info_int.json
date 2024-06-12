@@ -209,6 +209,28 @@
           "url": "https://mp.weixin.qq.com/s/6pJv_cMZIZrVZ2lqyAm8bw"
         }
       ]
+    },
+    {
+      "name": "芬兰",
+      "value": 2,
+      "location": [
+        {
+          "name": null,
+          "doctor": [
+            {
+              "name": null,
+              "clas": null,
+              "desc": null
+            }
+          ]
+        }
+      ],
+      "info_link": [
+        {
+          "title": "ADHD在芬兰：FSHS高校学生医保ADHD复诊手册",
+          "url": "https://mp.weixin.qq.com/s/LofadRxzEng8wods-VCeRg"
+        }
+      ]
     }
   ]
 }
