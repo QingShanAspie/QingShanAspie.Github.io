@@ -113,6 +113,10 @@
             {
               "title": "北京安定医院成人ASD就诊记录",
               "url": "https://mp.weixin.qq.com/s/LJ1ZUrNBfPgBoevfXfgv2g"
+            },
+            {
+              "title": "视力障碍女生 北京安定医院ASD+ADHD成人就诊经历",
+              "url": "https://mp.weixin.qq.com/s/Okgo566GF_zcg7GCxU-9GQ"
             }
           ]
         },
@@ -195,6 +199,10 @@
             {
               "title": "广州医科大学附属脑科医院成人ASD就诊经验",
               "url": "https://mp.weixin.qq.com/s/u_l3DvQc4Le-DuuQtL7p_A"
+            },
+            {
+              "title": "20岁的新生：广州脑科医院ADHD成人加号就诊故事",
+              "url": "https://mp.weixin.qq.com/s/C_MwUhVkcBupmAXo6x2ymw"
             }
           ]
         },
@@ -460,6 +468,16 @@
               "desc": null
             }
           ]
+        },
+        {
+          "name": "肇庆市第三人民医院",
+          "doctor": [
+            {
+              "name": "程国强",
+              "clas": 2,
+              "desc": null
+            }
+          ]
         }
       ],
       "info_link": [
@@ -591,7 +609,7 @@
             {
               "name": "冉曼利",
               "clas": 3,
-              "desc": null
+              "desc": "有处方权，开处方药方便"
             },
             {
               "name": "张骁",
@@ -602,6 +620,11 @@
               "name": "王萌",
               "clas": 3,
               "desc": null
+            },
+            {
+              "name": "彭美玲",
+              "clas": 2,
+              "desc": "成年高中生群体可以考虑就诊，学习困难门诊"
             }
           ]
         }
@@ -618,6 +641,10 @@
         {
           "title": "重庆精神卫生中心成人ADHD就诊指南",
           "url": "https://mp.weixin.qq.com/s/2_Odxg33yDij99nPMIxJ_Q"
+        },
+        {
+          "title": "【更新】重庆市精神卫生中心（金紫山区）ADHD成人就诊全流程",
+          "url": "https://mp.weixin.qq.com/s/I_mKDwHy6i2kenNlOlNzcw"
         }
       ]
     },
@@ -1038,7 +1065,7 @@
             },
             {
               "name": "万好",
-              "clas": 2,
+              "clas": 3,
               "desc": null
             }
           ]
@@ -1048,6 +1075,10 @@
             {
               "title": "青岛市市立医院成人ADHD就诊经历",
               "url": "https://mp.weixin.qq.com/s/1a1vNP1mmucZvgevJP0yrA"
+            },
+            {
+              "title": "山东青岛ASD+ADHD成人就诊全方位经验分享",
+              "url": "https://mp.weixin.qq.com/s/376IImrTAi8ag2yajDqFSg"
             }
           ]
         },
@@ -1056,6 +1087,11 @@
           "doctor": [
             {
               "name": "冀永娟",
+              "clas": 2,
+              "desc": "可开zzd。"
+            },
+            {
+              "name": "谭歆",
               "clas": 2,
               "desc": "可开zzd。"
             }
@@ -1212,7 +1248,7 @@
             {
               "name": "陆绍佳",
               "clas": 2,
-              "desc": "精神卫生科"
+              "desc": "精神卫生科 - 精神卫生门诊"
             }
           ]
         },
@@ -1225,6 +1261,10 @@
             {
               "title": "浙医一院余杭院区成人ADHD就诊经历",
               "url": "https://mp.weixin.qq.com/s/LGnaqruj4KfJeTedsgDQQQ"
+            },
+            {
+              "title": "背着看不见的石头行走：杭州浙医一院ADHD成人就诊经历分享",
+              "url": "https://mp.weixin.qq.com/s/SbRz2M9O6hcTFrwuyY5Qhg"
             }
           ]
         },
@@ -1924,6 +1964,16 @@
               "desc": "有zzd处方权。"
             }
           ]
+        },
+        {
+          "name": "新疆医科大学第一附属医院",
+          "doctor": [
+            {
+              "name": "安景荣",
+              "clas": 2,
+              "desc": "医生态度很好。"
+            }
+          ]
         }
       ]
     },
@@ -1933,17 +1983,22 @@
       "location": [
         {
           "name": "合肥市第四人民医院",
-          "desc": "成人adhd在青少年门诊进行诊断，且只有主任才能看。",
+          "desc": "成人adhd在青少年门诊进行诊断，在健康合肥小程序网络挂号。有zzd，可能要副主任医师及以上才能开。",
           "doctor": [
             {
               "name": "钟慧",
               "clas": 2,
-              "desc": "周二出诊，挂号青少年心理科。"
+              "desc": "周日周一出诊，挂号青少年心理科。"
             },
             {
               "name": "朱丽",
               "clas": 2,
-              "desc": "周四出诊，挂号青少年心理科。"
+              "desc": "周四周五出诊，挂号青少年心理科。"
+            },
+            {
+              "name": "莫大明",
+              "clas": 2,
+              "desc": "周四周五出诊，挂号青少年心理科。"
             }
           ]
         }
@@ -2026,11 +2081,12 @@
       "location": [
         {
           "name": "中建医务（中建醫務）",
+          "desc": "地址：香港中环毕打街1-3号中建大厦608室",
           "doctor": [
             {
               "name": "麦棨诺（麥棨諾）",
               "clas": 2,
-              "desc": "麦棨诺医生讲普通话，可确诊成人ADHD。中建医务地址：香港中环毕打街1-3号中建大厦608室。"
+              "desc": "麦棨诺医生讲普通话，可确诊成人ADHD。"
             },
             {
               "name": "林震",
@@ -2041,6 +2097,17 @@
               "name": "李靖国",
               "clas": 2,
               "desc": null
+            }
+          ]
+        },
+        {
+          "name": "思健医务中心",
+          "desc": "地址：香港中环德辅道19号环球大厦11楼1101室。公众号：香港思健医务中心。",
+          "doctor": [
+            {
+              "name": "张正平",
+              "clas": 1,
+              "desc": "2024年5月参考价格2200hkd/45min，量表未额外收费。医生态度好。"
             }
           ]
         }
