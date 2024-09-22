@@ -171,6 +171,16 @@
               "desc": null
             }
           ]
+        },
+        {
+          "name": "郑州大学第一附属医院",
+          "doctor": [
+            {
+              "name": "郎艳",
+              "clas": 2,
+              "desc": null
+            }
+          ]
         }
       ]
     },

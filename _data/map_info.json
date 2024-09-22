@@ -213,11 +213,12 @@
         },
         {
           "name": "深圳市康宁医院",
+          "desc": "目前已经不再给18岁以上患者做ados评估以及不再给出成人ASD诊断",
           "doctor": [
             {
               "name": "王中磊",
-              "clas": 3,
-              "desc": "王医生从12月18日开始接受就诊，时间在每周四下午。<br>由于ADOS评估时间已经排到年底了，所以接下来测评室暂停ADOS评估了。想去做成人ADOS的朋友不要白跑一趟。7/22/21<br>青衫注：ados是asd诊断金标准，但是不是必需。发育史和日常表现翔实足矣。"
+              "clas": 2,
+              "desc": null
             },
             {
               "name": "石顺治",
@@ -226,17 +227,12 @@
             },
             {
               "name": "李颖源",
-              "clas": 3,
-              "desc": "深圳康宁李颖源医生可确诊成人asd和adhd，每周三下午出诊。"
+              "clas": 2,
+              "desc": "每周三下午出诊。"
             },
             {
               "name": "齐云柯",
               "clas": 2,
-              "desc": null
-            },
-            {
-              "name": "杨志伟",
-              "clas": 1,
               "desc": null
             },
             {
@@ -260,10 +256,6 @@
             {
               "title": "【更新】深圳康宁医院和成都华西医院成人ASD+ADHD最新就诊细节更新",
               "url": "https://mp.weixin.qq.com/s/WRADPkC2-_dW60fBP4VteA"
-            },
-            {
-              "title": "山东精卫&深圳康宁成人ASD近期就诊攻略",
-              "url": "https://mp.weixin.qq.com/s/bdgfkbXiPv7ZwZNz4hkzsg"
             },
             {
               "title": "深圳康宁医院成人ADHD首诊医保报销就诊体验",
