@@ -495,12 +495,12 @@
       "value": 0,
       "location": [
         {
-          "name": null,
+          "name": "四川省人民医院",
           "doctor": [
             {
-              "name": null,
-              "clas": null,
-              "desc": null
+              "name": "黄雨兰",
+              "clas": 1,
+              "desc": "身心医学科"
             },
             {
               "name": null,
@@ -511,6 +511,14 @@
               "name": null,
               "clas": null,
               "desc": null
+            }
+          ]
+        },
+        {
+          "info_link": [
+            {
+              "title": "四川省人民医院ASD青少年就诊分享",
+              "url": "https://mp.weixin.qq.com/s/OBp7ee_zVpLTNIRmGmXLew"
             }
           ]
         },

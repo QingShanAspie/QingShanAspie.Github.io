@@ -62,6 +62,10 @@
             {
               "title": "安定医院+北医六院成人ASD就诊经历分享",
               "url": "https://mp.weixin.qq.com/s/-bh563FPkazSDllJ1ESteg"
+            },
+            {
+              "title": "深圳康宁+北医六院ADHD+ASD成人确诊经历",
+              "url": "https://mp.weixin.qq.com/s/Mr2B1Wwb9Im3AvfaTmFEJg"
             }
           ]
         },
@@ -97,6 +101,11 @@
               "name": "黄环环",
               "clas": 2,
               "desc": null
+            },
+            {
+              "name": "杜海霞",
+              "clas": 1,
+              "desc": "挂号：特需门诊→孤独症谱系障碍筛查与评估门诊"
             }
           ]
         },
@@ -140,12 +149,12 @@
           ]
         },
         {
-          "name": "北京人民医院",
+          "name": "北京大学人民医院",
           "doctor": [
             {
               "name": "曲珊",
               "clas": 2,
-              "desc": null
+              "desc": "其他科→医学心理科门诊"
             }
           ]
         }
@@ -208,6 +217,14 @@
             {
               "title": "20岁的新生：广州脑科医院ADHD成人加号就诊故事",
               "url": "https://mp.weixin.qq.com/s/C_MwUhVkcBupmAXo6x2ymw"
+            },
+            {
+              "title": "广州私立医疗机构ASD+ADHD成人单独就诊记录",
+              "url": "https://mp.weixin.qq.com/s/JxtLXwaiSFMKOcaYn6Lnfg"
+            },
+            {
+              "title": "经验汇总：广州脑科医院ASD/ADHD成人就诊常见问题解答",
+              "url": "https://mp.weixin.qq.com/s/gM9CgU4Q07S3ViNBwQ9RbA"
             }
           ]
         },
@@ -268,6 +285,10 @@
             {
               "title": "世界必有出口：武汉长沙深圳成人ASD+ADHD就诊经历",
               "url": "https://mp.weixin.qq.com/s/dSNUojHXjqBQOPATMmSaAA"
+            },
+            {
+              "title": "深圳康宁+北医六院ADHD+ASD成人确诊经历",
+              "url": "https://mp.weixin.qq.com/s/Mr2B1Wwb9Im3AvfaTmFEJg"
             }
           ]
         },
@@ -596,6 +617,10 @@
             {
               "title": "上海新华成人ADHD处方药报销",
               "url": "https://mp.weixin.qq.com/s/RRyyAlqJ1gp697Of0Qxx1A"
+            },
+            {
+              "title": "上海新华医院ASD成人就诊保姆级攻略",
+              "url": "https://mp.weixin.qq.com/s/n0SF0pp47BBNpM3Sk-9Erw"
             }
           ]
         },
@@ -1336,6 +1361,11 @@
               "name": "胡珍玉",
               "clas": 3,
               "desc": null
+            },
+            {
+              "name": "赵袁志",
+              "clas": 2,
+              "desc": "周四下午在海曙，周日下午在庄市"
             }
           ]
         },
@@ -1650,6 +1680,11 @@
               "name": "石磊",
               "clas": 2,
               "desc": null
+            },
+            {
+              "name": "黄怡颖",
+              "clas": 2,
+              "desc": "儿童门诊/学习障碍门诊，支持成人开药。（不确定是否支持确诊）"
             }
           ]
         }
@@ -1670,6 +1705,10 @@
         {
           "title": "孤独与焦虑的集合体：厦门仙岳医院成人ASD确诊故事",
           "url": "https://mp.weixin.qq.com/s/GGCVFsB_Jq2Izih48w5ziQ"
+        },
+        {
+          "title": "厦门私立医疗机构ASD成人确诊记录",
+          "url": "https://mp.weixin.qq.com/s/v8_oLUtKTPRJVw4ffneH5w"
         },
         {
           "name": "福州台江心身康专科门诊",
