@@ -13,8 +13,8 @@ weight: 3
 
 <img style="float: left;padding-right: 15px;width: 210px" src="/assets/img/qingshan.jpg">
 <br/>
-**青衫，神经科学博士**  
 
+**青衫，神经科学博士**  
 青衫Aspie创始人，ASD人士
 公众号·微信读书·知乎·豆瓣 @青衫Aspie
 
