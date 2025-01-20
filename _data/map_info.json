@@ -844,6 +844,16 @@
               "desc": "可以给成人开药，需要用6-12岁小孩户口本照片办就诊卡取药。"
             }
           ]
+        },
+        {
+          "name": "郑州大学第一附属医院",
+          "doctor": [
+            {
+              "name": "王仕奎",
+              "clas": 2,
+              "desc": "南院区，儿童保健科"
+            }
+          ]
         }
       ],
       "info_link": [
@@ -1006,11 +1016,6 @@
               "name": "欧建君",
               "clas": 3,
               "desc": "自闭症专项门诊"
-            },
-            {
-              "name": "贺莹",
-              "clas": 2,
-              "desc": null
             }
           ]
         }
@@ -1290,6 +1295,10 @@
             {
               "title": "【更新】南京脑科医院成人ADHD就诊经历",
               "url": "https://mp.weixin.qq.com/s/MvDLtTPjPors-VFTSd2P4A"
+            },
+            {
+              "title": "南京脑科医院成人ASD就诊经历",
+              "url": "https://mp.weixin.qq.com/s/ZVtRBN-55oocXjyHcluzIQ"
             }
           ]
         },
@@ -1417,6 +1426,10 @@
             {
               "title": "宁波大学附属康宁医院ASD成人就诊攻略",
               "url": "https://mp.weixin.qq.com/s/su7jF2ltTM9qzajOpkoXUw"
+            },
+            {
+              "title": "宁波市康宁医院成人ASD+ADHD就诊流程",
+              "url": "https://mp.weixin.qq.com/s/v4aarGvKLjHMnOgxFXNgDg"
             }
           ]
         },
@@ -1537,7 +1550,7 @@
             {
               "name": "汤珺",
               "clas": 3,
-              "desc": null
+              "desc": "目前很少出门诊"
             },
             {
               "name": "张焱",
@@ -1547,12 +1560,12 @@
             {
               "name": "路晓文",
               "clas": 2,
-              "desc": "可看成人ADHD，也可以尝试询问成人ASD（建议不要抱太大希望），周六门诊，可开专注达，有处方权。"
+              "desc": "可看成人ADHD，也可以尝试询问成人ASD（建议不要抱太大希望），每周三上午在武汉市心理医院，每周二上午和周四上午在六角亭儿童康复门诊（身份证成年挂不了儿康的号），可开专注达，有处方权。"
             },
             {
               "name": "斯亮",
               "clas": 2,
-              "desc": null
+              "desc": "每周五上午在武汉市心理医院"
             }
           ]
         },
@@ -1583,6 +1596,10 @@
         {
           "title": "武汉精神卫生中心（二七院区）成人ADHD门诊就诊经历",
           "url": "https://mp.weixin.qq.com/s/3YxnvxCqTwQgWFFtrPxayg"
+        },
+        {
+          "title": "武汉精神卫生中心（六角亭院区）成人ASD确诊经历",
+          "url": "https://mp.weixin.qq.com/s/bk9eoW2GoCslE6Jf2Gifgg"
         }
       ]
     },
@@ -1867,8 +1884,8 @@
       ],
       "info_link": [
         {
-          "title": null,
-          "url": null
+          "title": "海南省人民医院成人ADHD就诊指南：去吧！总有一天能找到那个适合你的医生！",
+          "url": "https://mp.weixin.qq.com/s/Qlq2pLNrRZzc_VfxOmhm9g"
         }
       ]
     },
