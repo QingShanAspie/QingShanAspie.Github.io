@@ -108,7 +108,7 @@
             },
             {
               "name": "杜海霞",
-              "clas": 1,
+              "clas": 3,
               "desc": "挂号：特需门诊→孤独症谱系障碍筛查与评估门诊"
             }
           ]
@@ -229,6 +229,14 @@
             {
               "title": "经验汇总：广州脑科医院ASD/ADHD成人就诊常见问题解答",
               "url": "https://mp.weixin.qq.com/s/gM9CgU4Q07S3ViNBwQ9RbA"
+            },
+            {
+              "title": "【成人】ADHD广州医科大学附属脑科医院就诊、续药记录",
+              "url": "https://mp.weixin.qq.com/s/B8Jtv68a369UvwqRCUsFxA"
+            },
+            {
+              "title": "广州医科大学附属脑科医院ASD就诊经历",
+              "url": "https://mp.weixin.qq.com/s/D-kZNZ5hp1mjkqRhGgb_Hg"
             }
           ]
         },
@@ -1331,6 +1339,14 @@
               "desc": "卜医生也会来这里出诊，具体可关注“江苏平江医院心理服务中心”查看出诊日期"
             }
           ]
+        },
+        {
+          "info_link": [
+            {
+              "title": "苏州平江医院成人ADHD就诊流程",
+              "url": "https://mp.weixin.qq.com/s/k5t24boDsUpt36W7BBqyaQ"
+            }
+          ]
         }
       ]
     },
@@ -1566,6 +1582,11 @@
               "name": "斯亮",
               "clas": 2,
               "desc": "每周五上午在武汉市心理医院"
+            },
+            {
+              "name": "刘修军",
+              "clas": 2,
+              "desc": null
             }
           ]
         },
@@ -2125,6 +2146,19 @@
               "name": "耿峰",
               "clas": 2,
               "desc": null
+            },
+            {
+              "name": "张蕾",
+              "clas": 2,
+              "desc": null
+            }
+          ]
+        },
+        {
+          "info_link": [
+            {
+              "title": "安徽医科大学附属第二医院成人ADHD就诊指南",
+              "url": "https://mp.weixin.qq.com/s/QoHlPg_8C5V42_1kWqSoNQ"
             }
           ]
         },
@@ -2166,12 +2200,20 @@
       "value": 0,
       "location": [
         {
-          "name": null,
+          "name": "哈尔滨第一专科医院",
           "doctor": [
             {
-              "name": null,
-              "clas": null,
+              "name": "刘丽萍",
+              "clas": 2,
               "desc": null
+            }
+          ]
+        },
+        {
+          "info_link": [
+            {
+              "title": "哈尔滨市第一专科医院成人adhd就诊攻略",
+              "url": "https://mp.weixin.qq.com/s/u5bZLiDRmMyuZbid-1ubAQ"
             }
           ]
         }
