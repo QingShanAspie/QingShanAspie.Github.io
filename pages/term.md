@@ -6,7 +6,7 @@ weight: 6
 ---
 
 
-# 青衫 Aspie 网站使用条款
+# 青衫 Neuro 网站使用条款
 
 
 <div class="center">

@@ -1,7 +1,7 @@
 {
-  "name": "qingshan_Aspie",
+  "name": "qingshan_Neuro",
   "version": "1.0.0",
-  "description": "青衫Aspie官网的react部分",
+  "description": "青衫Neuro官网的react部分",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {

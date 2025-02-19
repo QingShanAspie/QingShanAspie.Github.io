@@ -8,7 +8,7 @@ function setClipboardText(event) {
         + '本作品采用知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议进行许可。<br/>'
         + '您将不可以：无出处转载，重新编辑发布，商业使用!<br/>'
         + 'Link: ' + window.location.href.toString() 
-        + '<br/>来源：青衫 Aspie'
+        + '<br/>来源：青衫 Neuro'
         + '</div>';
 
     const textData = window.getSelection().getRangeAt(0)
@@ -17,7 +17,7 @@ function setClipboardText(event) {
         + '本作品采用知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议进行许可。\n'
         + '您将不可以：无出处转载，重新编辑发布，商业使用！\n'
         + 'Link: ' + window.location.href.toString() 
-        + '\n来源：青衫 Aspie';
+        + '\n来源：青衫 Neuro';
 
     if (event.clipboardData) {
         event.clipboardData.setData("text/html", htmlData);
