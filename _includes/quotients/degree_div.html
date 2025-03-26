@@ -1,0 +1,17 @@
+<!-- 量表进度提示 -->
+
+<div class="row bar-line" id="pro-bar">
+    <div id="line" w="100" style="width:0;"></div>
+    <br>
+    <div id="percent"></div>
+</div>
+
+<script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+<script src="{{ '/assets/js/Quotients.min.js' | relative_url }}"></script>
+
+<script>
+    let tobecon_states = getQueryString('tobecon');
+    if (tobecon_states == 1) {
+        $('.tobecon').css("display", "block")
+    }
+</script>

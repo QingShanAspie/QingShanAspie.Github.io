@@ -1,0 +1,42 @@
+<!-- 全局样式表 -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    {% if page.title %}
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% else %}
+    <title>{{ site.title }} - {{ site.description }}</title>
+    {% endif %}
+    {% seo %}
+
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}" type="text/css">
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="{{ '/assets/css/animate.min.css' | relative_url }}" type="text/css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" type="text/css">
+
+    <!-- popup style -->
+    <link rel="stylesheet" href="{{ '/assets/css/ns-default.css' | relative_url }}" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/ns-style-growl.css' | relative_url }}" type="text/css">
+
+    <!-- jQuery -->
+    <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+
+    <!-- Event Gray -->
+    <script src="{{ '/assets/js/event_gray.js' | relative_url }}"></script>
+
+    <!-- Cookie -->
+    <script src="{{ '/assets/js/cookies.js' | relative_url }}"></script>
+
+</head>

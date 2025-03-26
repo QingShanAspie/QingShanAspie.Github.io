@@ -1,0 +1,39 @@
+---
+layout: default
+title: 量表
+permalink: /quotients/
+weight: 1
+---
+
+<div class="card-columns m-3 mt-5">
+
+    {% for quotient in site.quotients %}
+  
+      {% comment %} Determine quotient URL {% endcomment %}
+      {% if quotient.external_url %}
+        {% assign quotient_url = quotient.external_url %}
+      {% else %}
+        {% assign quotient_url = quotient.url | relative_url %}
+      {% endif %}
+  
+      <div class="wow animated fadeIn" data-wow-delay=".15s">
+        <a href="{{ quotient_url }}" class="quotient card text-dark">
+          {% if quotient.image %}
+            <img class="card-img-top" src="{{ quotient.image }}" alt="Card image cap">
+          {% endif %}
+          <div class="card-body">
+            <h5 class="card-title">{{ quotient.name }}</h5>
+            <p class="card-text">{{ quotient.description }}</p>
+            <p class="card-text">
+              {% for tool in quotient.tag %}
+                <span class="badge badge-pill text-primary border border-primary">{{tool}}</span>
+              {% endfor %}
+            </p>
+          </div>
+        </a>
+      </div>
+      
+    {% endfor %}
+  
+  </div>
+  

@@ -1,0 +1,61 @@
+title: 青衫 Neuro
+description: >-
+  致力于孤独症谱系权威资讯资源
+typing: >-
+  因为你~500~*你*~300~我~500~*我*~500~你我，这个世界终将丰富多彩
+baseurl: ""
+url: ""
+repository: QingShanAspie/QingShanAspie.Github.io
+
+debug: 0
+
+version: 0.3.5
+
+qver: 1.1.7
+
+markdown: kramdown
+
+author:
+  name: 青衫 Neuro
+  email: qingshan.neuro@gmail.com
+  wxmp: http://mp.weixin.qq.com/mp/homepage?__biz=MzIyMzgyMjY5NQ==&hid=1&sn=f3f557bb16f4781bf487fe58efa0c15f&scene=18
+  zhihu: QingshanNeuro
+
+collections:
+  quotients:
+    output: true
+    permalink: /quotients/:name
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
+
+defaults:
+  - scope:
+      path: ""
+      type: "quotients"
+    values:
+      layout: "page"
+
+permalink: articles/:title
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - Readme_DEV.md
+  - SECURITY.md
+  - backup
+  - docs/

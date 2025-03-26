@@ -1,0 +1,381 @@
+.hide {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.Out-hide {
+  -webkit-animation-name: fadeOut;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 0s;
+}
+
+.In-display {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 0s;
+}
+
+.test-label {
+  padding: 0;
+}
+
+.agree-text {
+  display: none;
+}
+
+.disagree-text {
+  display: none;
+}
+
+.neutral-text {
+  display: none;
+}
+
+.visible-lg-block {
+  display: block !important;
+}
+
+.test-label .test-title {
+  padding-top: 25px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.3;
+  font-size: 2em;
+  color: #484e50;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.test-label .trademark {
+  font-weight: 600;
+  margin: -10px 0 15px;
+  text-align: center;
+  color: #bbb;
+  font-size: 1.3em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+.test-header {
+  height: 250px;
+  padding: 0 200px;
+  margin: 40px 0 0;
+}
+
+.test-label .test-header .item {
+  height: 240px;
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  position: relative;
+  padding: 0;
+  text-align: center;
+}
+
+.test-label .progress-wrapper {
+  padding: 10px 200px;
+  margin-top: -25px;
+}
+
+#test-form {
+  padding: 0;
+}
+
+.test-label .test-header .item:nth-of-type(1) .note {
+  bottom: 22px;
+}
+
+.test-label .test-header .item .note {
+  position: absolute;
+  font-size: 1.2em;
+  color: #93948c;
+  width: 100%;
+  bottom: 10px;
+}
+
+.test-label #test-form .question-wrapper.set1 {
+  display: block;
+}
+
+.test-label #test-form .question-wrapper {
+  padding: 30px 0;
+  border: 0;
+  margin-top: -1px;
+}
+
+.test-label #test-form .question-wrapper .statement {
+  text-align: center;
+  font-weight: 600;
+  padding: 0 15px;
+}
+
+.test-label #test-form .question-wrapper .decision {
+  margin-top: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.test-label #test-form .question-wrapper .decision {
+  margin-top: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.test-label #test-form .question-wrapper .decision .caption.left {
+  text-align: right;
+  padding-right: 0;
+  color: $quotientAgree;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.test-label #test-form .question-wrapper .decision .caption.right {
+  text-align: left;
+  padding-left: 0;
+  color: $quotientDisagree;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.test-label #test-form .question-wrapper .decision .options {
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.max {
+  width: 40px;
+  height: 40px;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.med {
+  width: 34px;
+  height: 34px;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.agree {
+  background-color: $quotientWhite;
+  border: 2px solid $quotientAgree;
+  transition: ease-in 200ms;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option {
+  border-radius: 150px;
+  padding: 0;
+  cursor: pointer;
+  transition: none;
+}
+
+.test-label #test-form .question-wrapper .decision .caption {
+  text-transform: uppercase;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.min {
+  width: 28px;
+  height: 28px;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.neutral {
+  background-color: $quotientWhite;
+  width: 28px;
+  height: 28px;
+  border: 2px solid $quotientNeutral;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.disagree {
+  background-color: $quotientWhite;
+  border: 2px solid $quotientDisagree;
+  transition: ease-in 200ms;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.agree.active,
+.test-label #test-form .question-wrapper .decision .options .option.agree:hover {
+  background-color: $quotientAgree;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.disagree.active,
+.test-label #test-form .question-wrapper .decision .options .option.disagree:hover {
+  background-color: $quotientDisagree;
+}
+
+.test-label #test-form .question-wrapper .decision .options .option.neutral.active,
+.test-label #test-form .question-wrapper .decision .options .option.neutral:hover {
+  background-color: $quotientNeutral;
+}
+
+.submit_wrapper {
+  text-align: center;
+}
+
+.btn-action {
+  background-color: $quotientButton;
+  color: $quotientWhite;
+  margin: 10px 0 25px;
+  border: $quotientButton 1px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.btn-action:hover {
+  background-color: $quotientWhite;
+  color: $quotientButton;
+  margin: 10px 0 25px;
+  border: $quotientButton 1px;
+}
+
+.row.text {
+  margin: 0 !important;
+}
+
+@media screen and (max-width: 575px) {
+  .phone-layout {
+    text-transform: uppercase;
+    font-size: 0.85em;
+    font-weight: 700;
+  }
+
+  .agree-str {
+    display: none;
+  }
+
+  .disagree-str {
+    display: none;
+  }
+
+  .text-layout {
+    margin: 0 auto;
+  }
+
+  .phone-text {
+    text-align: center;
+  }
+
+  .agree-text {
+    color: $quotientAgree;
+    display: block;
+    float: left;
+    margin-left: 45px;
+  }
+
+  .disagree-text {
+    color: $quotientDisagree;
+    display: block;
+    float: right;
+    margin-right: 45px;
+  }
+
+  .neutral-text {
+    color: $quotientNeutral;
+    display: contents;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .test-label #test-form .question-wrapper .decision .options .option.agree {
+    background-color: $quotientWhite;
+    border: 2px solid $quotientAgree;
+    transition: ease-in 100ms;
+  }
+  .test-label #test-form .question-wrapper .decision .options .option.disagree {
+    background-color: $quotientWhite;
+    border: 2px solid $quotientDisagree;
+    transition: ease-in 100ms;
+  }
+  .test-label #test-form .question-wrapper .decision .options .option.neutral {
+    background-color: $quotientWhite;
+    border: 2px solid $quotientNeutral;
+    transition: ease-in 100ms;
+  }
+}
+
+.bar-line {
+  margin: auto auto;
+  width: 200px;
+  background: $quotientWhite;
+  border-radius: 8px;
+  display: none;
+  position: center;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 0s;
+}
+
+.bar-line-hide:after {
+  -webkit-animation-name: fadeOut;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 0s;
+}
+
+.bar-line #line {
+  float: left;
+  height: 10px;
+  overflow: hidden;
+  background: #4dbf7d;
+  border-radius: 8px;
+}
+
+.result {
+  text-align: center;
+}
+
+.result-table {
+  display: none;
+}
+
+.chart-radar {
+  display: none;
+}
+
+#percent {
+  color: $primary;
+  text-align: center;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

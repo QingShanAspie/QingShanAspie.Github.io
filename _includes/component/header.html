@@ -1,0 +1,42 @@
+<!-- 主页模块 -->
+
+<div class="row justify-content-center align-items-center p-4">
+    <div id="container" class="my-2">
+        <div id="dummy">
+            <span id="text"></span>
+            <span id="blinker">|</span>
+        </div>
+        <div id="element"></div>
+    </div>
+    <p class="text-muted wow animated slideInUp under_title" data-wow-delay=".15s">{{ site.description }}</p>
+    {% include utils/typing.html %}
+</div>
+
+<div class="card-columns m-3 mt-5">
+    {% for quotient in site.quotients limit:6 %}
+      {% comment %} Determine quotient URL {% endcomment %}
+      {% if quotient.external_url %}
+        {% assign quotient_url = quotient.external_url %}
+      {% else %}
+        {% assign quotient_url = quotient.url | relative_url %}
+      {% endif %}
+      <div class="wow animated fadeIn" data-wow-delay=".15s">
+        <a href="{{ quotient_url }}" class="quotient card text-dark">
+          {% if quotient.image %}
+            <img class="card-img-top" src="{{ quotient.image }}" alt="Card image cap">
+          {% endif %}
+          <div class="card-body">
+            <h5 class="card-title">{{ quotient.name }}</h5>
+            <p class="card-text">{{ quotient.description }}</p>
+            <p class="card-text">
+              {% for tool in quotient.tag %}
+                <span class="badge badge-pill text-primary border border-primary">{{tool}}</span>
+              {% endfor %}
+            </p>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+    <div class="more-button"><span onclick="window.location.href=/Quotients/">查看更多</span></div>
+  </div>
+  

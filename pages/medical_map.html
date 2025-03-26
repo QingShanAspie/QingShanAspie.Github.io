@@ -1,0 +1,50 @@
+---
+layout: default
+title: 就诊地图
+permalink: /medical-map/
+weight: 4
+---
+
+<div class="more-button"><span id="map_button">国内版</span></div>
+<div class="more-button"><span id="map_button_child">儿童版</span></div>
+<div class="more-button"><span id="map_button_int">国际版</span></div>
+
+<div class="china_map">
+    {% include medical_map/china_map_view.html %}
+</div>
+
+<div class="china_map_child" style="display: none;">
+    {% include medical_map/china_child_map_view.html %}
+</div>
+
+<div class="int_map" style="display: none;">
+    {% include medical_map/int_map_view.html %}
+</div>
+
+<script>
+    $(document).ready(function(){
+        $("#map_button").click(function(){
+            $(".china_map").show();
+            $(".china_map_child").hide();
+            $(".int_map").hide();
+            $(this).css("font-weight", "bold");
+            $("#map_button_child, #map_button_int").css("font-weight", "normal");
+        });
+
+        $("#map_button_child").click(function(){
+            $(".china_map").hide();
+            $(".china_map_child").show();
+            $(".int_map").hide();
+            $(this).css("font-weight", "bold");
+            $("#map_button, #map_button_int").css("font-weight", "normal");
+        });
+
+        $("#map_button_int").click(function(){
+            $(".china_map").hide();
+            $(".china_map_child").hide();
+            $(".int_map").show();
+            $(this).css("font-weight", "bold");
+            $("#map_button, #map_button_child").css("font-weight", "normal");
+        });
+    });
+</script>

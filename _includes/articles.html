@@ -1,0 +1,58 @@
+<div class="card-group mt-2">
+
+    {% for post in site.posts %}
+
+    {% comment %} Default Styles {% endcomment %}
+    {% assign card_style = '' %}
+    {% assign text_style = 'text-dark' %}
+    {% assign badge_style = 'badge-dark' %}
+
+    {% comment %} Update Styles {% endcomment %}
+    {% if post.style == 'fill' %}
+    {% assign card_style = post.color | prepend: 'bg-' %}
+    {% if post.color != 'light' %}
+    {% assign text_style = 'text-white' %}
+    {% assign badge_style = 'badge-light text-' %}
+    {% assign badge_style = badge_style | append: post.color %}
+    {% endif %}
+    {% else %}
+    {% assign card_style = post.color | prepend: 'border border-' %}
+    {% if post.color %}
+    {% assign badge_style = post.color | prepend: 'badge-' %}
+    {% endif %}
+    {% endif %}
+
+    {% comment %} Determine Article URL {% endcomment %}
+    {% if post.external_url %}
+    {% assign article_url = post.external_url %}
+    {% else %}
+    {% assign article_url = post.url | relative_url %}
+    {% endif %}
+
+    <div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
+        <a href="{{ article_url }}" class="article card {{ card_style }}" target="_blank" rel="noopener noreferrer">
+            <div class="card-body {{ text_style }}">
+                <h3 class="card-title">{{ post.title }}</h3>
+                <p class="card-text">
+                    {% for tag in post.tags %}
+                    <!--
+                    <span class="badge {{ badge_style }}">{{ tag }}</span>
+                    -->
+                    {% endfor %}
+                </p>
+                <p class="card-text">
+                    {% if post.description %}
+                    {{ post.description }}
+                    {% else %}
+                    {{ post.content | truncatewords: 25, "
+                    <small><i> 阅读更多...</i></small>
+                    " }}
+                    {% endif %}
+                </p>
+            </div>
+            <div class="card-footer {{ text_style }}">
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,130 @@
+---
+title: 儿童期孤独症谱系问卷
+name: 儿童期孤独症谱系问卷
+tag: [量表, 在线测试, CAST]
+image: /assets/img/CAST.jpg
+description: 儿童期孤独症谱系问卷 CAST Childhood Autism Spectrum Test
+---
+
+<p style="text-align: center; color: #33975b">
+    <b>儿童期孤独症谱系问卷 CAST</b>
+    <br>焦虑抑郁等都可能造成分值偏高<br>
+    <small>
+        <br>Reference：<a
+            href='https://www.autismresearchcentre.com/tests/childhood-autism-spectrum-test-cast/'>Childhood Autism
+            Spectrum Test</a>
+        <br>本量表只作为筛查，具体诊断还需要医院的分析。<br>翻译：二一 校对：青衫
+    </small>
+</p>
+
+
+{% include quotients/table/CAST.html %}
+
+{% include quotients/degree_div.html %}
+
+<script src="{{ '/assets/js/Alert.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/QuotientsConst.min.js' | relative_url }}"></script>
+<script>
+    let Cookie = getCookie("CAST");
+    if (Cookie === null) {
+        alert("<b>本量表只作为筛查，具体诊断还需要医院的分析。</b>" +
+            "<br>焦虑抑郁等都可能造成分值偏高<br>" +
+            "翻译：二一<br>校对：青衫<br>" +
+            "<br>Reference：<br><a href='https://www.autismresearchcentre.com/tests/childhood-autism-spectrum-test-cast/'>Childhood Autism Spectrum Test</a><br>" +
+            "<br>J. Williams, F. Scott, C.Stott, C. Allison, P. Bolton, S. Baron- Cohen and C. Brayne, (2004)" +
+            "<br>The CAST (Childhood Asperger Syndrome Test) : test accuracy" +
+            "<br>Autism :45-68" +
+            "<br>本页面使用Cookie来储存您的结果，储存时长为2小时");
+    }
+</script>
+
+<div class="result"></div>
+
+<script>
+    function GetResult(count) {
+        if (parseInt('{{ site.data.CAST.count }}') !== Object.keys($data).length) {
+            $('.result').html('<h1>请完成量表</h1>');
+        } else {
+            if (count >= 15) {
+                $('.result').html('<h1>有可能有ASD</h1>' + GetForm);
+            } else if (count < 15) {
+                $('.result').html('<h1>可能没有ASD</h1>' + GetForm);
+            } else {
+                $('.result').html('<h1>请完成量表</h1>' + GetForm);
+            }
+            SaveCookies($data, "CAST");
+        }
+    }
+</script>
+
+{% include utils/totop.html %}
+
+<script>
+    function ReTestFunc() {
+        removeCookie("CAST");
+        window.location.reload();
+    }
+
+    function CookieResult(count) {
+        if (count >= 15) {
+            $('.result').html('<h1>有可能有ASD</h1>' + ReTest);
+        } else if (count < 15) {
+            $('.result').html('<h1>可能没有ASD</h1>' + ReTest);
+        } else {
+            $('.result').html('<h1>您上次没有完成量表！！！</h1>' + '<br/><br/>' + ReTest);
+        }
+    }
+
+    if (Cookie != null) {
+        $('.test-body').addClass('hide');
+        let dataJson = window.atob(JSON.parse(Cookie)['DATA']);
+        let datas = JSON.parse(dataJson);
+        $data = datas;
+        $('.result-table').css('display', 'block');
+        let res = Resoult(datas);
+        CookieResult(res);
+    }
+</script>
+
+<div class="result-table">
+    <figure>
+        <table>
+            <thead>
+                <tr>
+                    <th>问题</th>
+                    <th>分数（赞同/中立/反对）</th>
+                    <th>得分</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for q in site.data.CAST.question %}
+                <tr>
+                    <td>{{ q.str }}</td>
+                    <td>
+                        {% if q.rev == 0 %}
+                        0/0/1
+                        {% endif %}
+                        {% if q.rev == 1 %}
+                        1/0/0
+                        {% endif %}
+                        {% if q.rev == 2 %}
+                        0/0/0
+                        {% endif %}
+                    </td>
+                    <td><span class='my_result_{{ q.id }}'></span>
+                        <script>
+                            $('.my_result_{{ q.id }}').text(get_data_by_id('{{ q.id }}', $data));
+                        </script>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </figure>
+</div>
+
+<script>
+    if (Cookie != null) {
+        $('.result-table').css('display', 'block');
+    }
+</script>

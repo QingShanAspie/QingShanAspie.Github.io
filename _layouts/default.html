@@ -1,0 +1,27 @@
+---
+#layout: compress
+---
+
+<!DOCTYPE html>
+
+<html lang="zh" class="h-100">
+
+{% include component/head.html %}
+
+<body class="d-flex flex-column h-100" onload="load()">
+
+{% include utils/load.html %}
+<div id="body">
+    <main class="flex-shrink-0 container mt-5">
+        {% include component/navbar.html %}
+
+        {{ content }}
+    </main>
+</div>
+
+{% include component/footer.html %}
+{% include component/scripts.html %}
+
+</body>
+
+</html>
