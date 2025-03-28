@@ -37,7 +37,7 @@ jobs:
           git clean -fxd
 
           echo "--- Copy new files. ---"
-          rsync -av ../dist-branch/ .
+          rsync -av --exclude=".git" dist-branch/ .
           git add .
 
           echo "--- Attempts to commit changes. If there are no changes the new commit will not be created. ---"
