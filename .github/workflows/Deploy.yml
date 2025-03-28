@@ -28,10 +28,10 @@ jobs:
           cd dist-branch
           MAIN_LATEST_HASH=$(git rev-parse --short=7 HEAD)
           git checkout dist
+          cd ..
 
           echo "--- Clean old files: ---"
           echo "--- Delete all tracked files ---"
-          cd ..
           git rm -rf . || echo "No tracked files to remove."
           echo "--- Delete all untracked files ---"
           git clean -fxd
