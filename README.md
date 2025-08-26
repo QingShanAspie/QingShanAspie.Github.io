@@ -11,7 +11,7 @@
 [license-img]: https://img.shields.io/github/license/ittuann/qingshanasd
 [license-url]: https://github.com/ittuann/qingshanasd/blob/main/LICENSE
 
-除特别说明外，作品均采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议（CC BY-NC-ND 4.0）](https://github.com/ittuann/qingshanasd/blob/main/LICENSE-CC-BY-NC-ND)进行许可。网站代码采用 [GPL-3.0](https://github.com/ittuann/qingshanasd/blob/main/LICENSE) 进行许可。
+除特别说明外，作品均采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议（CC BY-NC-ND 4.0）](https://github.com/ittuann/qingshanasd/blob/main/LICENSE-CC-BY-NC-ND)进行许可。网站代码采用 [GNU AGPLv3](https://github.com/ittuann/qingshanasd/blob/main/LICENSE) 进行许可。
 
 本仓库中此分支仅用于托管自动构建生成的网站静态资源（不想处理CNAME了）。因此，请不要直接向此仓库的这个分支提交 Pull Request，欢迎您移步我们的开发仓库 <https://github.com/ittuann/qingshanasd>。
 
@@ -25,7 +25,7 @@
 > [!TIP]
 > Visit Qingshan Neuro website: <https://qingshanasd.cn>
 
-Unless otherwise specified, all works are licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)](https://github.com/ittuann/qingshanasd/blob/main/LICENSE-CC-BY-NC-ND). The website code is licensed under [GPL-3.0](https://github.com/ittuann/qingshanasd/blob/main/LICENSE).
+Unless otherwise specified, all works are licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)](https://github.com/ittuann/qingshanasd/blob/main/LICENSE-CC-BY-NC-ND). The website code is licensed under [GNU AGPLv3](https://github.com/ittuann/qingshanasd/blob/main/LICENSE).
 
 This repository's branch is Only used for hosting automatically generated static website resources. Therefore, please do not submit Pull Requests directly to this branch. Welcome to visit our development repository at <https://github.com/ittuann/qingshanasd>.
 
